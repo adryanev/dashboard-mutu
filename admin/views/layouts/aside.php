@@ -155,7 +155,7 @@ $menuItems = Helper::filter($menuItems);
     <div class="kt-aside__brand kt-grid__item " id="kt_aside_brand">
         <div class="kt-aside__brand-logo">
             <?= \yii\bootstrap4\Html::a(Html::img(Yii::getAlias('@web/media/logos/logo-instansi.png'),
-                ['alt' => 'logo', 'width' => 200, 'height' => 30]), ['site/index']) ?>
+                ['alt' => 'logo', 'width' => 200, 'height' => 30]), ['/site/index']) ?>
         </div>
         <div class="kt-aside__brand-tools">
             <button class="kt-aside__brand-aside-toggler" id="kt_aside_toggler">
