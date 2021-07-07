@@ -1,0 +1,3134 @@
+[
+    {
+        "nomor": "A",
+        "nama": "Kondisi Eksternal",
+        "deskripsi": "Bagian ini menjelaskan kondisi eksternal program studi yang diakreditasi, yang terdiri atas lingkungan makro dan lingkungan mikro di tingkat lokal, nasional, dan internasional. Lingkungan makro mencakup aspek politik, ekonomi, kebijakan, sosial, budaya, perkembangan ilmu pengetahuan dan teknologi. Lingkungan mikro mencakup aspek pesaing, pengguna lulusan, sumber calon mahasiswa, sumber calon dosen, sumber tenaga kependidikan, e-learning, pendidikan jarak jauh, Open Course Ware, kebutuhan dunia usaha/industri dan masyarakat, mitra, dan aliansi. UPPS perlu menganalisis aspek-aspek dalam lingkungan makro dan lingkungan mikro yang relevan dan dapat mempengaruhi eksistensi dan pengembangan UPPS dan program studi. UPPS harus mampu merumuskan strategi pengembangan program studi yang berkesesuaian untuk menghasilkan program-program pengembangan alternatif yang tepat, yang dijabarkan lebih rinci pada Bagian Kedua huruf D.",
+        "writeable": true,
+        "butir": null,
+        "dokumen_sumber": null,
+        "dokumen_pendukung": null
+    },
+    {
+        "nomor": "B",
+        "nama": "Profil Unit Pengelola Program Studi",
+        "deskripsi": "Bagian ini berisi deskripsi sejarah Unit Pengelola Program Studi (UPPS), visi, misi, tujuan, strategi dan tata nilai, struktur organisasi, mahasiswa dan lulusan, sumber daya manusia (dosen dan tenaga kependidikan), keuangan, sarana dan prasarana, sistem penjaminan mutu internal, serta kinerja UPPS yang disajikan secara ringkas dan mengemukakan hal-hal yang paling penting.",
+        "writeable": false,
+        "butir": [
+            {
+                "nomor": 1,
+                "nama": "Sejarah Unit Pengelola Program Studi dan Program Studi",
+                "deskripsi": "UPPS harus mampu menjelaskan riwayat pendirian dan perkembangan UPPS dan program studi yang diakreditasi secara ringkas dan jelas",
+                "writeable": true,
+                "dokumen_sumber": null,
+                "dokumen_pendukung": null
+            },
+            {
+                "nomor": 2,
+                "nama": "Visi, misi, tujuan, strategi, dan tata nilai",
+                "deskripsi": "Bagian ini berisi deskripsi singkat visi, misi, tujuan, strategi dan tata nilai yang diterapkan di UPPS dan program studi yang diakreditasi (visi keilmuan/scientific vision).",
+                "writeable": true,
+                "dokumen_sumber": null,
+                "dokumen_pendukung": null
+            },
+            {
+                "nomor": 3,
+                "nama": "Organisasi dan Tata Kerja",
+                "deskripsi": "Bagian ini berisi informasi dokumen formal organisasi dan tata kerja yang saat ini berlaku, termasuk uraian secara ringkas tentang struktur organisasi dan tata kerja UPPS dan program studi, tugas pokok, dan fungsinya (tupoksi).",
+                "writeable": true,
+                "dokumen_sumber": null,
+                "dokumen_pendukung": null
+            },
+            {
+                "nomor": 4,
+                "nama": "Mahasiswa dan Lulusan",
+                "deskripsi": "Bagian ini berisi deskripsi ringkas data jumlah mahasiswa dan lulusan, termasuk kualitas masukan, prestasi monumental yang dicapai mahasiswa dan lulusan, serta kinerja lulusan dari program studi yang diselenggarakan UPPS dengan penekanan lebih spesifik pada program studi yang diakreditasi.",
+                "writeable": true,
+                "dokumen_sumber": null,
+                "dokumen_pendukung": null
+            },
+            {
+                "nomor": 5,
+                "nama": "Dosen dan Tenaga Kependidikan",
+                "deskripsi": "Bagian ini berisi informasi ringkas jumlah dan kualifikasi SDM (dosen dan tenaga kependidikan), kecukupan dan kinerja, serta prestasi monumental yang dicapai.",
+                "writeable": true,
+                "dokumen_sumber": null,
+                "dokumen_pendukung": null
+            },
+            {
+                "nomor": 6,
+                "nama": "Sejarah Unit Pengelola Program Studi dan Program Studi",
+                "deskripsi": "Berisi deskripsi ringkas kecukupan, kelayakan, kualitas, dan aksesibilitas sumberdaya keuangan, sarana dan prasarana.",
+                "writeable": true,
+                "dokumen_sumber": null,
+                "dokumen_pendukung": null
+            },
+            {
+                "nomor": 7,
+                "nama": "Sistem Penjaminan Mutu",
+                "deskripsi": "Berisi deskripsi implementasi Sistem Penjaminan Mutu yang sesuai dengan kebijakan, organisasi, instrumen yang dikembangkan di tingkat perguruan tinggi, serta monitoring dan evaluasi, pelaporan, dan tindak lanjutnya. Deskripsi dapat dijelaskan dengan siklus PPEPP yang dilakukan oleh UPPS atas penyelenggaraaan program studi, termasuk pengakuan mutu dari lembaga audit eksternal, lembaga akreditasi, dan lembaga sertifikasi.",
+                "writeable": true,
+                "dokumen_sumber": null,
+                "dokumen_pendukung": null
+            },
+            {
+                "nomor": 8,
+                "nama": "Kinerja Unit Pengelola Program Studi dan Program Studi",
+                "deskripsi": "Berisi deskripsi capaian dan luaran yang paling diunggulkan dari UPPS dan program studi.",
+                "writeable": true,
+                "dokumen_sumber": null,
+                "dokumen_pendukung": null
+            }
+        ],
+        "dokumen_sumber": null,
+        "dokumen_pendukung": null
+    },
+    {
+        "nomor": "C",
+        "nama": "Kriteria",
+        "deskripsi": "Bagian ini berisi uraian dan penjelasan mengenai latar belakang, kebijakan, strategi, indikator kinerja, evaluasi capaian kinerja, pelaksanaan penjaminan mutu, pengukuran kepuasan pengguna, serta simpulan hasil evaluasi dan tindak lanjut terkait pelaksanaan dan pengelolaan kegiatan tridharma di UPPS dan program studi pada 9 kriteria akreditasi, yang meliputi kriteria-kriteria: 1) Visi, Misi, Tujuan, dan Strategi, 2) Tata Kelola, Tata Pamong, dan Kerjasama, 3) Mahasiswa, 4) Sumber Daya Manusia, 5) Keuangan, Sarana, dan Prasarana, 6) Pendidikan, 7) Penelitian, 8) Pengabdian kepada Masyarakat, dan 9) Luaran dan Capaian Tridharma.",
+        "writeable": false,
+        "butir": [
+            {
+                "nomor": "1",
+                "nama": " VISI, MISI, TUJUAN DAN STRATEGI ",
+                "deskripsi": null,
+                "writeable": false,
+                "butir": [
+                    {
+                        "nomor": "1.1",
+                        "nama": "Latar Belakang",
+                        "deskripsi": "Bagian ini menjelaskan latar belakang, tujuan, rasional, dan mekanisme penetapan visi, misi, tujuan, dan strategi (VMTS) UPPS yang mencerminkan visi perguruan tinggi dan memayungi visi keilmuan program studi yang diakreditasi, serta rencana strategisnya.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "1.1.1.1",
+                                "dokumen": "Rencana Induk Pengembangan (RIP)"
+                            },
+                            {
+                                "kode": "1.1.1.2",
+                                "dokumen": "Rencana Strategis (RENSTRA)"
+                            },
+                            {
+                                "kode": "1.1.1.3",
+                                "dokumen": "Rencana Operasional (RENOP)"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "1.1.2.1",
+                                "dokumen": "Notulen Penyusun RIP, RENSTRA dan RENOP"
+                            },
+                            {
+                                "kode": "1.1.2.2",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "1.1.2.3",
+                                "dokumen": "Foto Kegiatan"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "1.2",
+                        "nama": "Kebijakan",
+                        "deskripsi": "Berisi deskripsi dokumen formal kebijakan yang mencakup: penyusunan, penetapan, evaluasi, sosialisasi, dan implementasi VMTS ke dalam program pengembangan UPPS dan program studi.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "1.2.1.1",
+                                "dokumen": "Pedoman penyusunan, Evaluasi, Implementasi VMTS kedalam program pengembangan UPPS dan Program Studi"
+                            },
+                            {
+                                "kode": "1.2.1.2",
+                                "dokumen": "Rencana Induk Pengembangan (RIP)"
+                            },
+                            {
+                                "kode": "1.2.1.3",
+                                "dokumen": "RENSTRA Fakultas"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "1.2.2.1",
+                                "dokumen": "Notulen Penyusunan Pedoman"
+                            },
+                            {
+                                "kode": "1.2.2.2",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "1.2.2.3",
+                                "dokumen": "Foto Kegiatan"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "1.3",
+                        "nama": "Strategi Pencapaian Visi, Misi, dan Tujuan",
+                        "deskripsi": "Bagian ini menjelaskan secara komprehensif strategi pencapaian visi, misi, dan tujuan (VMT) UPPS. Pada bagian ini juga harus diuraikan sumber daya yang dialokasikan untuk mencapai visi yang telah ditetapkan serta mekanisme kontrol ketercapaiannya.",
+                        "butir": null,
+                        "writeable": true,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "1.3.1.1",
+                                "dokumen": "Rencana Induk Pengembangan (RIP)"
+                            },
+                            {
+                                "kode": "1.3.1.2",
+                                "dokumen": "Rencana Strategis (RENSTRA) Fakultas"
+                            },
+                            {
+                                "kode": "1.3.1.3",
+                                "dokumen": "Sasaran Mutu"
+                            },
+                            {
+                                "kode": "1.3.1.4",
+                                "dokumen": "Standar VMTS"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "1.3.2.1",
+                                "dokumen": "Notulen Penyusun RIP, RENSTRA dan RENOP"
+                            },
+                            {
+                                "kode": "1.3.2.2",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "1.3.2.3",
+                                "dokumen": "Foto Kegiatan"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "1.4",
+                        "nama": "Indikator Kinerja Utama",
+                        "deskripsi": "UPPS memiliki rencana pengembangan yang memuat indikator-indikator kinerja utama (IKU) dan target yang ditetapkan untuk mencapai tujuan strategis jangka menengah dan jangka panjang.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "1.4.1.1",
+                                "dokumen": "Dokumen Standar Mutu Fakultas dan Prodi"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "1.4.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "1.4.2.2",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "1.4.2.3",
+                                "dokumen": "SK Penetapan"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "1.5",
+                        "nama": "Indikator Kinerja Tambahan",
+                        "deskripsi": "Indikator kinerja tambahan adalah indikator lain terkait VMTS yang secara spesifik ditetapkan oleh UPPS yang dapat berupa indikator kinerja turunan dari butir-butir Indikator Kinerja Utama (IKU) yang ada. Data indikator kinerja tambahan yang sahih harus diukur, dimonitor, dikaji, dan dianalisis untuk perbaikan berkelanjutan.",
+                        "butir": null,
+                        "writeable": true,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "1.5.1.1",
+                                "dokumen": "Dokumen Standar Mutu Fakultas dan Prodi"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "1.5.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "1.5.2.2",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "1.5.2.3",
+                                "dokumen": "SK Penetapan"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "1.6",
+                        "nama": "Evaluasi Capaian VMTS",
+                        "deskripsi": "Berisi deskripsi dan analisis keberhasilan dan/atau ketidakberhasilan pencapaian VMTS yang telah ditetapkan. Capaian kinerja harus diukur dengan metoda yang tepat, dan hasilnya dianalisis serta dievaluasi. Analisis dan evaluasi terhadap capaian kinerja harus mencakup identifikasi akar masalah, faktor pendukung keberhasilan dan faktor penghambat ketercapaian VMTS di UPPS, termasuk analisis dan evaluasi yang spesifik terkait program studi yang diakreditasi.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "1.6.1.1",
+                                "dokumen": "Laporan Kinerja Fakultas dan Prodi"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "1.6.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "1.6.2.2",
+                                "dokumen": "Daftar Hadir"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "1.7",
+                        "nama": "Penjaminan Mutu",
+                        "deskripsi": "",
+                        "butir": null,
+                        "writeable": true,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "1.7.1.1",
+                                "dokumen": "Kebijakan Mutu"
+                            },
+                            {
+                                "kode": "1.7.1.2",
+                                "dokumen": "Manual Mutu"
+                            },
+                            {
+                                "kode": "1.7.1.3",
+                                "dokumen": "Standar Mutu"
+                            },
+                            {
+                                "kode": "1.7.1.4",
+                                "dokumen": "Sasaran Mutu"
+                            },
+                            {
+                                "kode": "1.7.1.5",
+                                "dokumen": "SOP"
+                            },
+                            {
+                                "kode": "1.7.1.6",
+                                "dokumen": "Laporan Monev"
+                            },
+                            {
+                                "kode": "1.7.1.7",
+                                "dokumen": "Pedoman Monev"
+                            },
+                            {
+                                "kode": "1.7.1.8",
+                                "dokumen": "Laporan Audit"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "1.7.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "1.7.2.2",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "1.7.2.3",
+                                "dokumen": "SK Penetapan"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "1.8",
+                        "nama": "Pemahaman dan Kepuasan Pengguna",
+                        "deskripsi": "",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "1.8.1.1",
+                                "dokumen": "Pedoman Survey Pemahaman Visi, Misi, Tujuan dan Sasaran yang menunjukkan bahwa survey dilaksanakan secara konsisten, dan ditindaklanjuti secara berkala dan tersistem"
+                            },
+                            {
+                                "kode": "1.8.1.2",
+                                "dokumen": "Hasil Survey Pemahaman VMTS"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "1.8.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "1.8.2.2",
+                                "dokumen": "Daftar Hadir"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "1.9",
+                        "nama": "Simpulan hasil evaluasi ketercapaian standar dan tindak lanjut",
+                        "deskripsi": "Berisi ringkasan dari pemosisian, masalah dan akar masalah, serta rencana perbaikan dan pengembangan yang akan dilakukan UPPS terkait tata pamong, tata kelola, dan kerjasama pada UPPS dan program studi yang diakreditasi.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "1.9.1.1",
+                                "dokumen": "Laporan Evaluasi ketercapaian Standar Mutu VMTS"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "1.9.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "1.9.2.2",
+                                "dokumen": "Daftar Hadir"
+                            }
+                        ]
+                    }
+                ],
+                "dokumen_sumber": null,
+                "dokumen_pendukung": null
+            },
+            {
+                "nomor": "2",
+                "nama": "TATA PAMONG, TATA KELOLA DAN KERJASAMA",
+                "deskripsi": null,
+                "writeable": false,
+                "butir": [
+                    {
+                        "nomor": "2.1",
+                        "nama": "Latar Belakang",
+                        "deskripsi": "Bagian ini mencakup latar belakang, tujuan, dan rasional atas strategi pencapaian standar perguruan tinggi terkait tata kelola, tata pamong, dan kerjasama, yang mencakup: sistem tata pamong, kepemimpinan, sistem penjaminan mutu, dan kerjasama. Tata pamong merujuk pada struktur organisasi, mekanisme, dan proses bagaimana UPPS dan program studi dikendalikan dan diarahkan untuk mencapai visinya. Tata pamong juga harus mengimplementasikan manajemen risiko untuk menjamin keberlangsungan UPPS dan program studi. Pada bagian ini harus dideskripsikan perwujudan tata pamong yang baik (good governance), sistem pengelolaan, sistem penjaminan mutu, dan kerjasama di UPPS dan program studi.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "2.1.1.1",
+                                "dokumen": "Rencana Induk Pengembangan (RIP)"
+                            },
+                            {
+                                "kode": "2.1.1.2",
+                                "dokumen": "Rencana Strategis (RENSTRA)"
+                            },
+                            {
+                                "kode": "2.1.1.3",
+                                "dokumen": "Rencana Operasional (RENOP)"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "2.1.2.1",
+                                "dokumen": "Notulen Penyusun RIP, RENSTRA dan RENOP"
+                            },
+                            {
+                                "kode": "2.1.2.2",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "2.1.2.3",
+                                "dokumen": "Foto Kegiatan"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "2.2",
+                        "nama": "Kebijakan",
+                        "deskripsi": "Bagian ini berisi deskripsi dokumen formal kebijakan dan standar pengembangan tata kelola dan tata pamong, legalitas organisasi dan tata kerja yang ditetapkan oleh perguruan tinggi, sistem pengelolaan, sistem penjaminan mutu, dan kerjasama yang diacu oleh UPPS.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "2.2.1.1",
+                                "dokumen": "Pedoman penyusunan, Evaluasi, Implementasi VMTS kedalam program pengembangan UPPS dan Program Studi"
+                            },
+                            {
+                                "kode": "2.2.1.2",
+                                "dokumen": "Rencana Induk Pengembangan (RIP)"
+                            },
+                            {
+                                "kode": "2.2.1.3",
+                                "dokumen": "RENSTRA Fakultas"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "2.2.2.1",
+                                "dokumen": "Notulen Penyusunan Pedoman"
+                            },
+                            {
+                                "kode": "2.2.2.2",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "2.2.2.3",
+                                "dokumen": "Foto Kegiatan"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "2.3",
+                        "nama": "Strategi Pencapaian Standar",
+                        "deskripsi": "Bagian ini mencakup strategi UPPS dalam pencapaian standar yang ditetapkan perguruan tinggi terkait tata pamong, tata kelola, dan kerjasama. Pada bagian ini juga harus diuraikan sumber daya yang dialokasikan untuk mencapai standar yang telah ditetapkan serta mekanisme kontrol ketercapaiannya.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "2.3.1.1",
+                                "dokumen": "Rencana Induk Pengembangan (RIP)"
+                            },
+                            {
+                                "kode": "2.3.1.2",
+                                "dokumen": "Rencana Strategis (RENSTRA) Fakultas"
+                            },
+                            {
+                                "kode": "2.3.1.3",
+                                "dokumen": "Sasaran Mutu"
+                            },
+                            {
+                                "kode": "2.3.1.4",
+                                "dokumen": "Standar VMTS"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "2.3.2.1",
+                                "dokumen": "Notulen Penyusun RIP, RENSTRA dan RENOP"
+                            },
+                            {
+                                "kode": "2.3.2.2",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "2.3.2.3",
+                                "dokumen": "Foto Kegiatan"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "2.4",
+                        "nama": "Indikator Kinerja Utama",
+                        "deskripsi": null,
+                        "writeable": false,
+                        "butir": [
+                            {
+                                "nomor": "2.4.a",
+                                "nama": "Sistem Tata Pamong",
+                                "deskripsi": "1) Ketersediaan dokumen formal tata pamong dan tata kelola serta bukti yang sahih dari implementasinya.\n2) Ketersediaan dokumen formal struktur organisasi dan tata kerja UPPS beserta tugas pokok dan fungsinya.\n3) Ketersediaan bukti yang sahih terkait praktik baik perwujudan good governance, mencakup 5 pilar yaitu: kredibilitas, transparansi, akuntabilitas, tanggung jawab, dan berkeadilan.\n4) Ketersediaan dokumen formal dan bukti keberfungsian sistem pengelolaan fungsional dan operasional di tingkat UPPS yang meliputi perencanaan (planning), pengorganisasian (organizing), penempatan personil (staffing), pengarahan (leading), dan pengawasan (controlling).",
+                                "writeable": true,
+                                "butir": null,
+                                "dokumen_sumber": null,
+                                "dokumen_pendukung": null
+                            },
+                            {
+                                "nomor": "2.4.b",
+                                "nama": "Kepemimpinan",
+                                "deskripsi": "Ketersediaan bukti yang sahih tentang efektivitas kepemimpinan di UPPS dan program studi, yang mencakup 3 aspek berikut:\n1) Kepemimpinan operasional, ditunjukkan melalui kemampuan\nmenggerakkan seluruh sumber daya internal secara optimal dalam melaksanakan tridharma menuju pencapaian visi.\n2) Kepemimpinan organisasional, ditunjukkan melalui kemampuan dalam menggerakkan organisasi dan mengharmonisasikan suasana kerja yang kondusif untuk menjamin tercapainya VMTS.\n3) Kepemimpinan publik, ditunjukkan melalui kemampuan dalam menjalin kerjasama yang menjadikan program studi menjadi rujukan bagi masyarakat di bidang keilmuannya.",
+                                "writeable": true,
+                                "butir": null,
+                                "dokumen_sumber": null,
+                                "dokumen_pendukung": null
+                            },
+                            {
+                                "nomor": "2.4.c",
+                                "nama": "Sistem Penjaminan Mutu",
+                                "deskripsi": "Implementasi sistem penjaminan mutu, minimal mencakup:\n1) Keberadaan unsur pelaksana penjaminan mutu internal yang berlaku pada UPPS yang didukung dokumen formal pembentukannya.\n2) Keterlaksanaan penjaminan mutu program studi yang sesuai dengan kebijakan, manual, standar, dan dokumen penjaminan mutu lainnya.\n3) Ketersediaan bukti sahih efektivitas pelaksanaan penjaminan mutu sesuai dengan siklus penetapan, pelaksanaan, evaluasi, pengendalian, dan perbaikan berkelanjutan (PPEPP)",
+                                "writeable": true,
+                                "butir": null,
+                                "dokumen_sumber": null,
+                                "dokumen_pendukung": null
+                            },
+                            {
+                                "nomor": "2.4.d",
+                                "nama": "Sistem Tata Pamong",
+                                "deskripsi": "1) Mutu, manfaat, kepuasan dan keberlanjutan kerjasama yang relevan dengan program studi yang diakreditasi. UPPS memiliki bukti yang sahih terkait kerjasama yang ada serta memenuhi aspek-aspek sebagai berikut:\na. memberikan peningkatan kinerja tridharma dan fasilitas pendukung program studi yang diakreditasi.\nb. memberikan manfaat dan kepuasan kepada mitra.\nc. menjamin keberlanjutan kerjasama dan hasilnya.\n2) Hasil analisis data terhadap: jumlah, jenis, lingkup kerjasama tridharma (pendidikan, penelitian dan PkM) yang relevan dengan program studi yang diakreditasi dan manfaatnya (Tabel 1 LKPS)",
+                                "writeable": true,
+                                "butir": null,
+                                "dokumen_sumber": null,
+                                "dokumen_pendukung": null
+                            }
+                        ],
+                        "dokumen_sumber": [
+                            {
+                                "kode": "2.4.1.1",
+                                "dokumen": "Dokumen Standar Mutu Fakultas dan Prodi"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "2.4.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "2.4.2.2",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "2.4.2.3",
+                                "dokumen": "SK Penetapan"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "2.5",
+                        "nama": "Indikator Kinerja Tambahan",
+                        "deskripsi": "Indikator kinerja tambahan adalah indikator tata kelola, tata pamong, dan kerjasama lain yang ditetapkan oleh perguruan tinggi dan/atau UPPS dan program studi untuk melampaui SN-DIKTI. Data indikator kinerja tambahan yang sahih harus diukur, dimonitor, dikaji, dan dianalisis untuk perbaikan berkelanjutan.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "2.5.1.1",
+                                "dokumen": "Dokumen Standar Mutu Fakultas dan Prodi"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "2.5.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "2.5.2.2",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "2.5.2.3",
+                                "dokumen": "SK Penetapan"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "2.6",
+                        "nama": "Evaluasi Capaian Kinerja",
+                        "deskripsi": "Berisi deskripsi dan analisis keberhasilan dan/atau ketidakberhasilan pencapaian standar yang telah ditetapkan. Capaian kinerja harus diukur dengan metoda yang tepat, dan hasilnya dianalisis serta dievaluasi. Analisis terhadap capaian kinerja harus mencakup identifikasi akar masalah, faktor pendukung keberhasilan dan faktor penghambat ketercapaian standar, dan deskripsi singkat tindak lanjut yang akan dilakukan UPPS.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "2.6.1.1",
+                                "dokumen": "Laporan Kinerja Fakultas dan Prodi"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "2.6.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "2.6.2.2",
+                                "dokumen": "Daftar Hadir"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "2.7",
+                        "nama": "Penjaminan Mutu Tata Pamong, Tata Kelola, dan Kerjasama",
+                        "deskripsi": "Berisi deskripsi dan bukti sahih tentang implementasi sistem penjaminan mutu di UPPS yang sesuai dengan standar yang ditetapkan perguruan tinggi terkait tata pamong, tata kelola, dan kerjasama, yang mengikuti siklus penetapan, pelaksanaan, evaluasi, pengendalian, dan perbaikan berkelanjutan (PPEPP).",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "2.7.1.1",
+                                "dokumen": "Kebijakan Mutu"
+                            },
+                            {
+                                "kode": "2.7.1.2",
+                                "dokumen": "Manual Mutu"
+                            },
+                            {
+                                "kode": "2.7.1.3",
+                                "dokumen": "Standar Mutu"
+                            },
+                            {
+                                "kode": "2.7.1.4",
+                                "dokumen": "Sasaran Mutu"
+                            },
+                            {
+                                "kode": "2.7.1.5",
+                                "dokumen": "SOP"
+                            },
+                            {
+                                "kode": "2.7.1.6",
+                                "dokumen": "Laporan Monev"
+                            },
+                            {
+                                "kode": "2.7.1.7",
+                                "dokumen": "Pedoman Monev"
+                            },
+                            {
+                                "kode": "2.7.1.8",
+                                "dokumen": "Laporan Audit"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "2.7.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "2.7.2.2",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "2.7.2.3",
+                                "dokumen": "SK Penetapan"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "2.8",
+                        "nama": "Pemahaman dan Kepuasan Pengguna",
+                        "deskripsi": "Berisi deskripsi mengenai pengukuran kepuasan para pemangku kepentingan, yang mencakup: mahasiswa, dosen, tenaga kependidikan, lulusan, pengguna dan mitra terhadap layanan manajemen yang\nmemenuhi aspek-aspek berikut:\n1) menggunakan instrumen kepuasan yang sahih, andal, mudah digunakan,\n2) dilaksanakan secara berkala, serta datanya terekam secara komprehensif,\n3) dianalisis dengan metode yang tepat serta bermanfaat untuk pengambilan keputusan,\n4) review terhadap pelaksanaan pengukuran kepuasan para pemangku kepentingan,\n5) hasilnya dipublikasikan dan mudah diakses oleh para pemangku kepentingan, dan\n6) hasil pengukuran kepuasan ditindaklanjuti untuk perbaikan dan peningkatan mutu luaran secara berkala dan tersistem.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "2.8.1.1",
+                                "dokumen": "Pedoman Survey Pemahaman Visi, Misi, Tujuan dan Sasaran yang menunjukkan bahwa survey dilaksanakan secara konsisten, dan ditindaklanjuti secara berkala dan tersistem"
+                            },
+                            {
+                                "kode": "2.8.1.2",
+                                "dokumen": "Hasil Survey Pemahaman VMTS"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "2.8.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "2.8.2.2",
+                                "dokumen": "Daftar Hadir"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "2.9",
+                        "nama": "Kesimpulan hasil evaluasi ketercapaian standar serta tindak lanjut",
+                        "deskripsi": "Berisi ringkasan dari pemosisian, masalah dan akar masalah, serta rencana perbaikan dan pengembangan yang akan dilakukan UPPS terkait tata pamong, tata kelola, dan kerjasama pada UPPS dan program studi yang diakreditasi.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "2.9.1.1",
+                                "dokumen": "Laporan Evaluasi ketercapaian Standar Mutu VMTS"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "2.9.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "2.9.2.2",
+                                "dokumen": "Daftar Hadir"
+                            }
+                        ]
+                    }
+                ],
+                "dokumen_sumber": null,
+                "dokumen_pendukung": null
+            },
+            {
+                "nomor": "3",
+                "nama": " MAHASISWA ",
+                "deskripsi": null,
+                "writeable": false,
+                "butir": [
+                    {
+                        "nomor": "3.1",
+                        "nama": "Latar Belakang",
+                        "deskripsi": "Bagian ini mencakup latar belakang, tujuan, dan rasional atas strategi pencapaian standar yang ditetapkan perguruan tinggi terkait kemahasiswaan yang mencakup kualitas input mahasiswa, daya tarik program studi, layanan kemahasiswaan, maupun standar khusus lain yang ditetapkan berdasarkan kebutuhan dan karakteristik proses pembelajaran di program studi.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "3.1.1.1",
+                                "dokumen": "Dokumen Kebijakan penerimaan mahasiswa baru"
+                            },
+                            {
+                                "kode": "3.1.1.2",
+                                "dokumen": "Kebijakan seleksi mahasiswa baru"
+                            },
+                            {
+                                "kode": "3.1.1.3",
+                                "dokumen": "Dokumen instrumen terukur tes masuk mahasiswa baru"
+                            },
+                            {
+                                "kode": "3.1.1.4",
+                                "dokumen": "Dokumen kebijakan tentang mahasiswa asing yang berisi tentang jalur dan tatacara mengikuti program (Full time, part time, student exchange, credit earning dan kegiatan lain yang relevan)"
+                            },
+                            {
+                                "kode": "3.1.1.5",
+                                "dokumen": "Profil prodi"
+                            },
+                            {
+                                "kode": "3.1.1.6",
+                                "dokumen": "Kebijakan layanan kemahasiswaan"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "3.1.2.1",
+                                "dokumen": "Notulensi penyusunan dokumen sumber"
+                            },
+                            {
+                                "kode": "3.1.2.2",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "3.1.2.3",
+                                "dokumen": "Foto Kegiatan"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "3.2",
+                        "nama": "Kebijakan",
+                        "deskripsi": "Berisi deskripsi dokumen formal kebijakan dan standar yang mencakup metoda rekrutmen dan sistem seleksi, serta layanan kemahasiswaan yang dapat diberikan dalam bentuk: kegiatan pengembangan kemampuan penalaran, minat dan bakat, kegiatan bimbingan karir dan kewirausahaan, serta kegiatan peningkatan kesejahteraan (bimbingan dan konseling, beasiswa, dan kesehatan).",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "3.2.1.1",
+                                "dokumen": "Dokumen Kebijakan penerimaan mahasiswa baru"
+                            },
+                            {
+                                "kode": "3.2.1.2",
+                                "dokumen": "Kebijakan seleksi mahasiswa baru"
+                            },
+                            {
+                                "kode": "3.2.1.3",
+                                "dokumen": "Dokumen instrumen terukur tes masuk mahasiswa baru"
+                            },
+                            {
+                                "kode": "3.2.1.4",
+                                "dokumen": "Dokumen kebijakan tentang mahasiswa asing yang berisi tentang jalur dan tatacara mengikuti program ( Full time, part time, student exchange, credit earning dan kegiatan lain yang relevan)."
+                            },
+                            {
+                                "kode": "3.2.1.5",
+                                "dokumen": "Kebijakan layanan kemahasiswaan yang mencakup pengembangan kemampuan penalaran, minat dan bakat, kegiatan bimbingan karir dan kewirausahaan, serta kegiatan peningkatan kesejahteraan (bimbingan dan konseling, beasiswa, dan kesehatan)."
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "3.2.2.1",
+                                "dokumen": "Notulen Penyusunan dokumen sumber"
+                            },
+                            {
+                                "kode": "3.2.2.2",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "3.2.2.3",
+                                "dokumen": "Foto Kegiatan"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "3.3",
+                        "nama": "Strategi Pencapaian Standar",
+                        "deskripsi": "Bagian ini mencakup strategi UPPS dalam pencapaian standar yang ditetapkan perguruan tinggi terkait kemahasiswaan. Pada bagian ini juga harus diuraikan sumber daya yang dialokasikan untuk mencapai standar yang telah ditetapkan serta mekanisme kontrol ketercapaiannya.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "3.3.1.1",
+                                "dokumen": "Dokumen Kebijakan penerimaan mahasiswa baru"
+                            },
+                            {
+                                "kode": "3.3.1.2",
+                                "dokumen": "Sasaran mutu"
+                            },
+                            {
+                                "kode": "3.3.1.3",
+                                "dokumen": "RIP"
+                            },
+                            {
+                                "kode": "3.3.1.4",
+                                "dokumen": "RENSTRA"
+                            },
+                            {
+                                "kode": "3.3.1.5",
+                                "dokumen": "RENOP"
+                            },
+                            {
+                                "kode": "3.3.1.6",
+                                "dokumen": "Pedoman Monev Kemahasiswaan"
+                            },
+                            {
+                                "kode": "3.3.1.7",
+                                "dokumen": "Standar Mutu Mahasiswa"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "3.3.2.1",
+                                "dokumen": "Notulen Penyusun dokumen sumber"
+                            },
+                            {
+                                "kode": "3.3.2.2",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "3.3.2.3",
+                                "dokumen": "Foto Kegiatan"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "3.4",
+                        "nama": "Indikator Kinerja Utama",
+                        "deskripsi": null,
+                        "writeable": false,
+                        "butir": [
+                            {
+                                "nomor": "3.4.a",
+                                "nama": "Kualitas Input Mahasiswa",
+                                "deskripsi": "1) Metode rekrutmen dan sistem seleksi yang mampu mengidentifikasi kemampuan dan potensi calon mahasiswa dalam menjalankan proses pendidikan dan mencapai capaian pembelajaran yang ditetapkan.\n2) Hasil analisis data terhadap:\na. Rasio jumlah pendaftar terhadap jumlah mahasiswa baru untuk program studi dengan jumlah kebutuhan lulusan tinggi (Tabel 2.a LKPS).\nb. Pertumbuhan jumlah mahasiswa baru untuk program studi dengan jumlah kebutuhan lulusan rendah (Tabel 2.a LKPS).",
+                                "writeable": true,
+                                "butir": null,
+                                "dokumen_sumber": null,
+                                "dokumen_pendukung": null
+                            },
+                            {
+                                "nomor": "3.4.b",
+                                "nama": "Kualitas Input Mahasiswa",
+                                "deskripsi": "1) Peningkatan minat calon mahasiswa dalam kurun waktu 3 tahun terakhir (Tabel 2.a LKPS).\n2) Keberadaan mahasiswa asing terhadap jumlah mahasiswa\n(Tabel 2.b LKPS). Data diisi oleh pengusul dari program studi\npada program Sarjana/Sarjana Terapan/Magister/Magister\nTerapan/Doktor/Doktor Terapan.",
+                                "writeable": true,
+                                "butir": null,
+                                "dokumen_sumber": null,
+                                "dokumen_pendukung": null
+                            },
+                            {
+                                "nomor": "3.4.c",
+                                "nama": "Layanan Kemahasiswaan",
+                                "deskripsi": "Layanan kemahasiswaan yang disediakan oleh perguruan tinggi/UPPS untuk seluruh mahasiswa dalam bidang:\n1) penalaran, minat dan bakat,\n2) bimbingan karir dan kewirausahaan, dan\n3) kesejahteraan (bimbingan dan konseling, layanan beasiswa, dan layanan kesehatan).",
+                                "writeable": true,
+                                "butir": null,
+                                "dokumen_sumber": null,
+                                "dokumen_pendukung": null
+                            }
+                        ],
+                        "dokumen_sumber": [
+                            {
+                                "kode": "3.4.1.1",
+                                "dokumen": "Standar mutu mahasiswa"
+                            },
+                            {
+                                "kode": "3.4.1.2",
+                                "dokumen": "Dokumen kebijakan penerimaan mahasiswa baru"
+                            },
+                            {
+                                "kode": "3.4.1.3",
+                                "dokumen": "Rekapitulasi jumlah pendaftar mahasiswa baru, lulus seleksi, daftar ulang dan aktif. (Mahasiswa dalam negeri maupun mahasiswa asing)"
+                            },
+                            {
+                                "kode": "3.4.1.4",
+                                "dokumen": "Kebijakan layanan kemahasiswaan yang mencakup pengembangan kemampuan penalaran, minat dan bakat, kegiatan bimbingan karir dan kewirausahaan, serta kegiatan peningkatan kesejahteraan (bimbingan dan konseling, beasiswa, dan kesehatan)"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "3.4.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "3.4.2.2",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "3.4.2.3",
+                                "dokumen": "SK Penetapan tentang jalur penerimaan mahasiswa baru dan kuotanya"
+                            },
+                            {
+                                "kode": "3.4.2.4",
+                                "dokumen": "SK penetapan hasil yudisium penerimaan mahasiswa baru"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "3.5",
+                        "nama": "Indikator Kinerja Tambahan",
+                        "deskripsi": "Indikator kinerja tambahan adalah indikator kemahasiswaan lainberdasarkan kebijakan dan standar yang ditetapkan oleh UPPS dan program studi untuk melampaui SN-DIKTI. Data indikator kinerja tambahan yang sahih harus diukur, dimonitor, dikaji dan dianalisis untuk perbaikan berkelanjutan.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "3.5.1.1",
+                                "dokumen": "Standar mutu mahasiswa"
+                            },
+                            {
+                                "kode": "3.5.1.2",
+                                "dokumen": "Dokumen kebijakan penerimaan mahasiswa baru"
+                            },
+                            {
+                                "kode": "3.5.1.3",
+                                "dokumen": "Rekapitulasi jumlah pendaftar mahasiswa baru, lulus seleksi, daftar ulang dan aktif."
+                            },
+                            {
+                                "kode": "3.5.1.4",
+                                "dokumen": "Kebijakan layanan kemahasiswaan yang mencakup pengembangan kemampuan penalaran, minat dan bakat, kegiatan bimbingan karir dan kewirausahaan, serta kegiatan peningkatan kesejahteraan"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "3.5.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "3.5.2.2",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "3.5.2.3",
+                                "dokumen": "SK Penetapan"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "3.6",
+                        "nama": "Evaluasi Capaian Kinerja",
+                        "deskripsi": " Evaluasi Capaian Kinerja Berisi deskripsi dan analisis keberhasilan dan/atau ketidakberhasilan pencapaian standar yang telah ditetapkan. Capaian kinerja harus diukur dengan metoda yang tepat, dan hasilnya dianalisis serta dievaluasi. Analisis terhadap capaian kinerja harus mencakup identifikasi akar masalah, faktor pendukung keberhasilan dan faktor penghambat ketercapaian standar, dan deskripsi singkat tindak lanjut yang akan dilakukan UPPS.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "3.6.1.1",
+                                "dokumen": "Pedoman Monev Kemahasiswaan yang mencakup identifikasi akar masalah, faktor pendukung keberhasilan dan faktor penghambat ketercapaian standar, serta tindak lanjut yang akan dilakukan."
+                            },
+                            {
+                                "kode": "3.6.1.2",
+                                "dokumen": "Hasil monev kemahasiswaan"
+                            },
+                            {
+                                "kode": "3.6.1.3",
+                                "dokumen": "Laporan proses dan penerimaan mahasiswa baru"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "3.6.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "3.6.2.2",
+                                "dokumen": "Daftar Hadir"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "3.7",
+                        "nama": "Penjaminan Mutu",
+                        "deskripsi": " Evaluasi Capaian Kinerja Berisi deskripsi dan analisis keberhasilan dan/atau ketidakberhasilan pencapaian standar yang telah ditetapkan. Capaian kinerja harus diukur dengan metoda yang tepat, dan hasilnya dianalisis serta dievaluasi. Analisis terhadap capaian kinerja harus mencakup identifikasi akar masalah, faktor pendukung keberhasilan dan faktor penghambat ketercapaian standar, dan deskripsi singkat tindak lanjut yang akan dilakukan UPPS.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "3.7.1.1",
+                                "dokumen": "Laporan monev kemahasiswaan"
+                            },
+                            {
+                                "kode": "3.7.1.2",
+                                "dokumen": "Laporan audit kemahasiswaan"
+                            },
+                            {
+                                "kode": "3.7.1.3",
+                                "dokumen": "Laporan audit tindak lanjut kemahasiswaan"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "3.7.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "3.7.2.2",
+                                "dokumen": "Daftar Hadir"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "3.8",
+                        "nama": "Kepuasan Pengguna",
+                        "deskripsi": "Berisi deskripsi mengenai pengukuran kepuasan mahasiswa terhadap layanan kemahasiswaan yang memenuhi aspek-aspek berikut: \na) Kejelasan instrumen yang digunakan, metoda, pelaksanaan, perekaman, dan analisis datanya. \nb) Ketersediaan bukti yang sahih tentang hasil pengukuran kepuasan mahasiswa yang dilaksanakan secara konsisten, ditindaklanjuti secara berkala, dan tersistem.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "3.8.1.1",
+                                "dokumen": "Pedoman penyusunan instrumen"
+                            },
+                            {
+                                "kode": "3.8.1.2",
+                                "dokumen": "Pedoman pelaksanaan survey (waktu, pelaksana, tempat, Dokumentasi) yang menunjukkan bahwa survey dilaksanakan secara konsisten, dan ditindaklanjuti secara berkala dan tersistem."
+                            },
+                            {
+                                "kode": "3.8.1.3",
+                                "dokumen": "Pedoman analisis hasil survey"
+                            },
+                            {
+                                "kode": "3.8.1.4",
+                                "dokumen": "hasil analisis dan review pelaksanaan pengukuran kepuasan mahasiswa."
+                            },
+                            {
+                                "kode": "3.8.1.5",
+                                "dokumen": "laporan tindak lanjut untuk perbaikan dan peningkatan mutu luaran secara berkala dan tersistem"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "3.8.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "3.8.2.2",
+                                "dokumen": "Daftar Hadir"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "3.9",
+                        "nama": "Kesimpulan hasil evaluasi ketercapaian standar serta tindak lanjut",
+                        "deskripsi": "Berisi ringkasan dari pemosisian, masalah dan akar masalah, serta rencana perbaikan dan pengembangan yang akan dilakukan oleh UPPS terkait mahasiswa dan kemahasiswaan pada program studi yang diakreditasi.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "3.9.1.1",
+                                "dokumen": "Laporan Evaluasi dan tindak lanjut terkait mahasiswa dan kemahasiswaan"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "3.9.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "3.9.2.2",
+                                "dokumen": "Daftar Hadir"
+                            }
+                        ]
+                    }
+                ],
+                "dokumen_sumber": null,
+                "dokumen_pendukung": null
+            },
+            {
+                "nomor": "4",
+                "nama": " SUMBER DAYA MANUSIA ",
+                "deskripsi": null,
+                "writeable": false,
+                "butir": [
+                    {
+                        "nomor": "4.1",
+                        "nama": "Latar Belakang",
+                        "deskripsi": "Bagian ini mencakup latar belakang, tujuan, dan rasional atas strategi pencapaian standar yang ditetapkan perguruan tinggi terkait sumber daya manusia (SDM) yang mencakup: profil dosen (kualifikasi, kompetensi, proporsi dan beban kerja), kinerja dosen (kepakaran, kinerja dan prestasi di bidang penelitian dan PkM), pengembangan dosen, tenaga kependidikan, serta pengelolaan SDM (dosen dan tenaga kependidikan).",
+                        "writeable": false,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "4.1.1.1",
+                                "dokumen": "Profil dosen (kualifikasi, kompetensi, proporsi dan beban kerja)."
+                            },
+                            {
+                                "kode": "4.1.1.2",
+                                "dokumen": "kinerja dosen (kepakaran, kinerja dan prestasi di bidang penelitian dan PkM)."
+                            },
+                            {
+                                "kode": "4.1.1.3",
+                                "dokumen": "Kebijakan dan program pengembangan dosen, tenaga kependidikan"
+                            },
+                            {
+                                "kode": "4.1.1.4",
+                                "dokumen": "Kebijakan pengelolaan SDM (dosen dan tenaga kependidikan)."
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "4.1.2.1",
+                                "dokumen": "Notulensi penyusunan dokumen sumber"
+                            },
+                            {
+                                "kode": "4.1.2.2",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "4.1.2.3",
+                                "dokumen": "Foto Kegiatan"
+                            },
+                            {
+                                "kode": "4.1.2.4",
+                                "dokumen": "SK Penetapan"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "4.2",
+                        "nama": "Kebijakan",
+                        "deskripsi": "<p>Bagian ini berisi deskripsi dokumen formal kebijakan yang mencakup:</p> <ol style=\"list-style-type: lower-alpha;\"> <li>Penetapan standar pendidikan tinggi yang ditetapkan perguruan tinggi terkait kualifikasi, kompetensi, beban kerja, proporsi, serta pengelolaan SDM (dosen dan tenaga kependidikan).</li> <li>Pengelolaan SDM yang meliputi:<br /> <ol> <li>Perencanaan, rekrutmen, seleksi, penempatan, pengembangan, retensi, pemberhentian, dan pensiun telah ditetapkan untuk memenuhi kebutuhan pendidikan, penelitian, dan PkM.</li> <li>Kriteria perencanaan, rekrutmen, seleksi, penempatan, pengembangan, retensi, pemberhentian, dan pensiun ditetapkan serta dikomunikasikan.</li> <li>Kegiatan pengembangan seperti: studi lanjut, seminar, konferensi, workshop, simposium, dll.</li> <li>Skema pemberian reward and punishment, pengakuan, mentoring yang diimplementasikan untuk memotivasi dan mendukung pelaksanaan tridharma.</li> </ol> </li> </ol>",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "4.2.1.1",
+                                "dokumen": "Penetapan standar perguruan tinggi terkait kualifikasi, kompetensi, beban kerja, proporsi, serta pengelolaan SDM dosen."
+                            },
+                            {
+                                "kode": "4.2.1.2",
+                                "dokumen": "Penetapan standar perguruan tinggi terkait kualifikasi, kompetensi, beban kerja, proporsi, serta pengelolaan SDM Tenaga Kependidikan."
+                            },
+                            {
+                                "kode": "4.2.1.3",
+                                "dokumen": "Kebijakan pengelolaan SDM yang meliputi: Perencanaan, rekrutmen, seleksi, penempatan, pengembangan, retensi, pemberhentian, dan pensiun yang telah ditetapkan untuk memenuhi kebutuhan pendidikan, penelitian, dan PkM."
+                            },
+                            {
+                                "kode": "4.2.1.4",
+                                "dokumen": "Pedoman sosialisasi Kebijakan pengelolaan SDM yang meliputi: Perencanaan, rekrutmen, seleksi, penempatan, pengembangan, retensi, pemberhentian, dan pensiun yang telah ditetapkan untuk memenuhi kebutuhan pendidikan, penelitian, dan PkM."
+                            },
+                            {
+                                "kode": "4.2.1.5",
+                                "dokumen": "kebijakan pemberian reward and punishment, pengakuan, mentoring yang diimplementasikan untuk memotivasi dan mendukung pelaksanaan tridharma."
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "4.2.2.1",
+                                "dokumen": "Notulen Penyusunan dokumen sumber"
+                            },
+                            {
+                                "kode": "4.2.2.2",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "4.2.2.3",
+                                "dokumen": "Foto Kegiatan"
+                            },
+                            {
+                                "kode": "4.2.2.4",
+                                "dokumen": "SK penetapan"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "4.3",
+                        "nama": "Strategi pencapaian standar",
+                        "deskripsi": "Bagian ini mencakup strategi UPPS dalam pencapaian standar yang ditetapkan perguruan tinggi terkait SDM (dosen sebagai pendidik, peneliti, dan pelaksana PkM, serta tenaga kependidikan). Pada bagian ini juga harus diuraikan sumber daya yang dialokasikan untuk mencapai standar yang telah ditetapkan serta mekanisme kontrol ketercapaiannya.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "4.3.1.1",
+                                "dokumen": "RIP"
+                            },
+                            {
+                                "kode": "4.3.1.2",
+                                "dokumen": "RENSTRA"
+                            },
+                            {
+                                "kode": "4.3.1.3",
+                                "dokumen": "RENOP"
+                            },
+                            {
+                                "kode": "4.3.1.4",
+                                "dokumen": "Sasaran Mutu"
+                            },
+                            {
+                                "kode": "4.3.1.5",
+                                "dokumen": "Pedoman Monev SDM (Dosen dan Tendik)"
+                            },
+                            {
+                                "kode": "4.3.1.6",
+                                "dokumen": "Standar Mutu SDM"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "4.3.2.1",
+                                "dokumen": "Notulen Penyusun dokumen sumber"
+                            },
+                            {
+                                "kode": "4.3.2.2",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "4.3.2.3",
+                                "dokumen": "Foto Kegiatan"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "4.4",
+                        "nama": "Indikator Kinerja Utama",
+                        "deskripsi": null,
+                        "writeable": false,
+                        "butir": [
+                            {
+                                "nomor": "4.4.a",
+                                "nama": "Profil Dosen",
+                                "deskripsi": "Data SDM disajikan dengan teknik representasi yang relevan (misalnya: kurva tren, rasio, dan proporsi) dan komprehensif, serta kecenderungan yang terjadi disimpulkan. Data dan analisis yang disampaikan meliputi aspek: \n1) Kecukupan jumlah dosen tetap, terdiri atas: \na. Kecukupan jumlah dosen tetap perguruan tinggi yang ditugaskan sebagai pengampu mata kuliah di program studi yang diakreditasi (DT) (Tabel 3.a.1 LKPS), dan \nb. Kecukupan jumlah dosen tetap perguruan tinggi yang ditugaskan sebagai pengampu mata kuliah dengan bidang keahlian yang sesuai dengan kompetensi inti program studi (DTPS) (Tabel 3.a.1 LKPS). \n2) Kualifikasi akademik dosen tetap: persentase jumlah DTPS berpendidikan Doktor/Doktor Terapan/Subspesialis terhadap jumlah DTPS (Tabel 3.a.1 LKPS). Data dan analisis disampaikan oleh pengusul dari program studi pada program Diploma Tiga/Sarjana/Sarjana Terapan. \n3) Kepemilikan sertifikasi profesi/kompetensi/industri: persentase jumlah DTPS yang memiliki sertifikat profesi/ kompetensi/industri terhadap jumlah DTPS (Tabel 3.a.1 LKPS). Data dan analisis disampaikan oleh pengusul dari program studi pada program Diploma Tiga/Sarjana Terapan. \n4) Jabatan akademik dosen tetap, terdiri atas: \na. Persentase jumlah DTPS dengan jabatan akademik Lektor Kepala atau Guru Besar terhadap jumlah DTPS (Tabel 3.a.1 LKPS). Data dan analisis disampaikan oleh pengusul dari program studi pada program Diploma Tiga/Sarjana/Sarjana Terapan/Magister/Magister Terapan/Doktor Terapan. \nb. Persentase jumlah DTPS dengan jabatan akademik Guru Besar terhadap jumlah DTPS (Tabel 3.a.1 LKPS). Data dan analisis disampaikan oleh pengusul dari program studi pada program Doktor. \n5) Beban kerja dosen tetap, terdiri atas: \na. Rasio jumlah mahasiswa program studi terhadap jumlah DT (Tabel 2.a LKPS dan Tabel 3.a.1 LKPS). Data dan analisis disampaikan oleh pengusul dari program studi pada program Diploma Tiga/Sarjana/Sarjana Terapan. \nb. Penugasan DTPS sebagai pembimbing utama tugas akhir mahasiswa: rata-rata jumlah bimbingan sebagai pembimbing utama tugas akhir mahasiswa pada seluruh program di PT (Tabel 3.a.2 LKPS). \nc. Ekuivalensi Waktu Mengajar Penuh (EWMP) DT/DTPS pada kegiatan Pendidikan (pembelajaran dan pembimbingan), penelitian, PkM, dan tugas tambahan dan/atau penunjang (Tabel 3.a.3 LKPS)\n6) Keterlibatan dosen tidak tetap (DTT) dalam proses pembelajaran: persentase jumlah dosen (DT dan DTT) terhadap jumlah DT (Tabel 3.a.1 LKPS dan Tabel 3.a.4 LKPS). \n7) Keterlibatan dosen industri/praktisi dalam proses pembelajaran (Tabel 3.a.5 LKPS). Dosen industri/praktisi direkrut melalui kerjasama dengan perusahaan/industri yang relevan dengan bidang program studi. Data dan analisis disampaikan oleh pengusul dari program studi pada program Diploma Tiga/Sarjana Terapan.",
+                                "writeable": true,
+                                "butir": null,
+                                "dokumen_sumber": null,
+                                "dokumen_pendukung": null
+                            },
+                            {
+                                "nomor": "4.4.b",
+                                "nama": "Kinerja Dosen",
+                                "deskripsi": "1) Pengakuan/rekognisi atas kepakaran/prestasi/kinerja DTPS (Tabel 3.b.1 LKPS). \n2) Penelitian DTPS (Tabel 3.b.2 LKPS). \n3) Pelaksanaan Pengabdian kepada Masyarakat DTPS (Tabel 3.b.3 LKPS). \n4) Publikasi Ilmiah yang dihasilkan oleh DTPS dalam 3 tahun terakhir (Tabel 3.b.4 LKPS). Data dan analisis disampaikan oleh pengusul dari Program Studi pada program Sarjana/Magister/Doktor). \n5) Pagelaran/pameran/presentasi/publikasi (Tabel 3.b.4 LKPS). Data dan analisis disampaikan oleh pengusul dari Program Studi pada program Diploma Tiga/Sarjana Terapan/Magister Terapan/Doktor Terapan). \n6) Karya ilmiah DTPS yang disitasi dalam 3 tahun terakhir (Tabel 3.b.5 LKPS). Data dan analisis disampaikan oleh pengusul dari program studi pada program Sarjana/Sarjana Terapan/Magister/Magister Terapan/Doktor/Doktor Terapan. \n7) Produk/Jasa DTPS yang diadopsi oleh Industri/Masyarakat (Tabel 3.b.6 LKPS). Data dan analisis disampaikan oleh pengusul dari program studi pada program Diploma Tiga/Sarjana Terapan/Magister Terapan/Doktor Terapan. \n8) Luaran penelitian dan PkM lainnya yang dihasilkan oleh DTPS dalam 3 tahun terakhir (Tabel 3.b.7 LKPS).",
+                                "writeable": true,
+                                "butir": null,
+                                "dokumen_sumber": null,
+                                "dokumen_pendukung": null
+                            },
+                            {
+                                "nomor": "4.4.c",
+                                "nama": "Pengembangan Dosen",
+                                "deskripsi": "Kesesuaian perencanaan dan pengembangan dosen UPPS dengan rencana pengembangan SDM yang merupakan bagian dari Rencana Strategis Perguruan Tinggi.",
+                                "writeable": true,
+                                "butir": null,
+                                "dokumen_sumber": null,
+                                "dokumen_pendukung": null
+                            },
+                            {
+                                "nomor": "4.4.d",
+                                "nama": "Tenaga Kependidikan",
+                                "deskripsi": "Kecukupan dan kualifikasi tenaga kependidikan berdasarkan jenis pekerjaannya (administrasi, laboran, teknisi, dll.) untuk melayani sivitas akademika di UPPS dan program studi, serta kepemilikan sertifikat kompetensi/profesi yang mendukung mutu hasil kerja sesuai dengan bidang tugasnya. Indikator kecukupan tenaga kependidikan dapat dipengaruhi oleh pemanfaatan teknologi informasi dan komputer, serta integrasinya dalam mendukung kegiatan penunjang pendidikan.",
+                                "writeable": true,
+                                "butir": null,
+                                "dokumen_sumber": null,
+                                "dokumen_pendukung": null
+                            }
+                        ],
+                        "dokumen_sumber": [
+                            {
+                                "kode": "4.4.1.1",
+                                "dokumen": "Standar mutu SDM"
+                            },
+                            {
+                                "kode": "4.4.1.2",
+                                "dokumen": "Profil dosen tetap yang mencakup jumlah dosen tetap, kualifikasi akademik, bidang keahlian, kepemilikan sertifikasi profesi, jabatan akademik, kesesuaian bidang keahlian dengan mata kuliah yang diampu."
+                            },
+                            {
+                                "kode": "4.4.1.3",
+                                "dokumen": "Beban kerja dosen tetap terkait dengan rasio jumlah mahasiswa, pembimbing utama tugas ahir, ekuivalensi waktu mengajar penuh."
+                            },
+                            {
+                                "kode": "4.4.1.4",
+                                "dokumen": "Profil dosen tidak tetap yang mencakup kualifikasi akademik bidang keahlian, kepemilikan sertifikasi profesi, jabatan akademik, kesesuaian bidang keahlian dengan mata kuliah yang diampu."
+                            },
+                            {
+                                "kode": "4.4.1.5",
+                                "dokumen": "Profil dosen yang mencakup pengakuan atas kepakaran/ prestasi/ kinerja, penelitian, PKM, publikasi ilmiah, karya ilmiah yang disitasi, serta luaran penelitian dan PKM lainnya, baik tingka wilayah nasional maupun internasional."
+                            },
+                            {
+                                "kode": "4.4.1.6",
+                                "dokumen": "Monev kesesuaian perencanaan dan pengembangan dosen."
+                            },
+                            {
+                                "kode": "4.4.1.7",
+                                "dokumen": "Profil tenaga kependidikan yang mencakup Kecukupan dan kualifikasi tenaga kependidikan berdasarkan jenis pekerjaannya (administrasi, laboran, teknisi, dll.) serta kepemilikan sertifikat kompetensi/profesi yang mendukung mutu hasil kerja sesuai dengan bidang tugasnya."
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "4.4.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "4.4.2.2",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "4.4.2.3",
+                                "dokumen": "SK Penetapan kualifikasi dosen"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "4.5",
+                        "nama": "Indikator Kinerja Tambahan",
+                        "deskripsi": "Indikator kinerja tambahan adalah indikator SDM lain berdasarkan standar yang ditetapkan oleh UPPS dan program studi untuk melampaui SN-DIKTI. Data indikator kinerja tambahan yang sahih harus diukur, dimonitor, dikaji, dan dianalisis untuk perbaikan berkelanjutan.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "4.5.1.1",
+                                "dokumen": "Standar mutu SDM"
+                            },
+                            {
+                                "kode": "4.5.1.2",
+                                "dokumen": "Pedoman Monev SDM (Dosen dan Tendik)"
+                            },
+                            {
+                                "kode": "4.5.1.3",
+                                "dokumen": "Hasil Monev SDM (Dosen dan Tendik)"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "4.5.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "4.5.2.2",
+                                "dokumen": "Daftar Hadir"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "4.6",
+                        "nama": "Evaluasi Capaian Kinerja",
+                        "deskripsi": "Berisi deskripsi dan analisis keberhasilan dan/atau ketidakberhasilan pencapaian standar yang telah ditetapkan. Capaian kinerja harus diukur dengan metoda yang tepat, dan hasilnya dianalisis serta dievaluasi. Analisis terhadap capaian kinerja harus mencakup identifikasi akar masalah, faktor pendukung keberhasilan dan faktor penghambat ketercapaian standar, dan deskripsi singkat tindak lanjut yang akan dilakukan.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "4.6.1.1",
+                                "dokumen": "Pedoman Monev SDM (Dosen dan Tendik) yang mencakup identifikasi akar masalah, faktor pendukung keberhasilan dan faktor penghambat ketercapaian standar, serta tindak lanjut yang akan dilakukan."
+                            },
+                            {
+                                "kode": "4.6.1.2",
+                                "dokumen": "Pedoman penilaian kinerja Dosen dan Tendik"
+                            },
+                            {
+                                "kode": "4.6.1.3",
+                                "dokumen": "Hasil Monev SDM (Dosen dan Tendik)"
+                            },
+                            {
+                                "kode": "4.6.1.4",
+                                "dokumen": "Hasil Penilaian dan evaluasi kinerja Dosen dan Tendik"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "4.6.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "4.6.2.2",
+                                "dokumen": "Daftar Hadir"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "4.7",
+                        "nama": "Penjaminan Mutu",
+                        "deskripsi": "Berisi deskripsi dan bukti sahih tentang implementasi sistem penjaminan mutu di UPPS yang sesuai dengan standar yang ditetapkan perguruan tinggi terkait SDM, yang mengikuti siklus penetapan, pelaksanaan, evaluasi, pengendalian, dan perbaikan berkelanjutan (PPEPP).",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "4.7.1.1",
+                                "dokumen": "Laporan monev SDM (Dosen dan Tendik)"
+                            },
+                            {
+                                "kode": "4.7.1.2",
+                                "dokumen": "Laporan audit SDM (Dosen dan Tendik)"
+                            },
+                            {
+                                "kode": "4.7.1.3",
+                                "dokumen": "Laporan audit tindak lanjut SDM (Dosen dan Tendik)"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "4.7.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "4.7.2.2",
+                                "dokumen": "Daftar Hadir"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "4.8",
+                        "nama": "Kepuasan Pengguna",
+                        "deskripsi": "Berisi deskripsi mengenai pengukuran kepuasan dosen dan tenaga kependidikan terhadap layanan pengelolaan dan pengembangan SDM yang memenuhi aspek-aspek berikut:\n                a) Kejelasan instrumen yang digunakan, pelaksanaan, perekaman dan analisis datanya.\n                b) Ketersediaan bukti yang sahih tentang hasil pengukuran kepuasan dosen dan tenaga kependidikan yang dilaksanakan secara konsisten, dan ditindaklanjuti secara berkala dan tersistem.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "4.8.1.1",
+                                "dokumen": "Pedoman Penyusunan Instrumen pengukuran kepuasan dosen dan tendik terhadap layanan pengelolaan dan pengembangan SDM"
+                            },
+                            {
+                                "kode": "4.8.1.2",
+                                "dokumen": "Pedoman pelaksanaan survey (waktu, pelaksana, tempat, Dokumentasi) yang menunjukkan bahwa survey dilaksanakan secara konsisten, dan ditindaklanjuti secara berkala dan tersistem."
+                            },
+                            {
+                                "kode": "4.8.1.3",
+                                "dokumen": "Pedoman analisis hasil survey"
+                            },
+                            {
+                                "kode": "4.8.1.4",
+                                "dokumen": "hasil analisis dan review pelaksanaan pengukuran kepuasan dosen dan tendik terhadap layanan pengelolaan dan pengembangan SDM."
+                            },
+                            {
+                                "kode": "4.8.1.5",
+                                "dokumen": "laporan tindak lanjut untuk perbaikan dan peningkatan mutu luaran secara berkala dan tersistem"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "4.8.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "4.8.2.2",
+                                "dokumen": "Daftar Hadir"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "4.9",
+                        "nama": "Kesimpulan hasil evaluasi ketercapaian standar serta tindak lanjut",
+                        "deskripsi": "Berisi ringkasan dari pemosisian, masalah dan akar masalah, serta rencana perbaikan dan pengembangan yang akan dilakukan oleh UPPS terkait sumber daya manusia pada program studi yang diakreditasi.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "4.9.1.1",
+                                "dokumen": "Laporan Evaluasi dan tindak lanjut terkait pengelolaan dan pengembangan SDM Dosen dan Tendik"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "4.9.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "4.9.2.2",
+                                "dokumen": "Daftar Hadir"
+                            }
+                        ]
+                    }
+                ],
+                "dokumen_sumber": null,
+                "dokumen_pendukung": null
+            },
+            {
+                "nomor": "5",
+                "nama": " KEUANGAN, SARANA DAN PRASARANA ",
+                "deskripsi": null,
+                "writeable": false,
+                "butir": [
+                    {
+                        "nomor": "5.1",
+                        "nama": "Latar Belakang",
+                        "deskripsi": "Bagian ini mencakup latar belakang, tujuan, dan rasional atas strategi pencapaian standar yang ditetapkan perguruan tinggi terkait:\na) keuangan yang mencakup aspek perencanaan, pengalokasian, realisasi, dan pertanggungjawaban biaya operasional tridharma serta investasi, dan\nb) sarana dan prasarana yang dimaksudkan untuk menjamin pencapaian capaian pembelajaran dan peningkatan suasana akademik.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "5.1.1.1",
+                                "dokumen": "Kinerja keuangan yang mencakup aspek perencanaan, pengalokasian, realisasi, dan pertanggungjawaban biaya operasional tridharma serta investasi"
+                            },
+                            {
+                                "kode": "5.1.1.2",
+                                "dokumen": "Ketersediaan sarana dan prasarana untuk menjamin pencapaian capaian pembelajaran dan peningkatan suasana akademik"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "5.1.2.1",
+                                "dokumen": "Notulensi penyusunan dokumen sumber"
+                            },
+                            {
+                                "kode": "5.1.2.2",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "5.1.2.3",
+                                "dokumen": "Foto Kegiatan"
+                            },
+                            {
+                                "kode": "5.1.2.4",
+                                "dokumen": "SK Penetapan Alokasi anggaran"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "5.2",
+                        "nama": "Kebijakan",
+                        "deskripsi": "Berisi deskripsi dokumen formal dan standar tentang:\na) pengelolaan keuangan yang mencakup: perencanaan, pengalokasian, realisasi, dan pertanggungjawaban biaya pendidikan yang sesuai dengan kebijakan perguruan tinggi.\nb) pengelolaan sarana dan prasarana yang mencakup: perencanaan, pengadaan, pemanfaatan, pemeliharaan, dan penghapusan yang sesuai dengan kebijakan perguruan tinggi.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "5.2.1.1",
+                                "dokumen": "Kebijakan pengelolaan keuangan yang mencakup perencanaan, pengalokasian, realisasi, dan pertanggungjawaban biaya pendidikan."
+                            },
+                            {
+                                "kode": "5.2.1.2",
+                                "dokumen": "Kebijakan pengelolaan sarana dan prasarana yang mencakup perencanaan,pengadaan, pemanfaatan, pemeliharaan, dan penghapusan yang sesuai dengan kebijakan perguruan tinggi"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "5.2.2.1",
+                                "dokumen": "Notulen Penyusunan dokumen sumber"
+                            },
+                            {
+                                "kode": "5.2.2.2",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "5.2.2.3",
+                                "dokumen": "Foto Kegiatan"
+                            },
+                            {
+                                "kode": "5.2.2.4",
+                                "dokumen": "SK penetapan"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "5.3",
+                        "nama": "Strategi pencapaian standar",
+                        "deskripsi": "Bagian ini mencakup strategi UPPS dalam pencapaian standar-standar yang ditetapkan perguruan tinggi terkait:\na) keuangan (perencanaan, pengalokasian, realisasi, dan pertanggungjawaban), dan\nb) pengelolaan sarana dan prasarana pendidikan maupun penunjang pendidikan (perencanaan, pengadaan, pemanfaatan, pemeliharaan, dan penghapusan).",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "5.3.1.1",
+                                "dokumen": "RENSTRA keuangan dan sarpras"
+                            },
+                            {
+                                "kode": "5.3.1.2",
+                                "dokumen": "RENOP keuangan dan sarpras"
+                            },
+                            {
+                                "kode": "5.3.1.3",
+                                "dokumen": "Sasaran Mutu"
+                            },
+                            {
+                                "kode": "5.3.1.4",
+                                "dokumen": "Standar Mutu keuangan, sarana dan prasarana"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "5.3.2.1",
+                                "dokumen": "Notulen Penyusun dokumen sumber"
+                            },
+                            {
+                                "kode": "5.3.2.2",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "5.3.2.3",
+                                "dokumen": "Foto Kegiatan"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "5.4",
+                        "nama": "Indikator Kinerja Utama",
+                        "deskripsi": "Pada bagian ini juga harus diuraikan sumber daya yang dialokasikan untuk mencapai standar yang telah ditetapkan serta mekanisme kontrol ketercapaiannya. Data keuangan, sarana dan prasarana disajikan dengan teknik representasi yang relevan (misalnya: kurva tren, rasio, dan proporsi) dan komprehensif, serta kecenderungan yang terjadi disimpulkan. Data dan analisis yang disampaikan meliputi aspek:",
+                        "writeable": false,
+                        "butir": [
+                            {
+                                "nomor": "5.4.a",
+                                "nama": "Keuangan",
+                                "deskripsi": "1) Alokasi dan penggunaan dana untuk biaya operasional pendidikan (Tabel 4 LKPS). \n2) Penggunaan dana untuk kegiatan penelitian dosen tetap: ratarata dana penelitian DTPS/tahun dalam 3 tahun terakhir (Tabel 4 LKPS). \n3) Penggunaan dana untuk kegiatan PkM dosen tetap: rata-rata dana PkM DTPS/tahun dalam 3 tahun terakhir (Tabel 4 LKPS). \n4) Penggunaan dana untuk investasi (SDM, sarana dan prasarana) dalam 3 tahun terakhir (Tabel 4 LKPS)",
+                                "writeable": true,
+                                "butir": null,
+                                "dokumen_sumber": null,
+                                "dokumen_pendukung": null
+                            },
+                            {
+                                "nomor": "5.4.b",
+                                "nama": "Sarana",
+                                "deskripsi": "1) Kecukupan dan Aksesibilitas Sarana Pendidikan \nKecukupan sarana terlihat dari ketersediaan, kepemilikan, kemutakhiran, dan kesiapgunaan fasilitas dan peralatan untuk pembelajaran maupun kegiatan penelitian dan PkM. Sarana pembelajaran yang digunakan oleh program studi dapat dijelaskan dalam tabel yang dilengkapi dengan informasi mengenai kecukupan dan aksesibilitasnya bagi mahasiswa. \n2) Kecukupan dan Aksesibilitas Sarana Teknologi Informasi dan Komunikasi Kecukupan sarana terlihat dari ketersediaan, kemutakhiran, dan kesiapgunaan fasilitas dan peralatan teknologi informasi dan komunikasi yang dimanfaatkan oleh UPPS untuk: \na) mengumpulkan data yang cepat, akurat, dan dapat dipertanggungjawabkan serta terjaga kerahasiaannya. \nb) mengelola data pendidikan (sistem informasi manajemen perguruan tinggi: akademik, perpustakaan, SDM, keuangan, aset, decission support system, dll.) \nc) menyebarkan ilmu pengetahuan (e-learning, e-library, dll.).",
+                                "writeable": true,
+                                "butir": null,
+                                "dokumen_sumber": null,
+                                "dokumen_pendukung": null
+                            },
+                            {
+                                "nomor": "5.4.c",
+                                "nama": "Kecukupan dan Aksesibilitas Prasarana",
+                                "deskripsi": "Kecukupan prasarana terlihat dari ketersediaan, kepemilikan, kemutakhiran, kesiapgunaan prasarana untuk pembelajaran maupun kegiatan penelitian dan PkM, termasuk peruntukannya bagi mahasiswa berkebutuhan khusus. Prasarana yang digunakan oleh program studi dapat dijelaskan dalam tabel yang dilengkapi dengan informasi mengenai kecukupan dan aksesibilitasnya bagi mahasiswa.",
+                                "writeable": true,
+                                "butir": null,
+                                "dokumen_sumber": null,
+                                "dokumen_pendukung": null
+                            }
+                        ],
+                        "dokumen_sumber": [
+                            {
+                                "kode": "5.4.1.1",
+                                "dokumen": "Standar mutu keuangan, sarana dan prasarana"
+                            },
+                            {
+                                "kode": "5.4.1.2",
+                                "dokumen": "Data keuangan yang mencakup alokasi dan penggunaan dana untuk biaya operasional pendidikan, penggunaan dana untuk kegiatan penelitian dosen tetap, penggunaan dana untuk kegiatan PkM dosen tetap, penggunaan dana untuk investasi (SDM, sarana dan prasarana)"
+                            },
+                            {
+                                "kode": "5.4.1.3",
+                                "dokumen": "Data Kecukupan sarana yang mencakup ketersediaan, kepemilikan, kemutakhiran, dan kesiapgunaan fasilitas dan peralatan untuk pembelajaran maupun kegiatan penelitian dan PkM."
+                            },
+                            {
+                                "kode": "5.4.1.4",
+                                "dokumen": "Data Kecukupan sarana yang mencakup ketersediaan, kemutakhiran, dan kesiapgunaan fasilitas dan peralatan teknologi informasi dan komunikasi."
+                            },
+                            {
+                                "kode": "5.4.1.5",
+                                "dokumen": "Pengelolaan data pendidikan (sistem informasi manajemen perguruan tinggi: akademik, perpustakaan, SDM, keuangan, aset, decission support system, dll.)"
+                            },
+                            {
+                                "kode": "5.4.1.6",
+                                "dokumen": "Data ketersediaan fasilitas teknologi informasi untuk menyebarkan ilmu pengetahuan (e-learning, e-library, dll."
+                            },
+                            {
+                                "kode": "5.4.1.7",
+                                "dokumen": "Data Kecukupan prasarana yang mencakup ketersediaan, kepemilikan, kemutakhiran, kesiapgunaan prasarana untuk pembelajaran maupun kegiatan penelitian dan PkM, serta peruntukannya bagi mahasiswa berkebutuhan khusus."
+                            },
+                            {
+                                "kode": "5.4.1.8",
+                                "dokumen": "Pedoman Monev Keuangan dan Sarpras"
+                            },
+                            {
+                                "kode": "5.4.1.9",
+                                "dokumen": "Hasil Monev Keuangan dan Sarpras"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "5.4.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "5.4.2.2",
+                                "dokumen": "Daftar Hadir"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "5.5",
+                        "nama": "Indikator Kinerja Tambahan (yang melewati standar Nasional)",
+                        "deskripsi": "Indikator kinerja tambahan adalah indikator keuangan, sarana dan prasarana lain berdasarkan standar yang ditetapkan oleh UPPS dan program studi untuk melampaui SN-DIKTI. Data indikator kinerja tambahan yang sahih harus diukur, dimonitor, dikaji dan dianalisis untuk perbaikan berkelanjutan.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "5.5.1.1",
+                                "dokumen": "Standar mutu Keuangan, sarana dan prasarana"
+                            },
+                            {
+                                "kode": "5.5.1.2",
+                                "dokumen": "Pedoman Monev Keuangan dan Sarpras"
+                            },
+                            {
+                                "kode": "5.5.1.3",
+                                "dokumen": "Hasil Monev Keuangan dan Sarpras"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "5.5.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "5.5.2.2",
+                                "dokumen": "Daftar Hadir"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "5.6",
+                        "nama": "Evaluasi Capaian Kinerja",
+                        "deskripsi": "Berisi deskripsi dan analisis keberhasilan dan/atau ketidakberhasilan pencapaian standar yang telah ditetapkan. Capaian kinerja harus diukur dengan metoda yang tepat, dan hasilnya dianalisis serta dievaluasi. Analisis terhadap capaian kinerja harus mencakup identifikasi akar masalah, faktor pendukung keberhasilan dan faktor penghambat ketercapaian standar, dan deskripsi singkat tindak lanjut yang akan dilakukan UPPS.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "5.6.1.1",
+                                "dokumen": "Pedoman Monev Keuangan dan Sarpras yang mencakup identifikasi akar masalah, faktor pendukung keberhasilan dan faktor penghambat ketercapaian standar, serta tindak lanjut yang akan dilakukan."
+                            },
+                            {
+                                "kode": "5.6.1.2",
+                                "dokumen": "Hasil Monev Keuangan dan Sarpras"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "5.6.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "5.6.2.2",
+                                "dokumen": "Daftar Hadir"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "5.7",
+                        "nama": "Penjaminan Mutu",
+                        "deskripsi": "Berisi deskripsi dan bukti sahih tentang implementasi sistem penjaminan mutu di UPPS yang sesuai dengan standar yag ditetapkan perguruan tinggi terkait keuangan dan sarana dan prasarana, yang mengikuti siklus penetapan, pelaksanaan, evaluasi, pengendalian, dan perbaikan berkelanjutan (PPEPP).",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "5.7.1.1",
+                                "dokumen": "Laporan monev Keuangan dan Sarpras"
+                            },
+                            {
+                                "kode": "5.7.1.2",
+                                "dokumen": "Laporan audit Keuangan dan Sarpras"
+                            },
+                            {
+                                "kode": "5.7.1.3",
+                                "dokumen": "Laporan audit tindak lanjut Keuangan dan Sarpras"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "5.7.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "5.7.2.2",
+                                "dokumen": "Daftar Hadir"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "5.8",
+                        "nama": "Kepuasan Pengguna (Dosen dan Tendik)",
+                        "deskripsi": "Berisi deskripsi mengenai pengukuran kepuasan sivitas akademika terhadap layanan pengelolaan keuangan maupun sarana dan prasarana yang memenuhi aspek-aspek berikut:\na) Kejelasan instrumen yang digunakan, pelaksanaan, perekaman dan analisis datanya.\nb) Ketersediaan bukti yang sahih tentang hasil pengukuran kepuasan sivitas akademika yang dilaksanakan secara konsisten, dan ditindaklanjuti secara berkala dan tersistem.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "5.8.1.1",
+                                "dokumen": "Pedoman Penyusunan Instrumen pengukuran kepuasan sivitas akademika terhadap layanan pengelolaan keuangan maupun sarana dan prasarana"
+                            },
+                            {
+                                "kode": "5.8.1.2",
+                                "dokumen": "Pedoman pelaksanaan survey (waktu, pelaksana, tempat, Dokumentasi) yang menunjukkan bahwa survey dilaksanakan secara konsisten, dan ditindaklanjuti secara berkala dan tersistem."
+                            },
+                            {
+                                "kode": "5.8.1.3",
+                                "dokumen": "Pedoman analisis hasil survey"
+                            },
+                            {
+                                "kode": "5.8.1.4",
+                                "dokumen": "Hasil analisis dan review pelaksanaan kepuasan sivitas akademika terhadap layanan pengelolaan keuangan maupun sarana dan prasarana"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "5.8.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "5.8.2.2",
+                                "dokumen": "Daftar Hadir"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "5.9",
+                        "nama": "Kesimpulan hasil evaluasi ketercapaian standar serta tindak lanjut",
+                        "deskripsi": "Berisi ringkasan dari pemosisian, masalah dan akar masalah, serta rencana perbaikan dan pengembangan yang akan dilakukan UPPS terkait keuangan, sarana dan prasarana pada program studi yang diakreditasi.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "5.9.1.1",
+                                "dokumen": "Laporan Evaluasi dan tindak lanjut terkait pengelolaan keuangan maupun sarana dan prasarana"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "5.9.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "5.9.2.2",
+                                "dokumen": "Daftar Hadir"
+                            }
+                        ]
+                    }
+                ],
+                "dokumen_sumber": null,
+                "dokumen_pendukung": null
+            },
+            {
+                "nomor": "6",
+                "nama": " PENDIDIKAN ",
+                "deskripsi": null,
+                "writeable": false,
+                "butir": [
+                    {
+                        "nomor": "6.1",
+                        "nama": "Latar Belakang",
+                        "deskripsi": "Bagian ini mencakup latar belakang, tujuan, dan rasional atas strategi pencapaian standar perguruan tinggi terkait pendidikan dan proses pendidikan, yang mencakup kurikulum, pembelajaran (karakteristik proses pembelajaran, rencana proses pembelajaran, pelaksanaan proses pembelajaran, monitoring dan evaluasi proses pembelajaran, dan penilaian pembelajaran), integrasi kegiatan penelitian dan PkM dalam pembelajaran, dan suasana akademik yang didasarkan atas analisis internal dan eksternal, serta posisi dan daya saing program studi.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "6.1.1.1",
+                                "dokumen": "Kurikulum Program Studi"
+                            },
+                            {
+                                "kode": "6.1.1.2",
+                                "dokumen": "SKPI, RPS, SAP"
+                            },
+                            {
+                                "kode": "6.1.1.3",
+                                "dokumen": "Pembelajaran (karakteristik proses pembelajaran, rencana proses pembelajaran, pelaksanaan proses pembelajaran, monitoring dan evaluasi proses pembelajaran, dan penilaian pembelajaran)."
+                            },
+                            {
+                                "kode": "6.1.1.4",
+                                "dokumen": "Kebijakan integrasi kegiatan penelitian dan PkM dalam pembelajaran"
+                            },
+                            {
+                                "kode": "6.1.1.5",
+                                "dokumen": "Kebijakan suasana akademik yang didasarkan atas analisis internal dan eksternal, serta posisi dan daya saing program studi."
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "6.1.2.1",
+                                "dokumen": "Notulensi penyusunan dokumen sumber"
+                            },
+                            {
+                                "kode": "6.1.2.2",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "6.1.2.3",
+                                "dokumen": "Foto Kegiatan"
+                            },
+                            {
+                                "kode": "6.1.2.4",
+                                "dokumen": "SK Penetapan Kurikulum"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "6.2",
+                        "nama": "Kebijakan",
+                        "deskripsi": "Berisi deskripsi dokumen formal kebijakan pendidikan, standar, dan panduan akademik yang memuat tujuan dan sasaran pendidikan, strategi, metode, dan instrumen untuk mengukur efektivitasnya.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "6.2.1.1",
+                                "dokumen": "Kebijakan pengelolaan pendidikan"
+                            },
+                            {
+                                "kode": "6.2.1.2",
+                                "dokumen": "Kebijakan penetapan standar pendidikan (SNPT)"
+                            },
+                            {
+                                "kode": "6.2.1.3",
+                                "dokumen": "Panduan akademik yang memuat tujuan dan sasaran pendidikan"
+                            },
+                            {
+                                "kode": "6.2.1.4",
+                                "dokumen": "Kebijakan strategi, metode, dan instrumen untuk mengukur efektivitas pengelolaan pendidikan."
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "6.2.2.1",
+                                "dokumen": "Notulen Penyusunan dokumen sumber"
+                            },
+                            {
+                                "kode": "6.2.2.2",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "6.2.2.3",
+                                "dokumen": "Foto Kegiatan"
+                            },
+                            {
+                                "kode": "6.2.2.4",
+                                "dokumen": "SK penetapan kurikulum"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "6.3",
+                        "nama": "Strategi pencapaian standar",
+                        "deskripsi": "Bagian ini mencakup strategi UPPS dan program studi dalam pencapaian standar yang ditetapkan perguruan tinggi terkait pendidikan, yang mencakup isi pembelajaran (kurikulum), pembelajaran (karakteristik proses pembelajaran, rencana proses pembelajaran, pelaksanaan proses pembelajaran, monitoring dan evaluasi proses pembelajaran, dan penilaian pembelajaran), integrasi kegiatan penelitian dan PkM dalam pembelajaran, dan suasana akademik. Pada bagian ini juga harus diuraikan sumber daya yang dialokasikan untuk mencapai standar yang telah ditetapkan serta mekanisme kontrol ketercapaiannya.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "6.3.1.1",
+                                "dokumen": "RENSTRA bidang pendidikan"
+                            },
+                            {
+                                "kode": "6.3.1.2",
+                                "dokumen": "RENOP bidang pendidikan"
+                            },
+                            {
+                                "kode": "6.3.1.3",
+                                "dokumen": "Standar Mutu pendidikan (8 standar)"
+                            },
+                            {
+                                "kode": "6.3.1.4",
+                                "dokumen": "Sasaran Mutu"
+                            },
+                            {
+                                "kode": "6.3.1.5",
+                                "dokumen": "Laporan kegiatan workshop, seminar, dsb"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "6.3.2.1",
+                                "dokumen": "Notulen Penyusun dokumen sumber"
+                            },
+                            {
+                                "kode": "6.3.2.2",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "6.3.2.3",
+                                "dokumen": "Foto Kegiatan"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "6.4",
+                        "nama": "Indikator Kinerja Utama",
+                        "deskripsi": null,
+                        "writeable": true,
+                        "butir": [
+                            {
+                                "nomor": "6.4.a",
+                                "nama": "Kurikulum Program Studi yang diakrediasi",
+                                "deskripsi": "1) Keterlibatan pemangku kepentingan dalam proses evaluasi dan pemutakhiran kurikulum. Evaluasi dan pemutakhiran kurikulum melibatkan pemangku kepentingan internal dan eksternal, serta direview oleh pakar bidang ilmu program studinya. \n2) Dokumen kurikulum. \na. Kesesuaian capaian pembelajaran dengan profil lulusan dan jenjang KKNI/SKKNI yang sesuai. \nb. Ketepatan struktur kurikulum dalam pembentukan capaian pembelajaran \nc. Ketersediaan dokumen pemetaan capaian pembelajaran, bahan kajian dan matakuliah (atau dokumen sejenis lainnya). \nTampilkan data kurikulum, capaian pembelajaran, dan rencana\npembelajaran dengan teknik representasi yang relevan dan\nkomprehensif. Data dan analisis yang disampaikan meliputi:\na. Struktur program dan beban belajar mahasiswa untuk mencapai\ncapaian pembelajaran yang direncanakan (Tabel 5.a LKPS).\nb. Konversi bobot kredit mata kuliah ke jam praktikum/\npraktik/praktik lapangan (Tabel 5.a LKPS). Data dan analisis\ndisampaikan oleh pengusul dari program studi pada program\nDiploma Tiga/Sarjana/Sarjana Terapan.",
+                                "writeable": true,
+                                "butir": null,
+                                "dokumen_sumber": null,
+                                "dokumen_pendukung": null
+                            },
+                            {
+                                "nomor": "6.4.b",
+                                "nama": "Pembelajaran",
+                                "deskripsi": "1) Pemenuhan karakteristik proses pembelajaran yang terdiri atas sifat interaktif, holistik, integratif, saintifik, kontekstual, tematik, efektif, kolaboratif, dan berpusat pada mahasiswa. Program studi harus menjelaskan penerapan proses pembelajaran berdasarkan sifat-sifat tersebut untuk menghasilkan profil lulusan yang diterapkan di program studi yang diakreditasi sesuai dengan capaian pembelajaran yang direncanakan dalam dokumen kurikulum. \n2) Ketersediaan dokumen rencana pembelajaran semester (RPS) dengan kedalaman dan keluasan sesuai dengan capaian pembelajaran lulusan. Pelaksanaan proses pembelajaran yang mencakup bentuk interaksi antara dosen, mahasiswa, dan sumber belajar, pemantauan kesesuaian proses terhadap rencana pembelajaran, metoda pembelajaran yang secara efektif diterapkan untuk mendukung capaian pembelajaran, serta keterkaitan kegiatan penelitian dan PkM dalam proses pembelajaran. \n3) Monitoring dan evaluasi pelaksanaan proses pembelajaran mencakup karakteristik, perencanaan, pelaksanaan, proses pembelajaran dan beban belajar mahasiswa untuk memperoleh capaian pembelajaran lulusan. \n4) Mutu pelaksanaan penilaian pembelajaran (proses dan hasil belajar mahasiswa) untuk mengukur ketercapaian capaian pembelajaran lulusan berdasarkan prinsip penilaian yang edukatif, otentik, objektif, akuntabel, dan transparan, dan dilakukan secara terintegrasi.  \n5) Hasil analisis data terhadap luaran penelitian dan/atau luaran PkM yang diintegrasikan ke dalam pembelajaran/pengembangan mata kuliah (Tabel 5.b. LKPS).",
+                                "writeable": true,
+                                "butir": null,
+                                "dokumen_sumber": null,
+                                "dokumen_pendukung": null
+                            },
+                            {
+                                "nomor": "6.4.c",
+                                "nama": "Suasana Akademik",
+                                "deskripsi": "Keterlaksanaan dan keberkalaan program dan kegiatan akademik di luar kegiatan pembelajaran terstruktur yang menunjukkan adanya interaksi antar sivitas akademika untuk menciptakan suasana akademik yang kondusif dalam rangka peningkatan mutu pembelajaran. Program dan kegiatan (seperti: seminar ilmiah, bedah buku, dll.) dilaksanakan dengan mengusung nilai-nilai kebebasan akademik, kebebasan mimbar akademik, dan otonomi keilmuan untuk membangun dan memupuk budaya akademik yang berintegritas.",
+                                "writeable": true,
+                                "butir": null,
+                                "dokumen_sumber": null,
+                                "dokumen_pendukung": null
+                            }
+                        ],
+                        "dokumen_sumber": [
+                            {
+                                "kode": "6.4.1.1",
+                                "dokumen": "Standar mutu pendidikan"
+                            },
+                            {
+                                "kode": "6.4.1.2",
+                                "dokumen": "Dokumen evaluasi dan pemutakhiran kurikulum yang melibatkan pemangku kepentingan internal dan eksternal, serta direview oleh pakar bidang ilmu program studinya."
+                            },
+                            {
+                                "kode": "6.4.1.3",
+                                "dokumen": "Dokumen Kesesuaian capaian pembelajaran dengan profil lulusan dan jenjang KKNI/SKKNI."
+                            },
+                            {
+                                "kode": "6.4.1.4",
+                                "dokumen": "Dokumen Ketepatan struktur kurikulum dalam pembentukan capaian pembelajaran."
+                            },
+                            {
+                                "kode": "6.4.1.5",
+                                "dokumen": "Dokumen rencana pembelajaran dan pemetaan capaian pembelajaran, bahan kajian dan matakuliah (atau dokumen sejenis lainnya)."
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "6.4.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "6.4.2.2",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "6.4.2.3",
+                                "dokumen": "SK Pemutakhiran Kurikulum"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "6.5",
+                        "nama": "Indikator Kinerja Tambahan (yang melewati standar Nasional)",
+                        "deskripsi": "Indikator kinerja tambahan adalah indikator proses pendidikan lain berdasarkan standar yang ditetapkan oleh perguruan tinggi dan/atau UPPS untuk melampaui SN-DIKTI. Data indikator kinerja tambahan yang sahih harus diukur, dimonitor, dikaji dan dianalisis untuk perbaikan berkelanjutan.\n",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "6.5.1.1",
+                                "dokumen": "Standar Mutu Pendidikan"
+                            },
+                            {
+                                "kode": "6.5.1.2",
+                                "dokumen": "Dokumen Monev terhadap proses pendidikan yang sahih yang terukur dikaji dan dianalisis untuk perbaikan berkelanjutan."
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "6.5.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "6.5.2.2",
+                                "dokumen": "Daftar Hadir"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "6.6",
+                        "nama": "Evaluasi Capaian Kinerja",
+                        "deskripsi": "Berisi deskripsi dan analisis keberhasilan dan/atau ketidakberhasilan pencapaian standar yang telah ditetapkan. Capaian kinerja harus diukur dengan metoda yang tepat, dan hasilnya dianalisis serta dievaluasi. Analisis terhadap capaian kinerja harus mencakup identifikasi akar masalah, faktor pendukung keberhasilan dan faktor penghambat ketercapaian standar, dan deskripsi singkat tindak lanjut yang akan dilakukan UPPS.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "6.6.1.1",
+                                "dokumen": "Pedoman Monev Pendidikan yang mencakup identifikasi akar masalah, faktor pendukung keberhasilan dan faktor penghambat ketercapaian standar, serta tindak lanjut yang akan dilakukan."
+                            },
+                            {
+                                "kode": "6.6.1.2",
+                                "dokumen": "Hasil Monev Bidang Pendidikan"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "6.6.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "6.6.2.2",
+                                "dokumen": "Daftar Hadir"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "6.7",
+                        "nama": "Penjaminan Mutu",
+                        "deskripsi": "Berisi deskripsi dan bukti sahih tentang implementasi sistem penjaminan mutu di UPPS yang sesuai dengan standar yang ditetapkan perguruan tinggi terkait proses pendidikan, yang mengikuti siklus penetapan, pelaksanaan, evaluasi, pengendalian, dan perbaikan berkelanjutan (PPEPP).",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "6.7.1.1",
+                                "dokumen": "Laporan monev Bidang Pendidikan"
+                            },
+                            {
+                                "kode": "6.7.1.2",
+                                "dokumen": "Laporan audit Bidang Pendidikan"
+                            },
+                            {
+                                "kode": "6.7.1.3",
+                                "dokumen": "Laporan audit tindak lanjut Bidang Pendidikan"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "6.7.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "6.7.2.2",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "6.7.2.3",
+                                "dokumen": "Foto kegiatan"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "6.8",
+                        "nama": "Kepuasan Pengguna (Mahasiswa)",
+                        "deskripsi": "Berisi deskripsi mengenai pengukuran kepuasan mahasiswa terhadap layanan dan pelaksanaan proses pendidikan yang memenuhi aspek- aspek berikut:\n\na)Kejelasan instrumen yang digunakan, pelaksanaan, perekaman dan analisis datanya.\nb)Ketersediaan bukti yang sahih tentang hasil pengukuran kepuasan mahasiswa yang dilaksanakan secara konsisten, dan ditindaklanjuti secara berkala dan tersistem (Tabel 5.c. LKPS).\n",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "6.8.1.1",
+                                "dokumen": "Pedoman Penyusunan Instrumen pengukuran kepuasan mahasiswa terhadap proses pendidikan"
+                            },
+                            {
+                                "kode": "6.8.1.2",
+                                "dokumen": "Pedoman pelaksanaan survey (waktu, pelaksana, tempat, Dokumentasi) yang menunjukkan bahwa survey dilaksanakan secara konsisten, dan ditindaklanjuti secara berkala dan tersistem."
+                            },
+                            {
+                                "kode": "6.8.1.3",
+                                "dokumen": "Pedoman analisis hasil survey"
+                            },
+                            {
+                                "kode": "6.8.1.4",
+                                "dokumen": "Hasil analisis dan review pelaksanaan kepuasan mahasiswa terhadap proses pendidikan"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "6.8.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "6.8.2.2",
+                                "dokumen": "Daftar Hadir"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "6.9",
+                        "nama": "Kesimpulan hasil evaluasi ketercapaian standar serta tindak lanjut",
+                        "deskripsi": "Berisi ringkasan dari pemosisian, masalah dan akar masalah, serta rencana perbaikan dan pengembangan yang akan dilakukan oleh UPPS terkait proses pendidikan pada program studi yang diakreditasi.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "6.9.1.1",
+                                "dokumen": "Laporan Evaluasi dan tindak lanjut terkait Proses Pendidikan Program Studi yang diakreditasi"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "6.9.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "6.9.2.2",
+                                "dokumen": "Daftar Hadir"
+                            }
+                        ]
+                    }
+                ],
+                "dokumen_sumber": null,
+                "dokumen_pendukung": null
+            },
+            {
+                "nomor": "7",
+                "nama": " PENELITIAN ",
+                "deskripsi": null,
+                "writeable": false,
+                "butir": [
+                    {
+                        "nomor": "7.1",
+                        "nama": "Latar Belakang",
+                        "deskripsi": "Bagian ini mencakup latar belakang, tujuan, dan rasional atas strategi pencapaian standar perguruan tinggi terkait proses penelitian yang mencakup perencanaan, pelaksanaan, pemantauan, dan pelaporan penelitian yang didasarkan atas analisis internal dan eksternal, serta posisi dan keunggulan pada bidang keilmuan program studi.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "7.1.1.1",
+                                "dokumen": "proses penelitian yang mencakup perencanaan, pelaksanaan, pemantauan, dan pelaporan"
+                            },
+                            {
+                                "kode": "7.1.1.2",
+                                "dokumen": "analisis internal dan eksternal, serta posisi dan keunggulan pada bidang keilmuan program studi."
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "7.1.2.1",
+                                "dokumen": "Notulensi penyusunan dokumen sumber"
+                            },
+                            {
+                                "kode": "7.1.2.2",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "7.1.2.3",
+                                "dokumen": "Foto Kegiatan"
+                            },
+                            {
+                                "kode": "7.1.2.4",
+                                "dokumen": "SK Penetapan Penelitian"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "7.2",
+                        "nama": "Kebijakan",
+                        "deskripsi": "Berisi deskripsi dokumen formal kebijakan dan standar penelitian yang mendorong adanya keterlibatan mahasiswa program studi dalam penelitian dosen. Kebijakan penelitian juga harus memastikan adanya peta jalan penelitian yang memayungi tema penelitian dosen dan mahasiswa.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "7.2.1.1",
+                                "dokumen": "Dokumen Formal tentang kebijakan penelitian"
+                            },
+                            {
+                                "kode": "7.2.1.2",
+                                "dokumen": "Dokumen Kebijakan yang berisi penelitian dosen yang melibatkan mahasiswa sebagai pelaksanaan tugas ahir atau kegiatan lainnya"
+                            },
+                            {
+                                "kode": "7.2.1.3",
+                                "dokumen": "Dokumen kebijakan yang berisi penelitian dosen yang menjadi rujukan tema Tesis/ Disertasi mahasiswa Program Studi"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "7.2.2.1",
+                                "dokumen": "Notulen Penyusunan dokumen sumber"
+                            },
+                            {
+                                "kode": "7.2.2.2",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "7.2.2.3",
+                                "dokumen": "Foto Kegiatan"
+                            },
+                            {
+                                "kode": "7.2.2.4",
+                                "dokumen": "SK penetapan Penelitian"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "7.3",
+                        "nama": "Strategi pencapaian standar",
+                        "deskripsi": "Bagian ini mencakup strategi UPPS dan program studi dalam pencapaian standar yang ditetapkan perguruan tinggi terkait proses penelitian dosen dan mahasiswa. Pada bagian ini juga harus diuraikan sumber daya yang dialokasikan untuk mencapai standar yang telah ditetapkan serta mekanisme kontrol ketercapaiannya.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "7.3.1.1",
+                                "dokumen": "Dokumen tentang pengalokasian sumber daya untuk mencapai standar yang telah ditetapkan"
+                            },
+                            {
+                                "kode": "7.3.1.2",
+                                "dokumen": "Standar Mutu Penelitian (8 standar)"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "7.3.2.1",
+                                "dokumen": "Notulen Penyusun dokumen"
+                            },
+                            {
+                                "kode": "7.3.2.2",
+                                "dokumen": "Daftar Hadir"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "7.4",
+                        "nama": "Indikator Kinerja Utama",
+                        "deskripsi": "Data penelitian dosen yang melibatkan mahasiswa disajikan dengan teknik representasi yang relevan (misalnya: kurva tren, rasio, dan proporsi) dan komprehensif, serta kecenderungan yang terjadi disimpulkan. Data dan analisis yang disampaikan meliputi aspek: ",
+                        "writeable": false,
+                        "butir": [
+                            {
+                                "nomor": "7.4.a",
+                                "nama": "Relevansi penelitian",
+                                "deskripsi": "Relevansi penelitian DTPS di UPPS mencakup unsur-unsur sebagai berikut: \n1) memiliki peta jalan yang memayungi tema penelitian dosen dan mahasiswa serta pengembangan keilmuan program studi. \n2) dosen dan mahasiswa melaksanakan penelitian sesuai dengan peta jalan penelitian. \n3) melakukan evaluasi kesesuaian penelitian dosen dan mahasiswa terhadap peta jalan, dan \n4) menggunakan hasil evaluasi untuk perbaikan relevansi penelitian dan pengembangan keilmuan program studi.",
+                                "writeable": true,
+                                "butir": null,
+                                "dokumen_sumber": null,
+                                "dokumen_pendukung": null
+                            },
+                            {
+                                "nomor": "7.4.b",
+                                "nama": "Penelitian Dosen dan Mahasiswa",
+                                "deskripsi": "Keterlibatan mahasiswa pada kegiatan penelitian DTPS dalam 3 tahun terakhir (Tabel 6.a LKPS). Data dan analisis disampaikan oleh pengusul dari program studi pada program Sarjana/Sarjana Terapan/Magister/Magister Terapan/Doktor/Doktor Terapan.",
+                                "writeable": true,
+                                "butir": null,
+                                "dokumen_sumber": null,
+                                "dokumen_pendukung": null
+                            },
+                            {
+                                "nomor": "7.4.c",
+                                "nama": "Penelitian Dosen dan Mahasiswa Sebagai Rujukan",
+                                "deskripsi": "Kegiatan penelitian DTPS yang digunakan sebagai rujukan tema tesis atau disertasi mahasiswa dalam 3 tahun terakhir (Tabel 6.b LKPS). Tema tesis dan/atau disertasi mahasiswa harus terkait dengan agenda penelitian dosen yang merupakan penjabaran dari peta jalan penelitian PT/UPPS. Data dan analisis disampaikan oleh pengusul dari program studi pada program Magister/Magister Terapan/Doktor/Doktor Terapan.",
+                                "writeable": true,
+                                "butir": null,
+                                "dokumen_sumber": null,
+                                "dokumen_pendukung": null
+                            }
+                        ],
+                        "dokumen_sumber": [
+                            {
+                                "kode": "7.4.1.1",
+                                "dokumen": "Standar mutu penelitian"
+                            },
+                            {
+                                "kode": "7.4.1.2",
+                                "dokumen": "Kebijakan penelitian Dosen dan Mahasiswa sesuai dengan pengembangan keilmuan Program Studi"
+                            },
+                            {
+                                "kode": "7.4.1.3",
+                                "dokumen": "Dokumen Monev kesesuaian penelitian Dosen dan Mahasiswa dengan keilmuan Program Studi"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "7.4.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "7.4.2.2",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "7.4.2.3",
+                                "dokumen": "SK kebijakan penelitian"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "7.5",
+                        "nama": "Indikator Kinerja Tambahan",
+                        "deskripsi": "Indikator kinerja tambahan adalah indikator proses penelitian lain yang ditetapkan oleh UPPS dan program studi untuk melampaui SN-DIKTI. Data indikator kinerja tambahan yang sahih harus diukur, dimonitor, dikaji dan dianalisis untuk perbaikan berkelanjutan.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "7.5.1.1",
+                                "dokumen": "Standar Mutu Penelitian"
+                            },
+                            {
+                                "kode": "7.5.1.2",
+                                "dokumen": "Dokumen Monitoring terhadap kesesuaian antara penelitian Dosen dan Mahasiswa dengan keilmuan Program Studi"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "7.5.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "7.5.2.2",
+                                "dokumen": "Daftar Hadir"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "7.6",
+                        "nama": "Evaluasi Capaian Kinerja",
+                        "deskripsi": "Berisi deskripsi dan analisis keberhasilan dan/atau ketidakberhasilan pencapaian standar yang telah ditetapkan. Capaian kinerja harus diukur dengan metoda yang tepat, dan hasilnya dianalisis serta dievaluasi. Analisis terhadap capaian kinerja harus mencakup identifikasi akar masalah, faktor pendukung keberhasilan dan faktor penghambat ketercapaian standar, dan deskripsi singkat tindak lanjut yang akan dilakukan.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "7.6.1.1",
+                                "dokumen": "Pedoman Monev Penelitian yang mencakup identifikasi akar masalah, faktor pendukung keberhasilan dan faktor penghambat ketercapaian standar, serta tindak lanjut yang akan dilakukan."
+                            },
+                            {
+                                "kode": "7.6.1.2",
+                                "dokumen": "Hasil Monev Bidang Penelitian"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "7.6.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "7.6.2.2",
+                                "dokumen": "Daftar Hadir"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "7.7",
+                        "nama": "Penjaminan Mutu Penelitian",
+                        "deskripsi": "Berisi deskripsi dan bukti sahih tentang implementasi sistem penjaminan mutu di UPPS yang sesuai dengan standar mutu yang ditetapkan perguruan tinggi terkait proses penelitian, yang mengikuti siklus penetapan, pelaksanaan, evaluasi, pengendalian, dan perbaikan berkelanjutan (PPEPP).",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "7.7.1.1",
+                                "dokumen": "Laporan monev Penelitian"
+                            },
+                            {
+                                "kode": "7.7.1.2",
+                                "dokumen": "Laporan audit Penelitian"
+                            },
+                            {
+                                "kode": "7.7.1.3",
+                                "dokumen": "Laporan audit tindak lanjut Penelitian"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "7.7.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "7.7.2.2",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "7.7.2.3",
+                                "dokumen": "Foto kegiatan"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "7.8",
+                        "nama": "Kepuasan Pengguna",
+                        "deskripsi": "Berisi deskripsi mengenai pengukuran kepuasan peneliti dan mitra kegiatan penelitian terhadap layanan dan pelaksanaan proses penelitian yang memenuhi aspek-aspek berikut:\na)Kejelasan instrumen yang digunakan, pelaksanaan, perekaman dan analisis datanya.\nb)Ketersediaan bukti yang sahih tentang hasil pengukuran kepuasan peneliti dan mitra kegiatan penelitian yang dilaksanakan secara konsisten, dan ditindaklanjuti secara berkala dan tersistem.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "7.8.1.1",
+                                "dokumen": "Pedoman Penyusunan Instrumen pengukuran kepuasan peneliti dan mitra kegiatan penelitian terhadap layanan dan pelaksanaan proses penelitian"
+                            },
+                            {
+                                "kode": "7.8.1.2",
+                                "dokumen": "Pedoman pelaksanaan survey (waktu, pelaksana, tempat, Dokumentasi) yang menunjukkan bahwa survey dilaksanakan secara konsisten, dan ditindaklanjuti secara berkala dan tersistem."
+                            },
+                            {
+                                "kode": "7.8.1.3",
+                                "dokumen": "Pedoman analisis hasil survey"
+                            },
+                            {
+                                "kode": "7.8.1.4",
+                                "dokumen": "Hasil analisis dan review pelaksanaan pengukuran kepuasan peneliti dan mitra kegiatan penelitian terhadap layanan dan pelaksanaan proses penelitian"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "7.8.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "7.8.2.2",
+                                "dokumen": "Daftar Hadir"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "7.9",
+                        "nama": "Kesimpulan hasil evaluasi ketercapaian standar serta tindak lanjut",
+                        "deskripsi": "Berisi ringkasan dari pemosisian, masalah dan akar masalah, serta rencana perbaikan dan pengembangan oleh UPPS terkait proses penelitian pada program studi yang diakreditasi.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "7.9.1.1",
+                                "dokumen": "Laporan Evaluasi dan tindak lanjut proses pengelolaan penelitian."
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "7.9.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "7.9.2.2",
+                                "dokumen": "Daftar Hadir"
+                            }
+                        ]
+                    }
+                ],
+                "dokumen_sumber": null,
+                "dokumen_pendukung": null
+            },
+            {
+                "nomor": "8",
+                "nama": " PENGABDIAN KEPADA MASYARAKAT ",
+                "deskripsi": null,
+                "writeable": false,
+                "butir": [
+                    {
+                        "nomor": "8.1",
+                        "nama": "Latar Belakang",
+                        "deskripsi": "Bagian ini mencakup latar belakang, tujuan, dan rasional atas strategi pencapaian standar perguruan tinggi terkait proses pengabdian kepada masyarakat (PkM) yang mencakup: perencanaan, pelaksanaan, pemantauan, dan pelaporan PkM yang didasarkan atas analisis internal dan eksternal, serta posisi dan keunggulan pada bidang keilmuan program studi.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "8.1.1.1",
+                                "dokumen": "Proses pengabdian kepada masyarakat (PkM) yang mencakup: perencanaan, pelaksanaan, pemantauan, dan pelaporan PkM yang didasarkan atas analisis internal dan eksternal, serta posisi dan keunggulan pada bidang keilmuan program studi."
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "8.1.2.1",
+                                "dokumen": "Notulensi penyusunan dokumen sumber"
+                            },
+                            {
+                                "kode": "8.1.2.2",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "8.1.2.3",
+                                "dokumen": "Foto Kegiatan"
+                            },
+                            {
+                                "kode": "8.1.2.4",
+                                "dokumen": "SK Penetapan Penelitian"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "8.2",
+                        "nama": "Kebijakan",
+                        "deskripsi": "Berisi deskripsi dokumen formal kebijakan dan standar PkM yang mendorong adanya keterlibatan mahasiswa program studi dalam PkM dosen. Kebijakan PkM juga harus memastikan adanya peta jalan PkM yang memayungi tema PkM dosen dan mahasiswa.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "8.2.1.1",
+                                "dokumen": "Dokumen Formal tentang kebijakan dan standar PkM yang mendorong adanya keterlibatan mahasiswa program studi dalam PkM dosen"
+                            },
+                            {
+                                "kode": "8.2.1.2",
+                                "dokumen": "Dokumen peta jalan PkM yang memayungi tema PkM dosen dan mahasiswa."
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "8.2.2.1",
+                                "dokumen": "Notulen Penyusunan dokumen sumber"
+                            },
+                            {
+                                "kode": "8.2.2.2",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "8.2.2.3",
+                                "dokumen": "SK Penetapan kebijakan penelitian"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "8.3",
+                        "nama": "Strategi pencapaian standar",
+                        "deskripsi": "Bagian ini mencakup strategi UPPS dan program studi dalam pencapaian standar yang ditetapkan perguruan tinggi terkait proses PkM dosen dan mahasiswa. Pada bagian ini juga harus diuraikan sumber daya yang dialokasikan untuk mencapai standar yang telah ditetapkan serta mekanisme kontrol ketercapaiannya.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "8.3.1.1",
+                                "dokumen": "Dokumen tentang pengalokasian sumber daya untuk mencapai standar yang telah ditetapkan"
+                            },
+                            {
+                                "kode": "8.3.1.2",
+                                "dokumen": "Standar Mutu Pengabdian kepada Masyarakat (8 standar)"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "8.3.2.1",
+                                "dokumen": "Notulen Penyusun dokumen sumber"
+                            },
+                            {
+                                "kode": "8.3.2.2",
+                                "dokumen": "Daftar Hadir"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "8.4",
+                        "nama": "Indikator Kinerja Utama",
+                        "deskripsi": null,
+                        "writeable": false,
+                        "butir": [
+                            {
+                                "nomor": "8.4.a",
+                                "nama": "Relevansi PkM",
+                                "deskripsi": "Relevansi PkM DTPS di UPPS mencakup unsur-unsur sebagai berikut: \n1) memiliki peta jalan yang memayungi tema PkM dosen dan mahasiswa serta hilirisasi/penerapan keilmuan program studi. \n2) dosen dan mahasiswa melaksanakan PkM sesuai dengan peta jalan PkM. \n3) melakukan evaluasi kesesuaian PkM dosen dan mahasiswa terhadap peta jalan, dan \n4) menggunakan hasil evaluasi untuk perbaikan relevansi PkM dan pengembangan keilmuan program studi.",
+                                "writeable": true,
+                                "butir": null,
+                                "dokumen_sumber": null,
+                                "dokumen_pendukung": null
+                            },
+                            {
+                                "nomor": "8.4.b",
+                                "nama": "PkM Dosen dan Mahasiswa ",
+                                "deskripsi": "Data PkM dosen yang melibatkan mahasiswa disajikan dengan teknik representasi yang relevan (misalnya: kurva tren, rasio, dan proporsi) dan komprehensif, serta kecenderungan yang terjadi disimpulkan. Data dan analisis yang disampaikan meliputi keterlibatan mahasiswa pada kegiatan PkM DTPS dalam 3 tahun terakhir (Tabel 7 LKPS). Data dan analisis disampaikan oleh pengusul dari program studi pada program Diploma Tiga/Sarjana/Sarjana Terapan.",
+                                "writeable": true,
+                                "butir": null,
+                                "dokumen_sumber": null,
+                                "dokumen_pendukung": null
+                            }
+                        ],
+                        "dokumen_sumber": [
+                            {
+                                "kode": "8.4.1.1",
+                                "dokumen": "Standar Mutu Pengabdian kepada Masyarakat"
+                            },
+                            {
+                                "kode": "8.4.1.2",
+                                "dokumen": "Kebijakan peta jalan PkM yang memayungi tema PkM dosen dan mahasiswa serta hilirisasi/penerapan keilmuan program studi"
+                            },
+                            {
+                                "kode": "8.4.1.3",
+                                "dokumen": "Dokumen Monev kesesuaian PkM Dosen dan Mahasiswa dengan kebijakan peta jalan PkM."
+                            },
+                            {
+                                "kode": "8.4.1.4",
+                                "dokumen": "Kebijakan tindak lanjut monev PkM untuk perbaikan relevansi PkM dan pengembangan keilmuan program studi."
+                            },
+                            {
+                                "kode": "8.4.1.5",
+                                "dokumen": "Data keterlibatan mahasiswa dalam PkM dosen"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "8.4.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "8.4.2.2",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "8.4.2.3",
+                                "dokumen": "SK kebijakan PKM"
+                            },
+                            {
+                                "kode": "8.4.2.4",
+                                "dokumen": "Laporan PKM"
+                            },
+                            {
+                                "kode": "8.4.2.5",
+                                "dokumen": "Foto Kegiatan"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "8.5",
+                        "nama": "Indikator Kinerja Tambahan (yang melewati standar Nasional)",
+                        "deskripsi": "Indikator kinerja tambahan adalah indikator proses PkM lain berdasarkan standar yang ditetapkan oleh UPPS dan program studi untuk melampui SN-DIKTI. Data indikator kinerja tambahan yang sahih harus diukur, dimonitor, dikaji, dan dianalisis untuk perbaikan berkelanjutan.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "8.5.1.1",
+                                "dokumen": "Standar Mutu PKM (8 standar)"
+                            },
+                            {
+                                "kode": "8.5.1.2",
+                                "dokumen": "Dokumen kebijakan peta jalan PkM yang menunjukkan ciri khas program studi"
+                            },
+                            {
+                                "kode": "8.5.1.3",
+                                "dokumen": "Dokumen monev PKMM"
+                            },
+                            {
+                                "kode": "8.5.1.4",
+                                "dokumen": "Dokumen audit PKM"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "8.5.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "8.5.2.2",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "8.5.2.3",
+                                "dokumen": "Foto Kegiatan"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "8.6",
+                        "nama": "Evaluasi Capaian Kinerja",
+                        "deskripsi": "Berisi deskripsi dan analisi keberhasilan dan/atau ketidakberhasilan pencapaian standar yang telah ditetapkan. Capaian kinerja harus diukur dengan metoda yang tepat, dan hasilnya dianalisis serta dievaluasi. Analisis terhadap capaian kinerja harus mencakup identifikasi akar masalah, faktor pendukung keberhasilan dan faktor penghambat ketercapaian standar, dan deskripsi singkat tindak lanjut yang akan dilakukan UPPS.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "8.6.1.1",
+                                "dokumen": "Pedoman Monev PkM yang mencakup identifikasi akar masalah, faktor pendukung keberhasilan dan faktor penghambat ketercapaian standar, serta tindak lanjut yang akan dilakukan."
+                            },
+                            {
+                                "kode": "8.6.1.2",
+                                "dokumen": "Hasil Monev PkM"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "8.6.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "8.6.2.2",
+                                "dokumen": "Daftar Hadir"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "8.7",
+                        "nama": "Penjaminan Mutu",
+                        "deskripsi": "Berisi deskripsi dan bukti sahih tentang implementasi sistem penjaminan mutu di UPPS yang sesuai dengan standar yang ditetapkan perguruan tinggi terkait PkM, yang mengikuti siklus penetapan, pelaksanaan, evaluasi, pengendalian, dan perbaikan berkelanjutan (PPEPP).",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "8.7.1.1",
+                                "dokumen": "Laporan monev PKM"
+                            },
+                            {
+                                "kode": "8.7.1.2",
+                                "dokumen": "Laporan audit PKM"
+                            },
+                            {
+                                "kode": "8.7.1.3",
+                                "dokumen": "Laporan audit tindak lanjut PKM"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "8.7.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "8.7.2.2",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "8.7.2.3",
+                                "dokumen": "Foto kegiatan"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "8.8",
+                        "nama": "Kepuasan Pengguna (Mahasiswa)",
+                        "deskripsi": "Berisi deskripsi mengenai pengukuran kepuasan pelaksana dan mitra kegiatan PkM terhadap layanan dan pelaksanaan proses PkM yang memenuhi aspek-aspek berikut:\na)Kejelasan instrumen yang digunakan, pelaksanaan, perekaman, dan analisis datanya.\nb)Ketersediaan bukti yang sahih tentang hasil pengukuran kepuasan pelaksana dan mitra kegiatan PkM yang dilaksanakan secara konsisten, dan ditindaklanjuti secara berkala dan tersistem.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "8.8.1.1",
+                                "dokumen": "Pedoman Penyusunan Instrumen pengukuran kepuasan pelaksana dan mitra kegiatan PkM terhadap layanan dan pelaksanaan proses PkM"
+                            },
+                            {
+                                "kode": "8.8.1.2",
+                                "dokumen": "Pedoman pelaksanaan survey (waktu, pelaksana, tempat, Dokumentasi) yang menunjukkan bahwa survey dilaksanakan secara konsisten, dan ditindaklanjuti secara berkala dan tersistem."
+                            },
+                            {
+                                "kode": "8.8.1.3",
+                                "dokumen": "Pedoman analisis hasil survey Hasil analisis dan review pelaksanaan pengukuran kepuasan pelaksana dan mitra kegiatan PkM terhadap layanan dan pelaksanaan proses PkM"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "8.8.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "8.8.2.2",
+                                "dokumen": "Daftar Hadir"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "8.9",
+                        "nama": "Kesimpulan hasil evaluasi ketercapaian standar serta tindak lanjut",
+                        "deskripsi": "Berisi ringkasan dari pemosisian, masalah dan akar masalah, serta rencana perbaikan dan pengembangan PkM oleh UPPS terkait proses PkM pada program studi yang diakreditasi.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "8.9.1.1",
+                                "dokumen": "Laporan Evaluasi dan tindak lanjut PkM"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "8.9.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "8.9.2.2",
+                                "dokumen": "Daftar Hadir"
+                            }
+                        ]
+                    }
+                ],
+                "dokumen_sumber": null,
+                "dokumen_pendukung": null
+            },
+            {
+                "nomor": "9",
+                "nama": " LUARAN DAN CAPAIAN TRI DHARMA ",
+                "deskripsi": null,
+                "writeable": false,
+                "butir": [
+                    {
+                        "nomor": "9.4",
+                        "nama": "Indikator Kinerja Utama",
+                        "deskripsi": null,
+                        "writeable": true,
+                        "butir": [
+                            {
+                                "nomor": "9.4.a",
+                                "nama": "Luaran Dharma Pendidikan",
+                                "deskripsi": "Kinerja dharma pendidikan diukur berdasarkan keberadaan dan implementasi sistem yang menghasilkan data luaran dan capaian pendidikan yang sahih, mencakup metoda yang digunakan untuk mengukur capaian pembelajaran lulusan, prestasi mahasiswa, efektivitas dan produktivitas pendidikan, daya saing lulusan, serta kinerja lulusan. \nDeskripsi luaran dharma pendidikan diawali dengan uraian mengenai analisis pemenuhan capaian pembelajaran lulusan yang dilakukan UPPS dan program studi, mencakup aspek keserbacakupan, kedalaman dan kebermanfaatan yang ditunjukkan dengan adanya peningkatan capaian pembelajaran lulusan dari waktu ke waktu. Selanjutnya data luaran dharma pendidikan disajikan dengan teknik representasi yang relevan (misalnya: kurva tren, rasio, dan proporsi) dan komprehensif, serta kecenderungan yang terjadi disimpulkan. Data dan analisis yang disampaikan meliputi aspek: \n1) Capaian pembelajaran lulusan yang diukur berdasarkan rata-rata IPK lulusan (Tabel 8.a. LKPS). \n2) Capaian prestasi mahasiswa: \na. bidang akademik (Tabel 8.b.1 LKPS). \nb. bidang non-akademik (Tabel 8.b.2 LKPS). Data dan analisis disampaikan oleh pengusul dari program studi pada program Diploma Tiga/Sarjana/Sarjana Terapan \n3) Efektivitas dan produktivitas pendidikan: \na. Rata-rata masa studi (Tabel 8.c LKPS). \nb. Persentase kelulusan tepat waktu (Tabel 8.c LKPS). \nc. Persentase keberhasilan studi (Tabel 8.c LKPS). \n4) Daya saing lulusan: \na. Deskripsi mengenai pelaksanaan studi penelusuran lulusan (tracer study) mencakup aspek organisasi, metodologi, instrumen, penilaian, evaluasi, dan pemanfaatan hasil studi. \nb. Waktu tunggu lulusan untuk mendapatkan pekerjaan pertama atau berwirausaha pada bidang kerja/usaha yang relevan dengan bidang program studi (Tabel 8.d.1 LKPS). Data dan analisis disampaikan oleh pengusul dari program studi pada program Diploma Tiga/Sarjana/Sarjana Terapan. \nc. Persentase kesesuaian bidang kerja lulusan saat mendapatkan pekerjaan pertama (Tabel 8.d.2 LKPS). Data diambil dari hasil studi penelusuran lulusan (tracer study). Data dan analisis disampaikan oleh pengusul dari program studi pada program Diploma Tiga/Sarjana/Sarjana Terapan/Magister/Magister Terapan. \n5) Kinerja lulusan: \na. Deskripsi mengenai pelaksanaan studi penelusuran lulusan (tracer study) terhadap pengguna lulusan, mencakup aspek organisasi, metodologi, instrumen, penilaian, evaluasi, dan pemanfaatan hasil studi. \nb. Tempat kerja lulusan: tingkat/ukuran tempat kerja/berwirausaha lulusan (Tabel 8.e.1 LKPS). Data dan analisis disampaikan oleh pengusul dari program studi pada program Diploma Tiga/Sarjana/Sarjana Terapan. \nc. Tingkat kepuasan pengguna lulusan pada aspek etika, keahlian pada bidang ilmu, kemampuan berbahasa asing, penggunaan teknologi informasi, kemampuan berkomunikasi, kerjasama tim, dan pengembangan diri (Tabel 8.e.2 LKPS). Data dan analisis disampaikan oleh pengusul dari program studi pada program Diploma Tiga/Sarjana/Sarjana Terapan/Magister/Magister Terapan.",
+                                "writeable": true,
+                                "butir": null,
+                                "dokumen_sumber": null,
+                                "dokumen_pendukung": null
+                            },
+                            {
+                                "nomor": "9.4.b",
+                                "nama": "Luaran Dharma Penelitian dan Pengabdia Kepada Masyarakat",
+                                "deskripsi": "Luaran dharma penelitian dan pengabdian kepada masyarakat oleh mahasiswa dalam proses pendidikan disajikan dengan teknik representasi yang relevan (misalnya: kurva tren, rasio, dan proporsi) dan komprehensif, serta kecenderungan yang terjadi disimpulkan. Data dan analisis yang disampaikan meliputi aspek: \n1) Publikasi ilmiah mahasiswa, yang dihasilkan secara mandiri atau bersama DTPS (Tabel 8.f.1 LKPS). Data dan analisis disampaikan oleh pengusul dari program studi pada program Sarjana/Magister/Doktor. \n2) Pagelaran/pameran/presentasi/publikasi ilmiah yang dihasilkan mahasiswa secara mandiri atau bersama DTPS (Tabel 8.f.1 LKPS). Data dan analisis disampaikan oleh pengusul dari program studi pada program Sarjana Terapan/Magister Terapan/Doktor Terapan. \n3) Karya ilmiah mahasiswa, yang dihasilkan secara mandiri atau bersama DTPS, yang disitasi (Tabel 8.f.2 LKPS). Data dan analisis disampaikan oleh pengusul dari program studi pada program Magister/Magister Terapan/Doktor/Doktor Terapan. \n4) Produk/jasa yang dihasilkan mahasiswa, yang dihasilkan secara mandiri atau bersama DTPS, yang diadopsi oleh industri/masyarakat (Tabel 8.f.3 LKPS). Data dan analisis disampaikan oleh pengusul dari program studi pada program Diploma Tiga/Sarjana Terapan/Doktor/Doktor Terapan. \n5) Luaran penelitian/PkM lain yang dihasilkan mahasiswa, baik secara mandiri atau bersama DTPS, misalnya: HKI, Teknologi Tepat Guna, Produk, Karya Seni, Rekayasa Sosial, Buku berISBN, Book Chapter (Tabel 8.f.4 LKPS). Data dan analisis disampaikan oleh pengusul dari program studi pada program Sarjana/Sarjana Terapan/Magister/Magister Terapan/Doktor/Doktor Terapan",
+                                "writeable": true,
+                                "butir": null,
+                                "dokumen_sumber": null,
+                                "dokumen_pendukung": null
+                            }
+                        ],
+                        "dokumen_sumber": [
+                            {
+                                "kode": "9.4.1.1",
+                                "dokumen": "Standar Mutu"
+                            },
+                            {
+                                "kode": "9.4.1.2",
+                                "dokumen": "Pedoman pengukuran capaian pembelajaran lulusan, prestasi mahasiswa, efektivitas dan produktivitas pendidikan, daya saing lulusan, serta kinerja lulusan."
+                            },
+                            {
+                                "kode": "9.4.1.3",
+                                "dokumen": "Data capaian pembelajaran lulusan yang mencakup aspek keserbacakupan, kedalaman dan kebermanfaatan (meliputi data IPK lulusan, capaian prestasi akademik dan non akademik, rata-rata masa studi, kelulusan tepat waktu) yang menunjukkan adanya peningkatan dari waktu ke waktu."
+                            },
+                            {
+                                "kode": "9.4.1.4",
+                                "dokumen": "Pedoman tracer study terhadap lulusan dan pengguna lulusan, yang mencakup aspek organisasi, metodologi, instrumen, penilaian, evaluasi, dan pemanfaatan hasil studi."
+                            },
+                            {
+                                "kode": "9.4.1.5",
+                                "dokumen": "Data hasil tracer study terhadap lulusan yang mencakup waktu tunggu lulusan untuk mendapatkan pekerjaan pertama, dan kesesuaian bidang kerja pekerjaan pertama."
+                            },
+                            {
+                                "kode": "9.4.1.6",
+                                "dokumen": "Data hasil tracer study terhadap pengguna lulusan yang mencakup tingkat/ukuran tempat kerja/berwirausaha lulusan, kepuasan pengguna lulusan (meliputi aspek etika, keahlian pada bidang ilmu, kemampuan berbahasa asing, penggunaan teknologi informasi, kemampuan berkomunikasi, kerjasama tim, dan pengembangan diri)."
+                            },
+                            {
+                                "kode": "9.4.1.7",
+                                "dokumen": "Data luaran penelitian dan PkM mahasiswa, meliputi publikasi ilmiah mahasiswa, HKI, Teknologi Tepat Guna, Produk, Karya Seni, Rekayasa Sosial, Buku ber-ISBN, Book Chapter (baik yang dilakukan mandiri atau bersama dosen tetap program studi),"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "9.4.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "9.4.2.2",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "9.4.2.3",
+                                "dokumen": "Dokumen publikasi ilmiah mahasiswa, HKI, Teknologi Tepat Guna, Produk, Karya Seni, Rekayasa Sosial, Buku ber-ISBN, atau Book Chapter yang dihasilkan mahasiswa"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "9.5",
+                        "nama": "Indikator Kinerja Tambahan (yang melewati standar Nasional)",
+                        "deskripsi": "Indikator kinerja tambahan adalah indikator luaran dan capaian tridharma lain berdasarkan standar yang ditetapkan UPPS dan program studi untuk melampaui SN-DIKTI. Data indikator kinerja tambahan yang sahih harus diukur, dimonitor, dikaji, dan dianalisis untuk perbaikan berkelanjutan.",
+                        "dokumen_sumber": [
+                            {
+                                "kode": "9.5.1.1",
+                                "dokumen": "Standar Mutu"
+                            },
+                            {
+                                "kode": "9.5.1.2",
+                                "dokumen": "Dokumen Monev terhadap luaran dan capaian tridharma berdasarkan standar yang ditetapkan untuk melampaui SN-Dikti)"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "9.5.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "9.5.2.2",
+                                "dokumen": "Daftar Hadir"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "9.6",
+                        "nama": "Evaluasi Capaian Kinerja",
+                        "deskripsi": "Berisi deskripsi dan analisis keberhasilan dan/atau ketidakberhasilan pencapaian standar yang telah ditetapkan. Capaian kinerja harus diukur dengan metoda yang tepat, dan hasilnya dianalisis serta dievaluasi. Analisis terhadap capaian kinerja harus mencakup identifikasi akar masalah, faktor pendukung keberhasilan dan faktor penghambat ketercapaian standar, dan deskripsi singkat tindak lanjut yang akan dilakukan UPPS.\n",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "9.6.1.1",
+                                "dokumen": "Pedoman Monev luaran tridharma, yang mencakup identifikasi akar masalah, faktor pendukung keberhasilan dan faktor penghambat ketercapaian standar, serta tindak lanjut yang akan dilakukan."
+                            },
+                            {
+                                "kode": "9.6.1.2",
+                                "dokumen": "Hasil Monev luaran tridharma"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "9.6.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "9.6.2.2",
+                                "dokumen": "Daftar Hadir"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "9.7",
+                        "nama": "Penjaminan Mutu Luaran",
+                        "deskripsi": "Berisi deskripsi dan bukti sahih tentang implementasi sistem penjaminan mutu di UPPS yang sesuai dengan standar yang ditetapkan perguruan tinggi terkait luaran dan capaian tridharma, yang mengikuti siklus penetapan, pelaksanaan, evaluasi, pengendalian, dan perbaikan berkelanjutan (PPEPP).",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "9.7.1.1",
+                                "dokumen": "Laporan Monev luaran tridharma"
+                            },
+                            {
+                                "kode": "9.7.1.2",
+                                "dokumen": "Laporan audit luaran tridharma"
+                            },
+                            {
+                                "kode": "9.7.1.3",
+                                "dokumen": "Laporan audit tindak lanjut luaran tridharma"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "9.7.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "9.7.2.2",
+                                "dokumen": "Daftar Hadir"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "9.8",
+                        "nama": "Kepuasan Pengguna (Mahasiswa)",
+                        "deskripsi": "Berisi deskripsi mengenai pengukuran kepuasan pengguna lulusan dan mitra kerja terhadap kinerja lulusan yang memenuhi aspek-aspek berikut:\na)Kejelasan instrumen yang digunakan, pelaksanaan, perekaman dan analisis datanya.\nb)Ketersediaan bukti yang sahih tentang hasil pengukuran kepuasan pengguna lulusan yang dilaksanakan secara konsisten, dan ditindaklanjuti secara berkala dan tersistem.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "9.8.1.1",
+                                "dokumen": "Pedoman Penyusunan Instrumen pengukuran kepuasan pengguna lulusan dan mitra kerja terhadap kinerja lulusan."
+                            },
+                            {
+                                "kode": "9.8.1.2",
+                                "dokumen": "Pedoman pelaksanaan survey (waktu, pelaksana, tempat, Dokumentasi) yang menunjukkan bahwa survey dilaksanakan secara konsisten, dan ditindaklanjuti secara berkala dan tersistem."
+                            },
+                            {
+                                "kode": "9.8.1.3",
+                                "dokumen": "Pedoman analisis hasil survey"
+                            },
+                            {
+                                "kode": "9.8.1.4",
+                                "dokumen": "Hasil analisis dan review pelaksanaan pengukuran kepuasan pengguna lulusan dan mitra kerja terhadap kinerja lulusan"
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "9.8.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "9.8.2.2",
+                                "dokumen": "Daftar Hadir"
+                            }
+                        ]
+                    },
+                    {
+                        "nomor": "9.9",
+                        "nama": "Kesimpulan hasil evaluasi ketercapaian standar serta tindak lanjut",
+                        "deskripsi": "Berisi ringkasan dari pemosisian, masalah dan akar masalah, serta rencana perbaikan dan pengembangan oleh UPPS terkait luaran dan capaian pada program studi yang diakreditasi.",
+                        "writeable": true,
+                        "butir": null,
+                        "dokumen_sumber": [
+                            {
+                                "kode": "9.9.1.1",
+                                "dokumen": "Laporan Evaluasi dan tindak lanjut terkait luaran dan capaian tridharma."
+                            }
+                        ],
+                        "dokumen_pendukung": [
+                            {
+                                "kode": "9.9.2.1",
+                                "dokumen": "Notulen"
+                            },
+                            {
+                                "kode": "9.9.2.2",
+                                "dokumen": "Daftar Hadir"
+                            }
+                        ]
+                    }
+                ],
+                "dokumen_sumber": null,
+                "dokumen_pendukung": null
+            }
+        ],
+        "dokumen_sumber": null,
+        "dokumen_pendukung": null
+    },
+    {
+        "nomor": "D",
+        "nama": "Analisis dan Penetapan Program Pengembangan UPPS",
+        "deskripsi": null,
+        "butir": [
+            {
+                "nomor": 1,
+                "nama": "Analisis Capaian Kinerja",
+                "deskripsi": "Cakupan aspek antar kriteria yang dievaluasi: kelengkapan, keluasan, kedalaman, ketepatan, dan ketajaman analisis untuk mengidentifikasi akar masalah yang didukung oleh data/informasi yang andal dan memadai serta konsisten dengan hasil analisis yang disampaikan pada setiap kriteria di atas.",
+                "butir": null,
+                "writeable": true,
+                "dokumen_sumber": null,
+                "dokumen_pendukung": null
+            },
+            {
+                "nomor": 2,
+                "nama": " Analisis SWOT atau analisis lain yang relevan",
+                "deskripsi": "Ketepatan mengidentifikasi kekuatan atau faktor pendorong, kelemahan atau faktor penghambat, peluang dan ancaman yang dihadapi dalam keterkaitannya dengan hasil analisis capaian kinerja. Hasil identifikasi tersebut dianalisis untuk menentukan posisi UPPS dan program studi yang diakreditasi serta menjadi dasar untuk mengembangkan alternatif solusi dan program pengembangan.",
+                "writeable": true,
+                "butir": null,
+                "dokumen_sumber": null,
+                "dokumen_pendukung": null
+            },
+            {
+                "nomor": 3,
+                "nama": "Strategi Pengembangan",
+                "deskripsi": "Ketepatan mengidentifikasi kekuatan atau faktor pendorong, kelemahan atau faktor penghambat, peluang dan ancaman yang dihadapi dalam keterkaitannya dengan hasil analisis capaian kinerja. Hasil identifikasi tersebut dianalisis untuk menentukan posisi UPPS dan program studi yang diakreditasi serta menjadi dasar untuk mengembangkan alternatif solusi dan program pengembangan.",
+                "writeable": true,
+                "butir": null,
+                "dokumen_sumber": null,
+                "dokumen_pendukung": null
+            },
+            {
+                "nomor": 4,
+                "nama": "Program Keberlanjutan",
+                "deskripsi": "Ketepatan mengidentifikasi kekuatan atau faktor pendorong, kelemahan atau faktor penghambat, peluang dan ancaman yang dihadapi dalam keterkaitannya dengan hasil analisis capaian kinerja. Hasil identifikasi tersebut dianalisis untuk menentukan posisi UPPS dan program studi yang diakreditasi serta menjadi dasar untuk mengembangkan alternatif solusi dan program pengembangan.",
+                "writeable": true,
+                "butir": null,
+                "dokumen_sumber": null,
+                "dokumen_pendukung": null
+            }
+        ],
+        "dokumen_sumber": null,
+        "dokumen_pendukung": null
+    }
+]

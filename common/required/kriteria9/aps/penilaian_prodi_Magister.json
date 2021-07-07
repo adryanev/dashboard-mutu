@@ -1,0 +1,1486 @@
+[
+  {
+    "nomor": "A",
+    "judul": "Kondisi Eksternal",
+    "butir": null,
+    "indikators": [
+      {
+        "nomor": "1",
+        "rumus": null,
+        "isi": "Konsistensi dengan hasil analisis SWOT dan/atau analisis lain serta rencana pengembangan ke depan. Konsistensi dengan hasil analisis SWOT dan/atau analisis lain serta rencana pengembangan ke depan.",
+        "relasi": null,
+        "_4": "Unit Pengelola Program Studi (UPPS) mampu: 1) mengidentifikasi kondisi lingkungan dan industri yang relevan secara komprehensif dan strategis, 2) menetapkan posisi relatif program studi terhadap lingkungannya, 3) menggunakan hasil identifikasi dan posisi yang ditetapkan untuk melakukan analisis (SWOT/metoda analisis lain yang relevan) untuk pengembangan program studi, dan 4) merumuskan strategi pengembangan program studi yang berkesesuaian untuk menghasilkan program-program pengembangan alternatif yang tepat.",
+        "_3": "Unit Pengelola Program Studi (UPPS) mampu: 1) mengidentifikasi kondisi lingkungan dan industri yang relevan secara komprehensif, 2) menetapkan posisi relatif program studi terhadap lingkungannya, dan 3) menggunakan hasil identifikasi dan posisi yang ditetapkan untuk melakukan analisis (SWOT/metoda analisis lain yang relevan) untuk pengembangan program studi.",
+        "_2": "Unit Pengelola Program Studi (UPPS) mampu: 1) mengidentifikasi kondisi lingkungan dan industri yang relevan, dan 2) menetapkan posisi relatif program studi terhadap lingkungannya.",
+        "_1": "Unit Pengelola Program Studi (UPPS) kurang mampu: 1) mengidentifikasi kondisi lingkungan dan industri yang relevan, dan 2) menetapkan posisi relatif program studi terhadap lingkungannya.",
+        "_0": "Unit Pengelola Program Studi (UPPS) tidak mampu: 1) mengidentifikasi kondisi lingkungan dan industri yang relevan, dan 2) menetapkan posisi relatif program studi terhadap lingkungannya."
+      }
+    ]
+  },
+  {
+    "nomor": "B",
+    "judul": "Profil Unit Pengelola Program Studi",
+    "butir": null,
+    "indikators": [
+      {
+        "nomor": "1",
+        "rumus": null,
+        "isi": "Keserbacakupan informasi dalam profil dan konsistensi antara profil dengan data dan informasi yang disampaikan pada masing-masing kriteria, serta menunjukkan iklim yang kondusif untuk pengembangan dan reputasi sebagai rujukan di bidang keilmuannya.",
+        "relasi": null,
+        "_4": "Profil UPPS: 1) menunjukkan keserbacakupan informasi yang jelas dan konsisten dengan data dan informasi yang disampaikan pada masing-masing kriteria, 2) menggambarkan keselarasan dengan substansi keilmuan program studi. 3) menunjukkan iklim yang kondusif untuk pengembangan keilmuan program studi. 4) menunjukkan reputasi sebagai rujukan di bidang keilmuannya.",
+        "_3": "Profil UPPS: 1) menunjukkan keserbacakupan informasi yang jelas dan konsisten dengan data dan informasi yang disampaikan pada masing-masing kriteria, 2) menggambarkan keselarasan dengan substansi keilmuan program studi. 3) menunjukkan iklim yang kondusif untuk pengembangan keilmuan program studi.",
+        "_2": "Profil UPPS: 1) menunjukkan keserbacakupan informasi yang jelas dengan data dan informasi yang disampaikan pada masing-masing kriteria, 2) menggambarkan keselarasan dengan substansi keilmuan program studi.",
+        "_1": "Profil UPPS: 1) kurang menunjukkan keserbacakupan informasi yang jelas dengan data dan informasi yang disampaikan pada masing-masing kriteria, 2) kurang menggambarkan keselarasan dengan substansi keilmuan program studi.",
+        "_0": "Profil UPPS tidak menunjukkan keserbacakupan informasi yang jelas dengan data dan informasi yang disampaikan pada masing-masing kriteria."
+      }
+    ]
+  },
+  {
+    "nomor": "C",
+    "judul": "Kriteria",
+    "butir": [
+      {
+        "nomor": "1",
+        "judul": "Visi, Misi, Tujuan, dan Strategi",
+        "butir": [
+          {
+            "nomor": "1.4",
+            "judul": "Indikator Kinerja Utama",
+            "butir": null,
+            "indikators": [
+              {
+                "nomor": "1.4.1",
+                "relasi": null,
+                "rumus": null,
+                "isi": "Kesesuaian Visi, Misi, Tujuan dan Strategi (VMTS) Unit Pengelola Program Studi (UPPS) terhadap VMTS Perguruan Tinggi (PT) dan visi keilmuan Program Studi (PS) yang dikelolanya.",
+                "_4": "1) visi yang mencerminkan visi perguruan tinggi dan memayungi visi keilmuan terkait keunikan program studi serta didukung data implementasi yang konsisten, 2) misi, tujuan, dan strategi yang searah dan bersinerji dengan misi, tujuan, dan strategi perguruan tinggi serta mendukung pengembangan program studi dengan data implementasi yang konsisten.",
+                "_3": "UPPS memiliki: 1) visi yang mencerminkan visi perguruan tinggi dan memayungi visi keilmuan terkait keunikan program studi, 2) misi, tujuan, dan strategi yang searah dan bersinerji dengan misi, tujuan, dan strategi perguruan tinggi serta mendukung pengembangan program studi.",
+                "_2": "UPPS memiliki: 1) visi yang mencerminkan visi perguruan tinggi dan memayungi visi keilmuan terkait program studi, 2) misi, tujuan, dan strategi yang searah dengan misi, tujuan, dan strategi perguruan tinggi serta mendukung pengembangan program studi.",
+                "_1": "UPPS memiliki: 1) visi yang mencerminkan visi perguruan tinggi namun tidak memayungi visi keilmuan terkait program studi, 2) misi, tujuan, dan strategi kurang searah dengan misi, tujuan sasaran, dan strategi perguruan tinggi serta kurang mendukung pengembangan program studi.",
+                "_0": "UPPS memiliki misi, tujuan, dan strategi yang tidak terkait dengan strategi perguruan tinggi dan pengembangan program studi.",
+                "keterangan": null
+              },
+              {
+                "nomor": "1.4.2",
+                "isi": "Mekanisme dan keterlibatan pemangku kepentingan dalam penyusunan VMTS UPPS.",
+                "relasi": null,
+                "rumus": null,
+                "_4": "Ada mekanisme dalam penyusunan dan penetapan visi, misi, tujuan dan strategi yang terdokumentasi serta ada keterlibatan semua pemangku kepentingan internal (dosen, mahasiswa dan tenaga kependidikan) dan eksternal (lulusan, pengguna lulusan dan pakar/mitra/organisasi profesi/pemerintah).",
+                "_3": "Ada mekanisme dalam penyusunan dan penetapan visi, misi, tujuan dan strategi yang terdokumentasi serta ada keterlibatan pemangku kepentingan internal (dosen, mahasiswa dan tenaga kependidikan) dan pemangku kepentingan eksternal (lulusan dan pengguna lulusan).",
+                "_2": "Ada mekanisme dalam penyusunan dan penetapan visi, misi, tujuan dan strategi yang terdokumentasi serta ada keterlibatan pemangku kepentingan internal (dosen dan mahasiswa) dan pemangku kepentingan eksternal (lulusan).",
+                "_1": "Ada mekanisme dalam penyusunan dan penetapan visi, misi, tujuan dan strategi yang terdokumentasi namun tidak melibatkan pemangku kepentingan.",
+                "_0": "Tidak ada mekanisme dalam penyusunan dan penetapan visi, misi, tujuan dan strategi.",
+                "keterangan": null
+              },
+              {
+                "nomor": "1.4.3",
+                "isi": "Strategi pencapaian tujuan disusun berdasarkan analisis yang sistematis, serta pada pelaksanaannya dilakukan pemantauan dan evaluasi yang ditindaklanjuti.",
+                "relasi": null,
+                "rumus": null,
+                "_4": "Strategi efektif untuk mencapai tujuan dan disusun berdasarkan analisis yang sistematis dengan menggunakan metoda yang relevan dan terdokumentasi serta pada pelaksanaannya dilakukan pemantauan dan evaluasi dan ditindaklanjuti.",
+                "_3": "Strategi efektif untuk mencapai tujuan dan disusun berdasarkan analisis yang sistematis dengan menggunakan metoda yang relevan dan terdokumentasi serta pada pelaksanaannya dilakukan pemantauan dan evaluasi.",
+                "_2": "Strategi untuk mencapai tujuan dan disusun berdasarkan analisis yang sistematis dengan menggunakan metoda yang relevan serta terdokumentasi namun belum terbukti efektifitasnya.",
+                "_1": "Strategi untuk mencapai tujuan disusun berdasarkan analisis yang kurang sistematis serta tidak menggunakan metoda yang relevan.",
+                "_0": "Tidak memiliki strategi untuk mencapai tujuan.",
+                "keterangan": null
+              }
+            ]
+          }
+        ],
+        "indikators": null
+      },
+      {
+        "nomor": "2",
+        "judul": "Tata Pamong, Tata Kelola dan Kerjasama",
+        "butir": [
+          {
+            "nomor": "2.4",
+            "judul": "Indikator Kinerja Utama",
+            "butir": [
+              {
+                "nomor": "2.4.a",
+                "judul": "Sistem Tata Pamong",
+                "butir": null,
+                "indikators": [
+                  {
+                    "nomor": "2.4.a.A",
+                    "relasi": null,
+                    "rumus": null,
+                    "isi": "Kelengkapan struktur organisasi dan keefektifan penyelenggaraan organisasi.",
+                    "_4": "UPPS memiliki dokumen formal struktur organisasi dan tata kerja yang dilengkapi tugas dan fungsinya, serta telah berjalan secara konsisten dan menjamin tata pamong yang baik serta\nberjalan efektif dan efisien\n",
+                    "_3": "UPPS memiliki dokumen formal struktur organisasi dan tata kerja yang dilengkapi tugas dan fungsinya, serta telah berjalan secara konsisten dan menjamin tata pamong yang baik.",
+                    "_2": "UPPS memiliki dokumen formal struktur organisasi dan tata kerja yang dilengkapi tugas dan fungsinya, serta telah berjalan secara konsisten.",
+                    "_1": "UPPS memiliki dokumen formal struktur organisasi dan tata kerja namun tugas dan fungsi belum berjalan secara konsisten.",
+                    "_0": "UPPS tidak memiliki dokumen formal struktur organisasi.",
+                    "keterangan": null
+                  },
+                  {
+                    "nomor": "2.4.a.B",
+                    "isi": "Perwujudan good governance dan pemenuhan lima pilar sistem tata pamong, yang mencakup:\n1) Kredibel,\n2) Transparan,\n3) Akuntabel,\n4) Bertanggung jawab,\n5) Adil.\n",
+                    "relasi": null,
+                    "rumus": "Skor = (A + (2 x B)) / 3",
+                    "_4": "UPPS memiliki praktek baik (best practices) dalam menerapkan tata pamong yang memenuhi 5 kaidah good governance untuk menjamin penyelenggaraan program studi yang bermutu.",
+                    "_3": "UPPS memiliki praktek baik (best practices) dalam menerapkan tata pamong yang memenuhi 4 kaidah good governance untuk menjamin penyelenggaraan program studi yang bermutu.",
+                    "_2": "UPPS memiliki praktek baik (best practices) dalam menerapkan tata pamong yang memenuhi 3 kaidah good governance untuk menjamin penyelenggaraan program studi yang bermutu.",
+                    "_1": "UPPS memiliki praktek baik (best practices) dalam menerapkan tata pamong yang memenuhi 1\ns.d. 2 kaidah good governance untuk menjamin penyelenggaraan program studi yang bermutu.\n",
+                    "_0": null,
+                    "keterangan": null
+                  }
+                ]
+              },
+              {
+                "nomor": "2.4.b",
+                "judul": "Kepemimpinan dan Kemampuan Manajerial",
+                "butir": null,
+                "indikators": [
+                  {
+                    "nomor": "2.4.b.A",
+                    "relasi": null,
+                    "rumus": null,
+                    "isi": "Komitmen pimpinan UPPS.",
+                    "_4": "Terdapat bukti/pengakuan yang sahih bahwa pimpinan UPPS memiliki karakter kepemimpinan operasional, organisasi, dan publik. ",
+                    "_3": "Terdapat bukti/pengakuan yang sahih bahwa pimpinan UPPS memiliki 2 karakter diantara kepemimpinan operasional, organisasi, dan publik. ",
+                    "_2": "Terdapat bukti/pengakuan yang sahih bahwa pimpinan UPPS memiliki salah satu karakter diantara kepemimpinan operasional, organisasi, dan publik. ",
+                    "_1": null,
+                    "_0": null,
+                    "keterangan": null
+                  },
+                  {
+                    "nomor": "2.4.b.B",
+                    "isi": "Kapabilitas pimpinan UPPS, mencakup aspek:\n1) perencanaan,\n2) pengorganisasian,\n3) penempatan\npersonel,\n4) pelaksanaan,\n5) pengendalian dan pengawasan, dan\n6) pelaporan yang menjadi dasar tindak lanjut.\n",
+                    "relasi": null,
+                    "rumus": "Skor = (A + (2 x B)) / 3",
+                    "_4": "Pimpinan UPPS mampu :\n1) melaksanakan 6 fungsi manajemen secara efektif dan efisien,\n2) mengantisipasi dan menyelesaikan masalah pada situasi yang tidak terduga,\n3) melakukan inovasi untuk menghasilkan nilai tambah.",
+                    "_3": "Pimpinan UPPS mampu :\n1) melaksanakan 6 fungsi manajemen secara efektif dan efisien,\n2) mengantisipasi dan menyelesaikan masalah pada situasi yang tidak terduga.",
+                    "_2": "Pimpinan UPPS mampu melaksanakan 6 fungsi manajemen secara efektif.",
+                    "_1": "Pimpinan UPPS mampu melaksanakan kurang dari 6 fungsi manajemen.",
+                    "_0": null,
+                    "keterangan": null
+                  }
+                ]
+              },
+              {
+                "nomor": "2.4.c",
+                "judul": "Kerjasama",
+                "butir": null,
+                "indikators": [
+                  {
+                    "nomor": "2.4.c.1",
+                    "relasi": null,
+                    "rumus": null,
+                    "isi": "Mutu, manfaat, kepuasan dan keberlanjutan kerjasama pendidikan, penelitian dan PkM yang relevan dengan program studi. UPPS memiliki bukti yang sahih terkait kerjasama yang ada telah memenuhi 3 aspek berikut:\n1) memberikan manfaat bagi program studi dalam pemenuhan proses pembelajaran, penelitian, PkM.\n2) memberikan peningkatan kinerja tridharma dan fasilitas pendukung program studi.\n3) memberikan kepuasan kepada mitra industri dan mitra kerjasama lainnya, serta menjamin keberlanjutan kerjasama dan hasilnya.",
+                    "_4": "UPPS memiliki bukti yang sahih terkait kerjasama yang ada telah memenuhi 3 aspek. ",
+                    "_3": "UPPS memiliki bukti yang sahih terkait kerjasama yang ada telah memenuhi aspek 1 dan 2. ",
+                    "_2": "UPPS memiliki bukti yang sahih terkait kerjasama yang ada telah memenuhi aspek 1. ",
+                    "_1": "UPPS tidak memiliki bukti pelaksanaan kerjasama. ",
+                    "_0": null,
+                    "keterangan": null
+                  },
+                  {
+                    "nomor": "2.4.c.A",
+                    "isi": "Kerjasama\npendidikan, penelitian,\ndan PkM yang relevan dengan program studi dan dikelola oleh UPPS dalam 3 tahun terakhir.",
+                    "relasi": [
+                      "1-1",
+                      "1-2",
+                      "1-3"
+                    ],
+                    "rumus": null,
+                    "_4": "Jika RK ≥ 4, maka A = 4",
+                    "_3": "Jika RK < 4, maka A = RK  ",
+                    "_2": "Jika RK < 4, maka A = RK  ",
+                    "_1": "Jika RK < 4, maka A = RK  ",
+                    "_0": "Jika RK < 4, maka A = RK  ",
+                    "keterangan": "RK = ((a x N1) + (b x N2) + (c x N3)) / NDTPS \nFaktor: a = 2 , b = 4 , c = 0 \nN1 = Jumlah kerjasama pendidikan.\nN2 = Jumlah kerjasama penelitian. \nN3 = Jumlah kerjasama PkM.\nNDTPS = Jumlah dosen tetap yang ditugaskan sebagai pengampu mata kuliah dengan bidang keahlian yang sesuai dengan kompetensi inti program studi yang diakreditasi."
+                  },
+                  {
+                    "nomor": "2.4.c.B",
+                    "isi": "Kerjasama tingkat internasional, nasional, wilayah/lokal yang relevan dengan program studi dan dikelola oleh UPPS dalam 3 tahun terakhir.",
+                    "relasi": [
+                      "1-1",
+                      "1-2",
+                      "1-3"
+                    ],
+                    "rumus": "Skor = ((2 x A) + B) / 3",
+                    "_4": "Jika NI ≥ a , maka B = 4",
+                    "_3": "Jika NI < a dan NN ≥ b , maka B = 3 + (NI / a)\n Jika 0 < NI < a dan 0 < NN < b , maka B = 2 + (2 x (NI/a)) + (NN/b) - ((NI x NN)/(a x b)) ",
+                    "_2": "Jika NI < a dan NN ≥ b , maka B = 3 + (NI / a)\n Jika 0 < NI < a dan 0 < NN < b , maka B = 2 + (2 x (NI/a)) + (NN/b) - ((NI x NN)/(a x b)) ",
+                    "_1": "Jika NI = 0 dan NN = 0 dan NL ≥ c , maka B = 2\n Jika NI = 0 dan NN = 0 dan NL < c , maka B = (2 x NL) / c ",
+                    "_0": "Jika NI = 0 dan NN = 0 dan NL ≥ c , maka B = 2\n Jika NI = 0 dan NN = 0 dan NL < c , maka B = (2 x NL) / c ",
+                    "keterangan": "NI = Jumlah kerjasama tingkat internasional. \nFaktor: a = 3 , b = 9 , c = 12 \nNN = Jumlah kerjasama tingkat nasional.\nNW = Jumlah kerjasama tingkat wilayah/lokal."
+                  }
+                ]
+              }
+            ],
+            "indikators": null
+          },
+          {
+            "nomor": "2.5",
+            "judul": "Indikator Kinerja Tambahan",
+            "butir": null,
+            "indikators": [
+              {
+                "nomor": "2.5.1",
+                "relasi": null,
+                "rumus": null,
+                "isi": "Pelampauan SN-DIKTI yang ditetapkan dengan indikator kinerja tambahan yang berlaku di UPPS berdasarkan standar pendidikan tinggi yang ditetapkan perguruan tinggi pada tiap kriteria. ",
+                "_4": "UPPS menetapkan indikator kinerja tambahan berdasarkan standar pendidikan tinggi yang ditetapkan perguruan tinggi. Indikator kinerja tambahan mencakup seluruh kriteria serta menunjukkan daya saing UPPS dan program studi di tingkat inernasional. Data indikator kinerja tambahan telah diukur, dimonitor, dikaji, dan dianalisis untuk perbaikan berkelanjutan. ",
+                "_3": "UPPS menetapkan indikator kinerja tambahan berdasarkan standar pendidikan tinggi yang ditetapkan perguruan tinggi. Indikator kinerja tambahan mencakup sebagian kriteria serta menunjukkan daya saing UPPS dan program studi di tingkat nasional. Data indikator kinerja tambahan telah diukur, dimonitor, dikaji, dan dianalisis untuk perbaikan berkelanjutan. ",
+                "_2": "UPPS tidak menetapkan indikator kinerja tambahan. ",
+                "_1": null,
+                "_0": null,
+                "keterangan": null
+              }
+            ]
+          },
+          {
+            "nomor": "2.6",
+            "judul": "Evaluasi Capaian Kinerja",
+            "butir": null,
+            "indikators": [
+              {
+                "nomor": "2.6.1",
+                "relasi": null,
+                "rumus": null,
+                "isi": "Analisis keberhasilan dan/atau ketidakberhasilan pencapaian kinerja UPPS yang telah ditetapkan di tiap kriteria memenuhi 2 aspek sebagai berikut: \n1) capaian kinerja diukur dengan metoda yang tepat, dan hasilnya dianalisis serta dievaluasi, dan\n2) analisis terhadap capaian kinerja mencakup identifikasi akar masalah, faktor pendukung keberhasilan dan faktor penghambat ketercapaian standard, dan deskripsi singkat tindak lanjut yang akan dilakukan.",
+                "_4": "Analisis pencapaian kinerja UPPS di tiap kriteria memenuhi 2 aspek, dilaksanakan setiap tahun dan hasilnya dipublikasikan kepada para pemangku kepentingan. ",
+                "_3": "Analisis pencapaian kinerja UPPS di tiap kriteria memenuhi 2 aspek dan dilaksanakan setiap tahun. ",
+                "_2": "Analisis pencapaian kinerja UPPS di tiap kriteria memenuhi 2 aspek. ",
+                "_1": "UPPS memiliki laporan pencapaian kinerja namun belum dianalisis dan dievaluasi. ",
+                "_0": "UPPS tidak memiliki laporan pencapaian kinerja. ",
+                "keterangan": null
+              }
+            ]
+          },
+          {
+            "nomor": "2.7",
+            "judul": "Penjaminan Mutu",
+            "butir": null,
+            "indikators": [
+              {
+                "nomor": "2.7.1",
+                "relasi": null,
+                "rumus": null,
+                "isi": "Keterlaksanaan Sistem Penjaminan Mutu Internal (akademik dan nonakademik) yang dibuktikan dengan keberadaan 5 aspek:\n1) dokumen legal pembentukan unsur pelaksana penjaminan mutu. \n2) ketersediaan dokumen mutu: kebijakan SPMI, manual SPMI, standar SPMI, dan formulir SPMI.\n3) terlaksananya siklus penjaminan mutu (siklus PPEPP)\n4) bukti sahih efektivitas pelaksanaan penjaminan mutu. 5) memiliki external benchmarking dalam peningkatan mutu.",
+                "_4": "UPPS telah melaksanakan SPMI yang memenuhi 5 aspek.",
+                "_3": "UPPS telah melaksanakan SPMI yang memenuhi nomor 1 sampai dengan 4.",
+                "_2": "UPPS telah melaksanakan SPMI yang memenihi aspek nomor 1 sampai dengan 3.",
+                "_1": "UPPS telah melaksanakan SPMI yang memenuhi aspek nomor 1 dan 2, serta siklus kegiatan SPMI baru dilaksanakan pada tahapan penetapan standar dan pelaksanaan standar pendidikan tinggi.",
+                "_0": "UPPS telah memiliki dokumen legal pembentukan unsur pelaksana penjamina mutu tanpa pelaksanaan SPMI.",
+                "keterangan": null
+              }
+            ]
+          },
+          {
+            "nomor": "2.8",
+            "judul": "Kepuasan Pemangku Kepentingan",
+            "butir": null,
+            "indikators": [
+              {
+                "nomor": "2.8.1",
+                "relasi": null,
+                "rumus": null,
+                "isi": "Pengukuran kepuasan para pemangku kepentingan (mahasiswa, dosen, tenaga kependidikan, lulusan, pengguna, mitra industri, dan mitra lainnya) terhadap layanan manajemen, yang memenuhi aspek- aspek berikut:\n1) menggunakan\ninstrumen kepuasan yang sahih, andal, mudah digunakan,\n2) dilaksanakan secara berkala, serta datanya terekam secara komprehensif,\n3) dianalisis dengan metode yang tepat serta bermanfaat untuk pengambilan keputusan,\n4) tingkat kepuasan dan umpan balik ditindaklanjuti untuk perbaikan dan peningkatan mutu luaran secara berkala dan tersistem.\n5) dilakukan review terhadap pelaksanaan pengukuran kepuasan dosen dan mahasiswa, serta\n6) hasilnya dipublikasikan dan mudah diakses oleh dosen dan mahasiswa.",
+                "_4": "Unit pengelola melakukan pengukuran kepuasan layanan manajemen terhadap seluruh pemangku kepentingan dan memenuhi aspek 1 s.d 6.",
+                "_3": "Unit pengelola melakukan pengukuran kepuasan layanan manajemen terhadap seluruh pemangku kepentingan dan memenuhi aspek 1 s.d 4 ditambah aspek 5 atau aspek 6.",
+                "_2": "Unit pengelola melakukan pengukuran kepuasan layanan manajemen terhadap seluruh pemangku kepentingan dan memenuhi aspek 1 s.d. 4.",
+                "_1": "Unit pengelola melakukan pengukuran kepuasan layanan manajemen terhadap sebagian pemangku kepentingan dan memenuhi aspek 1 s.d. 4.",
+                "_0": "UPPS tidak melakukan pengukuran kepuasan layanan manajemen.",
+                "keterangan": null
+              }
+            ]
+          }
+        ],
+        "indikators": null
+      },
+      {
+        "nomor": "3",
+        "judul": "Mahasiswa",
+        "butir": [
+          {
+            "nomor": "3.4",
+            "judul": "Indikator Kinerja Utama",
+            "butir": [
+              {
+                "nomor": "3.4.a",
+                "judul": "Kualitas Input Mahasiswa",
+                "butir": null,
+                "indikators": [
+                  {
+                    "nomor": "3.4.a.A",
+                    "relasi": null,
+                    "rumus": null,
+                    "isi": "Metoda rekrutmen dan keketatan seleksi",
+                    "_4": "UPPS memiliki dokumen tentang sistem penerimaan mahasiswa baru yang lengkap, mencakup: kebijakan seleksi, kriteria seleksi, sistem pengambilan keputusan, dan prosedur penerimaan, yang dilaksanakan secara konsisten.",
+                    "_3": null,
+                    "_2": "UPPS memiliki dokumen tentang sistem penerimaan mahasiswa baru yang lengkap, mencakup: kebijakan seleksi, kriteria seleksi, sistem pengambilan keputusan, dan prosedur penerimaan.",
+                    "_1": "UPPS memiliki dokumen tentang sistem penerimaan mahasiswa baru yang kurang lengkap.",
+                    "_0": "UPPS tidak memiliki dokumen tentang sistem penerimaan mahasiswa baru.",
+                    "keterangan": null
+                  },
+                  {
+                    "nomor": "3.4.a.B",
+                    "relasi": null,
+                    "rumus": null,
+                    "isi": "Kriteria penerimaan mahasiswa",
+                    "_4": "Persyaratan penerimaan mahasiswa sangat tinggi, ditunjukkan oleh syarat: IPK ≥ 3,00 , TPA ≥ 475 (skala 1 -700) , dan TOEFL ≥ 475 (skala 1 - 700) .",
+                    "_3": "Persyaratan penerimaan mahasiswa tinggi, ditunjukkan oleh syarat: IPK ≥ 2,75 , TPA ≥ 450 (skala 1 -700) , dan TOEFL ≥ 450 (skala 1 - 700) .",
+                    "_2": "Persyaratan penerimaan mahasiswa ditunjukkan oleh syarat: IPK ≥ 2,50 , TPA ≥ 425 (skala 1 -700) , dan TOEFL ≥ 425 (skala 1 - 700) .",
+                    "_1": "Persyaratan penerimaan mahasiswa ditunjukkan hanya oleh syarat IPK ≥ 2,00 .",
+                    "_0": "Persyaratan penerimaan mahasiswa tidak jelas, yang memungkinkan penerimaan mahasiswa tanpa syarat.",
+                    "keterangan": null
+                  },
+                  {
+                    "nomor": "3.4.a.C",
+                    "relasi": null,
+                    "rumus": "Skor = (A + (2 x B) + (2 x C)) / 5",
+                    "isi": "Proses Seleksi",
+                    "_4": "Proses seleksi menggunakan ujian tertulis dan wawancara untuk mengetahui kemampuan intelektual dan motivasi calon mahasiswa.",
+                    "_3": null,
+                    "_2": "Proses seleksi menggunakan ujian tertulis atau wawancara untuk mengetahui kemampuan intelektual dan motivasi calon mahasiswa.",
+                    "_1": "Proses seleksi tidak digunakan untuk mengetahui kemampuan intelektual dan motivasi calon mahasiswa.",
+                    "_0": null,
+                    "keterangan": null
+                  }
+                ]
+              },
+              {
+                "nomor": "3.4.b",
+                "judul": "Daya Tarik Program Studi",
+                "butir": null,
+                "indikators": [
+                  {
+                    "nomor": "3.4.b.A",
+                    "relasi": [
+                      "2.a"
+                    ],
+                    "rumus": null,
+                    "isi": "Peningkatan animo calon mahasiswa.",
+                    "_4": "UPPS melakukan upaya untuk meningkatkan animo calon mahasiswa yang ditunjukkan dengan adanya tren peningkatan jumlah pendaftar secara signifikan (> 10%) dalam 3 tahun terakhir.",
+                    "_3": "UPPS melakukan upaya untuk meningkatkan animo calon mahasiswa yang ditunjukkan dengan adanya tren peningkatan jumlah pendaftar dalam 3 tahun terakhir.",
+                    "_2": "UPPS melakukan upaya untuk meningkatkan animo calon mahasiswa dalam 3 tahun terakhir dengan tren tetap.",
+                    "_1": "UPPS melakukan upaya untuk meningkatkan animo calon mahasiswa dalam 3 tahun terakhir namun trennya menurun.",
+                    "_0": "UPPS tidak melakukan upaya untuk meningkatkan animo calon mahasiswa dalam 3 tahun terakhir.",
+                    "keterangan": null
+                  },
+                  {
+                    "nomor": "3.4.b.B",
+                    "relasi": [
+                      "2.b"
+                    ],
+                    "rumus": "Skor = ((2 x A) + B) / 3",
+                    "isi": "Mahasiswa Asing.",
+                    "_4": "Jika PMA ≥ 2% , maka B = 4",
+                    "_3": "Jika PMA < 2% , maka B = 2 + (100 x PMA)",
+                    "_2": "Jika PMA < 2% , maka B = 2 + (100 x PMA)",
+                    "_1": null,
+                    "_0": null,
+                    "keterangan": null
+                  }
+                ]
+              },
+              {
+                "nomor": "3.4.c",
+                "judul": "Layanan Kemahasiswaan",
+                "butir": null,
+                "indikators": [
+                  {
+                    "nomor": "3.4.c.A",
+                    "relasi": null,
+                    "rumus": null,
+                    "isi": "Ketersediaan layanan kemahasiswaan di bidang:\n1) penalaran, minat dan bakat,\n2) kesejahteraan (bimbingan dan konseling, layanan beasiswa, dan layanan kesehatan), dan\n3) bimbingan karir dan\nkewirausahaan.\n",
+                    "_4": "Jenis layanan mencakup seluruh bentuk layanan kemahasiswaan.",
+                    "_3": "Jenis layanan mencakup 2 bentuk layanan kemahasiswaan.",
+                    "_2": "Jenis layanan hanya pada 1 bentuk layanan kemahasiswaan.",
+                    "_1": null,
+                    "_0": "Tidak memiliki layanan kemahasiswaan.",
+                    "keterangan": null
+                  },
+                  {
+                    "nomor": "3.4.c.B",
+                    "relasi": null,
+                    "rumus": "Skor = ((2 x A) + B) / 3",
+                    "isi": "Akses dan mutu layanan kemahasiswaan.",
+                    "_4": "Ada kemudahan akses dan mutu layanan yang baik untuk seluruh bentuk layanan kemahasiswaan.",
+                    "_3": "Ada kemudahan akses dan mutu layanan yang baik untuk 2 bentuk layanan kemahsiswaan.",
+                    "_2": "Ada kemudahan akses dan mutu layanan yang baik untuk 1 bentuk layanan kemahsiswaan.",
+                    "_1": null,
+                    "_0": "Tidak memiliki layanan kemahasiswaan.",
+                    "keterangan": null
+                  }
+                ]
+              }
+            ],
+            "indikators": null
+          }
+        ],
+        "indikators": null
+      },
+      {
+        "nomor": "4",
+        "judul": "Sumber Daya Manusia",
+        "butir": [
+          {
+            "nomor": "4.4",
+            "judul": "Indikator Kinerja Utama",
+            "butir": [
+              {
+                "nomor": "4.4.a",
+                "judul": "Profil Dosen",
+                "butir": null,
+                "indikators": [
+                  {
+                    "nomor": "4.4.a.1",
+                    "relasi": [
+                      "3.a.1"
+                    ],
+                    "rumus": null,
+                    "isi": "Kecukupan Jumlah DTPS",
+                    "_4": "Jika NDTPS ≥ 6 , maka Skor = 4",
+                    "_3": "Jika 3 ≤ NDTPS < 6 , maka Skor = (2 x NDTPS) / 3 ",
+                    "_2": "Jika 3 ≤ NDTPS < 6 , maka Skor = (2 x NDTPS) / 3 ",
+                    "_1": null,
+                    "_0": "Jika NDTPS < 3 , maka Skor = 0 ",
+                    "keterangan": "NDTPS = Jumlah dosen tetap yang ditugaskan sebagai pengampu mata kuliah dengan bidang keahlian yang sesuai dengan kompetensi inti program studi yang diakreditasi."
+                  },
+                  {
+                    "nomor": "4.4.a.2",
+                    "relasi": [
+                      "3.a.1"
+                    ],
+                    "rumus": null,
+                    "isi": "Jabatan Akademik DTPS",
+                    "_4": "Jika PGBLKL ≥ 70% , maka Skor = 4 ",
+                    "_3": "Jika PGBLKL < 70% , maka Skor = 2 + ((20 x PGBLKL) /7) ",
+                    "_2": "Jika PGBLKL < 70% , maka Skor = 2 + ((20 x PGBLKL) /7) ",
+                    "_1": null,
+                    "_0": null,
+                    "keterangan": "NDGB = Jumlah DTPS yang memiliki jabatan akademik Guru Besar. \nNDLK = Jumlah DTPS yang memiliki jabatan akademik Lektor Kepala. \nNDL = Jumlah DTPS yang memiliki jabatan akademik Lektor.\nNDTPS = Jumlah dosen tetap yang ditugaskan sebagai pengampu mata kuliah dengan bidang keahlian yang sesuai dengan kompetensi inti program studi yang diakreditasi.\nPGBLKL = ((NDGB + NDLK + NDL) / NDTPS) x 100%"
+                  },
+                  {
+                    "nomor": "4.4.a.3",
+                    "relasi": [
+                      "3.a.2"
+                    ],
+                    "rumus": null,
+                    "isi": "Penugasan DTPS sebagai pembimbing utama tugas akhir mahasiswa.",
+                    "_4": "Jika RDPU ≤ 6 , maka Skor = 4 ",
+                    "_3": "Jika 6 < RDPU ≤ 10 , maka Skor = 7 - (RDPU / 2) ",
+                    "_2": "Jika 6 < RDPU ≤ 10 , maka Skor = 7 - (RDPU / 2) ",
+                    "_1": null,
+                    "_0": "Jika RDPU > 10 , maka Skor = 0 ",
+                    "keterangan": "RDPU = Rata-rata jumlah bimbingan sebagai pembimbing utama di seluruh program/ semester."
+                  },
+                  {
+                    "nomor": "4.4.a.4",
+                    "relasi": [
+                      "3.a.3"
+                    ],
+                    "rumus": null,
+                    "isi": "Ekuivalensi Waktu Mengajar Penuh DTPS",
+                    "_4": "Jika 12 ≤ EWMP ≤ 16 , maka Skor = 4",
+                    "_3": "Jika 6 ≤ EWMP < 12 , maka Skor = ((2 x EWMP) - 12) / 3\n Jika 16 < EWMP ≤ 18 , maka Skor = 36 - (2 x EWMP)",
+                    "_2": "Jika 6 ≤ EWMP < 12 , maka Skor = ((2 x EWMP) - 12) / 3\n Jika 16 < EWMP ≤ 18 , maka Skor = 36 - (2 x EWMP)",
+                    "_1": "Jika 6 ≤ EWMP < 12 , maka Skor = ((2 x EWMP) - 12) / 3\n Jika 16 < EWMP ≤ 18 , maka Skor = 36 - (2 x EWMP)",
+                    "_0": "Jika EWMP < 6 atau EWMP > 18 , maka Skor = 0\n",
+                    "keterangan": "NDTPS = Jumlah dosen tetap yang ditugaskan sebagai pengampu mata kuliah dengan bidang keahlian yang sesuai dengan kompetensi inti program studi yang diakreditasi."
+                  },
+                  {
+                    "nomor": "4.4.a.5",
+                    "relasi": [
+                      "3.a.4"
+                    ],
+                    "rumus": null,
+                    "isi": "Dosen Tidak Tetap",
+                    "_4": "Jika PDTT ≤ 10% , maka Skor = 4 ",
+                    "_3": "Jika 10% < PDTT ≤ 40% , maka Skor = (14 - (20 x PDTT)) / 3 ",
+                    "_2": "Jika 10% < PDTT ≤ 40% , maka Skor = (14 - (20 x PDTT)) / 3 ",
+                    "_1": null,
+                    "_0": "Jika PDTT > 40% ,maka Skor = 0",
+                    "keterangan": "NDTT = Jumlah dosen tidak tetap yang ditugaskan sebagai pengampu mata kuliah di program studi yang diakreditasi. \nNDT = Jumlah dosen tetap yang ditugaskan sebagai pengampu mata kuliah di program studi yang diakreditasi.\nPDTT = (NDTT / (NDT + NDTT)) x 100%"
+                  }
+                ]
+              },
+              {
+                "nomor": "4.4.b",
+                "judul": "Kinerja Dosen",
+                "butir": null,
+                "indikators": [
+                  {
+                    "nomor": "4.4.b.1",
+                    "relasi": [
+                      "3.b.1"
+                    ],
+                    "rumus": null,
+                    "isi": "Pengakuan/rekognisi atas kepakaran/prestasi/kinerja DTPS.",
+                    "_4": "Jika RRD ≥ 2 , maka Skor = 4 .",
+                    "_3": "Jika RRD < 2 , maka Skor = 2 + (2 x RRD) . ",
+                    "_2": "Jika RRD < 2 , maka Skor = 2 + (2 x RRD) . ",
+                    "_1": null,
+                    "_0": null,
+                    "keterangan": "Pengakuan/rekognisi atas kepakaran/prestasi/kinerja DTPS dapat berupa:\na) menjadi visiting lecturer atau visiting scholar di program studi/perguruan tinggi terakreditasi A/Unggul atau program studi/perguruan tinggi internasional bereputasi.\nb) menjadi keynote speaker/invited speaker pada pertemuan ilmiah tingkat nasional/ internasional.\nc) menjadi editor atau mitra bestari pada jurnal nasional terakreditasi/jurnal internasional bereputasi di bidang yang sesuai dengan bidang program studi.\nd) menjadi staf ahli/narasumber di lembaga tingkat wilayah/nasional/internasional pada bidang yang sesuai dengan bidang program studi (untuk pengusul dari program studi pada program Sarjana/Magister/Doktor), atau menjadi tenaga ahli/konsultan di lembaga/industri tingkat wilayah/nasional/ internasional pada bidang yang sesuai dengan bidang program studi (untuk pengusul dari program studi pada program Diploma Tiga/Sarjana Terapan/Magister Terapan/Doktor Terapan).\ne) mendapat penghargaan atas prestasi dan kinerja di tingkat wilayah/nasional/internasional.\n\nRRD = NRD / NDTPS\nNRD = Jumlah pengakuan atas prestasi/kinerja DTPS yang relevan dengan bidang keahlian dalam 3 tahun terakhir.\nNDTPS = Jumlah dosen tetap yang ditugaskan sebagai pengampu mata kuliah dengan bidang keahlian yang sesuai dengan kompetensi inti program studi yang diakreditasi.\n"
+                  },
+                  {
+                    "nomor": "4.4.b.2",
+                    "relasi": [
+                      "3.b.2"
+                    ],
+                    "rumus": null,
+                    "isi": "Kegiatan penelitian DTPS yang relevan dengan bidang program studi dalam 3 tahun terakhir.",
+                    "_4": "Jika RI ≥ a , maka Skor = 4",
+                    "_3": "Jika RI < a dan RN ≥ b , maka Skor = 3 + (RI / a) \nJika 0 < RI < a dan 0 < RN < b , maka Skor = 2 + (2 x (RI/a)) + (RN/b) - ((RI x RN)/(a x b))",
+                    "_2": "Jika RI < a dan RN ≥ b , maka Skor = 3 + (RI / a) \nJika 0 < RI < a dan 0 < RN < b , maka Skor = 2 + (2 x (RI/a)) + (RN/b) - ((RI x RN)/(a x b)) ",
+                    "_1": "Jika RI = 0 dan RN = 0 dan RL ≥ c , maka Skor = 2 \nJika RI = 0 dan RN = 0 dan RL < c , maka Skor = (2 x RL) / c ",
+                    "_0": "Jika RI = 0 dan RN = 0 dan RL ≥ c , maka Skor = 2 \nJika RI = 0 dan RN = 0 dan RL < c , maka Skor = (2 x RL) / c ",
+                    "keterangan": "RI = NI / 3 / NDTPS , RN = NN / 3 / NDTPS , RL = NL / 3 / NDTPS \nFaktor: a = 0,07 , b = 0,5 , c = 1.5\nNI = Jumlah penelitian dengan sumber pembiayaan luar negeri dalam 3 tahun terakhir. NN = Jumlah penelitian dengan sumber pembiayaan dalam negeri dalam 3 tahun terakhir. NL = Jumlah penelitian dengan sumber pembiayaan PT/ mandiri dalam 3 tahun terakhir.\nNDTPS = Jumlah dosen tetap yang ditugaskan sebagai pengampu mata kuliah dengan bidang keahlian yang sesuai dengan kompetensi inti program studi yang diakreditasi.\n"
+                  },
+                  {
+                    "nomor": "4.4.b.3",
+                    "relasi": [
+                      "3.b.3"
+                    ],
+                    "rumus": null,
+                    "isi": "Kegiatan PkM DTPS yang relevan dengan bidang program studi dalam 3 tahun terakhir.",
+                    "_4": "Jika RI ≥ a , maka Skor = 4",
+                    "_3": "Jika RI < a dan RN ≥ b , maka Skor = 3 + (RI / a) \nJika 0 < RI < a dan 0 < RN < b , maka Skor = 2 + (2 x (RI/a)) + (RN/b) - ((RI x RN)/(a x b)) ",
+                    "_2": "Jika RI < a dan RN ≥ b , maka Skor = 3 + (RI / a) \nJika 0 < RI < a dan 0 < RN < b , maka Skor = 2 + (2 x (RI/a)) + (RN/b) - ((RI x RN)/(a x b)) ",
+                    "_1": "Jika RI = 0 dan RN = 0 dan RL ≥ c , maka Skor = 2 \nJika RI = 0 dan RN = 0 dan RL < c , maka Skor = (2 x RL) / c ",
+                    "_0": "Jika RI = 0 dan RN = 0 dan RL ≥ c , maka Skor = 2 \nJika RI = 0 dan RN = 0 dan RL < c , maka Skor = (2 x RL) / c ",
+                    "keterangan": "RI = NI / 3 / NDTPS , RN = NN / 3 / NDTPS , RL = NL / 3 / NDTPS \nFaktor: a = 0,07 , b = 0,5 , c = 1.5\nNI = Jumlah PkM dengan sumber pembiayaan luar negeri dalam 3 tahun terakhir. NN = Jumlah PkM dengan sumber pembiayaan dalam negeri dalam 3 tahun terakhir. NL = Jumlah PkM dengan sumber pembiayaan PT/ mandiri dalam 3 tahun terakhir.\nNDTPS = Jumlah dosen tetap yang ditugaskan sebagai pengampu mata kuliah dengan bidang keahlian yang sesuai dengan kompetensi inti program studi yang diakreditasi."
+                  },
+                  {
+                    "nomor": "4.4.b.4",
+                    "relasi": [
+                      "3.b.4"
+                    ],
+                    "rumus": null,
+                    "isi": "Publikasi ilmiah dengan tema yang relevan dengan bidang program studi yang dihasilkan DTPS dalam 3 tahun terakhir.",
+                    "_4": "Jika RI ≥ a , maka Skor = 4",
+                    "_3": "Jika RI < a dan RN ≥ b , maka Skor = 3 + (RI / a) \nJika 0 < RI < a dan 0 < RN < b , maka Skor = 2 + (2 x (RI/a)) + (RN/b) - ((RI x RN)/(a x b)) ",
+                    "_2": "Jika RI < a dan RN ≥ b , maka Skor = 3 + (RI / a) \nJika 0 < RI < a dan 0 < RN < b , maka Skor = 2 + (2 x (RI/a)) + (RN/b) - ((RI x RN)/(a x b)) ",
+                    "_1": "Jika RI = 0 dan RN = 0 dan RL ≥ c , maka Skor = 2 \nJika RI = 0 dan RN = 0 dan RW < c , maka Skor = (2 x RL) / c ",
+                    "_0": "Jika RI = 0 dan RN = 0 dan RL ≥ c , maka Skor = 2 \nJika RI = 0 dan RN = 0 dan RW < c , maka Skor = (2 x RL) / c ",
+                    "keterangan": "RW = (NA1 + NB1 + NC1) / NDTPS , \nRN = (NA2 + NA3 + NB2 + NC2) / NDTPS , \nRI = (NA4 + NB3 + NC3) / NDTPS \nFaktor: a = 0,2 , b = 2 , c = 4\nNA1 = Jumlah publikasi di jurnal nasional tidak terakreditasi. NA2 = Jumlah publikasi di jurnal nasional terakreditasi.\nNA3 = Jumlah publikasi di jurnal internasional.\nNA4 = Jumlah publikasi di jurnal internasional bereputasi. NB1 = Jumlah publikasi di seminar wilayah/lokal/PT.\nNB2 = Jumlah publikasi di seminar nasional. NB3 = Jumlah publikasi di seminar internasional. NC1 = Jumlah tulisan di media massa wilayah. NC2 = Jumlah tulisan di media massa nasional.\nNC3 = Jumlah tulisan di media massa internasional.\nNDTPS = Jumlah dosen tetap yang ditugaskan sebagai pengampu mata kuliah dengan bidang keahlian yang sesuai dengan kompetensi inti program studi yang diakreditasi."
+                  },
+                  {
+                    "nomor": "4.4.b.5",
+                    "relasi": [
+                      "3.b.5"
+                    ],
+                    "rumus": null,
+                    "isi": "Artikel karya ilmiah DTPS yang disitasi dalam 3 tahun terakhir.",
+                    "_4": "Jika RS ≥ 1 , maka Skor = 4 .",
+                    "_3": "Jika RS < 1 , maka Skor = 2 + (2 x RS).",
+                    "_2": "Jika RS < 1 , maka Skor = 2 + (2 x RS).",
+                    "_1": null,
+                    "_0": null,
+                    "keterangan": "RS = NAS / NDTPS\nNAS = jumlah artikel yang disitasi.\nNDTPS = Jumlah dosen tetap yang ditugaskan sebagai pengampu mata kuliah dengan bidang keahlian yang sesuai dengan kompetensi inti program studi yang diakreditasi."
+                  },
+                  {
+                    "nomor": "4.4.b.6",
+                    "relasi": [
+                      "3.b.7-1",
+                      "3.b.7-2",
+                      "3.b.7-3",
+                      "3.b.7-4"
+                    ],
+                    "rumus": null,
+                    "isi": "Luaran penelitian dan PkM yang dihasilkan DTPS dalam 3 tahun terakhir.",
+                    "_4": "Jika RLP ≥ 2 , maka Skor 4 .",
+                    "_3": "Jika RS < 2 , maka Skor = 2 + RLP.",
+                    "_2": "Jika RS < 2 , maka Skor = 2 + RLP.",
+                    "_1": null,
+                    "_0": null,
+                    "keterangan": "RLP = (4 x NA + 2 x (NB + NC) + ND) / NDTPS\nNA = Jumlah luaran penelitian/PkM yang mendapat pengakuan HKI (Paten, Paten Sederhana)\nNB = Jumlah luaran penelitian/PkM yang mendapat pengakuan HKI (Hak Cipta, Desain Produk Industri, Perlindungan Varietas Tanaman, Desain Tata Letak Sirkuit Terpadu, dll.)\nNC = Jumlah luaran penelitian/PkM dalam bentuk Teknologi Tepat Guna, Produk (Produk Terstandarisasi, Produk Tersertifikasi), Karya Seni, Rekayasa Sosial.\nND = Jumlah luaran penelitian/PkM yang diterbitkan dalam bentuk Buku ber-ISBN, Book Chapter.\nNDTPS = Jumlah dosen tetap yang ditugaskan sebagai pengampu mata kuliah dengan bidang keahlian yang sesuai dengan kompetensi inti program studi yang diakreditasi."
+                  }
+                ]
+              },
+              {
+                "nomor": "4.4.c",
+                "judul": "Pengembangan Dosen",
+                "butir": null,
+                "indikators": [
+                  {
+                    "nomor": "4.4.c.1",
+                    "relasi": null,
+                    "rumus": null,
+                    "isi": "Upaya pengembangan dosen",
+                    "_4": "UPPS merencanakan dan mengembangkan DTPS mengikuti rencana pengembangan SDM di perguruan tinggi (Renstra PT) secara konsisten.",
+                    "_3": "UPPS merencanakan dan mengembangkan DTPS mengikuti rencana pengembangan SDM di perguruan tinggi (Renstra PT).",
+                    "_2": "UPPS mengembangkan DTPS mengikuti rencana pengembangan SDM di perguruan tinggi (Renstra PT).",
+                    "_1": "UPPS mengembangkan DTPS tidak mengikuti atau tidak sesuai dengan rencana pengembangan SDM di perguruan tinggi (Renstra PT).",
+                    "_0": "Perguruan tinggi dan/atau UPPS tidak memiliki rencana pengembangan SDM.",
+                    "keterangan": "Jika Skor rata-rata butir Profil Dosen >= 3,5 , maka Skor = 4."
+                  }
+                ]
+              },
+              {
+                "nomor": "4.4.d",
+                "judul": "Tenaga Kependidikan",
+                "butir": null,
+                "indikators": [
+                  {
+                    "nomor": "4.4.d.A",
+                    "relasi": null,
+                    "rumus": null,
+                    "isi": "Kualifikasi dan kecukupan tenaga kependidikan berdasarkan jenis pekerjaannya (administrasi, pustakawan, teknisi, dll.) Penilaian kecukupan tidak hanya ditentukan oleh jumlah tenaga kependidikan, namun keberadaan dan pemanfaatan teknologi informasi dan komputer dalam proses administrasi dapat dijadikan pertimbangan untuk menilai efektifitas pekerjaan dan kebutuhan akan tenaga kependidikan. ",
+                    "_4": "UPPS memiliki tenaga kependidikan yang memenuhi tingkat kecukupan dan kualifikasi berdasarkan kebutuhan layanan program studi dan mendukung pelaksanaan akademik, fungsi unit pengelola, serta pengembangan program studi.",
+                    "_3": "UPPS memiliki tenaga kependidikan yang memenuhi tingkat kecukupan dan kualifikasi berdasarkan kebutuhan layanan program studi dan mendukung pelaksanaan akademik dan fungsi unit pengelola.",
+                    "_2": "UPPS memiliki tenaga kependidikan yang memenuhi tingkat kecukupan dan kualifikasi berdasarkan kebutuhan layanan program studi dan mendukung pelaksanaan akademik.",
+                    "_1": "UPPS memiliki tenaga kependidikan yang memenuhi tingkat kecukupan dan/atau kualifikasi berdasarkan kebutuhan layanan program studi dan mendukung pelaksanaan akademik.",
+                    "_0": "UPPS memiliki tenaga kependidikan yang tidak memenuhi tingkat kecukupan dan kualifikasi berdasarkan kebutuhan layanan program studi",
+                    "keterangan": null
+                  },
+                  {
+                    "nomor": "4.4.d.B",
+                    "relasi": null,
+                    "rumus": "Skor = (A + B) / 2",
+                    "isi": "Kualifikasi dan kecukupan laboran untuk mendukung proses pembelajaran sesuai dengan kebutuhan program studi.",
+                    "_4": "UPPS memiliki jumlah laboran yang cukup terhadap jumlah laboratorium yang digunakan program studi, kualifikasinya sesuai dengan laboratorium yang menjadi tanggungjawabnya, serta bersertifikat laboran dan bersertifikat kompetensi tertentu sesuai bidang tugasnya.",
+                    "_3": "UPPS memiliki jumlah laboran yang cukup terhadap jumlah laboratorium yang digunakan program studi, kualifikasinya sesuai dengan laboratorium yang menjad ntanggungjawabnya, dan bersertifikat laboran atau bersertifikat kompetensi tertentu sesuai bidang tugasnya.",
+                    "_2": "UPPS memiliki jumlah laboran yang cukup terhadap jumlah laboratorium yang digunakan program studi dan kualifikasinya sesuai dengan laboratorium yang menjadi tanggungjawabnya. ",
+                    "_1": "UPPS memiliki jumlah laboran yang cukup terhadap jumlah laboratorium yang digunakan program studi.",
+                    "_0": "UPPS tidak memiliki laboran.",
+                    "keterangan": null
+                  }
+                ]
+              }
+            ],
+            "indikators": null
+          }
+        ],
+        "indikators": null
+      },
+      {
+        "nomor": "5",
+        "judul": "Keuangan, Sarana, dan Prasarana",
+        "butir": [
+          {
+            "nomor": "5.4",
+            "judul": "Indikator Kinerja Utama",
+            "butir": [
+              {
+                "nomor": "5.4.a",
+                "judul": "Keuangan",
+                "butir": null,
+                "indikators": [
+                  {
+                    "nomor": "5.4.a.1",
+                    "relasi": [
+                      "4"
+                    ],
+                    "rumus": null,
+                    "isi": "Biaya operasional pendidikan.",
+                    "_4": "Jika DOP ≥ 28 , maka Skor = 4 ",
+                    "_3": "Jika DOP < 28 , maka Skor = DOP / 7",
+                    "_2": "Jika DOP < 28 , maka Skor = DOP / 7",
+                    "_1": "Jika DOP < 28 , maka Skor = DOP / 7",
+                    "_0": "Jika DOP < 28 , maka Skor = DOP / 7",
+                    "keterangan": "DOP = Rata-rata dana operasional pendidikan/mahasiswa/ tahun dalam 3 tahun terakhir (dalam juta rupiah)."
+                  },
+                  {
+                    "nomor": "5.4.a.2",
+                    "relasi": [
+                      "4"
+                    ],
+                    "rumus": null,
+                    "isi": "Dana penelitian DTPS.",
+                    "_4": "Jika DPD ≥ 20 , maka Skor = 4",
+                    "_3": "Jika DPD < 20 , maka Skor = DPD / 5",
+                    "_2": "Jika DPD < 20 , maka Skor = DPD / 5",
+                    "_1": "Jika DPD < 20 , maka Skor = DPD / 5",
+                    "_0": "Jika DPD < 20 , maka Skor = DPD / 5",
+                    "keterangan": "DPD = Rata-rata dana penelitian DTPS/ tahun dalam 3 tahun terakhir (dalam juta rupiah)."
+                  },
+                  {
+                    "nomor": "5.4.a.3",
+                    "relasi": [
+                      "4"
+                    ],
+                    "rumus": null,
+                    "isi": "Dana pengabdian kepada masyarakat DTPS",
+                    "_4": "Jika DPkMD ≥ 5 , maka Skor = 4",
+                    "_3": "Jika DPkMD < 5 , maka Skor = (4 x DPkMD) / 5",
+                    "_2": "Jika DPkMD < 5 , maka Skor = (4 x DPkMD) / 5",
+                    "_1": "Jika DPkMD < 5 , maka Skor = (4 x DPkMD) / 5",
+                    "_0": "Jika DPkMD < 5 , maka Skor = (4 x DPkMD) / 5",
+                    "keterangan": "DPkMD = Rata-rata dana PkM DTPS/ tahun dalam 3 tahun terakhir (dalam juta rupiah)."
+                  },
+                  {
+                    "nomor": "5.4.a.4",
+                    "relasi": null,
+                    "rumus": null,
+                    "isi": "Realisasi investasi (SDM, sarana dan prasarana) yang mendukung penyelenggaraan tridharma.",
+                    "_4": "Persentase realisasi dana untuk investasi SDM serta Sarana dan Prasarana telah sesuai dengan perencanaan investasi serta melebihi standar pembelajaran, penelitian dan PkM untuk mendukung terciptanya suasana akademik yang sehat dan kondusif.",
+                    "_3": "Persentase realisasi dana untuk investasi SDM serta Sarana dan Prasarana telah sesuai dengan perencanaan investasi serta melebihi standar pembelajaran, penelitian dan PkM.",
+                    "_2": "Persentase realisasi dana untuk investasi SDM serta Sarana dan Prasarana telah sesuai dengan perencanaan investasi serta memenuhi standar pembelajaran, penelitian dan PkM.",
+                    "_1": "Persentase realisasi dana untuk investasi SDM serta Sarana dan Prasarana kurang sesuai dengan perencanaan investasi.",
+                    "_0": "Tidak ada realisasi dana untuk investasi SDM serta Sarana dan Prasarana.",
+                    "keterangan": "Jika Skor rata-rata butir tentang Profil Dosen, Sarana, dan Prasarana ≥ 3,5 , maka Skor butir ini = 4."
+                  },
+                  {
+                    "nomor": "5.4.a.5",
+                    "relasi": null,
+                    "rumus": null,
+                    "isi": "Kecukupan dana untuk menjamin pencapaian capaian pembelajaran.",
+                    "_4": "Dana dapat menjamin keberlangsungan operasional tridharma, pengembangan 3 tahun terakhir serta memiliki kecukupan dana untuk rencana pengembangan 3 tahun ke depan yang didukung oleh sumber pendanaan yang realistis.",
+                    "_3": "Dana dapat menjamin keberlangsungan operasional tridharma serta pengembangan 3 tahun terakhir.",
+                    "_2": "Dana dapat menjamin keberlangsungan operasional tridharma dan sebagian kecil pengembangan.",
+                    "_1": "Dana dapat menjamin keberlangsungan operasional dan tidak ada untuk pengembangan.",
+                    "_0": "Dana tidak mencukupi untuk keperluan operasional.",
+                    "keterangan": null
+                  }
+                ]
+              },
+              {
+                "nomor": "5.4.b",
+                "judul": "Sarana dan Prasarana",
+                "butir": null,
+                "indikators": [
+                  {
+                    "nomor": "5.4.b.1",
+                    "relasi": null,
+                    "rumus": null,
+                    "isi": "Kecukupan, aksesibilitas dan mutu sarana dan prasarana untuk menjamin pencapaian capaian pembelajaran dan meningkatkan suasana akademik.",
+                    "_4": "UPPS menyediakan sarana dan prasarana yang mutakhir serta aksesibiltas yang cukup untuk menjamin pencapaian capaian pembelajaran dan meningkatkan suasana akademik.",
+                    "_3": "UPPS menyediakan sarana dan prasarana serta aksesibiltas yang cukup untuk menjamin pencapaian capaian pembelajaran dan meningkatkan suasana akademik.",
+                    "_2": "UPPS menyediakan sarana dan prasarana serta aksesibiltas yang cukup untuk menjamin pencapaian capaian pembelajaran.",
+                    "_1": "UPPS menyediakan sarana dan prasarana serta aksesibiltas yang tidak cukup untuk menjamin pencapaian capaian pembelajaran.",
+                    "_0": "UPPS tidak memiliki sarana dan prasarana.",
+                    "keterangan": null
+                  }
+                ]
+              }
+            ],
+            "indikators": null
+          }
+        ],
+        "indikators": null
+      },
+      {
+        "nomor": "6",
+        "judul": "Pendidikan",
+        "butir": [
+          {
+            "nomor": "6.4",
+            "judul": "Indikator Kinerja Utama",
+            "butir": [
+              {
+                "nomor": "6.4.a",
+                "judul": "Kurikulum",
+                "butir": null,
+                "indikators": [
+                  {
+                    "nomor": "6.4.a.A",
+                    "relasi": null,
+                    "rumus": null,
+                    "isi": "Keterlibatan pemangku kepentingan dalam proses evaluasi dan pemutakhiran kurikulum.",
+                    "_4": "Evaluasi dan pemutakhiran kurikulum secara berkala tiap 4 s.d. 5 tahun yang melibatkan pemangku kepentingan internal dan eksternal, serta direview oleh pakar bidang ilmu program studi, industri, asosiasi, serta sesuai perkembangan ipteks dan kebutuhan pengguna.",
+                    "_3": "Evaluasi dan pemutakhiran kurikulum secara berkala tiap 4 s.d. 5 tahun yang melibatkan pemangku kepentingan internal dan eksternal.",
+                    "_2": "Evaluasi dan pemutakhiran kurikulum melibatkan pemangku kepentingan internal.",
+                    "_1": "Evaluasi dan pemutakhiran kurikulum tidak melibatkan seluruh pemangku kepentingan internal.",
+                    "_0": "Evaluasi dan pemutakhiran kurikulum dilakukan oleh dosen program studi.",
+                    "keterangan": null
+                  },
+                  {
+                    "nomor": "6.4.a.B",
+                    "relasi": null,
+                    "rumus": null,
+                    "isi": "Kesesuaian capaian pembelajaran dengan profil lulusan dan jenjang KKNI/SKKNI.",
+                    "_4": "Capaian pembelajaran diturunkan dari profil lulusan, mengacu pada hasil kesepakatan dengan asosiasi penyelenggara program studi sejenis dan organisasi profesi, dan memenuhi level KKNI, serta dimutakhirkan secara berkala tiap 4 s.d. 5 tahun sesuai perkembangan ipteks dan kebutuhan pengguna.",
+                    "_3": "Capaian pembelajaran diturunkan dari profil lulusan, memenuhi level KKNI, dan dimutakhirkan secara berkala tiap 4 s.d. 5 tahun sesuai perkembangan ipteks atau kebutuhan pengguna.",
+                    "_2": "Capaian pembelajaran diturunkan dari profil lulusan dan memenuhi level KKNI.",
+                    "_1": "Capaian pembelajaran diturunkan dari profil lulusan dan tidak memenuhi level KKNI.",
+                    "_0": "Capaian pembelajaran tidak diturunkan dari profil lulusan dan tidak memenuhi level KKNI.",
+                    "keterangan": null
+                  },
+                  {
+                    "nomor": "6.4.a.C",
+                    "relasi": null,
+                    "rumus": "Skor = (A + (2 x B) + (2 x C)) / 5",
+                    "isi": "Ketepatan struktur kurikulum dalam pembentukan capaian pembelajaran.",
+                    "_4": "Struktur kurikulum memuat keterkaitan antara matakuliah dengan capaian pembelajaran lulusan yang digambarkan dalam peta kurikulum yang jelas, capaian pembelajaran lulusan dipenuhi oleh seluruh capaian pembelajaran matakuliah, serta tidak ada capaian pembelajaran matakuliah yang tidak mendukung capaian pembelajaran lulusan.",
+                    "_3": "Struktur kurikulum memuat keterkaitan antara matakuliah dengan capaian pembelajaran lulusan yang digambarkan dalam peta kurikulum yang jelas, capaian pembelajaran lulusan dipenuhi oleh seluruh capaian pembelajaran matakuliah.",
+                    "_2": "Struktur kurikulum memuat keterkaitan antara matakuliah dengan capaian pembelajaran lulusan yang digambarkan dalam peta kurikulum yang jelas.",
+                    "_1": "Struktur kurikulum tidak sesuai dengan capaian pembelajaran lulusan.",
+                    "_0": null,
+                    "keterangan": null
+                  }
+                ]
+              },
+              {
+                "nomor": "6.4.b",
+                "judul": "Karakteristik Proses Pembelajaran",
+                "butir": null,
+                "indikators": [
+                  {
+                    "nomor": "6.4.b.1",
+                    "relasi": null,
+                    "rumus": null,
+                    "isi": "Pemenuhan karakteristik proses pembelajaran, yang terdiri atas sifat: 1) interaktif, 2) holistik, 3) integratif, 4) saintifik, 5) kontekstual, 6) tematik, 7) efektif, 8) kolaboratif, dan 9) berpusat pada mahasiswa.",
+                    "_4": "Terpenuhinya karakteristik proses pembelajaran program studi yang mencakup seluruh sifat, dan telah menghasilkan profil lulusan yang sesuai dengan capaian pembelajaran.",
+                    "_3": "Terpenuhinya karakteristik proses pembelajaran program studi yang berpusat pada mahasiswa, dan telah menghasilkan profil lulusan yang sesuai dengan capaian pembelajaran.",
+                    "_2": "Karakteristik proses pembelajaran program studi berpusat pada mahasiswa yang diterapkan pada minimal 50% matakuliah.",
+                    "_1": "Karakteristik proses pembelajaran program studi belum berpusat pada mahasiswa.",
+                    "_0": null,
+                    "keterangan": null
+                  }
+                ]
+              },
+              {
+                "nomor": "6.4.c",
+                "judul": "Rencana Proses Pembelajaran",
+                "butir": null,
+                "indikators": [
+                  {
+                    "nomor": "6.4.c.A",
+                    "relasi": null,
+                    "rumus": null,
+                    "isi": "Ketersediaan dan kelengkapan dokumen rencana pembelajaran semester (RPS)",
+                    "_4": "Dokumen RPS mencakup target capaian pembelajaran, bahan kajian, metode pembelajaran, waktu dan tahapan, asesmen hasil capaian pembelajaran. RPS ditinjau dan disesuaikan secara berkala serta dapat diakses oleh mahasiswa, dilaksanakan secara konsisten.",
+                    "_3": "Dokumen RPS mencakup target capaian pembelajaran, bahan kajian, metode pembelajaran, waktu dan tahapan, asesmen hasil capaian pembelajaran. RPS ditinjau dan disesuaikan secara berkala serta dapat diakses oleh mahasiswa.",
+                    "_2": "Dokumen RPS mencakup target capaian pembelajaran, bahan kajian, metode pembelajaran, waktu dan tahapan, asesmen hasil capaian pembelajaran. RPS ditinjau dan disesuaikan secara berkala.",
+                    "_1": "Dokumen RPS mencakup target capaian pembelajaran, bahan kajian, metode pembelajaran, waktu dan tahapan, asesmen hasil capaian pembelajaran atau tidak semua matakuliah memiliki RPS.",
+                    "_0": "Tidak memiliki dokumen RPS.",
+                    "keterangan": null
+                  },
+                  {
+                    "nomor": "6.4.c.B",
+                    "relasi": null,
+                    "rumus": "Skor = (A + (2 x B)) / 3",
+                    "isi": "Kedalaman dan keluasan RPS sesuai dengan capaian pembelajaran lulusan.",
+                    "_4": "Isi materi pembelajaran sesuai dengan RPS, memiliki kedalaman dan keluasan yang relevan untuk mencapai capaian pembelajaran lulusan, serta ditinjau ulang secara berkala.",
+                    "_3": "Isi materi pembelajaran sesuai dengan RPS, memiliki kedalaman dan keluasan yang relevan untuk mencapai capaian pembelajaran lulusan.",
+                    "_2": "Isi materi pembelajaran memiliki kedalaman dan keluasan sesuai dengan capaian pembelajaran lulusan.",
+                    "_1": "Isi materi pembelajaran memiliki kedalaman dan keluasan namun sebagian tidak sesuai dengan capaian pembelajaran lulusan.",
+                    "_0": "Isi materi pembelajaran tidak sesuai dengan capaian pembelajaran lulusan.",
+                    "keterangan": null
+                  }
+                ]
+              },
+              {
+                "nomor": "6.4.d",
+                "judul": "Pelaksanaan Proses Pembelajaran",
+                "butir": null,
+                "indikators": [
+                  {
+                    "nomor": "6.4.d.A",
+                    "relasi": null,
+                    "rumus": null,
+                    "isi": "Bentuk interaksi antara dosen, mahasiswa dan sumber belajar",
+                    "_4": "Pelaksanaan pembelajaran berlangsung dalam bentuk interaksi antara dosen, mahasiswa, dan sumber belajar dalam lingkungan belajar tertentu secara on-line dan off-line dalam bentuk audio-visual terdokumentasi.",
+                    "_3": "Pelaksanaan pembelajaran berlangsung dalam bentuk interaksi antara dosen, mahasiswa, dan sumber belajar dalam lingkungan belajar tertentu secara on-line dan off-line.",
+                    "_2": "Pelaksanaan pembelajaran berlangsung dalam bentuk interaksi antara dosen, mahasiswa, dan sumber belajar dalam lingkungan belajar tertentu.",
+                    "_1": "Pelaksanaan pembelajaran berlangsung hanya sebagian dalam bentuk interaksi antara dosen, mahasiswa, dan sumber belajar dalam lingkungan belajar tertentu.",
+                    "_0": "Pelaksanaan pembelajaran tidak berlangsung dalam bentuk interaksi antara dosen dan mahasiswa",
+                    "keterangan": null
+                  },
+                  {
+                    "nomor": "6.4.d.B",
+                    "relasi": null,
+                    "rumus": null,
+                    "isi": "Pemantauan kesesuaian proses terhadap rencana pembelajaran",
+                    "_4": "Memiliki bukti sahih adanya sistem dan pelaksanaan pemantauan proses pembelajaran yang dilaksanakan secara periodik untuk menjamin kesesuaian dengan RPS dalam rangka menjaga mutu proses pembelajaran. Hasil monev terdokumentasi dengan baik dan digunakan untuk meningkatkan mutu  proses pembelajaran.",
+                    "_3": "Memiliki bukti sahih adanya sistem dan pelaksanaan pemantauan proses pembelajaran yang dilaksanakan secara periodik untuk menjamin kesesuaian dengan RPS dalam rangka menjaga mutu proses pembelajaran. Hasil monev terdokumentasi dengan baik.",
+                    "_2": "Memiliki bukti sahih adanya sistem dan pelaksanaan pemantauan proses pembelajaran yang dilaksanakan secara periodik untuk mengukur kesesuaian terhadap RPS.",
+                    "_1": "Memiliki bukti sahih adanya sistem pemantauan proses pembelajaran namun tidak dilaksanakan secara konsisten.",
+                    "_0": "Tidak memiliki bukti sahih adanya sistem dan pelaksanaan pemantauan proses pembelajaran.",
+                    "keterangan": null
+                  },
+                  {
+                    "nomor": "6.4.d.C",
+                    "relasi": null,
+                    "rumus": null,
+                    "isi": "Proses pembelajaran yang terkait dengan penelitian harus mengacu SN Dikti Penelitian: \n1) hasil penelitian: harus memenuhi pengembangan IPTEKS, meningkatkan kesejahteraan masyarakat, dan daya saing bangsa.\n2) isi penelitian: memenuhi kedalaman dan keluasan materi penelitian sesuai capaian pembelajaran.\n3) proses penelitian: mencakup perencanaan, pelaksanaan, dan pelaporan.\n4) penilaian penelitian memenuhi unsur edukatif, obyektif, akuntabel, dan transparan.",
+                    "_4": "Terdapat bukti sahih tentang pemenuhan SN Dikti Penelitian pada proses pembelajaran terkait penelitian serta pemenuhan SN Dikti Penelitian pada proses pembelajaran terkait penelitian.",
+                    "_3": null,
+                    "_2": "Terdapat bukti sahih tentang pemenuhan SN Dikti Penelitian pada proses pembelajaran terkait penelitian namun tidak memenuhi SN Dikti Penelitian pada proses pembelajaran terkait penelitian.",
+                    "_1": null,
+                    "_0": null,
+                    "keterangan": null
+                  },
+                  {
+                    "nomor": "6.4.d.D",
+                    "relasi": null,
+                    "rumus": null,
+                    "isi": "Proses pembelajaran yang terkait dengan PkM harus mengacu SN Dikti PkM:\n1) hasil PkM: harus memenuhi pengembangan IPTEKS, meningkatkan kesejahteraan masyarakat, dan daya saing bangsa.\n2) isi PkM: memenuhi kedalaman dan keluasan materi PkM sesuai capaian pembelajaran.\n3) proses PkM: mencakup perencanaan, pelaksanaan, dan pelaporan.\n4) penilaian PkM memenuhi unsur edukatif, obyektif, akuntabel, dan transparan.",
+                    "_4": "Terdapat bukti sahih tentang pemenuhan SN Dikti PkM pada proses pembelajaran terkait PkM serta pemenuhan SN Dikti PkM pada proses pembelajaran terkait PkM.",
+                    "_3": null,
+                    "_2": "Terdapat bukti sahih tentang pemenuhan SN Dikti PkM pada proses pembelajaran terkait PkM namun tidak memenuhi SN Dikti PkM pada proses pembelajaran terkait PkM.",
+                    "_1": null,
+                    "_0": null,
+                    "keterangan": null
+                  },
+                  {
+                    "nomor": "6.4.d.E",
+                    "relasi": null,
+                    "rumus": "Skor = (A + (2 x B) + (3 x C) + D + (2 x E)) / 9",
+                    "isi": "Kesesuaian metode pembelajaran dengan capaian pembelajaran. Contoh: RBE (research based education), IBE (industry based education), teaching factory/teaching industry, dll.",
+                    "_4": "Terdapat bukti sahih yang menunjukkan metode pembelajaran yang dilaksanakan sesuai dengan capaian pembelajaran yang direncanakan pada 75% s.d. 100% mata kuliah.",
+                    "_3": "Terdapat bukti sahih yang menunjukkan metode pembelajaran yang dilaksanakan sesuai dengan capaian pembelajaran yang direncanakan pada 50 s.d. < 75% mata kuliah.",
+                    "_2": "Terdapat bukti sahih yang menunjukkan metode pembelajaran yang dilaksanakan sesuai dengan capaian pembelajaran yang direncanakan pada 25 s.d. < 50% mata kuliah.",
+                    "_1": "Terdapat bukti sahih yang menunjukkan metode pembelajaran yang dilaksanakan sesuai dengan capaian pembelajaran yang direncanakan pada < 25% mata kuliah.",
+                    "_0": "Tidak terdapat bukti sahih yang menunjukkan metode pembelajaran yang dilaksanakan sesuai dengan capaian pembelajaran yang direncanakan.",
+                    "keterangan": null
+                  },
+                  {
+                    "nomor": "6.4.d.1",
+                    "relasi": [
+                      "5.a"
+                    ],
+                    "rumus": null,
+                    "isi": "Pembelajaran yang dilaksanakan dalam bentuk praktikum, praktik studio, praktik bengkel, atau praktik lapangan.",
+                    "_4": "Jika PJP ≥ 20% ,maka Skor = 4",
+                    "_3": "Jika PJP < 20% , maka Skor = 20 x PJP",
+                    "_2": "Jika PJP < 20% , maka Skor = 20 x PJP",
+                    "_1": "Jika PJP < 20% , maka Skor = 20 x PJP",
+                    "_0": "Jika PJP < 20% , maka Skor = 20 x PJP",
+                    "keterangan": "JP = Jam pembelajaran praktikum, praktik studio, praktik bengkel, atau praktik lapangan (termasuk KKN) \nJB = Jam pembelajaran total selama masa pendidikan.\nPJP = (JP / JB) x 100%"
+                  }
+                ]
+              },
+              {
+                "nomor": "6.4.e",
+                "judul": "Monitoring dan Evaluasi Proses Pembelajaran",
+                "butir": null,
+                "indikators": [
+                  {
+                    "nomor": "6.4.e.1",
+                    "relasi": null,
+                    "rumus": null,
+                    "isi": "Monitoring dan evaluasi pelaksanaan proses pembelajaran mencakup karakteristik, perencanaan, pelaksanaan, proses pembelajaran dan beban belajar mahasiswa untuk memperoleh capaian pembelajaran lulusan.",
+                    "_4": "UPPS memiliki bukti sahih tentang sistem dan pelaksanaan monitoring dan evaluasi proses pembelajaran mencakup karakteristik, perencanaan, pelaksanaan, proses pembelajaran dan beban belajar mahasiswa yang dilaksanakan secara konsisten dan ditindaklanjuti.",
+                    "_3": "UPPS memiliki bukti sahih tentang sistem dan pelaksanaan monitoring dan evaluasi proses pembelajaran mencakup karakteristik, perencanaan, pelaksanaan, proses pembelajaran dan beban belajar mahasiswa yang dilaksanakan secara konsisten.",
+                    "_2": "UPPS memiliki bukti sahih tentang sistem dan pelaksanaan monitoring dan evaluasi proses pembelajaran mencakup karakteristik, perencanaan, pelaksanaan, proses pembelajaran dan beban belajar mahasiswa.",
+                    "_1": "UPPS telah melaksanakan monitoring dan evaluasi proses pembelajaran mencakup karakteristik, perencanaan, pelaksanaan, proses pembelajaran dan beban belajar mahasiswa namun tidak semua didukung bukti sahih.",
+                    "_0": "UPPS tidak melaksanakan monitoring dan evaluasi proses pembelajaran mencakup karakteristik, perencanaan, pelaksanaan, proses pembelajaran dan beban belajar mahasiswa.",
+                    "keterangan": null
+                  }
+                ]
+              },
+              {
+                "nomor": "6.4.f",
+                "judul": "Penilaian Pembelajaran",
+                "butir": null,
+                "indikators": [
+                  {
+                    "nomor": "6.4.f.A",
+                    "relasi": null,
+                    "rumus": null,
+                    "isi": "Mutu pelaksanaan penilaian pembelajaran (proses dan hasil belajar mahasiswa) untuk mengukur ketercapaian capaian pembelajaran berdasarkan prinsip penilaian yang mencakup:\n1) edukatif,\n2) otentik,\n3) objektif,\n4) akuntabel, dan\n5) transparan, yang dilakukan secara terintegrasi.",
+                    "_4": "Terdapat bukti sahih tentang dipenuhinya 5 prinsip penilaian yang dilakukan secara terintegrasi dan dilengkapi dengan rubrik/portofolio penilaian minimum 70% jumlah matakuliah.",
+                    "_3": "Terdapat bukti sahih tentang dipenuhinya 5 prinsip penilaian yang dilakukan secara terintegrasi dan dilengkapi dengan rubrik/portofolio penilaian minimum 50% jumlah matakuliah.",
+                    "_2": "Terdapat bukti sahih tentang dipenuhinya 5 prinsip penilaian yang dilakukan secara terintegrasi.",
+                    "_1": "Terdapat bukti sahih tentang dipenuhinya 5 prinsip penilaian yang tidak dilakukan secara terintegrasi.",
+                    "_0": "Tidak terdapat bukti sahih tentang dipenuhinya 5 prinsip penilaian.",
+                    "keterangan": null
+                  },
+                  {
+                    "nomor": "6.4.f.B",
+                    "relasi": null,
+                    "rumus": null,
+                    "isi": "Pelaksanaan penilaian terdiri atas teknik dan instrumen penilaian. Teknik penilaian terdiri dari:\n1) observasi,\n2) partisipasi,\n3) unjuk kerja,\n4) test tertulis,\n5) test lisan, dan\n6) angket. Instrumen penilaian terdiri dari:\n1) penilaian proses dalam bentuk rubrik, dan/ atau;\n2) penilaian hasil dalam bentuk portofolio, atau\n3) karya disain.",
+                    "_4": "Terdapat bukti sahih yang menunjukkan kesesuaian teknik dan instrumen penilaian terhadap capaian pembelajaran minimum 75% s.d. 100% dari jumlah matakuliah.",
+                    "_3": "Terdapat bukti sahih yang menunjukkan kesesuaian teknik dan instrumen penilaian terhadap capaian pembelajaran minimum 50 s.d. < 75% dari jumlah matakuliah.",
+                    "_2": "Terdapat bukti sahih yang menunjukkan kesesuaian teknik dan instrumen penilaian terhadap capaian pembelajaran yang dinilai minimum 25 s.d. < 50% dari jumlah matakuliah.",
+                    "_1": "Terdapat bukti sahih yang menunjukkan kesesuaian teknik dan instrumen penilaian terhadap capaian pembelajaran yang dinilai < 25% dari jumlah matakuliah.",
+                    "_0": "Tidak terdapat bukti sahih yang menunjukkan kesesuaian teknik dan instrumen penilaian terhadap capaian pembelajaran.",
+                    "keterangan": null
+                  },
+                  {
+                    "nomor": "6.4.f.C",
+                    "relasi": null,
+                    "rumus": "Skor = (A + (2 x B) + (2 x C)) / 5 ",
+                    "isi": "Pelaksanaan penilaian memuat unsur- unsur sebagai berikut:\n1) mempunyai kontrak rencana penilaian,\n2) melaksanakan penilaian sesuai kontrak atau kesepakatan,\n3) memberikan umpan balik dan memberi kesempatan untuk mempertanyakan hasil kepada mahasiswa,\n4) mempunyai dokumentasi penilaian\nproses dan hasil belajar mahasiswa,\n5) mempunyai prosedur yang mencakup tahap perencanaan, kegiatan pemberian tugas atau soal, observasi kinerja, pengembalian hasil observasi, dan pemberian nilai akhir,\n6) pelaporan penilaian berupa kualifikasi keberhasilan mahasiswa dalam menempuh suatu mata kuliah dalam bentuk huruf dan angka,\n7) mempunyai bukti- bukti rencana dan telah melakukan proses perbaikan berdasar hasil monev penilaian.",
+                    "_4": "Terdapat bukti sahih pelaksanaan penilaian mencakup 7 unsur.",
+                    "_3": "Terdapat bukti sahih pelaksanaan penilaian mencakup minimum unsur 1, 4 dan 6 serta 2 unsur lainnya.",
+                    "_2": "Terdapat bukti sahih pelaksanaan penilaian mencakup minimum unsur 1, 4 dan 6.",
+                    "_1": "Terdapat bukti sahih pelaksanaan penilaian hanya mencakup unsur 6.",
+                    "_0": null,
+                    "keterangan": null
+                  }
+                ]
+              },
+              {
+                "nomor": "6.4.g",
+                "judul": "Integrasi Kegiatan Penelitian dan PkM dalam pembelajaran",
+                "butir": null,
+                "indikators": [
+                  {
+                    "nomor": "6.4.g.1",
+                    "relasi": [
+                      "5.b"
+                    ],
+                    "rumus": null,
+                    "isi": "Integrasi kegiatan penelitian dan PkM dalam pembelajaran oleh DTPS dalam 3 tahun terakhir.",
+                    "_4": "Jika PMKI ≥ 50% , maka Skor = 4",
+                    "_3": "Jika 25% < PMKI < 50% , maka Skor = 8 x PMKI",
+                    "_2": "Jika PMKI ≤ 25% , maka Skor = 2",
+                    "_1": null,
+                    "_0": null,
+                    "keterangan": "NMKI = Jumlah mata kuliah yang dikembangkan berdasarkan hasil penelitian/PkM DTPS dalam 3 tahun terakhir. NMK = Jumlah mata kuliah.\nPMKI = (NMKI / NMK) x 100%"
+                  }
+                ]
+              },
+              {
+                "nomor": "6.4.h",
+                "judul": "Suasana Akademik",
+                "butir": null,
+                "indikators": [
+                  {
+                    "nomor": "6.4.h.1",
+                    "relasi": null,
+                    "rumus": null,
+                    "isi": "Keterlaksanaan dan keberkalaan program dan kegiatan diluar kegiatan pembelajaran terstruktur untuk meningkatkan suasana akademik.\nContoh: kegiatan himpunan asosiasi profesi bidang ilmu, kuliah umum/studium generale, seminar ilmiah, bedah buku.",
+                    "_4": "Kegiatan ilmiah yang terjadwal dilaksanakan setiap bulan.",
+                    "_3": "Kegiatan ilmiah yang terjadwal dilaksanakan dua s.d tiga bulan sekali",
+                    "_2": "Kegiatan ilmiah yang terjadwal dilaksanakan empat s.d. enam bulan sekali.",
+                    "_1": "Kegiatan ilmiah yang terjadwal dilaksanakan lebih dari enam bulan sekali.",
+                    "_0": null,
+                    "keterangan": null
+                  }
+                ]
+              },
+              {
+                "nomor": "6.4.i",
+                "judul": "Kepuasan Mahasiswa",
+                "butir": null,
+                "indikators": [
+                  {
+                    "nomor": "6.4.i.A",
+                    "relasi": [
+                      "5.c"
+                    ],
+                    "rumus": null,
+                    "isi": "Tingkat kepuasan mahasiswa terhadap proses pendidikan.",
+                    "_4": "TKM ≥ 75%",
+                    "_3": "Jika 25% ≤ TKM < 75% , maka Skor = (8 x TKM) - 2",
+                    "_2": "Jika 25% ≤ TKM < 75% , maka Skor = (8 x TKM) - 2",
+                    "_1": "Jika 25% ≤ TKM < 75% , maka Skor = (8 x TKM) - 2",
+                    "_0": "Jika TKM < 25% , maka Skor = 0",
+                    "keterangan": "Tingkat kepuasan pengguna pada aspek:\nTKM1: Reliability; TKM2: Responsiveness; TKM3: Assurance; TKM4: Empathy; TKM5: Tangible.\nTingkat kepuasan mahasiswa pada aspek ke-i dihitung dengan rumus sebagai berikut:\nTKMi = (4 x ai) + (3 x bi) + (2 x ci) + di i = 1, 2, ..., 7\ndimana : ai = persentase “Sangat Baik”; bi = persentase “Baik”; ci = persentase “Cukup”; di = persentase “Kurang”.\nTKM = ƩTKMi / 5"
+                  },
+                  {
+                    "nomor": "6.4.i.B",
+                    "relasi": null,
+                    "rumus": "Skor = (A + (2 x B)) / 3",
+                    "isi": "Analisis dan tindak lanjut dari hasil pengukuran kepuasan mahasiswa.",
+                    "_4": "Hasil pengukuran dianalisis dan ditindaklanjuti minimal 2 kali setiap semester, serta digunakan untuk perbaikan proses pembelajaran dan menunjukkan peningkatan hasil pembelajaran.",
+                    "_3": "Hasil pengukuran dianalisis dan ditindaklanjuti setiap semester, serta digunakan untuk perbaikan proses pembelajaran dan menunjukkan peningkatan hasil pembelajaran.",
+                    "_2": "Hasil pengukuran dianalisis dan ditindaklanjuti setiap tahun, serta digunakan untuk perbaikan proses pembelajaran.",
+                    "_1": "Hasil pengukuran dianalisis dan ditindaklanjuti, serta digunakan untuk perbaikan proses pembelajaran, namun dilakukan secara insidentil.",
+                    "_0": "Tidak dilakukan analisis terhadap hasil pengukuran kepuasan terhadap proses pembelajaran.",
+                    "keterangan": null
+                  }
+                ]
+              }
+            ],
+            "indikators": null
+          }
+        ],
+        "indikators": null
+      },
+      {
+        "nomor": "7",
+        "judul": "Penelitian",
+        "butir": [
+          {
+            "nomor": "7.4",
+            "judul": "Indikator Kinerja Utama",
+            "butir": [
+              {
+                "nomor": "7.4.a",
+                "judul": "Relevansi Penilitian",
+                "butir": null,
+                "indikators": [
+                  {
+                    "nomor": "7.4.a.1",
+                    "relasi": null,
+                    "rumus": null,
+                    "isi": "Relevansi penelitian pada UPPS mencakup unsur-unsur sebagai berikut:\n1) memiliki peta jalan yang memayungi tema penelitian dosen dan mahasiswa serta pengembangan keilmuan program studi,\n2) dosen dan mahasiswa melaksanakan penelitian sesuai dengan agenda penelitian dosen yang merujuk kepada peta jalan penelitian,\n3) melakukan evaluasi kesesuaian penelitian dosen dan mahasiswa dengan peta jalan, dan\n4) menggunakan hasil evaluasi untuk perbaikan relevansi penelitian dan pengembangan keilmuan program studi.",
+                    "_4": "UPPS memenuhi 4 unsur relevansi penelitian dosen dan mahasiswa.",
+                    "_3": "UPPS memenuhi unsur 1, 2, dan 3 relevansi penelitian dosen dan mahasiswa.",
+                    "_2": "UPPS memenuhi unsur 1, dan 2 relevansi penelitian dosen dan mahasiswa.",
+                    "_1": "UPPS memenuhi unsur pertama namun penelitian dosen dan mahasiswa tidak sesuai dengan peta jalan.",
+                    "_0": "UPPS tidak mempunyai peta jalan penelitian dosen dan mahasiswa.",
+                    "keterangan": null
+                  }
+                ]
+              },
+              {
+                "nomor": "7.4.b",
+                "judul": "Penelitian Dosen dan Mahasiswa",
+                "butir": null,
+                "indikators": [
+                  {
+                    "nomor": "7.4.b.1",
+                    "relasi": [
+                      "6.a"
+                    ],
+                    "rumus": null,
+                    "isi": "Penelitian DTPS yang dalam pelaksanaannya melibatkan mahasiswa program studi dalam 3 tahun terakhir.",
+                    "_4": "Jika PPDM ≥ 50%, maka Skor = 4",
+                    "_3": "Jika PPDM < 50% , maka Skor = 2 + (4 x PPDM)",
+                    "_2": "Jika PPDM < 50% , maka Skor = 2 + (4 x PPDM)",
+                    "_1": null,
+                    "_0": null,
+                    "keterangan": "NPM = Jumlah judul penelitian DTPS yang dalam pelaksanaannya melibatkan mahasiswa program studi dalam 3 tahun terakhir. NPD = Jumlah judul penelitian DTPS dalam 3 tahun terakhir. PPDM = (NPM / NPD) x 100%"
+                  },
+                  {
+                    "nomor": "7.4.b.2",
+                    "relasi": [
+                      "6.b"
+                    ],
+                    "rumus": null,
+                    "isi": "Penelitian DTPS yang menjadi rujukan tema tesis/disertasi mahasiswa program studi dalam 3 tahun terakhir.",
+                    "_4": "Jika PPTM ≥ 25%, maka Skor = 4",
+                    "_3": "Jika PPTM < 25% , maka Skor = 1 + (12 x PPTM)",
+                    "_2": "Jika PPTM < 25% , maka Skor = 1 + (12 x PPTM)",
+                    "_1": "Jika PPTM < 25% , maka Skor = 1 + (12 x PPTM)",
+                    "_0": null,
+                    "keterangan": "NTM = Jumlah judul penelitian DTPS yang menjadi rujukan tema tesis mahasiswa program studi dalam 3 tahun terakhir.\nNPD = Jumlah judul penelitian DTPS dalam 3 tahun terakhir. dosen tetap yang ditugaskan sebagai pengampu mata kuliah dengan bidang keahlian yang sesuai dengan kompetensi inti program studi yang diakreditasi.\nPPTM = (NTM / NPD) x 100%"
+                  }
+                ]
+              }
+            ],
+            "indikators": null
+          }
+        ],
+        "indikators": null
+      },
+      {
+        "nomor": "8",
+        "judul": "Pengabdian kepada Masyarakat",
+        "butir": [
+          {
+            "nomor": "8.4",
+            "judul": "Indikator Kinerja Utama",
+            "butir": [
+              {
+                "nomor": "8.4.a",
+                "judul": "Relevansi PkM",
+                "butir": null,
+                "indikators": [
+                  {
+                    "nomor": "8.4.a.1",
+                    "relasi": null,
+                    "rumus": null,
+                    "isi": "Relevansi PkM pada UPPS mencakup unsur- unsur sebagai berikut:\n1) memiliki peta jalan yang memayungi tema PkM dosen dan mahasiswa serta hilirisasi/penerapan keilmuan program studi,\n2) dosen dan mahasiswa melaksanakan PkM sesuai dengan peta jalan PkM.\n3) melakukan evaluasi kesesuaian PkM dosen dan mahasiswa dengan peta jalan, dan\n4) menggunakan hasil evaluasi untuk perbaikan relevansi PkM dan pengembangan keilmuan program studi.",
+                    "_4": "UPPS memenuhi 4 unsur relevansi PkM dosen dan mahasiswa.",
+                    "_3": "UPPS memenuhi unsur 1, 2, dan 3 relevansi PkM dosen dan mahasiswa.",
+                    "_2": "UPPS memenuhi unsur 1, dan 2 relevansi PkM dosen dan mahasiswa.",
+                    "_1": "UPPS memenuhi unsur pertama namun PkM dosen dan mahasiswa tidak sesuai dengan peta jalan.",
+                    "_0": "UPPS tidak mempunyai peta jalan PkM dosen dan mahasiswa.",
+                    "keterangan": null
+                  }
+                ]
+              },
+              {
+                "nomor": "8.4.b",
+                "judul": "PkM Dosen dan Mahasiswa",
+                "butir": null,
+                "indikators": [
+                  {
+                    "nomor": "8.4.b.1",
+                    "relasi": [
+                      "7"
+                    ],
+                    "rumus": null,
+                    "isi": "PkM DTPS yang dalam pelaksanaannya melibatkan mahasiswa program studi dalam 3 tahun terkahir.",
+                    "_4": "Jika PPkMDM ≥ 25%, maka Skor = 4",
+                    "_3": "Jika PPkMDM < 25% , maka Skor = 2 + (8 x PPDM)",
+                    "_2": "Jika PPkMDM < 25% , maka Skor = 2 + (8 x PPDM)",
+                    "_1": null,
+                    "_0": null,
+                    "keterangan": "NPkMM = Jumlah judul PkM DTPS yang dalam pelaksanaannya melibatkan mahasiswa program studi dalam 3 tahun terakhir. NPkMD = Jumlah judul PkM DTPS dalam 3 tahun terakhir. PPkMDM = (NPkMM / NPkMD) x 100%"
+                  }
+                ]
+              }
+            ],
+            "indikators": null
+          }
+        ],
+        "indikators": null
+      },
+      {
+        "nomor": "9",
+        "judul": "Luaran dan Capaian Tridharma",
+        "butir": [
+          {
+            "nomor": "9.4",
+            "judul": "Indikator Kinerja Utama",
+            "butir": [
+              {
+                "nomor": "9.4.a",
+                "judul": "Luaran Dharma Pendidikan",
+                "butir": null,
+                "indikators": [
+                  {
+                    "nomor": "9.4.a.1",
+                    "relasi": null,
+                    "rumus": null,
+                    "isi": "Analisis pemenuhan capaian pembelajaran lulusan (CPL) yang diukur dengan metoda yang sahih dan relevan, mencakup aspek:\n1) keserbacakupan,\n2) kedalaman, dan\n3) kebermanfaatan analisis yang ditunjukkan dengan peningkatan CPL dari waktu ke waktu dalam 3 tahun terakhir.",
+                    "_4": "Analisis capaian pembelajaran lulusan memenuhi 3 aspek.",
+                    "_3": "Analisis capaian pembelajaran lulusan memenuhi 2 aspek.",
+                    "_2": "Analisis capaian pembelajaran lulusan memenuhi 1 aspek.",
+                    "_1": "Analisis capaian pembelajaran lulusan tidak memenuhi ketiga aspek.",
+                    "_0": "Tidak dilakukan analisis capaian pembelajaran lulusan.",
+                    "keterangan": null
+                  },
+                  {
+                    "nomor": "9.4.a.2",
+                    "relasi": [
+                      "8.a"
+                    ],
+                    "rumus": null,
+                    "isi": "IPK lulusan.",
+                    "_4": "Jika RIPK ≥ 3,50, maka Skor = 4",
+                    "_3": "Jika 3,00 ≤ RIPK < 3,50, maka Skor = ((4 x RIPK) - 10)",
+                    "_2": "Jika 3,00 ≤ RIPK < 3,50, maka Skor = ((4 x RIPK) - 10)",
+                    "_1": null,
+                    "_0": null,
+                    "keterangan": "RIPK = Rata-rata IPK lulusan dalam 3 tahun terakhir."
+                  },
+                  {
+                    "nomor": "9.4.a.3",
+                    "relasi": [
+                      "8.b.1"
+                    ],
+                    "rumus": null,
+                    "isi": "Prestasi mahasiswa di bidang akademik dalam 3 tahun terakhir.",
+                    "_4": "Jika RI ≥ a , maka Skor = 4",
+                    "_3": "Jika RI < a dan RN ≥ b , maka Skor = 3 + (RI / a)\nJika 0 < RI < a dan 0 < RN < b , maka Skor = 2 + (2 x (RI/a)) + (RN/b) - ((RI x RN)/(a x b))",
+                    "_2": "Jika RI < a dan RN ≥ b , maka Skor = 3 + (RI / a)\nJika 0 < RI < a dan 0 < RN < b , maka Skor = 2 + (2 x (RI/a)) + (RN/b) - ((RI x RN)/(a x b))",
+                    "_1": "Jika RI = 0 dan RN = 0 dan RW ≥ c ,maka Skor = 2\n Jika RI = 0 dan RN = 0 dan RW < c , maka Skor = (2 x RW) / c",
+                    "_0": "Jika RI = 0 dan RN = 0 dan RW ≥ c ,maka Skor = 2\n Jika RI = 0 dan RN = 0 dan RW < c , maka Skor = (2 x RW) / c",
+                    "keterangan": "RI = NI / NM , RN = NN / NM , RW = NW / NM \tFaktor: a = 0,5% , b = 2% , c = 4%\nNI = Jumlah prestasi akademik internasional. NN = Jumlah prestasi akademik nasional.\nNW = Jumlah prestasi akademik wilayah/lokal. NM = Jumlah mahasiswa pada saat TS."
+                  },
+                  {
+                    "nomor": "9.4.a.4",
+                    "relasi": [
+                      "8.c"
+                    ],
+                    "rumus": null,
+                    "isi": "Masa Studi",
+                    "_4": "Jika 1.5 < MS ≤ 2.5 , maka Skor = 4",
+                    "_3": "Jika 1 < MS ≤ 1.5 , maka Skor = (8 x MS) - 8 \n Jika 2.5 < MS ≤ 4 , maka Skor = (32 - (8 x MS)) / 3",
+                    "_2": "Jika 1 < MS ≤ 1.5 , maka Skor = (8 x MS) - 8 \n Jika 2.5 < MS ≤ 4 , maka Skor = (32 - (8 x MS)) / 3",
+                    "_1": "Jika 1 < MS ≤ 1.5 , maka Skor = (8 x MS) - 8 \n Jika 2.5 < MS ≤ 4 , maka Skor = (32 - (8 x MS)) / 3",
+                    "_0": "Jika MS ≤ 1 , maka Skor = 0",
+                    "keterangan": "MS = Rata-rata masa studi lulusan (tahun)."
+                  },
+                  {
+                    "nomor": "9.4.a.5",
+                    "relasi": [
+                      "8.c"
+                    ],
+                    "rumus": null,
+                    "isi": "Kelulusan tepat waktu",
+                    "_4": "Jika PTW ≥ 50% , maka Skor = 4",
+                    "_3": "Jika PTW < 50% , maka Skor = 1 + (6 x PTW)",
+                    "_2": "Jika PTW < 50% , maka Skor = 1 + (6 x PTW)",
+                    "_1": "Jika PTW < 50% , maka Skor = 1 + (6 x PTW)",
+                    "_0": null,
+                    "keterangan": "PTW = Persentase kelulusan tepat waktu"
+                  },
+                  {
+                    "nomor": "9.4.a.6",
+                    "relasi": [
+                      "8.c"
+                    ],
+                    "rumus": null,
+                    "isi": "Keberhasilan studi.",
+                    "_4": "Jika PPS ≥ 85% , maka Skor = 4",
+                    "_3": "Jika 30% ≤ PPS < 85% , maka Skor = ((80 x PPSi) - 24) / 11",
+                    "_2": "Jika 30% ≤ PPS < 85% , maka Skor = ((80 x PPSi) - 24) / 11",
+                    "_1": "Jika 30% ≤ PPS < 85% , maka Skor = ((80 x PPSi) - 24) / 11",
+                    "_0": "Jika PPS < 30%, maka Skor = 0",
+                    "keterangan": "PPS = Persentase keberhasilan studi."
+                  },
+                  {
+                    "nomor": "9.4.a.7",
+                    "relasi": null,
+                    "rumus": null,
+                    "isi": "Pelaksanaan tracer study yang mencakup 5 aspek sebagai berikut:\n1)pelaksanaan tracer study terkoordinasi di tingkat PT,\n2)kegiatan tracer study dilakukan secara reguler setiap tahun dan terdokumentasi,\n3)isi kuesioner mencakup seluruh pertanyaan inti tracer study DIKTI.\n4)ditargetkan pada seluruh populasi (lulusan TS-4 s.d. TS-2),\n5) hasilnya disosialisasikan dan digunakan untuk pengembangan kurikulum dan pembelajaran.",
+                    "_4": "Tracer study yang dilakukan UPPS telah mencakup 5 aspek.",
+                    "_3": "Tracer study yang dilakukan UPPS telah mencakup 4 aspek.",
+                    "_2": "Tracer study yang dilakukan UPPS telah mencakup 3 aspek.",
+                    "_1": "Tracer study yang dilakukan UPPS telah mencakup 2 aspek.",
+                    "_0": "UPPS tidak melaksanakan tracer study.",
+                    "keterangan": null
+                  },
+                  {
+                    "nomor": "9.4.a.8",
+                    "relasi": [
+                      "8.d.2"
+                    ],
+                    "rumus": null,
+                    "isi": "Kesesuaian Bidang.",
+                    "_4": "Jika PBS ≥ 60% , maka Skor = 4",
+                    "_3": "Jika PBS < 60%, maka Skor = (20 x PBS) / 3",
+                    "_2": "Jika PBS < 60%, maka Skor = (20 x PBS) / 3",
+                    "_1": "Jika PBS < 60%, maka Skor = (20 x PBS) / 3",
+                    "_0": "Jika PBS < 60%, maka Skor = (20 x PBS) / 3",
+                    "keterangan": "PBS = Kesesuaian bidang kerja lulusan saat mendapatkan pekerjaan pertama dalam 3 tahun, mulai TS-4 s.d. TS-2.\nKetentuan persentase responden lulusan:\n- untuk program studi dengan jumlah lulusan dalam 3 tahun (TS-4 s.d. TS-2) ≥ 300 orang, maka Prmin = 30%.\n- untuk program studi dengan jumlah lulusan dalam 3 tahun (TS-4 s.d. TS-2) < 300 orang, maka Prmin = 50% - ((NL / 300) x 20%) Jika persentase responden memenuhi ketentuan diatas, maka Skor akhir = Skor.\nJika persentase responden tidak memenuhi ketentuan diatas, maka berlaku penyesuaian sebagai berikut: Skor akhir = (PJ / Prmin) x Skor. NL = Jumlah lulusan dalam 3 tahun (TS-4 s.d. TS-2)\nNJ = Jumlah lulusan dalam 3 tahun (TS-4 s.d. TS-2) yang terlacak PJ = Persentase lulusan yang terlacak = (NL / NJ) x 100%\nPrmin = Persentase responden minimum"
+                  },
+                  {
+                    "nomor": "9.4.a.9",
+                    "relasi": [
+                      "8.e.2-ref",
+                      "8.e.2"
+                    ],
+                    "rumus": null,
+                    "isi": "Tingkat kepuasan pengguna lulusan",
+                    "_4": "Skor = STKi / 7",
+                    "_3": "Skor = STKi / 7",
+                    "_2": "Skor = STKi / 7",
+                    "_1": "Skor = STKi / 7",
+                    "_0": "Skor = STKi / 7",
+                    "keterangan": "Tingkat kepuasan aspek ke-i dihitung dengan rumus sebagai berikut:\nTKi = (4 x ai) + (3 x bi) + (2 x ci) + di i = 1, 2, ..., 7 ai = persentase “sangat baik”.\nbi = persentase “baik”. ci = persentase “cukup”.\ndi = persentase “kurang”.\n Ketentuan persentase responden pengguna lulusan:\n-\tuntuk program studi dengan jumlah lulusan dalam 3 tahun (TS-4 s.d. TS-2) ≥ 300 orang, maka Prmin = 30%.\n-\tuntuk program studi dengan jumlah lulusan dalam 3 tahun (TS-4 s.d. TS-2) < 300 orang, maka Prmin = 50% - ((NL / 300) x 20%) Jika persentase responden memenuhi ketentuan diatas, maka Skor akhir = Skor.\nJika persentase responden tidak memenuhi ketentuan diatas, maka berlaku penyesuaian sebagai berikut: Skor akhir = (PJ / Prmin) x Skor. NL = Jumlah lulusan dalam 3 tahun (TS-4 s.d. TS-2)\nNJ = Jumlah pengguna lulusan yang memberi tanggapan atas studi pelacakan lulusan dalam 3 tahun (TS-4 s.d. TS-2) PJ = Persentase pengguna lulusan yang memberi tanggapan = (NL / NJ) x 100%\nPrmin = Persentase responden minimum"
+                  }
+                ]
+              },
+              {
+                "nomor": "9.4.b",
+                "judul": "Luaran Dharma Penelitian dan PkM",
+                "butir": null,
+                "indikators": [
+                  {
+                    "nomor": "9.4.b.1",
+                    "relasi": [
+                      "8.f.1"
+                    ],
+                    "rumus": null,
+                    "isi": "Publikasi ilmiah mahasiswa, yang dihasilkan secara mandiri atau bersama DTPS, dengan judul yang relevan dengan bidang program studi dalam 3 tahun terakhir.",
+                    "_4": "Jika RI ≥ a, maka Skor = 4",
+                    "_3": "Jika RI < a dan RN ≥ b , maka Skor = 3 + (RI / a) \nJika 0 < RI < a dan 0 < RN < b , maka Skor = 2 + (2 x (RI/a)) + (RN/b) - ((RI x RN)/(a x b))",
+                    "_2": "Jika RI < a dan RN ≥ b , maka Skor = 3 + (RI / a) \nJika 0 < RI < a dan 0 < RN < b , maka Skor = 2 + (2 x (RI/a)) + (RN/b) - ((RI x RN)/(a x b))",
+                    "_1": "Jika RI = 0 dan RN = 0 dan RL ≥ c , maka Skor = 2\n Jika RI = 0 dan RN = 0 dan RL < c , maka Skor = (2 x RL) / c",
+                    "_0": null,
+                    "keterangan": "RL = ((NA1 + NB1 + NC1) / NM) x 100% , RN = ((NA2 + NA3 + NB2 + NC2) / NM) x 100% , RI = ((NA4 + NB3 + NC3) / NM) x 100%\nFaktor: a = 2% , b = 20% , c = 70%\nNA1 = Jumlah publikasi mahasiswa di jurnal nasional tidak terakreditasi. \nNA2 = Jumlah publikasi mahasiswa di jurnal nasional terakreditasi.\nNA3 = Jumlah publikasi mahasiswa di jurnal internasional.\nNA4 = Jumlah publikasi mahasiswa di jurnal internasional bereputasi. \nNB1 = Jumlah publikasi mahasiswa di seminar wilayah/lokal/PT.\nNB2 = Jumlah publikasi mahasiswa di seminar nasional. \nNB3 = Jumlah publikasi mahasiswa di seminar internasional. \nNC1 = Jumlah tulisan mahasiswa di media massa wilayah. \nNC2 = Jumlah tulisan mahasiswa di media massa nasional.\nNC3 = Jumlah tulisan mahasiswa di media massa internasional.\nNM = Jumlah mahasiswa pada saat TS."
+                  },
+                  {
+                    "nomor": "9.4.b.2",
+                    "relasi": [
+                      "8.f.2"
+                    ],
+                    "rumus": null,
+                    "isi": "Artikel karya ilmiah mahasiswa, yang dihasilkan secara mandiri atau bersama DTPS, yang disitasi\ndalam 3 tahun terakhir.",
+                    "_4": "Jika NAS ≥ 2 , maka Skor = 4 .",
+                    "_3": "Jika NAS = 1 , maka Skor = 3 .",
+                    "_2": "Jika NAS = 0 , maka Skor = 2 .",
+                    "_1": null,
+                    "_0": null,
+                    "keterangan": "NAS = jumlah artikel mahasiswa yang disitasi dalam 3 tahun terakhir."
+                  },
+                  {
+                    "nomor": "9.4.b.3",
+                    "relasi": [
+                      "8.f.4-1",
+                      "8.f.4-2",
+                      "8.f.4-3",
+                      "8.f.4-4"
+                    ],
+                    "rumus": null,
+                    "isi": "Luaran penelitian dan PkM yang dihasilkan mahasiswa, baik secara mandiri atau bersama DTPS dalam 3 tahun",
+                    "_4": "Jika NLP ≥ 2 , maka Skor 4 .",
+                    "_3": "Jika NLP < 2 , maka Skor = 2 + NLP.",
+                    "_2": "Jika NLP < 2 , maka Skor = 2 + NLP.",
+                    "_1": null,
+                    "_0": null,
+                    "keterangan": "NLP = 2 x (NA + NB + NC) + ND\nNA = Jumlah luaran penelitian/PkM mahasiswa yang mendapat pengakuan HKI (Paten, Paten Sederhana)\nNB = Jumlah luaran penelitian/PkM mahasiswa yang mendapat pengakuan HKI (Hak Cipta, Desain Produk Industri, Perlindungan Varietas Tanaman, Desain Tata Letak Sirkuit Terpadu, dll.)\nNC = Jumlah luaran penelitian/PkM mahasiswa dalam bentuk Teknologi Tepat Guna, Produk (Produk Terstandarisasi, Produk Tersertifikasi), Karya Seni, Rekayasa Sosial.\nND = Jumlah luaran penelitian/PkM mahasiswa yang diterbitkan dalam bentuk Buku ber-ISBN, Book Chapter."
+                  }
+                ]
+              }
+            ],
+            "indikators": null
+          }
+        ],
+        "indikators": null
+      }
+    ],
+    "indikators": null
+  },
+  {
+    "nomor": "D",
+    "judul": "Analisis dan Penetapan Program Pengembangan",
+    "butir": [
+      {
+        "nomor": "1",
+        "judul": "Analisis dan Capaian Kinerja",
+        "butir": null,
+        "indikators": [
+          {
+            "nomor": "1.1",
+            "relasi": null,
+            "rumus": null,
+            "isi": "Keserbacakupan (kelengkapan, keluasan, dan kedalaman), ketepatan, ketajaman, dan kesesuaian analisis capaian kinerja serta konsistensi dengan setiap kriteria.",
+            "_4": "UPPS telah melakukan analisis capaian kinerja yang:\n1) analisisnya didukung oleh data/informasi yang relevan (merujuk pada pencapaian standar mutu perguruan tinggi) dan berkualitas (andal dan memadai) yang didukung oleh keberadaan pangkalan data institusi yang terintegrasi.\n2) konsisten dengan seluruh kriteria yang diuraikan sebelumnya,\n3) analisisnya dilakukan secara komprehensif, tepat, dan tajam untuk mengidentifikasi akar masalah di UPPS.\n4) hasilnya dipublikasikan kepada para pemangku kepentingan internal dan eksternal serta mudahdiakses.",
+            "_3": "UPPS telah melakukan analisis capaian kinerja yang:\n1) analisisnya didukung oleh data/informasi yang relevan (merujuk pada pencapaian standar mutu perguruan tinggi) dan berkualitas (andal dan memadai) yang didukung oleh keberadaan pangkalan data institusi yang belum terintegrasi.\n2) konsisten dengan sebagian besar (7 s.d. 8) kriteria yang diuraikan sebelumnya,\n3) analisisnya dilakukan secara komprehensif dan tepat untuk mengidentifikasi akar masalah di UPPS.\n4) hasilnya dipublikasikan kepada para pemangku kepentingan internal serta mudah diakses.",
+            "_2": "UPPS telah melakukan analisis capaian kinerja yang:\n1) analisisnya didukung oleh data/informasi yang relevan (merujuk pada pencapaian standar mutu perguruan tinggi) dan berkualitas (andal dan memadai).\n2) konsisten dengan sebagian (5 s.d. 6) kriteria yang diuraikan sebelumnya,\n3) analisisnya dilakukan secara komprehensif untuk mengidentifikasi akar masalah di UPPS.\n4) hasilnya dipublikasikan kepada para pemangku kepentingan internal.",
+            "_1": "UPPS telah melakukan analisis capaian kinerja yang:\n1) analisisnya tidak sepenuhnya didukung oleh data/informasi yang relevan (merujuk pada pencapaian standar mutu perguruan tinggi) dan berkualitas (andal dan memadai).\n2) konsisten dengan sebagian kecil (kurang dari 5) kriteria yang diuraikan sebelumnya,\n3) analisisnya dilakukan tidak secara komprehensif untuk mengidentifikasi akar masalah di UPPS.\n4) hasilnya tidak dipublikasikan.",
+            "_0": "UPPS tidak melakukan analisis capaian kinerja.",
+            "keterangan": null
+          }
+        ]
+      },
+      {
+        "nomor": "2",
+        "judul": "Analisis SWOT atau Analisis lain yang Relevan",
+        "butir": null,
+        "indikators": [
+          {
+            "nomor": "2.1",
+            "relasi": null,
+            "rumus": null,
+            "isi": "Ketetapan analisis SWOT atau analisis yang relevan di dalam mengembangkan strategi.",
+            "_4": "UPPS melakukan analisis SWOT atau analisis lain yang relevan, serta memenuhi aspek-aspek sebagai berikut:\n1) melakukan identifikasi kekuatan atau faktor pendorong, kelemahan atau faktor penghambat, peluang dan ancaman yang dihadapi UPPS dilakukan secara tepat,\n2) memiliki keterkaitan dengan hasil analisis capaian kinerja,\n3) merumuskan strategi pengembangan UPPS yang berkesesuaian, dan\n4) menghasilkan program-program pengembangan alternatif yang tepat.",
+            "_3": "UPPS melakukan analisis SWOT atau analisis lain yang relevan, serta memenuhi aspek-aspek sebagai berikut:\n1) melakukan identifikasi kekuatan atau faktor pendorong, kelemahan atau faktor penghambat, peluang dan ancaman yang dihadapi UPPS dilakukan secara tepat,\n2) memiliki keterkaitan dengan hasil analisis capaian kinerja, dan\n3) merumuskan strategi pengembangan UPPS yang berkesesuaian.",
+            "_2": "UPPS melakukan analisis SWOT atau analisis lain yang relevan, serta memenuhi aspek-aspek sebagai berikut:\n1) melakukan identifikasi kekuatan atau faktor pendorong, kelemahan atau faktor penghambat, peluang dan ancaman yang dihadapi UPPS dilakukan secara tepat, dan\n2) memiliki keterkaitan dengan hasil analisis capaian kinerja.",
+            "_1": "UPPS melakukan analisis SWOT atau analisis lain yang memenuhi aspek-aspek sebagai berikut:\n 1) melakukan identifikasi kekuatan atau faktor pendorong, kelemahan atau faktor penghambat, peluang dan ancaman yang dihadapi UPPS, dan\n2) memiliki keterkaitan dengan hasil analisis capaian kinerja, namun tidak terstruktur dan tidak sistematis.",
+            "_0": "UPPS tidak melakukan analisis untuk mengembangkanstrategi.",
+            "keterangan": null
+          }
+        ]
+      },
+      {
+        "nomor": "3",
+        "judul": "Program Pengembangan",
+        "butir": null,
+        "indikators": [
+          {
+            "nomor": "3.1",
+            "relasi": null,
+            "rumus": null,
+            "isi": "Ketepatan di dalam menetapkan prioritas program pengembangan.",
+            "_4": "UPPS menetapkan prioritas program pengembangan berdasarkan hasil analisis SWOT atau analisis lainnya yang mempertimbangkan secara komprehensif:\n1) kapasitas UPPS,\n2) kebutuhan UPPS dan PS di masa depan,\n3) rencana strategis UPPS yang berlaku,\n4) aspirasi dari pemangku kepentingan internal dan eksternal, serta\n5) program yangmenjamin keberlanjutan.",
+            "_3": "UPPS menetapkan prioritas program pengembangan berdasarkan hasil analisis SWOT atau analisis lainnya yang mempertimbangkan secara komprehensif:\n1) kapasitas UPPS,\n2) kebutuhan UPPS dan PS di masa depan,\n3) rencana strategis UPPS yang berlaku, dan\n4) aspirasi dari pemangku kepentingan internal.",
+            "_2": "UPPS menetapkan prioritas program pengembangan berdasarkan hasil analisis SWOT atau analisis lainnya yang mempertimbangkan secara komprehensif:\n1) kapasitas UPPS,\n2) kebutuhan UPPS dan PS di masa depan, dan\n3) rencana strategis UPPS yang berlaku.\n",
+            "_1": "UPPS menetapkan prioritas program pengembangan namun belum mempertimbangan secara komprehensif:\n1) kapasitas UPPS,\n2) kebutuhan UPPS dan PS, serta\n3) rencana strategis UPPS yang berlaku.",
+            "_0": "UPPS tidak menetapkan prioritas program pengembangan",
+            "keterangan": null
+          }
+        ]
+      },
+      {
+        "nomor": "4",
+        "judul": "Program Berkelanjutan",
+        "butir": null,
+        "indikators": [
+          {
+            "nomor": "4.1",
+            "relasi": null,
+            "rumus": null,
+            "isi": "UPPS memiliki kebijakan, ketersediaan sumberdaya, kemampuan melaksanakan, dan kerealistikan program.",
+            "_4": "UPPS memiliki kebijakan dan upaya yang diturunkan ke dalam berbagai peraturan untuk menjamin keberlanjutan program yang mencakup:\n1) alokasi sumber daya,\n2) kemampuan melaksanakan program pengembangan,\n3) rencana penjaminan mutu yang berkelanjutan, dan\n4) keberadaan dukungan\npemangku kepentingan eksternal.",
+            "_3": "UPPS memiliki kebijakan dan upaya yang diturunkan ke dalam berbagai peraturan untuk menjamin keberlanjutan program yang mencakup:\n1) alokasi sumber daya,\n2) kemampuan melaksanakan program pengembangan, dan\n3) rencana penjaminan mutu yang berkelanjutan.",
+            "_2": "UPPS memiliki kebijakan dan upaya untuk menjamin keberlanjutan program yang mencakup:\n1) alokasi sumber daya,\n2) kemampuan melaksanakan program pengembangan, dan\n3) rencana penjaminan mutu yang berkelanjutan.",
+            "_1": "UPPS memiliki kebijakan dan upaya namun belum cukup untuk menjamin keberlanjutan program.",
+            "_0": "UPPS tidak memiliki kebijakan dan upaya untuk menjamin keberlanjutan program.",
+            "keterangan": null
+          }
+        ]
+      }
+    ],
+    "indikators": null
+  }
+]

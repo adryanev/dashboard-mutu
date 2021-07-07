@@ -28,7 +28,7 @@ DIRECTORY STRUCTURE
 common
     config/              contains shared configurations
     mail/                contains view files for e-mails
-    models/              contains model classes used in both backend and frontend
+    models/              contains model classes used in both admin and akreditasi
     tests/               contains tests for common classes    
 console
     config/              contains console configurations
@@ -36,25 +36,25 @@ console
     migrations/          contains database migrations
     models/              contains console-specific model classes
     runtime/             contains files generated during runtime
-backend
+admin
     assets/              contains application assets such as JavaScript and CSS
-    config/              contains backend configurations
+    config/              contains admin configurations
     controllers/         contains Web controller classes
-    models/              contains backend-specific model classes
+    models/              contains admin-specific model classes
     runtime/             contains files generated during runtime
-    tests/               contains tests for backend application    
+    tests/               contains tests for admin application    
     views/               contains view files for the Web application
     web/                 contains the entry script and Web resources
-frontend
+akreditasi
     assets/              contains application assets such as JavaScript and CSS
-    config/              contains frontend configurations
+    config/              contains akreditasi configurations
     controllers/         contains Web controller classes
-    models/              contains frontend-specific model classes
+    models/              contains akreditasi-specific model classes
     runtime/             contains files generated during runtime
-    tests/               contains tests for frontend application
+    tests/               contains tests for akreditasi application
     views/               contains view files for the Web application
     web/                 contains the entry script and Web resources
-    widgets/             contains frontend widgets
+    widgets/             contains akreditasi widgets
 vendor/                  contains dependent 3rd-party packages
 environments/            contains environment-based overrides
 ```
