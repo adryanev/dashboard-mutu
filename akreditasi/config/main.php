@@ -18,6 +18,20 @@ return [
         'profile' => [
             'class' => 'common\modules\profile\Profile'
         ],
+        'kriteria9' => [
+            'class' => 'akreditasi\modules\kriteria9\Kriteria9',
+            'modules' => [
+                'k9-prodi' => [
+                    'class' => 'akreditasi\modules\kriteria9\modules\prodi\K9Prodi',
+                ],
+            ]
+        ],
+        'unit' => [
+            'class' => 'akreditasi\modules\unit\Unit',
+        ],
+        'asesor' => [
+            'class' => 'akreditasi\modules\asesor\Asesor',
+        ],
         'datecontrol' => [
             'class' => 'kartik\datecontrol\Module',
             // format settings for displaying each date attribute (ICU format example)
