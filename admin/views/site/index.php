@@ -1,53 +1,49 @@
 <?php
 
 /* @var $this yii\web\View */
+/* @var $jumlahProdi integer */
+/* @var $jumlahPengguna integer */
+/* @var $apt integer */
+/* @var $aps integer */
+/* @var $persenAps float */
+/* @var $persenApt float */
 
-$this->title = 'My Yii Application';
+$this->title = 'Beranda';
+$this->params['breadcrumbs'][] = $this->title;
+
 ?>
-<div class="site-index">
 
-    <div class="jumbotron">
-        <h1>Congratulations!</h1>
-
-        <p class="lead">You have successfully created your Yii-powered application.</p>
-
-        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
-    </div>
-
-    <div class="body-content">
-
-        <div class="row">
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
+<div class="row">
+    <div class="col-lg-12">
+        <!--begin::Portlet-->
+        <div class="kt-portlet">
+            <div class="kt-portlet__head">
+                <div class="kt-portlet__head-label">
+												<span class="kt-portlet__head-icon">
+													<i class="flaticon2-dashboard"></i>
+												</span>
+                    <h3 class="kt-portlet__head-title">
+                        Selamat Datang
+                        <small>di Dashboard Admin</small>
+                    </h3>
+                </div>
             </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
+            <div class="kt-portlet__body">
+                <p> Untuk petunjuk penggunaan aplikasi, silahkan merujuk pada buku panduan yang telah diberikan.
+                    Fitur bagian admin:</p>
+                <ul>
+                    <li>Manajemen Data Institusi (Perguran Tinggi, Unit/Satker/Lembaga, Program Studi)</li>
+                    <li>Manajemen Data Pengguna (Akun, Hak Akses Pengguna)</li>
+                    <li>Manajemen Data Akreditasi Program Studi</li>
+                    <li>Manajemen Data Sertifikat Akreditasi</li>
+                    <li><i>Monitoring</i> Antrian (Queue Monitor)</li>
+                </ul>
             </div>
         </div>
 
+        <!--end::Portlet-->
     </div>
 </div>
+
+
+

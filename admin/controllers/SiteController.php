@@ -1,7 +1,13 @@
 <?php
 namespace admin\controllers;
 
+use common\models\kriteria9\akreditasi\K9AkreditasiInstitusi;
+use common\models\kriteria9\akreditasi\K9AkreditasiProdi;
+use common\models\ProgramStudi;
+use common\models\User;
 use Yii;
+use yii\base\ErrorException;
+use yii\base\Exception;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
@@ -60,6 +66,36 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+
+//        $year = date('Y');
+//        $jumlahProdi = ProgramStudi::find()->count();
+//        $jumlahPengguna = User::find()->count();
+//        $aps = K9AkreditasiProdi::find()->joinWith(['akreditasi'])->where(['k9_akreditasi.tahun'=>$year])->count();
+//
+//        $apsTahunIni = $aps;
+//        $progressAps = 0;
+//        $totalProgressAps = $aps *100;
+//        $semuaApsTahunIni =K9AkreditasiProdi::find()->joinWith(['akreditasi'])->where(['k9_akreditasi.tahun'=>$year])->all();
+//
+//        foreach ($semuaApsTahunIni as $apsIni){
+//            $progressAps += $apsIni->progress;
+//        }
+//
+//        try{
+//            $persenAps = ($progressAps/$totalProgressAps) * 100;
+//
+//        } catch (ErrorException $e){
+//            $persenAps = 0;
+//        }
+//        $apt = K9AkreditasiInstitusi::find()->joinWith(['akreditasi'])->where(['k9_akreditasi.tahun'=>$year])->count();
+//
+//        $persenApt = 0;
+//
+//        $aptTahunIni =K9AkreditasiInstitusi::find()->joinWith(['akreditasi'])->where(['k9_akreditasi.tahun'=>$year])->one();
+//
+//        if($aptTahunIni) $persenApt = $aptTahunIni->progress;
+
+
         return $this->render('index');
     }
 
@@ -73,8 +109,6 @@ class SiteController extends Controller
         if (!Yii::$app->user->isGuest) {
             return $this->goHome();
         }
-
-        $this->layout = 'blank';
 
         $model = new LoginForm();
         if ($model->load(Yii::$app->request->post()) && $model->login()) {
