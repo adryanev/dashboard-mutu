@@ -37,7 +37,7 @@ $role = ucfirst(array_keys($roles)[0]);
         <div class="kt-header__topbar-item kt-header__topbar-item--user">
             <div class="kt-header__topbar-wrapper" data-toggle="dropdown" data-offset="0px,0px">
                 <div class="kt-header__topbar-user">
-                    <span class="kt-header__topbar-welcome kt-hidden-mobile">Assalamu'alaikum,</span>
+                    <span class="kt-header__topbar-welcome kt-hidden-mobile">Halo,</span>
                     <span
                         class="kt-header__topbar-username kt-hidden-mobile"><?= mb_strtoupper($namaLengkap) ?></span>
                     <!--                    <img class="kt-hidden" alt="Pic" src="./assets/media/users/300_25.jpg" />-->
