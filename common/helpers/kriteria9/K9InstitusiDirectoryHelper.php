@@ -108,27 +108,21 @@ class K9InstitusiDirectoryHelper extends K9DirectoryHelper
     {
         $path = Yii::getAlias('@.uploadAkreditasi');
         $documentPath = self::getK9InstitusiPath($akreditasi);
-        $realPath = "$path/$documentPath/lk";
-
-        return $realPath;
+        return "$path/$documentPath/lk";
     }
 
     public static function getKuantitatifPath($akreditasi)
     {
         $path = Yii::getAlias('@uploadAkreditasi');
         $documentPath = self::getK9InstitusiPath($akreditasi);
-        $realPath = "$path/$documentPath/matriks-kuantitatif";
-
-        return $realPath;
+        return "$path/$documentPath/matriks-kuantitatif";
     }
 
     public static function getKuantitatifUrl($akreditasi)
     {
         $path = Yii::getAlias('@.uploadAkreditasi');
         $documentPath = self::getK9InstitusiPath($akreditasi);
-        $realPath = "$path/$documentPath/matriks-kuantitatif";
-
-        return $realPath;
+        return "$path/$documentPath/matriks-kuantitatif";
     }
 
 
@@ -167,11 +161,11 @@ class K9InstitusiDirectoryHelper extends K9DirectoryHelper
 
     public static function getStrukturPath()
     {
-        return Yii::getAlias('@akreditasi/web/upload/struktur/institusi');
+        return Yii::getAlias('@uploadStruktur/institusi');
     }
 
     public static function getStrukturUrl()
     {
-        return Yii::getAlias('@.akreditasi/upload/struktur/institusi');
+        return Yii::getAlias('@.uploadStruktur/institusi');
     }
 }

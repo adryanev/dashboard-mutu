@@ -1,41 +1,62 @@
 <?php
 
 /* @var $this yii\web\View */
-/* @var $form yii\bootstrap\ActiveForm */
-/* @var $model \common\models\LoginForm */
+/* @var $form yii\bootstrap4\ActiveForm */
+/* @var $model akreditasi\models\LoginForm */
 
-use yii\helpers\Html;
-use yii\bootstrap\ActiveForm;
+use yii\bootstrap4\Html;
+use yii\bootstrap4\ActiveForm;
 
 $this->title = 'Login';
 $this->params['breadcrumbs'][] = $this->title;
+$this->context->layout='main-login';
 ?>
-<div class="site-login">
-    <h1><?= Html::encode($this->title) ?></h1>
-
-    <p>Please fill out the following fields to login:</p>
-
-    <div class="row">
-        <div class="col-lg-5">
-            <?php $form = ActiveForm::begin(['id' => 'login-form']); ?>
-
-                <?= $form->field($model, 'username')->textInput(['autofocus' => true]) ?>
-
-                <?= $form->field($model, 'password')->passwordInput() ?>
-
-                <?= $form->field($model, 'rememberMe')->checkbox() ?>
-
-                <div style="color:#999;margin:1em 0">
-                    If you forgot your password you can <?= Html::a('reset it', ['site/request-password-reset']) ?>.
-                    <br>
-                    Need new verification email? <?= Html::a('Resend', ['site/resend-verification-email']) ?>
-                </div>
-
-                <div class="form-group">
-                    <?= Html::submitButton('Login', ['class' => 'btn btn-primary', 'name' => 'login-button']) ?>
-                </div>
-
-            <?php ActiveForm::end(); ?>
+    <div class="kt-login__signin">
+        <div class="kt-login__head">
+            <h3 class="kt-login__title"><?=Html::encode(Yii::$app->name)?></h3>
         </div>
+        <?php $form = ActiveForm::begin([
+            'id' => 'login-form',
+            'options' => ['class'=>'kt-form']
+        ]); ?>
+        <form class="kt-form" action="">
+            <?= $form->field($model, 'username')->textInput(['placeholder'=>'Username'])->label(false) ?>
+            <?= $form->field($model, 'password')->passwordInput(['placeholder'=>'Password'])->label(false) ?>
+
+
+            <?= $form->field($model, 'rememberMe',['template'=>"<div class=\"row kt-login__extra\"><div class=\"col\"><label class='kt-checkbox'>{input} Ingat saya<span></span></span></label> </div>\n<div class=\"col-lg-8\">{error}</div></div>"])->textInput([
+                'class'=>"",'type'=>'checkbox']) ?>
+
+            <div class="kt-login__actions">
+                <?= Html::submitButton('Login', ['class' => 'btn btn-brand btn-pill kt-login__btn-primary', 'id'=>'kt_login_signin_submit','name' => 'login-button']) ?>
+            </div>
+        </form>
+        <?php ActiveForm::end() ?>
     </div>
-</div>
+
+
+<?php
+$jsForm = <<<JS
+ $('form').on('beforeSubmit', function()
+    {
+        var form = $(this);
+        //console.log('before submit');
+
+        var submit = form.find(':submit');
+        submit.html('<i class="flaticon2-refresh"></i> Sedang Memproses');
+        submit.prop('disabled', true);
+
+        KTApp.blockPage({
+            overlayColor: '#000000',
+            type: 'v2',
+            state: 'primary',
+            message: 'Sedang login...'
+        });
+
+    });
+
+JS;
+
+$this->registerJs($jsForm);
+
+?>

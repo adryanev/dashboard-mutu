@@ -22,14 +22,13 @@ use yii\db\ActiveQuery;
  * @property int $created_at
  * @property int $updated_at
  *
- * @property ProgramStudi | Unit | FakultasAkademi $owner
+ * @property ProgramStudi | Unit $owner
  *
  */
 class Profil extends \yii\db\ActiveRecord
 {
     const TIPE_PRODI = ProgramStudi::PROGRAM_STUDI;
     const TIPE_UNIT = Unit::UNIT;
-    const TIPE_FAKULTAS = FakultasAkademi::FAKULTAS_AKADEMI;
     const TIPE_INSTITUSI = Constants::INSTITUSI;
     /**
      * {@inheritdoc}
@@ -81,8 +80,6 @@ class Profil extends \yii\db\ActiveRecord
         switch ($this->type) {
             case self::TIPE_UNIT :
                 return $this->hasOne(Unit::class, ['id'=>'external_id']);
-            case self::TIPE_FAKULTAS:
-                return $this->hasOne(FakultasAkademi::class, ['id'=>'external_id']);
             case self::TIPE_PRODI :
                 return $this->hasOne(ProgramStudi::class, ['id'=>'external_id']);
             default:

@@ -47,6 +47,13 @@ return [
             'common/config/codeception-local.php',
             'akreditasi/config/main-local.php',
         ],
+        'createSymlink' => [
+            'admin/web/upload' => 'common/storages/upload',
+            'akreditasi/web/upload' => 'common/storages/upload',
+            'admin/web/media'=>'common/assets/metronic/assets/media',
+            'akreditasi/web/media'=>'common/assets/metronic/assets/media'
+
+        ]
     ],
     'Production' => [
         'path' => 'prod',
@@ -64,5 +71,13 @@ return [
             'admin/config/main-local.php',
             'akreditasi/config/main-local.php',
         ],
+        'createSymlink' => [
+            'admin/web/upload' => 'common/storages/upload',
+            'akreditasi/web/upload' => 'common/storages/upload',
+            'admin/web/media'=>'common/assets/metronic/assets/media',
+            'akreditasi/web/media'=>'common/assets/metronic/assets/media'
+
+        ]
     ],
+
 ];

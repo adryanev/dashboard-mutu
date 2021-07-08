@@ -3,13 +3,13 @@ Yii::setAlias('@common', dirname(__DIR__));
 Yii::setAlias('@akreditasi', dirname(dirname(__DIR__)) . '/akreditasi');
 Yii::setAlias('@admin', dirname(dirname(__DIR__)) . '/admin');
 Yii::setAlias('@console', dirname(dirname(__DIR__)) . '/console');
-Yii::setAlias('@uploadAkreditasi', '@akreditasi/web/upload');
-Yii::setAlias('@uploadAdmin', '@admin/web/upload');
+Yii::setAlias('@uploadAkreditasi', '@common/storages/upload');
+Yii::setAlias('@uploadAdmin', '@common/storages/upload');
 Yii::setAlias('@uploadStruktur', '@uploadAkreditasi/struktur');
 Yii::setAlias('@required', '@common/required');
-Yii::setAlias('@uploadUnit', '@akreditasi/web/upload/unit/{id_unit}');
-Yii::setAlias('@uploadFakultas', '@akreditasi/web/upload/fakultas/{id_fakultas}');
-Yii::setAlias('@uploadInstitusi', '@akreditasi/web/upload/institusi');
+Yii::setAlias('@uploadUnit', '@common/storages/upload/unit/{id_unit}');
+Yii::setAlias('@uploadFakultas', '@common/storages/upload/fakultas/{id_fakultas}');
+Yii::setAlias('@uploadInstitusi', '@common/storages/upload/institusi');
 $ini = parse_ini_file(dirname(__DIR__, 2) . '/system-configuration.ini');
 
 Yii::setAlias('@.akreditasi', $ini['url_kriteria']);

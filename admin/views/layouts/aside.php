@@ -35,6 +35,11 @@ $menuItems = [
                 'url' => ['profil-institusi/index']
             ],
             [
+                'label' => 'Profil',
+                'icon' => '<i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i>',
+                'url' => ['profil/index']
+            ],
+            [
                 'label' => 'Unit / Lembaga / Satker',
                 'icon' => '<i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i>',
                 'url' => ['/unit/index'],

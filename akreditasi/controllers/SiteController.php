@@ -1,25 +1,43 @@
 <?php
+
 namespace akreditasi\controllers;
 
-use akreditasi\models\ResendVerificationEmailForm;
-use akreditasi\models\VerifyEmailForm;
-use Yii;
-use yii\base\InvalidArgumentException;
-use yii\web\BadRequestHttpException;
-use yii\web\Controller;
-use yii\filters\VerbFilter;
-use yii\filters\AccessControl;
-use common\models\LoginForm;
+use akreditasi\models\ContactForm;
 use akreditasi\models\PasswordResetRequestForm;
+use akreditasi\models\ResendVerificationEmailForm;
 use akreditasi\models\ResetPasswordForm;
 use akreditasi\models\SignupForm;
-use akreditasi\models\ContactForm;
+use akreditasi\models\VerifyEmailForm;
+use common\models\LoginForm;
+use common\models\Profil;
+use Yii;
+use yii\base\InvalidArgumentException;
+use yii\filters\AccessControl;
+use yii\filters\VerbFilter;
+use yii\web\BadRequestHttpException;
+use yii\web\Controller;
 
 /**
  * Site controller
  */
-class SiteController extends BaseController
+class SiteController extends Controller
 {
+    /**
+     * {@inheritdoc}
+     */
+    public function actions()
+    {
+        return [
+            'error' => [
+                'class' => 'yii\web\ErrorAction',
+            ],
+            'captcha' => [
+                'class' => 'yii\captcha\CaptchaAction',
+                'fixedVerifyCode' => YII_ENV_TEST ? 'testme' : null,
+            ],
+        ];
+    }
+
     /**
      * {@inheritdoc}
      */
@@ -28,7 +46,7 @@ class SiteController extends BaseController
         return [
             'access' => [
                 'class' => AccessControl::className(),
-                'only' => ['logout', 'signup'],
+                'only' => ['logout', 'signup', 'index'],
                 'rules' => [
                     [
                         'actions' => ['signup'],
@@ -36,7 +54,7 @@ class SiteController extends BaseController
                         'roles' => ['?'],
                     ],
                     [
-                        'actions' => ['logout'],
+                        'actions' => ['logout', 'index'],
                         'allow' => true,
                         'roles' => ['@'],
                     ],
@@ -51,8 +69,6 @@ class SiteController extends BaseController
         ];
     }
 
-
-
     /**
      * Displays homepage.
      *
@@ -60,7 +76,8 @@ class SiteController extends BaseController
      */
     public function actionIndex()
     {
-        return $this->render('index');
+        $struktur = Profil::findOne(['type' => Profil::TIPE_INSTITUSI])->struktur_organisasi;
+        return $this->render('index', compact('struktur'));
     }
 
     /**
@@ -70,6 +87,7 @@ class SiteController extends BaseController
      */
     public function actionLogin()
     {
+
         if (!Yii::$app->user->isGuest) {
             return $this->goHome();
         }
@@ -108,7 +126,8 @@ class SiteController extends BaseController
         $model = new ContactForm();
         if ($model->load(Yii::$app->request->post()) && $model->validate()) {
             if ($model->sendEmail(Yii::$app->params['adminEmail'])) {
-                Yii::$app->session->setFlash('success', 'Thank you for contacting us. We will respond to you as soon as possible.');
+                Yii::$app->session->setFlash('success',
+                    'Thank you for contacting us. We will respond to you as soon as possible.');
             } else {
                 Yii::$app->session->setFlash('error', 'There was an error sending your message.');
             }
@@ -140,7 +159,8 @@ class SiteController extends BaseController
     {
         $model = new SignupForm();
         if ($model->load(Yii::$app->request->post()) && $model->signup()) {
-            Yii::$app->session->setFlash('success', 'Thank you for registration. Please check your inbox for verification email.');
+            Yii::$app->session->setFlash('success',
+                'Thank you for registration. Please check your inbox for verification email.');
             return $this->goHome();
         }
 
@@ -163,7 +183,8 @@ class SiteController extends BaseController
 
                 return $this->goHome();
             } else {
-                Yii::$app->session->setFlash('error', 'Sorry, we are unable to reset password for the provided email address.');
+                Yii::$app->session->setFlash('error',
+                    'Sorry, we are unable to reset password for the provided email address.');
             }
         }
 
@@ -202,8 +223,8 @@ class SiteController extends BaseController
      * Verify email address
      *
      * @param string $token
-     * @throws BadRequestHttpException
      * @return yii\web\Response
+     * @throws BadRequestHttpException
      */
     public function actionVerifyEmail($token)
     {
@@ -236,7 +257,8 @@ class SiteController extends BaseController
                 Yii::$app->session->setFlash('success', 'Check your email for further instructions.');
                 return $this->goHome();
             }
-            Yii::$app->session->setFlash('error', 'Sorry, we are unable to resend verification email for the provided email address.');
+            Yii::$app->session->setFlash('error',
+                'Sorry, we are unable to resend verification email for the provided email address.');
         }
 
         return $this->render('resendVerificationEmail', [
