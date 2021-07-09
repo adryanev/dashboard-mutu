@@ -103,29 +103,49 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "1.1.1.1",
-                                "dokumen": "Rencana Induk Pengembangan (RIP)"
+                                "dokumen": "Statuta (Kebijakan)"
                             },
                             {
                                 "kode": "1.1.1.2",
-                                "dokumen": "Rencana Strategis (RENSTRA)"
+                                "dokumen": "RIP (Kebijakan)"
                             },
                             {
                                 "kode": "1.1.1.3",
-                                "dokumen": "Rencana Operasional (RENOP)"
+                                "dokumen": "Renstra"
+                            },
+                            {
+                                "kode": "1.1.1.4",
+                                "dokumen": "Renop"
+                            },
+                            {
+                                "kode": "1.1.1.5",
+                                "dokumen": "SK penetapan pendirian program studi"
+                            },
+                            {
+                                "kode": "1.1.1.6",
+                                "dokumen": "Pedoman Penyusunan dan Evaluasi Renstra, RIP, dan VMTS"
+                            },
+                            {
+                                "kode": "1.1.1.7",
+                                "dokumen": "Dokumen SPME ( Ban-PT, Irjen, BPK, AME, Lembaga Akreditasi Internasional  (AUN-QA, IABEE, AIQA dll)"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "1.1.2.1",
-                                "dokumen": "Notulen Penyusun RIP, RENSTRA dan RENOP"
+                                "dokumen": "ToR kegiatan penyusunan VMTS"
                             },
                             {
                                 "kode": "1.1.2.2",
-                                "dokumen": "Daftar Hadir"
+                                "dokumen": "SK Panitia VMTS (Unsur: Pimpinan universitas, Fakultas, Prodi, Dosen)"
                             },
                             {
                                 "kode": "1.1.2.3",
-                                "dokumen": "Foto Kegiatan"
+                                "dokumen": "Rumusan Bahan Kajian VMTS"
+                            },
+                            {
+                                "kode": "1.1.2.4",
+                                "dokumen": "1 Siklus: a. Surat undangan, b.Daftar Hadir, c. materi, d. Notulensi rapat VMTS, e. Jadwal, f. Foto-foto Rapat g. Draft VMTS"
                             }
                         ]
                     },
@@ -138,29 +158,45 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "1.2.1.1",
-                                "dokumen": "Pedoman penyusunan, Evaluasi, Implementasi VMTS kedalam program pengembangan UPPS dan Program Studi"
+                                "dokumen": "Pedoman penyusunan dan penetapan VMTS"
                             },
                             {
                                 "kode": "1.2.1.2",
-                                "dokumen": "Rencana Induk Pengembangan (RIP)"
+                                "dokumen": "Pedoman Sosialisasi VMTS"
                             },
                             {
                                 "kode": "1.2.1.3",
-                                "dokumen": "RENSTRA Fakultas"
+                                "dokumen": "Pedoman Monitoring dan Evaluasi Implementasi VMTS"
+                            },
+                            {
+                                "kode": "1.2.1.4",
+                                "dokumen": "Standar Mutu VMTS"
+                            },
+                            {
+                                "kode": "1.2.1.5",
+                                "dokumen": "Sasaran Mutu VMTS"
+                            },
+                            {
+                                "kode": "1.2.1.6",
+                                "dokumen": "Manual Mutu"
+                            },
+                            {
+                                "kode": "1.2.1.7",
+                                "dokumen": "SOP"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "1.2.2.1",
-                                "dokumen": "Notulen Penyusunan Pedoman"
+                                "dokumen": "SK Tim penyusun pedoman"
                             },
                             {
                                 "kode": "1.2.2.2",
-                                "dokumen": "Daftar Hadir"
+                                "dokumen": "SK penetapan pedoman"
                             },
                             {
                                 "kode": "1.2.2.3",
-                                "dokumen": "Foto Kegiatan"
+                                "dokumen": "1 Siklus: a. Undangan,  b. Daftar hadir, c. Materi rapat yang menyangkut VMTS d. Feedback e. Foto Kegiatan"
                             }
                         ]
                     },
@@ -173,33 +209,45 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "1.3.1.1",
-                                "dokumen": "Rencana Induk Pengembangan (RIP)"
+                                "dokumen": "Rencana Mutu"
                             },
                             {
                                 "kode": "1.3.1.2",
-                                "dokumen": "Rencana Strategis (RENSTRA) Fakultas"
-                            },
-                            {
-                                "kode": "1.3.1.3",
                                 "dokumen": "Sasaran Mutu"
                             },
                             {
+                                "kode": "1.3.1.3",
+                                "dokumen": "Renstra"
+                            },
+                            {
                                 "kode": "1.3.1.4",
-                                "dokumen": "Standar VMTS"
+                                "dokumen": "Renop"
+                            },
+                            {
+                                "kode": "1.3.1.5",
+                                "dokumen": "SOP"
+                            },
+                            {
+                                "kode": "1.3.1.6",
+                                "dokumen": "Monev"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "1.3.2.1",
-                                "dokumen": "Notulen Penyusun RIP, RENSTRA dan RENOP"
+                                "dokumen": "SK Tim penyusun pedoman"
                             },
                             {
                                 "kode": "1.3.2.2",
-                                "dokumen": "Daftar Hadir"
+                                "dokumen": "SK penetapan pedoman"
                             },
                             {
                                 "kode": "1.3.2.3",
-                                "dokumen": "Foto Kegiatan"
+                                "dokumen": "Instrumen Monev"
+                            },
+                            {
+                                "kode": "1.3.2.4",
+                                "dokumen": "1 Siklus: a. Undangan,  b. Daftar hadir, c. Materi rapat yang menyangkut VMTS, d. Feedback, e. Foto Kegiatan"
                             }
                         ]
                     },
@@ -212,21 +260,61 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "1.4.1.1",
-                                "dokumen": "Dokumen Standar Mutu Fakultas dan Prodi"
+                                "dokumen": "Standar Mutu"
+                            },
+                            {
+                                "kode": "1.4.1.2",
+                                "dokumen": "Sasaran Mutu"
+                            },
+                            {
+                                "kode": "1.4.1.3",
+                                "dokumen": "Rencana Mutu"
+                            },
+                            {
+                                "kode": "1.4.1.4",
+                                "dokumen": "RIP"
+                            },
+                            {
+                                "kode": "1.4.1.5",
+                                "dokumen": "Renstra"
+                            },
+                            {
+                                "kode": "1.4.1.6",
+                                "dokumen": "Renop"
+                            },
+                            {
+                                "kode": "1.4.1.7",
+                                "dokumen": "SK Penetapan VMTS"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "1.4.2.1",
-                                "dokumen": "Notulen"
+                                "dokumen": "RKKL"
                             },
                             {
                                 "kode": "1.4.2.2",
-                                "dokumen": "Daftar Hadir"
+                                "dokumen": "Instrumen Monev IKU"
                             },
                             {
                                 "kode": "1.4.2.3",
-                                "dokumen": "SK Penetapan"
+                                "dokumen": "Pakta Integritas"
+                            },
+                            {
+                                "kode": "1.4.2.4",
+                                "dokumen": "Kajian ketercapaian IKU"
+                            },
+                            {
+                                "kode": "1.4.2.5",
+                                "dokumen": "Hasil analisis ketercapaian IKU"
+                            },
+                            {
+                                "kode": "1.4.2.6",
+                                "dokumen": "SK Rektor tentang analisis kinerja utama"
+                            },
+                            {
+                                "kode": "1.4.2.7",
+                                "dokumen": "SK Rektor tentang kinerja Utama"
                             }
                         ]
                     },
@@ -239,21 +327,49 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "1.5.1.1",
-                                "dokumen": "Dokumen Standar Mutu Fakultas dan Prodi"
+                                "dokumen": "Standar Mutu"
+                            },
+                            {
+                                "kode": "1.5.1.2",
+                                "dokumen": "Sasaran Mutu"
+                            },
+                            {
+                                "kode": "1.5.1.3",
+                                "dokumen": "Rencana Mutu"
+                            },
+                            {
+                                "kode": "1.5.1.4",
+                                "dokumen": "Permenristek Dikti tentang Standar Pelayanan Minimum"
+                            },
+                            {
+                                "kode": "1.5.1.5",
+                                "dokumen": "Renstra"
+                            },
+                            {
+                                "kode": "1.5.1.6",
+                                "dokumen": "IKU di Standar Mutu"
+                            },
+                            {
+                                "kode": "1.5.1.7",
+                                "dokumen": "SK Penetapan VMTS"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "1.5.2.1",
-                                "dokumen": "Notulen"
+                                "dokumen": "Instrumen Monev"
                             },
                             {
                                 "kode": "1.5.2.2",
-                                "dokumen": "Daftar Hadir"
+                                "dokumen": "Pakta Integritas"
                             },
                             {
                                 "kode": "1.5.2.3",
-                                "dokumen": "SK Penetapan"
+                                "dokumen": "SK Rektor tentang Analisis Kinerja Tambahan"
+                            },
+                            {
+                                "kode": "1.5.2.4",
+                                "dokumen": "SK Rektor tentang Kinerja Tambahan"
                             }
                         ]
                     },
@@ -266,24 +382,52 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "1.6.1.1",
-                                "dokumen": "Laporan Kinerja Fakultas dan Prodi"
+                                "dokumen": "Standar Mutu"
+                            },
+                            {
+                                "kode": "1.6.1.2",
+                                "dokumen": "Sasaran Mutu"
+                            },
+                            {
+                                "kode": "1.6.1.3",
+                                "dokumen": "Rencana Mutu"
+                            },
+                            {
+                                "kode": "1.6.1.4",
+                                "dokumen": "Renstra"
+                            },
+                            {
+                                "kode": "1.6.1.5",
+                                "dokumen": "Laporan Kegiatan"
+                            },
+                            {
+                                "kode": "1.6.1.6",
+                                "dokumen": "Monev kerjasama"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "1.6.2.1",
-                                "dokumen": "Notulen"
+                                "dokumen": "Instrumen Monev"
                             },
                             {
                                 "kode": "1.6.2.2",
-                                "dokumen": "Daftar Hadir"
+                                "dokumen": "Hasil analisis pencapaian VMTS"
+                            },
+                            {
+                                "kode": "1.6.2.3",
+                                "dokumen": "Formulir Tindak Lanjut"
+                            },
+                            {
+                                "kode": "1.6.2.4",
+                                "dokumen": "Instrumen monitoring tindak lanjut"
                             }
                         ]
                     },
                     {
                         "nomor": "1.7",
                         "nama": "Penjaminan Mutu",
-                        "deskripsi": "",
+                        "deskripsi": "Berisi deskripsi dan bukti sahih tentang implementasi sistem penjaminan mutu di UPPS yang sesuai dengan standar yang ditetapkan perguruan tinggi terkait VMTS, yang mengikuti siklus penetapan, pelaksanaan, evaluasi, pengendalian, dan perbaikan berkelanjutan (PPEPP).",
                         "butir": null,
                         "writeable": true,
                         "dokumen_sumber": [
@@ -293,72 +437,108 @@
                             },
                             {
                                 "kode": "1.7.1.2",
-                                "dokumen": "Manual Mutu"
-                            },
-                            {
-                                "kode": "1.7.1.3",
                                 "dokumen": "Standar Mutu"
                             },
                             {
-                                "kode": "1.7.1.4",
+                                "kode": "1.7.1.3",
                                 "dokumen": "Sasaran Mutu"
                             },
                             {
+                                "kode": "1.7.1.4",
+                                "dokumen": "Rencana Mutu"
+                            },
+                            {
                                 "kode": "1.7.1.5",
-                                "dokumen": "SOP"
+                                "dokumen": "Manual Mutu"
                             },
                             {
                                 "kode": "1.7.1.6",
-                                "dokumen": "Laporan Monev"
+                                "dokumen": "SOP"
                             },
                             {
                                 "kode": "1.7.1.7",
-                                "dokumen": "Pedoman Monev"
+                                "dokumen": "Formulir Mutu"
                             },
                             {
                                 "kode": "1.7.1.8",
-                                "dokumen": "Laporan Audit"
+                                "dokumen": "Monev"
+                            },
+                            {
+                                "kode": "1.7.1.9",
+                                "dokumen": "Hasil Audit"
+                            },
+                            {
+                                "kode": "1.7.1.10",
+                                "dokumen": "Hasil Rapat Tinjauan Manajemen dan Rencana Tindak Lanjut"
+                            },
+                            {
+                                "kode": "1.7.1.11",
+                                "dokumen": "Standar Level Internasional"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "1.7.2.1",
-                                "dokumen": "Notulen"
+                                "dokumen": "SOP"
                             },
                             {
                                 "kode": "1.7.2.2",
-                                "dokumen": "Daftar Hadir"
+                                "dokumen": "Formulir"
                             },
                             {
                                 "kode": "1.7.2.3",
-                                "dokumen": "SK Penetapan"
+                                "dokumen": "Instrumen"
+                            },
+                            {
+                                "kode": "1.7.2.4",
+                                "dokumen": "Sosialisasi"
+                            },
+                            {
+                                "kode": "1.7.2.5",
+                                "dokumen": "1 siklus: a. Undangan,  b. Daftar hadir, c. Materi rapat yang menyangkut VMTS, d. Feedback, e. Foto Kegiatan"
                             }
                         ]
                     },
                     {
                         "nomor": "1.8",
                         "nama": "Pemahaman dan Kepuasan Pengguna",
-                        "deskripsi": "",
+                        "deskripsi": "Berisi deskripsi mengenai pengukuran pemahaman para pemangku kepentingan terhadap VMTS, yang memenuhi aspek-aspek berikut: \na. menggunakan instrumen yang sahih, andal, mudah digunakan, \nb. dilaksanakan secara berkala, serta datanya terekam secara komprehensif, \nc. dianalisis dengan metode yang tepat serta bermanfaat untuk pengambilan keputusan, \nd. review terhadap pemahaman para pemangku kepentingan, \ne. hasil pengukuran ditindaklanjuti untuk perbaikan dan peningkatan mutu luaran secara berkala dan tersistem.",
                         "writeable": true,
                         "butir": null,
                         "dokumen_sumber": [
                             {
                                 "kode": "1.8.1.1",
-                                "dokumen": "Pedoman Survey Pemahaman Visi, Misi, Tujuan dan Sasaran yang menunjukkan bahwa survey dilaksanakan secara konsisten, dan ditindaklanjuti secara berkala dan tersistem"
+                                "dokumen": "SK Penetapan VMTS"
                             },
                             {
                                 "kode": "1.8.1.2",
-                                "dokumen": "Hasil Survey Pemahaman VMTS"
+                                "dokumen": "Laporan survei pemahaman dan kepuasan pengguna VMTS"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "1.8.2.1",
-                                "dokumen": "Notulen"
+                                "dokumen": "Instrumen pemahaman"
                             },
                             {
                                 "kode": "1.8.2.2",
-                                "dokumen": "Daftar Hadir"
+                                "dokumen": "Sosialisasi"
+                            },
+                            {
+                                "kode": "1.8.2.3",
+                                "dokumen": "Bukti-bukti sosialisasi"
+                            },
+                            {
+                                "kode": "1.8.2.4",
+                                "dokumen": "Hasil analisis"
+                            },
+                            {
+                                "kode": "1.8.2.5",
+                                "dokumen": "Berita Acara Ekspos hasil Monev pemahaman dan kepuasan pengguna"
+                            },
+                            {
+                                "kode": "1.8.2.6",
+                                "dokumen": "Rencana tindak lanjut"
                             }
                         ]
                     },
@@ -371,7 +551,11 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "1.9.1.1",
-                                "dokumen": "Laporan Evaluasi ketercapaian Standar Mutu VMTS"
+                                "dokumen": "Laporan analisis SWOT"
+                            },
+                            {
+                                "kode": "1.9.1.2",
+                                "dokumen": "Renstra"
                             }
                         ],
                         "dokumen_pendukung": [
@@ -404,29 +588,73 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "2.1.1.1",
-                                "dokumen": "Rencana Induk Pengembangan (RIP)"
+                                "dokumen": "Standar mutu Tata Kelola dan Tata Pamong"
                             },
                             {
                                 "kode": "2.1.1.2",
-                                "dokumen": "Rencana Strategis (RENSTRA)"
+                                "dokumen": "Standar Mutu Kerjasama"
                             },
                             {
                                 "kode": "2.1.1.3",
-                                "dokumen": "Rencana Operasional (RENOP)"
+                                "dokumen": "RIP"
+                            },
+                            {
+                                "kode": "2.1.1.5",
+                                "dokumen": "Renstra"
+                            },
+                            {
+                                "kode": "2.1.1.6",
+                                "dokumen": "Renop"
+                            },
+                            {
+                                "kode": "2.1.1.7",
+                                "dokumen": "Statuta Institusi"
+                            },
+                            {
+                                "kode": "2.1.1.8",
+                                "dokumen": "Ortaker Institusi"
+                            },
+                            {
+                                "kode": "2.1.1.9",
+                                "dokumen": "Sk pengangkatan kepemimpinan publik"
+                            },
+                            {
+                                "kode": "2.1.1.10",
+                                "dokumen": "Dokumen MOU dan Laporan kegiatan kerjasama"
+                            },
+                            {
+                                "kode": "2.1.1.11",
+                                "dokumen": "Dokumen SPMI"
+                            },
+                            {
+                                "kode": "2.1.1.12",
+                                "dokumen": "Dokumen SPME"
+                            },
+                            {
+                                "kode": "2.1.1.13",
+                                "dokumen": "Dokumen manajemen resiko"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "2.1.2.1",
-                                "dokumen": "Notulen Penyusun RIP, RENSTRA dan RENOP"
+                                "dokumen": "Sk tim penyusun"
                             },
                             {
                                 "kode": "2.1.2.2",
-                                "dokumen": "Daftar Hadir"
+                                "dokumen": "Notulen rapat"
                             },
                             {
                                 "kode": "2.1.2.3",
+                                "dokumen": "Daftar hadir"
+                            },
+                            {
+                                "kode": "2.1.2.4",
                                 "dokumen": "Foto Kegiatan"
+                            },
+                            {
+                                "kode": "2.1.2.5",
+                                "dokumen": "Hasil audit dan asesmen"
                             }
                         ]
                     },
@@ -439,25 +667,77 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "2.2.1.1",
-                                "dokumen": "Pedoman penyusunan, Evaluasi, Implementasi VMTS kedalam program pengembangan UPPS dan Program Studi"
+                                "dokumen": "Kebijakan mutu"
                             },
                             {
                                 "kode": "2.2.1.2",
-                                "dokumen": "Rencana Induk Pengembangan (RIP)"
+                                "dokumen": "Standar mutu tata kelola dan tata pamong"
                             },
                             {
                                 "kode": "2.2.1.3",
-                                "dokumen": "RENSTRA Fakultas"
+                                "dokumen": "Standar mutu kerja sama"
+                            },
+                            {
+                                "kode": "2.2.1.4",
+                                "dokumen": "Manual mutu"
+                            },
+                            {
+                                "kode": "2.2.1.5",
+                                "dokumen": "SOP"
+                            },
+                            {
+                                "kode": "2.2.1.6",
+                                "dokumen": "Rencana mutu"
+                            },
+                            {
+                                "kode": "2.2.1.7",
+                                "dokumen": "Sasaran mutu"
+                            },
+                            {
+                                "kode": "2.2.1.8",
+                                "dokumen": "Statuta"
+                            },
+                            {
+                                "kode": "2.2.1.9",
+                                "dokumen": "Ortaker"
+                            },
+                            {
+                                "kode": "2.2.1.10",
+                                "dokumen": "RIP"
+                            },
+                            {
+                                "kode": "2.2.1.11",
+                                "dokumen": "Renstra"
+                            },
+                            {
+                                "kode": "2.2.1.12",
+                                "dokumen": "Renop"
+                            },
+                            {
+                                "kode": "2.2.1.13",
+                                "dokumen": "Dokumen SPMI"
+                            },
+                            {
+                                "kode": "2.2.1.14",
+                                "dokumen": "Dokumen SPME"
+                            },
+                            {
+                                "kode": "2.2.1.15",
+                                "dokumen": "Dokumen MoU dan laporan pelaksanaan kegiatan"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "2.2.2.1",
-                                "dokumen": "Notulen Penyusunan Pedoman"
+                                "dokumen": "SK Tim penyusun"
                             },
                             {
                                 "kode": "2.2.2.2",
-                                "dokumen": "Daftar Hadir"
+                                "dokumen": "Notulen Rapat"
+                            },
+                            {
+                                "kode": "2.2.2.3",
+                                "dokumen": "Daftar hadir"
                             },
                             {
                                 "kode": "2.2.2.3",
@@ -474,32 +754,52 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "2.3.1.1",
-                                "dokumen": "Rencana Induk Pengembangan (RIP)"
+                                "dokumen": "Standar mutu tata kelola dan tata pamong"
                             },
                             {
                                 "kode": "2.3.1.2",
-                                "dokumen": "Rencana Strategis (RENSTRA) Fakultas"
+                                "dokumen": "Standar mutu kerja sama"
                             },
                             {
                                 "kode": "2.3.1.3",
-                                "dokumen": "Sasaran Mutu"
+                                "dokumen": "Sasaran Mutu tata kelola dan tata pamong"
                             },
                             {
                                 "kode": "2.3.1.4",
-                                "dokumen": "Standar VMTS"
+                                "dokumen": "Rencana mutu kerja sama"
+                            },
+                            {
+                                "kode": "2.3.1.5",
+                                "dokumen": "Renstra"
+                            },
+                            {
+                                "kode": "2.3.1.6",
+                                "dokumen": "Renop"
+                            },
+                            {
+                                "kode": "2.3.1.7",
+                                "dokumen": "SOP"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "2.3.2.1",
-                                "dokumen": "Notulen Penyusun RIP, RENSTRA dan RENOP"
+                                "dokumen": "Evaluasi pencapaian standar mutu, sasaran mutu, dan rencana mutu"
                             },
                             {
                                 "kode": "2.3.2.2",
-                                "dokumen": "Daftar Hadir"
+                                "dokumen": "SK tim penyusun"
                             },
                             {
                                 "kode": "2.3.2.3",
+                                "dokumen": "Notulen rapat"
+                            },
+                            {
+                                "kode": "2.3.2.4",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "2.3.2.5",
                                 "dokumen": "Foto Kegiatan"
                             }
                         ]
@@ -550,21 +850,137 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "2.4.1.1",
-                                "dokumen": "Dokumen Standar Mutu Fakultas dan Prodi"
+                                "dokumen": "Standar mutu"
+                            },
+                            {
+                                "kode": "2.4.1.2",
+                                "dokumen": "Statuta"
+                            },
+                            {
+                                "kode": "2.4.1.3",
+                                "dokumen": "Ortaker"
+                            },
+                            {
+                                "kode": "2.4.1.4",
+                                "dokumen": "RIP"
+                            },
+                            {
+                                "kode": "2.4.1.5",
+                                "dokumen": "Renstra"
+                            },
+                            {
+                                "kode": "2.4.1.6",
+                                "dokumen": "Renop"
+                            },
+                            {
+                                "kode": "2.4.1.7",
+                                "dokumen": "RKA/KL Fakultas"
+                            },
+                            {
+                                "kode": "2.4.1.8",
+                                "dokumen": "AMI"
+                            },
+                            {
+                                "kode": "2.4.1.9",
+                                "dokumen": "AME"
+                            },
+                            {
+                                "kode": "2.4.1.10",
+                                "dokumen": "LAKIP"
+                            },
+                            {
+                                "kode": "2.4.1.11",
+                                "dokumen": "LBKD"
+                            },
+                            {
+                                "kode": "2.4.1.12",
+                                "dokumen": "LPJ Dekan"
+                            },
+                            {
+                                "kode": "2.4.1.13",
+                                "dokumen": "Kode etik dan tata tertib Dosen"
+                            },
+                            {
+                                "kode": "2.4.1.14",
+                                "dokumen": "Kode etik tenaga pendidikan"
+                            },
+                            {
+                                "kode": "2.4.1.15",
+                                "dokumen": "Kode etik mahasiswa"
+                            },
+                            {
+                                "kode": "2.4.1.16",
+                                "dokumen": "SOP"
+                            },
+                            {
+                                "kode": "2.4.1.17",
+                                "dokumen": "SIAKAD"
+                            },
+                            {
+                                "kode": "2.4.1.18",
+                                "dokumen": "Digital Library"
+                            },
+                            {
+                                "kode": "2.4.1.19",
+                                "dokumen": "E Jurnal"
+                            },
+                            {
+                                "kode": "2.4.1.20",
+                                "dokumen": "Baperjakat"
+                            },
+                            {
+                                "kode": "2.4.1.21",
+                                "dokumen": "Simpeg (Sistem informasi kepegawaian)"
+                            },
+                            {
+                                "kode": "2.4.1.22",
+                                "dokumen": "Indeks kinerja dosen"
+                            },
+                            {
+                                "kode": "2.4.1.23",
+                                "dokumen": "SKP(Sasaran Kinerja Pegawai) dan LKP (Laporan Kinerja Pegawai)"
+                            },
+                            {
+                                "kode": "2.4.1.24",
+                                "dokumen": "Hasil Audit SPI, Irjen, BPK, BAN-PT, ISO, Lembaga Akreditasi Nasional"
+                            },
+                            {
+                                "kode": "2.4.1.25",
+                                "dokumen": "Dokumen mutu"
+                            },
+                            {
+                                "kode": "2.4.1.26",
+                                "dokumen": "Survei Kepuasan Layanan"
+                            },
+                            {
+                                "kode": "2.4.1.27",
+                                "dokumen": "Monev Kerjasama"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "2.4.2.1",
-                                "dokumen": "Notulen"
+                                "dokumen": "Rapat dosen prodi"
                             },
                             {
                                 "kode": "2.4.2.2",
-                                "dokumen": "Daftar Hadir"
+                                "dokumen": "Sk tim penyusun"
                             },
                             {
                                 "kode": "2.4.2.3",
-                                "dokumen": "SK Penetapan"
+                                "dokumen": "Notulen rapat"
+                            },
+                            {
+                                "kode": "2.4.2.4",
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "2.4.2.5",
+                                "dokumen": "Foto Kegiatan"
+                            },
+                            {
+                                "kode": "2.4.2.6",
+                                "dokumen": "Hasil audit dan asesmen"
                             }
                         ]
                     },
@@ -577,21 +993,37 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "2.5.1.1",
-                                "dokumen": "Dokumen Standar Mutu Fakultas dan Prodi"
+                                "dokumen": "Standar mutu"
+                            },
+                            {
+                                "kode": "2.5.1.2",
+                                "dokumen": "Sasaran mutu"
+                            },
+                            {
+                                "kode": "2.5.1.3",
+                                "dokumen": "Rencana mutu"
+                            },
+                            {
+                                "kode": "2.5.1.4",
+                                "dokumen": "Renstra"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "2.5.2.1",
-                                "dokumen": "Notulen"
+                                "dokumen": "Sk Tim Penyusun"
                             },
                             {
                                 "kode": "2.5.2.2",
-                                "dokumen": "Daftar Hadir"
+                                "dokumen": "Notulen Rapat"
                             },
                             {
                                 "kode": "2.5.2.3",
-                                "dokumen": "SK Penetapan"
+                                "dokumen": "Daftar hadir"
+                            },
+                            {
+                                "kode": "2.5.2.4",
+                                "dokumen": "Foto kegiatan"
                             }
                         ]
                     },
@@ -604,17 +1036,61 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "2.6.1.1",
-                                "dokumen": "Laporan Kinerja Fakultas dan Prodi"
+                                "dokumen": "Standar Mutu"
+                            },
+                            {
+                                "kode": "2.6.1.2",
+                                "dokumen": "Sasaran Mutu"
+                            },
+                            {
+                                "kode": "2.6.1.3",
+                                "dokumen": "Rencana Mutu"
+                            },
+                            {
+                                "kode": "2.6.1.4",
+                                "dokumen": "Renstra"
+                            },
+                            {
+                                "kode": "2.6.1.5",
+                                "dokumen": "Laporan keguatan tata kelola dan tata pamong"
+                            },
+                            {
+                                "kode": "2.6.1.6",
+                                "dokumen": "Laporan Kerjasama"
+                            },
+                            {
+                                "kode": "2.6.1.7",
+                                "dokumen": "Daftar Surat Perjanjian Kerjasama LAKIP"
+                            },
+                            {
+                                "kode": "2.6.1.8",
+                                "dokumen": "LBKD"
+                            },
+                            {
+                                "kode": "2.6.1.9",
+                                "dokumen": "LPJ Dekan"
+                            },
+                            {
+                                "kode": "2.6.1.10",
+                                "dokumen": "Monev Kerjasama"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "2.6.2.1",
-                                "dokumen": "Notulen"
+                                "dokumen": "SK Tim Penyusun"
                             },
                             {
                                 "kode": "2.6.2.2",
+                                "dokumen": "Notulen Rapat"
+                            },
+                            {
+                                "kode": "2.6.2.3",
                                 "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "2.6.2.4",
+                                "dokumen": "Foto Kegiatan"
                             }
                         ]
                     },
@@ -631,45 +1107,65 @@
                             },
                             {
                                 "kode": "2.7.1.2",
-                                "dokumen": "Manual Mutu"
-                            },
-                            {
-                                "kode": "2.7.1.3",
                                 "dokumen": "Standar Mutu"
                             },
                             {
-                                "kode": "2.7.1.4",
+                                "kode": "2.7.1.3",
                                 "dokumen": "Sasaran Mutu"
                             },
                             {
+                                "kode": "2.7.1.4",
+                                "dokumen": "Rencana Mutu"
+                            },
+                            {
                                 "kode": "2.7.1.5",
-                                "dokumen": "SOP"
+                                "dokumen": "Manual Mutu"
                             },
                             {
                                 "kode": "2.7.1.6",
-                                "dokumen": "Laporan Monev"
+                                "dokumen": "SOP"
                             },
                             {
                                 "kode": "2.7.1.7",
-                                "dokumen": "Pedoman Monev"
+                                "dokumen": "Formulir"
                             },
                             {
                                 "kode": "2.7.1.8",
-                                "dokumen": "Laporan Audit"
+                                "dokumen": "Monev"
+                            },
+                            {
+                                "kode": "2.7.1.9",
+                                "dokumen": "Hasil Audit"
+                            },
+                            {
+                                "kode": "2.7.1.10",
+                                "dokumen": "Hasil Rapat Tinjauan Manajemen (RTM) dan Rencana Tindak Lanjut"
+                            },
+                            {
+                                "kode": "2.7.1.11",
+                                "dokumen": "Standar Level Internasional"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "2.7.2.1",
-                                "dokumen": "Notulen"
+                                "dokumen": "SK Tim Penyusun"
                             },
                             {
                                 "kode": "2.7.2.2",
-                                "dokumen": "Daftar Hadir"
+                                "dokumen": "Notulen Rapat"
                             },
                             {
                                 "kode": "2.7.2.3",
-                                "dokumen": "SK Penetapan"
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "2.7.2.4",
+                                "dokumen": "Foto Kegiatan"
+                            },
+                            {
+                                "kode": "2.7.2.5",
+                                "dokumen": "Hasil Audit dan Asesmen"
                             }
                         ]
                     },
@@ -682,21 +1178,33 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "2.8.1.1",
-                                "dokumen": "Pedoman Survey Pemahaman Visi, Misi, Tujuan dan Sasaran yang menunjukkan bahwa survey dilaksanakan secara konsisten, dan ditindaklanjuti secara berkala dan tersistem"
+                                "dokumen": "Pedoman Survey"
                             },
                             {
                                 "kode": "2.8.1.2",
-                                "dokumen": "Hasil Survey Pemahaman VMTS"
+                                "dokumen": "Survey  Kepuasan Pengguna (Mahasiswa, Dosen, Tendik, Lulusan, Pengguna dan Mitra)"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "2.8.2.1",
-                                "dokumen": "Notulen"
+                                "dokumen": "Sk Tim Survey"
                             },
                             {
                                 "kode": "2.8.2.2",
+                                "dokumen": "Notulen Rapat"
+                            },
+                            {
+                                "kode": "2.8.2.3",
                                 "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "2.8.2.4",
+                                "dokumen": "Foto Kegiatan"
+                            },
+                            {
+                                "kode": "2.8.2.5",
+                                "dokumen": "Publikasi Hasil Survei"
                             }
                         ]
                     },
@@ -709,17 +1217,21 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "2.9.1.1",
-                                "dokumen": "Laporan Evaluasi ketercapaian Standar Mutu VMTS"
+                                "dokumen": "Laporan Analisis SWOT"
+                            },
+                            {
+                                "kode": "2.9.1.2",
+                                "dokumen": "Renstra"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "2.9.2.1",
-                                "dokumen": "Notulen"
+                                "dokumen": "Notulensi Rapat"
                             },
                             {
                                 "kode": "2.9.2.2",
-                                "dokumen": "Daftar Hadir"
+                                "dokumen": "Daftar Hadir Rapat"
                             }
                         ]
                     }
@@ -742,41 +1254,65 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "3.1.1.1",
-                                "dokumen": "Dokumen Kebijakan penerimaan mahasiswa baru"
+                                "dokumen": "Pedoman Penerimaan Mahasiswa Baru dan Mahasiswa Asing"
                             },
                             {
                                 "kode": "3.1.1.2",
-                                "dokumen": "Kebijakan seleksi mahasiswa baru"
+                                "dokumen": "Dokumen Data Penetapak kuota jumlah mahasiswa program studi"
                             },
                             {
                                 "kode": "3.1.1.3",
-                                "dokumen": "Dokumen instrumen terukur tes masuk mahasiswa baru"
+                                "dokumen": "Dokumen data jumlah mahasiswa pendaftar"
                             },
                             {
                                 "kode": "3.1.1.4",
-                                "dokumen": "Dokumen kebijakan tentang mahasiswa asing yang berisi tentang jalur dan tatacara mengikuti program (Full time, part time, student exchange, credit earning dan kegiatan lain yang relevan)"
+                                "dokumen": "SK Penetapan mahasiswa yang diterima"
                             },
                             {
                                 "kode": "3.1.1.5",
-                                "dokumen": "Profil prodi"
+                                "dokumen": "Dokumen sosialisasi prodi"
                             },
                             {
                                 "kode": "3.1.1.6",
-                                "dokumen": "Kebijakan layanan kemahasiswaan"
+                                "dokumen": "Profil lulusan"
+                            },
+                            {
+                                "kode": "3.1.1.7",
+                                "dokumen": "Pedoman Akademik"
+                            },
+                            {
+                                "kode": "3.1.1.8",
+                                "dokumen": "Pedoman pembinaan minat bakat dan karir mahasiswa"
+                            },
+                            {
+                                "kode": "3.1.1.9",
+                                "dokumen": "Pedoman penulisan karya manusia"
+                            },
+                            {
+                                "kode": "3.1.1.10",
+                                "dokumen": "Pedoman Tracer Studi"
+                            },
+                            {
+                                "kode": "3.1.1.11",
+                                "dokumen": "Pedoman survey kepuasan mahasiswa"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "3.1.2.1",
-                                "dokumen": "Notulensi penyusunan dokumen sumber"
+                                "dokumen": "Notulasi Rapat"
                             },
                             {
                                 "kode": "3.1.2.2",
-                                "dokumen": "Daftar Hadir"
+                                "dokumen": "Surat Undangan"
                             },
                             {
                                 "kode": "3.1.2.3",
-                                "dokumen": "Foto Kegiatan"
+                                "dokumen": "Daftar Hadir"
+                            },
+                            {
+                                "kode": "3.1.2.4",
+                                "dokumen": "Brosur, leaflet"
                             }
                         ]
                     },
@@ -789,37 +1325,49 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "3.2.1.1",
-                                "dokumen": "Dokumen Kebijakan penerimaan mahasiswa baru"
+                                "dokumen": "Standar Mutu"
                             },
                             {
                                 "kode": "3.2.1.2",
-                                "dokumen": "Kebijakan seleksi mahasiswa baru"
+                                "dokumen": "Sasaran Mutu"
                             },
                             {
                                 "kode": "3.2.1.3",
-                                "dokumen": "Dokumen instrumen terukur tes masuk mahasiswa baru"
+                                "dokumen": "Manual Mutu"
                             },
                             {
                                 "kode": "3.2.1.4",
-                                "dokumen": "Dokumen kebijakan tentang mahasiswa asing yang berisi tentang jalur dan tatacara mengikuti program ( Full time, part time, student exchange, credit earning dan kegiatan lain yang relevan)."
+                                "dokumen": "SOP."
                             },
                             {
                                 "kode": "3.2.1.5",
-                                "dokumen": "Kebijakan layanan kemahasiswaan yang mencakup pengembangan kemampuan penalaran, minat dan bakat, kegiatan bimbingan karir dan kewirausahaan, serta kegiatan peningkatan kesejahteraan (bimbingan dan konseling, beasiswa, dan kesehatan)."
+                                "dokumen": "SK Rektor tentang sistem seleksi mahasiswa baru"
+                            },
+                            {
+                                "kode": "3.2.1.6",
+                                "dokumen": "Sk rektor tentang unit layanan pembinaan minat bakat dan karir"
+                            },
+                            {
+                                "kode": "3.2.1.7",
+                                "dokumen": "Juknis beasiswa"
+                            },
+                            {
+                                "kode": "3.2.1.8",
+                                "dokumen": "Pedoman K3"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "3.2.2.1",
-                                "dokumen": "Notulen Penyusunan dokumen sumber"
+                                "dokumen": "Notulasi rapat"
                             },
                             {
                                 "kode": "3.2.2.2",
-                                "dokumen": "Daftar Hadir"
+                                "dokumen": "Surat Undangan"
                             },
                             {
                                 "kode": "3.2.2.3",
-                                "dokumen": "Foto Kegiatan"
+                                "dokumen": "Daftar Hadir"
                             }
                         ]
                     },
@@ -832,7 +1380,7 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "3.3.1.1",
-                                "dokumen": "Dokumen Kebijakan penerimaan mahasiswa baru"
+                                "dokumen": "Rencana Mutu"
                             },
                             {
                                 "kode": "3.3.1.2",
@@ -840,37 +1388,29 @@
                             },
                             {
                                 "kode": "3.3.1.3",
-                                "dokumen": "RIP"
+                                "dokumen": "Renstra"
                             },
                             {
                                 "kode": "3.3.1.4",
-                                "dokumen": "RENSTRA"
+                                "dokumen": "Renop"
                             },
                             {
                                 "kode": "3.3.1.5",
-                                "dokumen": "RENOP"
-                            },
-                            {
-                                "kode": "3.3.1.6",
-                                "dokumen": "Pedoman Monev Kemahasiswaan"
-                            },
-                            {
-                                "kode": "3.3.1.7",
-                                "dokumen": "Standar Mutu Mahasiswa"
+                                "dokumen": "SOP"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "3.3.2.1",
-                                "dokumen": "Notulen Penyusun dokumen sumber"
+                                "dokumen": "Notulasi Rapat"
                             },
                             {
                                 "kode": "3.3.2.2",
-                                "dokumen": "Daftar Hadir"
+                                "dokumen": "Surat Undangan"
                             },
                             {
                                 "kode": "3.3.2.3",
-                                "dokumen": "Foto Kegiatan"
+                                "dokumen": "Daftar Hadir"
                             }
                         ]
                     },
@@ -911,37 +1451,41 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "3.4.1.1",
-                                "dokumen": "Standar mutu mahasiswa"
+                                "dokumen": "Sasaran Mutu"
                             },
                             {
                                 "kode": "3.4.1.2",
-                                "dokumen": "Dokumen kebijakan penerimaan mahasiswa baru"
+                                "dokumen": "Rencana Mutu"
                             },
                             {
                                 "kode": "3.4.1.3",
-                                "dokumen": "Rekapitulasi jumlah pendaftar mahasiswa baru, lulus seleksi, daftar ulang dan aktif. (Mahasiswa dalam negeri maupun mahasiswa asing)"
+                                "dokumen": "RIP"
                             },
                             {
                                 "kode": "3.4.1.4",
-                                "dokumen": "Kebijakan layanan kemahasiswaan yang mencakup pengembangan kemampuan penalaran, minat dan bakat, kegiatan bimbingan karir dan kewirausahaan, serta kegiatan peningkatan kesejahteraan (bimbingan dan konseling, beasiswa, dan kesehatan)"
+                                "dokumen": "Renstra"
+                            },
+                            {
+                                "kode": "3.4.1.5",
+                                "dokumen": "Renop"
+                            },
+                            {
+                                "kode": "3.4.1.6",
+                                "dokumen": "SK Penetapan"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "3.4.2.1",
-                                "dokumen": "Notulen"
+                                "dokumen": "Notulasi rapat"
                             },
                             {
                                 "kode": "3.4.2.2",
-                                "dokumen": "Daftar Hadir"
+                                "dokumen": "Surat Undangan"
                             },
                             {
                                 "kode": "3.4.2.3",
-                                "dokumen": "SK Penetapan tentang jalur penerimaan mahasiswa baru dan kuotanya"
-                            },
-                            {
-                                "kode": "3.4.2.4",
-                                "dokumen": "SK penetapan hasil yudisium penerimaan mahasiswa baru"
+                                "dokumen": "Daftar Hadir"
                             }
                         ]
                     },
@@ -958,29 +1502,25 @@
                             },
                             {
                                 "kode": "3.5.1.2",
-                                "dokumen": "Dokumen kebijakan penerimaan mahasiswa baru"
+                                "dokumen": "Sasaran Mutu"
                             },
                             {
                                 "kode": "3.5.1.3",
-                                "dokumen": "Rekapitulasi jumlah pendaftar mahasiswa baru, lulus seleksi, daftar ulang dan aktif."
-                            },
-                            {
-                                "kode": "3.5.1.4",
-                                "dokumen": "Kebijakan layanan kemahasiswaan yang mencakup pengembangan kemampuan penalaran, minat dan bakat, kegiatan bimbingan karir dan kewirausahaan, serta kegiatan peningkatan kesejahteraan"
+                                "dokumen": "Rencana Mutu"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "3.5.2.1",
-                                "dokumen": "Notulen"
+                                "dokumen": "Notulasi Rapat"
                             },
                             {
                                 "kode": "3.5.2.2",
-                                "dokumen": "Daftar Hadir"
+                                "dokumen": "Surat Undangan"
                             },
                             {
                                 "kode": "3.5.2.3",
-                                "dokumen": "SK Penetapan"
+                                "dokumen": "Daftar Hadir"
                             }
                         ]
                     },
@@ -993,24 +1533,40 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "3.6.1.1",
-                                "dokumen": "Pedoman Monev Kemahasiswaan yang mencakup identifikasi akar masalah, faktor pendukung keberhasilan dan faktor penghambat ketercapaian standar, serta tindak lanjut yang akan dilakukan."
+                                "dokumen": "Standar mutu."
                             },
                             {
                                 "kode": "3.6.1.2",
-                                "dokumen": "Hasil monev kemahasiswaan"
+                                "dokumen": "Sasaran mutu"
                             },
                             {
                                 "kode": "3.6.1.3",
-                                "dokumen": "Laporan proses dan penerimaan mahasiswa baru"
+                                "dokumen": "Rencana mutu"
+                            },
+                            {
+                                "kode": "3.6.1.4",
+                                "dokumen": "Renstra"
+                            },
+                            {
+                                "kode": "3.6.1.5",
+                                "dokumen": "Laporan Kegiatan"
+                            },
+                            {
+                                "kode": "3.6.1.3",
+                                "dokumen": "Laporan Monev"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "3.6.2.1",
-                                "dokumen": "Notulen"
+                                "dokumen": "Notulasi Rapat"
                             },
                             {
                                 "kode": "3.6.2.2",
+                                "dokumen": "Surat Undangan"
+                            },
+                            {
+                                "kode": "3.6.2.3",
                                 "dokumen": "Daftar Hadir"
                             }
                         ]
@@ -1024,24 +1580,64 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "3.7.1.1",
-                                "dokumen": "Laporan monev kemahasiswaan"
+                                "dokumen": "Kebijakan mutu"
                             },
                             {
                                 "kode": "3.7.1.2",
-                                "dokumen": "Laporan audit kemahasiswaan"
+                                "dokumen": "Standar mutu"
                             },
                             {
                                 "kode": "3.7.1.3",
-                                "dokumen": "Laporan audit tindak lanjut kemahasiswaan"
+                                "dokumen": "Sasaran mutu"
+                            },
+                            {
+                                "kode": "3.7.1.4",
+                                "dokumen": "Rencana mutu"
+                            },
+                            {
+                                "kode": "3.7.1.5",
+                                "dokumen": "Manual mutu"
+                            },
+                            {
+                                "kode": "3.7.1.6",
+                                "dokumen": "SOP"
+                            },
+                            {
+                                "kode": "3.7.1.7",
+                                "dokumen": "Formulir mutu"
+                            },
+                            {
+                                "kode": "3.7.1.8",
+                                "dokumen": "Laporan kerja"
+                            },
+                            {
+                                "kode": "3.7.1.9",
+                                "dokumen": "Monev"
+                            },
+                            {
+                                "kode": "3.7.1.10",
+                                "dokumen": "Hasil Audit"
+                            },
+                            {
+                                "kode": "3.7.1.11",
+                                "dokumen": "Hasil Rapat Tinjauan dan Rencana Tindak Lanjut"
+                            },
+                            {
+                                "kode": "3.7.1.12",
+                                "dokumen": "Standar level internasional"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "3.7.2.1",
-                                "dokumen": "Notulen"
+                                "dokumen": "Notulasi Rapat"
                             },
                             {
                                 "kode": "3.7.2.2",
+                                "dokumen": "Surat Undangan"
+                            },
+                            {
+                                "kode": "3.7.2.3",
                                 "dokumen": "Daftar Hadir"
                             }
                         ]
@@ -1055,32 +1651,24 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "3.8.1.1",
-                                "dokumen": "Pedoman penyusunan instrumen"
+                                "dokumen": "Pedoman survey kepuasan pengguna"
                             },
                             {
                                 "kode": "3.8.1.2",
-                                "dokumen": "Pedoman pelaksanaan survey (waktu, pelaksana, tempat, Dokumentasi) yang menunjukkan bahwa survey dilaksanakan secara konsisten, dan ditindaklanjuti secara berkala dan tersistem."
-                            },
-                            {
-                                "kode": "3.8.1.3",
-                                "dokumen": "Pedoman analisis hasil survey"
-                            },
-                            {
-                                "kode": "3.8.1.4",
-                                "dokumen": "hasil analisis dan review pelaksanaan pengukuran kepuasan mahasiswa."
-                            },
-                            {
-                                "kode": "3.8.1.5",
-                                "dokumen": "laporan tindak lanjut untuk perbaikan dan peningkatan mutu luaran secara berkala dan tersistem"
+                                "dokumen": "Survey Kepuasan Pengguna"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "3.8.2.1",
-                                "dokumen": "Notulen"
+                                "dokumen": "Notulasi Rapat"
                             },
                             {
                                 "kode": "3.8.2.2",
+                                "dokumen": "Surat Undangan"
+                            },
+                            {
+                                "kode": "3.8.2.3",
                                 "dokumen": "Daftar Hadir"
                             }
                         ]
@@ -1094,16 +1682,24 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "3.9.1.1",
-                                "dokumen": "Laporan Evaluasi dan tindak lanjut terkait mahasiswa dan kemahasiswaan"
+                                "dokumen": "Laporan Analisis SWOT"
+                            },
+                            {
+                                "kode": "3.9.1.2",
+                                "dokumen": "Renstra"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "3.9.2.1",
-                                "dokumen": "Notulen"
+                                "dokumen": "Notulasi Rapat"
                             },
                             {
                                 "kode": "3.9.2.2",
+                                "dokumen": "Surat Undangan"
+                            },
+                            {
+                                "kode": "3.9.2.3",
                                 "dokumen": "Daftar Hadir"
                             }
                         ]
@@ -1127,37 +1723,21 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "4.1.1.1",
-                                "dokumen": "Profil dosen (kualifikasi, kompetensi, proporsi dan beban kerja)."
+                                "dokumen": "Kebijakan SDM"
                             },
                             {
                                 "kode": "4.1.1.2",
-                                "dokumen": "kinerja dosen (kepakaran, kinerja dan prestasi di bidang penelitian dan PkM)."
-                            },
-                            {
-                                "kode": "4.1.1.3",
-                                "dokumen": "Kebijakan dan program pengembangan dosen, tenaga kependidikan"
-                            },
-                            {
-                                "kode": "4.1.1.4",
-                                "dokumen": "Kebijakan pengelolaan SDM (dosen dan tenaga kependidikan)."
+                                "dokumen": "SK Rektor tentang pengelolaan SDM"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "4.1.2.1",
-                                "dokumen": "Notulensi penyusunan dokumen sumber"
+                                "dokumen": "Dokumen Kebijakan Mutu"
                             },
                             {
                                 "kode": "4.1.2.2",
-                                "dokumen": "Daftar Hadir"
-                            },
-                            {
-                                "kode": "4.1.2.3",
-                                "dokumen": "Foto Kegiatan"
-                            },
-                            {
-                                "kode": "4.1.2.4",
-                                "dokumen": "SK Penetapan"
+                                "dokumen": "Dokumen Standar Mutu"
                             }
                         ]
                     },
@@ -1170,41 +1750,81 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "4.2.1.1",
-                                "dokumen": "Penetapan standar perguruan tinggi terkait kualifikasi, kompetensi, beban kerja, proporsi, serta pengelolaan SDM dosen."
+                                "dokumen": "Peraturan Permenristekdikti"
                             },
                             {
                                 "kode": "4.2.1.2",
-                                "dokumen": "Penetapan standar perguruan tinggi terkait kualifikasi, kompetensi, beban kerja, proporsi, serta pengelolaan SDM Tenaga Kependidikan."
+                                "dokumen": "Peraturan Menteri Agama"
                             },
                             {
                                 "kode": "4.2.1.3",
-                                "dokumen": "Kebijakan pengelolaan SDM yang meliputi: Perencanaan, rekrutmen, seleksi, penempatan, pengembangan, retensi, pemberhentian, dan pensiun yang telah ditetapkan untuk memenuhi kebutuhan pendidikan, penelitian, dan PkM."
+                                "dokumen": "SK Rektor"
                             },
                             {
                                 "kode": "4.2.1.4",
-                                "dokumen": "Pedoman sosialisasi Kebijakan pengelolaan SDM yang meliputi: Perencanaan, rekrutmen, seleksi, penempatan, pengembangan, retensi, pemberhentian, dan pensiun yang telah ditetapkan untuk memenuhi kebutuhan pendidikan, penelitian, dan PkM."
+                                "dokumen": "Statuta Lembaga"
                             },
                             {
                                 "kode": "4.2.1.5",
-                                "dokumen": "kebijakan pemberian reward and punishment, pengakuan, mentoring yang diimplementasikan untuk memotivasi dan mendukung pelaksanaan tridharma."
+                                "dokumen": "SK Tentang pengelolaan SDM"
+                            },
+                            {
+                                "kode": "4.2.1.6",
+                                "dokumen": "Panduan Pengelolaan SDM"
+                            },
+                            {
+                                "kode": "4.2.1.7",
+                                "dokumen": "Dokumen Analisis Kebutuhan SDM"
+                            },
+                            {
+                                "kode": "4.2.1.8",
+                                "dokumen": "Standar Mutu"
+                            },
+                            {
+                                "kode": "4.2.1.9",
+                                "dokumen": "Sasaran Mutu"
+                            },
+                            {
+                                "kode": "4.2.1.10",
+                                "dokumen": "Rencana Mutu"
+                            },
+                            {
+                                "kode": "4.2.1.11",
+                                "dokumen": "Kebijakan Mutu"
+                            },
+                            {
+                                "kode": "4.2.1.12",
+                                "dokumen": "Monev"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "4.2.2.1",
-                                "dokumen": "Notulen Penyusunan dokumen sumber"
+                                "dokumen": "Renstra Pengembangan SDM"
                             },
                             {
                                 "kode": "4.2.2.2",
-                                "dokumen": "Daftar Hadir"
+                                "dokumen": "Mekanisme Remunerasi"
                             },
                             {
                                 "kode": "4.2.2.3",
-                                "dokumen": "Foto Kegiatan"
+                                "dokumen": "Dokumen kode etik dosen dan tenaga kependidikan"
                             },
                             {
                                 "kode": "4.2.2.4",
-                                "dokumen": "SK penetapan"
+                                "dokumen": "Laporan Rekrutmen dan Seleksi SDM"
+                            },
+                            {
+                                "kode": "4.2.2.5",
+                                "dokumen": "DUK"
+                            },
+                            {
+                                "kode": "4.2.2.6",
+                                "dokumen": "Sertifikasi Pendidik"
+                            },
+                            {
+                                "kode": "4.2.2.7",
+                                "dokumen": "Sertifikat Pelatihan dan Pengembangan SDM"
                             }
                         ]
                     },
@@ -1217,41 +1837,41 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "4.3.1.1",
-                                "dokumen": "RIP"
+                                "dokumen": "Standar Mutu"
                             },
                             {
                                 "kode": "4.3.1.2",
-                                "dokumen": "RENSTRA"
-                            },
-                            {
-                                "kode": "4.3.1.3",
-                                "dokumen": "RENOP"
-                            },
-                            {
-                                "kode": "4.3.1.4",
                                 "dokumen": "Sasaran Mutu"
                             },
                             {
+                                "kode": "4.3.1.3",
+                                "dokumen": "Rencana Mutu"
+                            },
+                            {
+                                "kode": "4.3.1.4",
+                                "dokumen": "Renstra"
+                            },
+                            {
                                 "kode": "4.3.1.5",
-                                "dokumen": "Pedoman Monev SDM (Dosen dan Tendik)"
+                                "dokumen": "Renop"
                             },
                             {
                                 "kode": "4.3.1.6",
-                                "dokumen": "Standar Mutu SDM"
+                                "dokumen": "SOP"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "4.3.2.1",
-                                "dokumen": "Notulen Penyusun dokumen sumber"
+                                "dokumen": "Kebijakan Mutu"
                             },
                             {
                                 "kode": "4.3.2.2",
-                                "dokumen": "Daftar Hadir"
+                                "dokumen": "Standar Mutu"
                             },
                             {
                                 "kode": "4.3.2.3",
-                                "dokumen": "Foto Kegiatan"
+                                "dokumen": "Roadmap pengembangan program studi"
                             }
                         ]
                     },
@@ -1305,41 +1925,193 @@
                             },
                             {
                                 "kode": "4.4.1.2",
-                                "dokumen": "Profil dosen tetap yang mencakup jumlah dosen tetap, kualifikasi akademik, bidang keahlian, kepemilikan sertifikasi profesi, jabatan akademik, kesesuaian bidang keahlian dengan mata kuliah yang diampu."
+                                "dokumen": "Forlap Dikti"
                             },
                             {
                                 "kode": "4.4.1.3",
-                                "dokumen": "Beban kerja dosen tetap terkait dengan rasio jumlah mahasiswa, pembimbing utama tugas ahir, ekuivalensi waktu mengajar penuh."
+                                "dokumen": "SK rektor tentang Penugasan Dosen Program Studi"
                             },
                             {
                                 "kode": "4.4.1.4",
-                                "dokumen": "Profil dosen tidak tetap yang mencakup kualifikasi akademik bidang keahlian, kepemilikan sertifikasi profesi, jabatan akademik, kesesuaian bidang keahlian dengan mata kuliah yang diampu."
+                                "dokumen": "SK Dosen Pengampu Mata Kuliah Prodi"
                             },
                             {
                                 "kode": "4.4.1.5",
-                                "dokumen": "Profil dosen yang mencakup pengakuan atas kepakaran/ prestasi/ kinerja, penelitian, PKM, publikasi ilmiah, karya ilmiah yang disitasi, serta luaran penelitian dan PKM lainnya, baik tingka wilayah nasional maupun internasional."
+                                "dokumen": "Sertifikat Pendidik"
                             },
                             {
                                 "kode": "4.4.1.6",
-                                "dokumen": "Monev kesesuaian perencanaan dan pengembangan dosen."
+                                "dokumen": "SK Rektor tentang Pembimbing Tugas Akhir Mahasiswa"
                             },
                             {
                                 "kode": "4.4.1.7",
-                                "dokumen": "Profil tenaga kependidikan yang mencakup Kecukupan dan kualifikasi tenaga kependidikan berdasarkan jenis pekerjaannya (administrasi, laboran, teknisi, dll.) serta kepemilikan sertifikat kompetensi/profesi yang mendukung mutu hasil kerja sesuai dengan bidang tugasnya."
+                                "dokumen": "SK Rektor tentang Pengampu Mata Kuliah dan Beban Mengajar (Jumlah SKS)"
+                            },
+                            {
+                                "kode": "4.4.1.8",
+                                "dokumen": "Kebijakan Rektor Tentang Rekognisi Dosen"
+                            },
+                            {
+                                "kode": "4.4.1.9",
+                                "dokumen": "SK tentang Peneliti"
+                            },
+                            {
+                                "kode": "4.4.1.10",
+                                "dokumen": "Laporan Hasil Penelitian"
+                            },
+                            {
+                                "kode": "4.4.1.11",
+                                "dokumen": "SK tentang Tim Pengabdian kepada Masyarakat"
+                            },
+                            {
+                                "kode": "4.4.1.12",
+                                "dokumen": "Laporan Hasil Pengabdian kepada Masyarakat"
+                            },
+                            {
+                                "kode": "4.4.1.13",
+                                "dokumen": "Sitasi"
+                            },
+                            {
+                                "kode": "4.4.1.14",
+                                "dokumen": "Database Karya Ilmiah Dosen"
+                            },
+                            {
+                                "kode": "4.4.1.15",
+                                "dokumen": "Litapdimas"
+                            },
+                            {
+                                "kode": "4.4.1.16",
+                                "dokumen": "HKI"
+                            },
+                            {
+                                "kode": "4.4.1.17",
+                                "dokumen": "Jurnal"
+                            },
+                            {
+                                "kode": "4.4.1.18",
+                                "dokumen": "Hak Paten"
+                            },
+                            {
+                                "kode": "4.4.1.19",
+                                "dokumen": "Buku ISBN"
+                            },
+                            {
+                                "kode": "4.4.1.20",
+                                "dokumen": "Sitasi"
+                            },
+                            {
+                                "kode": "4.4.1.21",
+                                "dokumen": "Link Jurnal"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "4.4.2.1",
-                                "dokumen": "Notulen"
+                                "dokumen": "Jadwal Mengajar"
                             },
                             {
                                 "kode": "4.4.2.2",
-                                "dokumen": "Daftar Hadir"
+                                "dokumen": "Surat Tugas Pembimbing Skripsi/TA"
                             },
                             {
                                 "kode": "4.4.2.3",
-                                "dokumen": "SK Penetapan kualifikasi dosen"
+                                "dokumen": "Buku Bimbingan Skripsi/TA"
+                            },
+                            {
+                                "kode": "4.4.2.4",
+                                "dokumen": "RPS"
+                            },
+                            {
+                                "kode": "4.4.2.5",
+                                "dokumen": "Daftar Hadir Perkuliahan"
+                            },
+                            {
+                                "kode": "4.4.2.6",
+                                "dokumen": "Jurnal Mengajar dan Presensi"
+                            },
+                            {
+                                "kode": "4.4.2.7",
+                                "dokumen": "Permohonan Menjadi Narasumber/Visiting Lecturer/Invited Speaker"
+                            },
+                            {
+                                "kode": "4.4.2.8",
+                                "dokumen": "SK Rektor ttg Pengelola Jurnal"
+                            },
+                            {
+                                "kode": "4.4.2.9",
+                                "dokumen": "Sitasi"
+                            },
+                            {
+                                "kode": "4.4.2.10",
+                                "dokumen": "Sertifikat sebagai Narsum/Visiting Lecturer/Invited Speaker"
+                            },
+                            {
+                                "kode": "4.4.2.11",
+                                "dokumen": "Karya Ilmiah Dosen (Prosiding, Jurnal, Buku, HKI, Materi Presentasi)"
+                            },
+                            {
+                                "kode": "4.4.2.12",
+                                "dokumen": "Proposal Penelitian"
+                            },
+                            {
+                                "kode": "4.4.2.13",
+                                "dokumen": "Progress Report"
+                            },
+                            {
+                                "kode": "4.4.2.14",
+                                "dokumen": "Laporan Penelitian "
+                            },
+                            {
+                                "kode": "4.4.2.15",
+                                "dokumen": "Laporan Penggunaan Dana Penelitian"
+                            },
+                            {
+                                "kode": "4.4.2.16",
+                                "dokumen": "Proposal Pengabdian kepada Masyarakat"
+                            },
+                            {
+                                "kode": "4.4.2.17",
+                                "dokumen": "Progress Report"
+                            },
+                            {
+                                "kode": "4.4.2.18",
+                                "dokumen": "Laporan Pengabdian kepada Masyarakat"
+                            },
+                            {
+                                "kode": "4.4.2.19",
+                                "dokumen": "Laporan Penggunaan Dana Pengabdian Kepada Masyarakat"
+                            },
+                            {
+                                "kode": "4.4.2.20",
+                                "dokumen": "Link Publikasi Ilmiah Dosen"
+                            },
+                            {
+                                "kode": "4.4.2.21",
+                                "dokumen": "Hasil Karya"
+                            },
+                            {
+                                "kode": "4.4.2.22",
+                                "dokumen": "Sertifikat HKI"
+                            },
+                            {
+                                "kode": "4.4.2.23",
+                                "dokumen": "Sertifikat Hak Paten"
+                            },
+                            {
+                                "kode": "4.4.2.24",
+                                "dokumen": "Buku"
+                            },
+                            {
+                                "kode": "4.4.2.25",
+                                "dokumen": "Link Jurnal"
+                            },
+                            {
+                                "kode": "4.4.2.26",
+                                "dokumen": "Sertifikat Hak Paten"
+                            },
+                            {
+                                "kode": "4.4.2.27",
+                                "dokumen": "Produk"
                             }
                         ]
                     },
@@ -1352,25 +2124,29 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "4.5.1.1",
-                                "dokumen": "Standar mutu SDM"
+                                "dokumen": "Statuta"
                             },
                             {
                                 "kode": "4.5.1.2",
-                                "dokumen": "Pedoman Monev SDM (Dosen dan Tendik)"
+                                "dokumen": "Renstra"
                             },
                             {
                                 "kode": "4.5.1.3",
-                                "dokumen": "Hasil Monev SDM (Dosen dan Tendik)"
+                                "dokumen": "Renop"
+                            },
+                            {
+                                "kode": "4.5.1.4",
+                                "dokumen": "Kebijkan Mutu"
+                            },
+                            {
+                                "kode": "4.5.1.5",
+                                "dokumen": "Standar Mutu"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "4.5.2.1",
-                                "dokumen": "Notulen"
-                            },
-                            {
-                                "kode": "4.5.2.2",
-                                "dokumen": "Daftar Hadir"
+                                "dokumen": "Laporan Auditor Internal"
                             }
                         ]
                     },
@@ -1383,29 +2159,33 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "4.6.1.1",
-                                "dokumen": "Pedoman Monev SDM (Dosen dan Tendik) yang mencakup identifikasi akar masalah, faktor pendukung keberhasilan dan faktor penghambat ketercapaian standar, serta tindak lanjut yang akan dilakukan."
+                                "dokumen": "Standar Mutu"
                             },
                             {
                                 "kode": "4.6.1.2",
-                                "dokumen": "Pedoman penilaian kinerja Dosen dan Tendik"
+                                "dokumen": "Sasaran Mutu"
                             },
                             {
                                 "kode": "4.6.1.3",
-                                "dokumen": "Hasil Monev SDM (Dosen dan Tendik)"
+                                "dokumen": "Rencana Mutu"
                             },
                             {
                                 "kode": "4.6.1.4",
-                                "dokumen": "Hasil Penilaian dan evaluasi kinerja Dosen dan Tendik"
+                                "dokumen": "Renstra"
+                            },
+                            {
+                                "kode": "4.6.1.5",
+                                "dokumen": "Laporan Kegiatan"
+                            },
+                            {
+                                "kode": "4.6.1.6",
+                                "dokumen": "Survey Capaian Kinerja SDM"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "4.6.2.1",
-                                "dokumen": "Notulen"
-                            },
-                            {
-                                "kode": "4.6.2.2",
-                                "dokumen": "Daftar Hadir"
+                                "dokumen": "Formulir Mutu"
                             }
                         ]
                     },
@@ -1418,66 +2198,69 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "4.7.1.1",
-                                "dokumen": "Laporan monev SDM (Dosen dan Tendik)"
+                                "dokumen": "Kebijakan mutu"
                             },
                             {
                                 "kode": "4.7.1.2",
-                                "dokumen": "Laporan audit SDM (Dosen dan Tendik)"
+                                "dokumen": "Standar Mutu"
                             },
                             {
                                 "kode": "4.7.1.3",
-                                "dokumen": "Laporan audit tindak lanjut SDM (Dosen dan Tendik)"
+                                "dokumen": "Sasaran Mutu"
+                            },
+                            {
+                                "kode": "4.7.1.4",
+                                "dokumen": "Rencana Mutu"
+                            },
+                            {
+                                "kode": "4.7.1.5",
+                                "dokumen": "Manual Mutu"
+                            },
+                            {
+                                "kode": "4.7.1.6",
+                                "dokumen": "SOP"
+                            },
+                            {
+                                "kode": "4.7.1.7",
+                                "dokumen": "Formulir Mutu"
+                            },
+                            {
+                                "kode": "4.7.1.8",
+                                "dokumen": "Monev"
+                            },
+                            {
+                                "kode": "4.7.1.9",
+                                "dokumen": "Hasil Audit"
+                            },
+                            {
+                                "kode": "4.7.1.10",
+                                "dokumen": "Hasil Rapat Tinjauan Manajemen dan Rencana Tindak Lanjut"
+                            },
+                            {
+                                "kode": "4.7.1.11",
+                                "dokumen": "Standar Level Internasional"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "4.7.2.1",
-                                "dokumen": "Notulen"
-                            },
-                            {
-                                "kode": "4.7.2.2",
-                                "dokumen": "Daftar Hadir"
+                                "dokumen": "Laporan Remunerasi"
                             }
                         ]
                     },
                     {
                         "nomor": "4.8",
                         "nama": "Kepuasan Pengguna",
-                        "deskripsi": "Berisi deskripsi mengenai pengukuran kepuasan dosen dan tenaga kependidikan terhadap layanan pengelolaan dan pengembangan SDM yang memenuhi aspek-aspek berikut:\n                a) Kejelasan instrumen yang digunakan, pelaksanaan, perekaman dan analisis datanya.\n                b) Ketersediaan bukti yang sahih tentang hasil pengukuran kepuasan dosen dan tenaga kependidikan yang dilaksanakan secara konsisten, dan ditindaklanjuti secara berkala dan tersistem.",
+                        "deskripsi": "Berisi deskripsi mengenai pengukuran kepuasan dosen dan tenaga kependidikan terhadap layanan pengelolaan dan pengembangan SDM yang memenuhi aspek-aspek berikut:\n a) Kejelasan instrumen yang digunakan, pelaksanaan, perekaman dan analisis datanya.\n b) Ketersediaan bukti yang sahih tentang hasil pengukuran kepuasan dosen dan tenaga kependidikan yang dilaksanakan secara konsisten, dan ditindaklanjuti secara berkala dan tersistem.",
                         "writeable": true,
                         "butir": null,
                         "dokumen_sumber": [
                             {
                                 "kode": "4.8.1.1",
-                                "dokumen": "Pedoman Penyusunan Instrumen pengukuran kepuasan dosen dan tendik terhadap layanan pengelolaan dan pengembangan SDM"
-                            },
-                            {
-                                "kode": "4.8.1.2",
-                                "dokumen": "Pedoman pelaksanaan survey (waktu, pelaksana, tempat, Dokumentasi) yang menunjukkan bahwa survey dilaksanakan secara konsisten, dan ditindaklanjuti secara berkala dan tersistem."
-                            },
-                            {
-                                "kode": "4.8.1.3",
-                                "dokumen": "Pedoman analisis hasil survey"
-                            },
-                            {
-                                "kode": "4.8.1.4",
-                                "dokumen": "hasil analisis dan review pelaksanaan pengukuran kepuasan dosen dan tendik terhadap layanan pengelolaan dan pengembangan SDM."
-                            },
-                            {
-                                "kode": "4.8.1.5",
-                                "dokumen": "laporan tindak lanjut untuk perbaikan dan peningkatan mutu luaran secara berkala dan tersistem"
+                                "dokumen": "Laporan Survet Layanan Pengelolaan dan Pengembangan Sumber Daya."
                             }
                         ],
-                        "dokumen_pendukung": [
-                            {
-                                "kode": "4.8.2.1",
-                                "dokumen": "Notulen"
-                            },
-                            {
-                                "kode": "4.8.2.2",
-                                "dokumen": "Daftar Hadir"
-                            }
-                        ]
+                        "dokumen_pendukung": null
                     },
                     {
                         "nomor": "4.9",
@@ -1488,7 +2271,11 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "4.9.1.1",
-                                "dokumen": "Laporan Evaluasi dan tindak lanjut terkait pengelolaan dan pengembangan SDM Dosen dan Tendik"
+                                "dokumen": "Laporan Analisis SWOT"
+                            },
+                            {
+                                "kode": "4.9.1.2",
+                                "dokumen": "Renstra"
                             }
                         ],
                         "dokumen_pendukung": [
@@ -1521,29 +2308,57 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "5.1.1.1",
-                                "dokumen": "Kinerja keuangan yang mencakup aspek perencanaan, pengalokasian, realisasi, dan pertanggungjawaban biaya operasional tridharma serta investasi"
+                                "dokumen": "PMA dan PMK"
                             },
                             {
                                 "kode": "5.1.1.2",
-                                "dokumen": "Ketersediaan sarana dan prasarana untuk menjamin pencapaian capaian pembelajaran dan peningkatan suasana akademik"
+                                "dokumen": "Statuta"
+                            },
+                            {
+                                "kode": "5.1.1.3",
+                                "dokumen": "Ortaker"
+                            },
+                            {
+                                "kode": "5.1.1.4",
+                                "dokumen": "SK Kebijakan Rektor"
+                            },
+                            {
+                                "kode": "5.1.1.5",
+                                "dokumen": "RIP"
+                            },
+                            {
+                                "kode": "5.1.1.6",
+                                "dokumen": "Renstra"
+                            },
+                            {
+                                "kode": "5.1.1.7",
+                                "dokumen": "Renop"
+                            },
+                            {
+                                "kode": "5.1.1.8",
+                                "dokumen": "SOP"
+                            },
+                            {
+                                "kode": "5.1.1.9",
+                                "dokumen": "KAK"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "5.1.2.1",
-                                "dokumen": "Notulensi penyusunan dokumen sumber"
-                            },
-                            {
-                                "kode": "5.1.2.2",
                                 "dokumen": "Daftar Hadir"
                             },
                             {
+                                "kode": "5.1.2.2",
+                                "dokumen": "Notulensi Rapat"
+                            },
+                            {
                                 "kode": "5.1.2.3",
-                                "dokumen": "Foto Kegiatan"
+                                "dokumen": "Foto Dokumentasi"
                             },
                             {
                                 "kode": "5.1.2.4",
-                                "dokumen": "SK Penetapan Alokasi anggaran"
+                                "dokumen": "Tanda Terima ATK Rapat"
                             }
                         ]
                     },
@@ -1556,29 +2371,93 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "5.2.1.1",
-                                "dokumen": "Kebijakan pengelolaan keuangan yang mencakup perencanaan, pengalokasian, realisasi, dan pertanggungjawaban biaya pendidikan."
+                                "dokumen": "Kebijakan Mutu"
                             },
                             {
                                 "kode": "5.2.1.2",
-                                "dokumen": "Kebijakan pengelolaan sarana dan prasarana yang mencakup perencanaan,pengadaan, pemanfaatan, pemeliharaan, dan penghapusan yang sesuai dengan kebijakan perguruan tinggi"
+                                "dokumen": "Standar Mutu"
+                            },
+                            {
+                                "kode": "5.2.1.3",
+                                "dokumen": "Sasaran Mutu"
+                            },
+                            {
+                                "kode": "5.2.1.4",
+                                "dokumen": "SOP"
+                            },
+                            {
+                                "kode": "5.2.1.5",
+                                "dokumen": "Manual Mutu"
+                            },
+                            {
+                                "kode": "5.2.1.6",
+                                "dokumen": "Rencana Mutu"
+                            },
+                            {
+                                "kode": "5.2.1.7",
+                                "dokumen": "Sasaran Mutu"
+                            },
+                            {
+                                "kode": "5.2.1.8",
+                                "dokumen": "PMA dan PMK"
+                            },
+                            {
+                                "kode": "5.2.1.9",
+                                "dokumen": "Statuta"
+                            },
+                            {
+                                "kode": "5.2.1.10",
+                                "dokumen": "Ortaker"
+                            },
+                            {
+                                "kode": "5.2.1.11",
+                                "dokumen": "SK Kebijakan Rektor"
+                            },
+                            {
+                                "kode": "5.2.1.12",
+                                "dokumen": "RIP"
+                            },
+                            {
+                                "kode": "5.2.1.13",
+                                "dokumen": "Renstra"
+                            },
+                            {
+                                "kode": "5.2.1.14",
+                                "dokumen": "SOP Rencana Operasional satuan Kerja"
+                            },
+                            {
+                                "kode": "5.2.1.15",
+                                "dokumen": "SOP Penyusunan Anggaran Satuan Kerja"
+                            },
+                            {
+                                "kode": "5.2.1.16",
+                                "dokumen": "SOP Penyusunan Laporan Pertanggungjawaban"
+                            },
+                            {
+                                "kode": "5.2.1.17",
+                                "dokumen": "KAK/TOR"
+                            },
+                            {
+                                "kode": "5.2.1.18",
+                                "dokumen": "DIPA"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "5.2.2.1",
-                                "dokumen": "Notulen Penyusunan dokumen sumber"
-                            },
-                            {
-                                "kode": "5.2.2.2",
                                 "dokumen": "Daftar Hadir"
                             },
                             {
+                                "kode": "5.2.2.2",
+                                "dokumen": "Notulensi Rapat"
+                            },
+                            {
                                 "kode": "5.2.2.3",
-                                "dokumen": "Foto Kegiatan"
+                                "dokumen": "Foto Dokumentasi"
                             },
                             {
                                 "kode": "5.2.2.4",
-                                "dokumen": "SK penetapan"
+                                "dokumen": "Tanda Terima ATK Rapat"
                             }
                         ]
                     },
@@ -1591,33 +2470,109 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "5.3.1.1",
-                                "dokumen": "RENSTRA keuangan dan sarpras"
+                                "dokumen": "Standar Mutu"
                             },
                             {
                                 "kode": "5.3.1.2",
-                                "dokumen": "RENOP keuangan dan sarpras"
-                            },
-                            {
-                                "kode": "5.3.1.3",
                                 "dokumen": "Sasaran Mutu"
                             },
                             {
+                                "kode": "5.3.1.3",
+                                "dokumen": "Rencana Mutu"
+                            },
+                            {
                                 "kode": "5.3.1.4",
-                                "dokumen": "Standar Mutu keuangan, sarana dan prasarana"
+                                "dokumen": "Renstra"
+                            },
+                            {
+                                "kode": "5.3.1.5",
+                                "dokumen": "Renop"
+                            },
+                            {
+                                "kode": "5.3.1.6",
+                                "dokumen": "SOP"
+                            },
+                            {
+                                "kode": "5.3.1.7",
+                                "dokumen": "TUPOKSI"
+                            },
+                            {
+                                "kode": "5.3.1.8",
+                                "dokumen": "SK Kebijakan Rektor"
+                            },
+                            {
+                                "kode": "5.3.1.9",
+                                "dokumen": "DIPA"
+                            },
+                            {
+                                "kode": "5.3.1.10",
+                                "dokumen": "RKA-KL"
+                            },
+                            {
+                                "kode": "5.3.1.11",
+                                "dokumen": "KAK/TOR"
+                            },
+                            {
+                                "kode": "5.3.1.12",
+                                "dokumen": "RAPIM"
+                            },
+                            {
+                                "kode": "5.3.1.13",
+                                "dokumen": "Standar Pembiayaan Internal"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "5.3.2.1",
-                                "dokumen": "Notulen Penyusun dokumen sumber"
+                                "dokumen": "Undangan Rapat Pimpinan"
                             },
                             {
                                 "kode": "5.3.2.2",
-                                "dokumen": "Daftar Hadir"
+                                "dokumen": "SK Kegiatan"
                             },
                             {
                                 "kode": "5.3.2.3",
-                                "dokumen": "Foto Kegiatan"
+                                "dokumen": "SK Kepanitian"
+                            },
+                            {
+                                "kode": "5.3.2.4",
+                                "dokumen": "SPM (Surat Perintah Membayar)"
+                            },
+                            {
+                                "kode": "5.3.2.5",
+                                "dokumen": "SP2D (Surat Perintah Pencairan Dana)"
+                            },
+                            {
+                                "kode": "5.3.2.6",
+                                "dokumen": "Bukti fisik Sarpras"
+                            },
+                            {
+                                "kode": "5.3.2.7",
+                                "dokumen": "Foto Sarpras"
+                            },
+                            {
+                                "kode": "5.3.2.8",
+                                "dokumen": "Laporan Kegiatan"
+                            },
+                            {
+                                "kode": "5.3.2.9",
+                                "dokumen": "Laporan Keuangan"
+                            },
+                            {
+                                "kode": "5.3.2.10",
+                                "dokumen": "Laporan Kinerja"
+                            },
+                            {
+                                "kode": "5.3.2.11",
+                                "dokumen": "Laporan Operasional"
+                            },
+                            {
+                                "kode": "5.3.2.12",
+                                "dokumen": "Laporan Arus Kas"
+                            },
+                            {
+                                "kode": "5.3.2.13",
+                                "dokumen": "Catatan atas laporan keuangan"
                             }
                         ]
                     },
@@ -1658,49 +2613,121 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "5.4.1.1",
-                                "dokumen": "Standar mutu keuangan, sarana dan prasarana"
+                                "dokumen": "Standar Mutu"
                             },
                             {
                                 "kode": "5.4.1.2",
-                                "dokumen": "Data keuangan yang mencakup alokasi dan penggunaan dana untuk biaya operasional pendidikan, penggunaan dana untuk kegiatan penelitian dosen tetap, penggunaan dana untuk kegiatan PkM dosen tetap, penggunaan dana untuk investasi (SDM, sarana dan prasarana)"
+                                "dokumen": "Sasaran Mutu"
                             },
                             {
                                 "kode": "5.4.1.3",
-                                "dokumen": "Data Kecukupan sarana yang mencakup ketersediaan, kepemilikan, kemutakhiran, dan kesiapgunaan fasilitas dan peralatan untuk pembelajaran maupun kegiatan penelitian dan PkM."
+                                "dokumen": "Rencana Mutu"
                             },
                             {
                                 "kode": "5.4.1.4",
-                                "dokumen": "Data Kecukupan sarana yang mencakup ketersediaan, kemutakhiran, dan kesiapgunaan fasilitas dan peralatan teknologi informasi dan komunikasi."
+                                "dokumen": "Renstra"
                             },
                             {
                                 "kode": "5.4.1.5",
-                                "dokumen": "Pengelolaan data pendidikan (sistem informasi manajemen perguruan tinggi: akademik, perpustakaan, SDM, keuangan, aset, decission support system, dll.)"
+                                "dokumen": "RENOP"
+                            },
+                            {
+                                "kode": "5.4.1.5",
+                                "dokumen": "SOP"
                             },
                             {
                                 "kode": "5.4.1.6",
-                                "dokumen": "Data ketersediaan fasilitas teknologi informasi untuk menyebarkan ilmu pengetahuan (e-learning, e-library, dll."
+                                "dokumen": "TUPOKSI"
                             },
                             {
                                 "kode": "5.4.1.7",
-                                "dokumen": "Data Kecukupan prasarana yang mencakup ketersediaan, kepemilikan, kemutakhiran, kesiapgunaan prasarana untuk pembelajaran maupun kegiatan penelitian dan PkM, serta peruntukannya bagi mahasiswa berkebutuhan khusus."
+                                "dokumen": "SK Kebijakan Rektor"
                             },
                             {
                                 "kode": "5.4.1.8",
-                                "dokumen": "Pedoman Monev Keuangan dan Sarpras"
+                                "dokumen": "DIPA"
                             },
                             {
                                 "kode": "5.4.1.9",
-                                "dokumen": "Hasil Monev Keuangan dan Sarpras"
+                                "dokumen": "RKA-KL"
+                            },
+                            {
+                                "kode": "5.4.1.10",
+                                "dokumen": "KAK/TOR"
+                            },
+                            {
+                                "kode": "5.4.1.11",
+                                "dokumen": "RAPIM"
+                            },
+                            {
+                                "kode": "5.4.1.12",
+                                "dokumen": "Standar Pembiayaan Internal"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "5.4.2.1",
-                                "dokumen": "Notulen"
+                                "dokumen": "Undangan Rapat pimpinan"
                             },
                             {
                                 "kode": "5.4.2.2",
-                                "dokumen": "Daftar Hadir"
+                                "dokumen": "SK Kegiatan"
+                            },
+                            {
+                                "kode": "5.4.2.3",
+                                "dokumen": "SK Kepanitian"
+                            },
+                            {
+                                "kode": "5.4.2.4",
+                                "dokumen": "SPM (Surat Perintah Membayar)"
+                            },
+                            {
+                                "kode": "5.4.2.5",
+                                "dokumen": "SP2D (Surat Perintah Pencairan Dana)"
+                            },
+                            {
+                                "kode": "5.4.2.6",
+                                "dokumen": "SPTJM (surat Pernyataan Pertanggungjawaban Mutlak)"
+                            },
+                            {
+                                "kode": "5.4.2.7",
+                                "dokumen": "Bukti fisik Sarpras"
+                            },
+                            {
+                                "kode": "5.4.2.8",
+                                "dokumen": "Foto Sarpras"
+                            },
+                            {
+                                "kode": "5.4.2.9",
+                                "dokumen": "Laporan Kegiatan"
+                            },
+                            {
+                                "kode": "5.4.2.10",
+                                "dokumen": "Laporan Keuangan"
+                            },
+                            {
+                                "kode": "5.4.2.11",
+                                "dokumen": "Laporan Kinerja"
+                            },
+                            {
+                                "kode": "5.4.2.12",
+                                "dokumen": "Laporan Operasional"
+                            },
+                            {
+                                "kode": "5.4.2.13",
+                                "dokumen": "Laporan Arus Kas"
+                            },
+                            {
+                                "kode": "5.4.2.14",
+                                "dokumen": "Laporan Keadaan Barang Milik Negara"
+                            },
+                            {
+                                "kode": "5.4.2.15",
+                                "dokumen": "Catatan atas Laporan Keuangan"
+                            },
+                            {
+                                "kode": "5.4.2.16",
+                                "dokumen": "Surat Setoran Pajak"
                             }
                         ]
                     },
@@ -1713,24 +2740,32 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "5.5.1.1",
-                                "dokumen": "Standar mutu Keuangan, sarana dan prasarana"
+                                "dokumen": "Standar Mutu"
                             },
                             {
                                 "kode": "5.5.1.2",
-                                "dokumen": "Pedoman Monev Keuangan dan Sarpras"
+                                "dokumen": "Sasaran Mutu"
                             },
                             {
                                 "kode": "5.5.1.3",
-                                "dokumen": "Hasil Monev Keuangan dan Sarpras"
+                                "dokumen": "Rencana Mutu"
+                            },
+                            {
+                                "kode": "5.5.1.4",
+                                "dokumen": "Renstra"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "5.5.2.1",
-                                "dokumen": "Notulen"
+                                "dokumen": "Notulasi Rapat"
                             },
                             {
                                 "kode": "5.5.2.2",
+                                "dokumen": "Surat Undangan"
+                            },
+                            {
+                                "kode": "5.5.2.3",
                                 "dokumen": "Daftar Hadir"
                             }
                         ]
@@ -1744,21 +2779,65 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "5.6.1.1",
-                                "dokumen": "Pedoman Monev Keuangan dan Sarpras yang mencakup identifikasi akar masalah, faktor pendukung keberhasilan dan faktor penghambat ketercapaian standar, serta tindak lanjut yang akan dilakukan."
+                                "dokumen": "Standar Mutu"
                             },
                             {
                                 "kode": "5.6.1.2",
-                                "dokumen": "Hasil Monev Keuangan dan Sarpras"
+                                "dokumen": "Sasaran Mutu"
+                            },
+                            {
+                                "kode": "5.6.1.3",
+                                "dokumen": "Rencana Mutu"
+                            },
+                            {
+                                "kode": "5.6.1.4",
+                                "dokumen": "Renstra"
+                            },
+                            {
+                                "kode": "5.6.1.5",
+                                "dokumen": "Laporan Kegiatan"
+                            },
+                            {
+                                "kode": "5.6.1.6",
+                                "dokumen": "PMA"
+                            },
+                            {
+                                "kode": "5.6.1.7",
+                                "dokumen": "PMK"
+                            },
+                            {
+                                "kode": "5.6.1.8",
+                                "dokumen": "KPA"
+                            },
+                            {
+                                "kode": "5.6.1.9",
+                                "dokumen": "PPK"
+                            },
+                            {
+                                "kode": "5.6.1.10",
+                                "dokumen": "SPI (Satuan Pemriksaan Internal)"
+                            },
+                            {
+                                "kode": "5.6.1.11",
+                                "dokumen": "AMI"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "5.6.2.1",
-                                "dokumen": "Notulen"
+                                "dokumen": "Laporan Kegiatan"
                             },
                             {
                                 "kode": "5.6.2.2",
-                                "dokumen": "Daftar Hadir"
+                                "dokumen": "Monev Keuangan"
+                            },
+                            {
+                                "kode": "5.6.2.3",
+                                "dokumen": "Monev Anggaran"
+                            },
+                            {
+                                "kode": "5.6.2.4",
+                                "dokumen": "Monev Sarana dan Prasana"
                             }
                         ]
                     },
@@ -1771,25 +2850,61 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "5.7.1.1",
-                                "dokumen": "Laporan monev Keuangan dan Sarpras"
+                                "dokumen": "Kebijakan Mutu"
                             },
                             {
                                 "kode": "5.7.1.2",
-                                "dokumen": "Laporan audit Keuangan dan Sarpras"
+                                "dokumen": "Standar Mutu"
                             },
                             {
                                 "kode": "5.7.1.3",
-                                "dokumen": "Laporan audit tindak lanjut Keuangan dan Sarpras"
+                                "dokumen": "Sasaran Mutu"
+                            },
+                            {
+                                "kode": "5.7.1.4",
+                                "dokumen": "Rencana Mutu"
+                            },
+                            {
+                                "kode": "5.7.1.5",
+                                "dokumen": "Manual Mutu"
+                            },
+                            {
+                                "kode": "5.7.1.6",
+                                "dokumen": "SOP"
+                            },
+                            {
+                                "kode": "5.7.1.7",
+                                "dokumen": "Formulir Mutu"
+                            },
+                            {
+                                "kode": "5.7.1.8",
+                                "dokumen": "Monev"
+                            },
+                            {
+                                "kode": "5.7.1.9",
+                                "dokumen": "Hasil Audit"
+                            },
+                            {
+                                "kode": "5.7.1.10",
+                                "dokumen": "Hasil Rapat Tinjauan Manajemen (RTM) dan Rencana Tindak Lanjut"
+                            },
+                            {
+                                "kode": "5.7.1.11",
+                                "dokumen": "Standar Level Internasional"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "5.7.2.1",
-                                "dokumen": "Notulen"
+                                "dokumen": "Laporan Pelaksanaan SPMI"
                             },
                             {
                                 "kode": "5.7.2.2",
-                                "dokumen": "Daftar Hadir"
+                                "dokumen": "Laporan Pelaksanaan SPME"
+                            },
+                            {
+                                "kode": "5.7.2.3",
+                                "dokumen": "Laporan Hasil Audit AMI"
                             }
                         ]
                     },
@@ -1802,29 +2917,25 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "5.8.1.1",
-                                "dokumen": "Pedoman Penyusunan Instrumen pengukuran kepuasan sivitas akademika terhadap layanan pengelolaan keuangan maupun sarana dan prasarana"
+                                "dokumen": "Pedoman survey kepuasan pengguna"
                             },
                             {
                                 "kode": "5.8.1.2",
-                                "dokumen": "Pedoman pelaksanaan survey (waktu, pelaksana, tempat, Dokumentasi) yang menunjukkan bahwa survey dilaksanakan secara konsisten, dan ditindaklanjuti secara berkala dan tersistem."
-                            },
-                            {
-                                "kode": "5.8.1.3",
-                                "dokumen": "Pedoman analisis hasil survey"
-                            },
-                            {
-                                "kode": "5.8.1.4",
-                                "dokumen": "Hasil analisis dan review pelaksanaan kepuasan sivitas akademika terhadap layanan pengelolaan keuangan maupun sarana dan prasarana"
+                                "dokumen": "Survey Kepuasan Pengguna"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "5.8.2.1",
-                                "dokumen": "Notulen"
+                                "dokumen": "Laporan IKD"
                             },
                             {
                                 "kode": "5.8.2.2",
-                                "dokumen": "Daftar Hadir"
+                                "dokumen": "Laporan IKL"
+                            },
+                            {
+                                "kode": "5.8.2.3",
+                                "dokumen": "Laporan IKTD"
                             }
                         ]
                     },
@@ -1837,17 +2948,25 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "5.9.1.1",
-                                "dokumen": "Laporan Evaluasi dan tindak lanjut terkait pengelolaan keuangan maupun sarana dan prasarana"
+                                "dokumen": "Laporan Analisis SWOT"
+                            },
+                            {
+                                "kode": "5.9.1.2",
+                                "dokumen": "Renstra"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "5.9.2.1",
-                                "dokumen": "Notulen"
+                                "dokumen": "Laporan RTL"
                             },
                             {
                                 "kode": "5.9.2.2",
-                                "dokumen": "Daftar Hadir"
+                                "dokumen": "LAKIP (Laporan Akuntabilitas Kinerja Instansi Pemerintah)"
+                            },
+                            {
+                                "kode": "5.9.2.3",
+                                "dokumen": "Laporan SWOT"
                             }
                         ]
                     }
@@ -1870,43 +2989,18 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "6.1.1.1",
-                                "dokumen": "Kurikulum Program Studi"
+                                "dokumen": "Statuta"
                             },
                             {
                                 "kode": "6.1.1.2",
-                                "dokumen": "SKPI, RPS, SAP"
+                                "dokumen": "KKNI"
                             },
                             {
                                 "kode": "6.1.1.3",
-                                "dokumen": "Pembelajaran (karakteristik proses pembelajaran, rencana proses pembelajaran, pelaksanaan proses pembelajaran, monitoring dan evaluasi proses pembelajaran, dan penilaian pembelajaran)."
-                            },
-                            {
-                                "kode": "6.1.1.4",
-                                "dokumen": "Kebijakan integrasi kegiatan penelitian dan PkM dalam pembelajaran"
-                            },
-                            {
-                                "kode": "6.1.1.5",
-                                "dokumen": "Kebijakan suasana akademik yang didasarkan atas analisis internal dan eksternal, serta posisi dan daya saing program studi."
+                                "dokumen": "Paradigma Keilmuan Industri."
                             }
                         ],
-                        "dokumen_pendukung": [
-                            {
-                                "kode": "6.1.2.1",
-                                "dokumen": "Notulensi penyusunan dokumen sumber"
-                            },
-                            {
-                                "kode": "6.1.2.2",
-                                "dokumen": "Daftar Hadir"
-                            },
-                            {
-                                "kode": "6.1.2.3",
-                                "dokumen": "Foto Kegiatan"
-                            },
-                            {
-                                "kode": "6.1.2.4",
-                                "dokumen": "SK Penetapan Kurikulum"
-                            }
-                        ]
+                        "dokumen_pendukung": null
                     },
                     {
                         "nomor": "6.2",
@@ -1917,39 +3011,34 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "6.2.1.1",
-                                "dokumen": "Kebijakan pengelolaan pendidikan"
+                                "dokumen": "Kebijakan Mutu Pembelajaran"
                             },
                             {
                                 "kode": "6.2.1.2",
-                                "dokumen": "Kebijakan penetapan standar pendidikan (SNPT)"
+                                "dokumen": "Standar Mutu pembelajaran yang terdiri dari standar penyusunan kurikulum, standar proses pembelajaan, standar Monev pembeljaran, standar penilaian dan standar integrasi tridarma dan standar suasana akademik."
                             },
                             {
                                 "kode": "6.2.1.3",
-                                "dokumen": "Panduan akademik yang memuat tujuan dan sasaran pendidikan"
+                                "dokumen": "Manual mutu"
                             },
                             {
                                 "kode": "6.2.1.4",
-                                "dokumen": "Kebijakan strategi, metode, dan instrumen untuk mengukur efektivitas pengelolaan pendidikan."
+                                "dokumen": "SOP"
+                            },
+                            {
+                                "kode": "6.2.1.5",
+                                "dokumen": "Rencana Mutu"
+                            },
+                            {
+                                "kode": "6.2.1.6",
+                                "dokumen": "Sasaran Mutu"
+                            },
+                            {
+                                "kode": "6.2.1.7",
+                                "dokumen": "Pedoman Pembelajaran"
                             }
                         ],
-                        "dokumen_pendukung": [
-                            {
-                                "kode": "6.2.2.1",
-                                "dokumen": "Notulen Penyusunan dokumen sumber"
-                            },
-                            {
-                                "kode": "6.2.2.2",
-                                "dokumen": "Daftar Hadir"
-                            },
-                            {
-                                "kode": "6.2.2.3",
-                                "dokumen": "Foto Kegiatan"
-                            },
-                            {
-                                "kode": "6.2.2.4",
-                                "dokumen": "SK penetapan kurikulum"
-                            }
-                        ]
+                        "dokumen_pendukung": null
                     },
                     {
                         "nomor": "6.3",
@@ -1960,39 +3049,34 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "6.3.1.1",
-                                "dokumen": "RENSTRA bidang pendidikan"
+                                "dokumen": "Standar mutu"
                             },
                             {
                                 "kode": "6.3.1.2",
-                                "dokumen": "RENOP bidang pendidikan"
+                                "dokumen": "Sasaran mutu "
                             },
                             {
                                 "kode": "6.3.1.3",
-                                "dokumen": "Standar Mutu pendidikan (8 standar)"
+                                "dokumen": "Rencana mutu "
                             },
                             {
                                 "kode": "6.3.1.4",
-                                "dokumen": "Sasaran Mutu"
+                                "dokumen": "Renstra"
                             },
                             {
                                 "kode": "6.3.1.5",
-                                "dokumen": "Laporan kegiatan workshop, seminar, dsb"
+                                "dokumen": "Renop"
+                            },
+                            {
+                                "kode": "6.3.1.6",
+                                "dokumen": "SOP"
+                            },
+                            {
+                                "kode": "6.3.1.7",
+                                "dokumen": "Manual Mutu"
                             }
                         ],
-                        "dokumen_pendukung": [
-                            {
-                                "kode": "6.3.2.1",
-                                "dokumen": "Notulen Penyusun dokumen sumber"
-                            },
-                            {
-                                "kode": "6.3.2.2",
-                                "dokumen": "Daftar Hadir"
-                            },
-                            {
-                                "kode": "6.3.2.3",
-                                "dokumen": "Foto Kegiatan"
-                            }
-                        ]
+                        "dokumen_pendukung": null
                     },
                     {
                         "nomor": "6.4",
@@ -2031,37 +3115,89 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "6.4.1.1",
-                                "dokumen": "Standar mutu pendidikan"
+                                "dokumen": "Pedoman penyusunan kurikulum prodi"
                             },
                             {
                                 "kode": "6.4.1.2",
-                                "dokumen": "Dokumen evaluasi dan pemutakhiran kurikulum yang melibatkan pemangku kepentingan internal dan eksternal, serta direview oleh pakar bidang ilmu program studinya."
+                                "dokumen": "Pedoman proses pembelajaran."
                             },
                             {
                                 "kode": "6.4.1.3",
-                                "dokumen": "Dokumen Kesesuaian capaian pembelajaran dengan profil lulusan dan jenjang KKNI/SKKNI."
+                                "dokumen": "RPS yang sudah dilegalisasi konsorsium keilmuan"
                             },
                             {
                                 "kode": "6.4.1.4",
-                                "dokumen": "Dokumen Ketepatan struktur kurikulum dalam pembentukan capaian pembelajaran."
+                                "dokumen": "Distribusi Mata kuliah"
                             },
                             {
                                 "kode": "6.4.1.5",
-                                "dokumen": "Dokumen rencana pembelajaran dan pemetaan capaian pembelajaran, bahan kajian dan matakuliah (atau dokumen sejenis lainnya)."
+                                "dokumen": "Jadwal Mata Kuliah"
+                            },
+                            {
+                                "kode": "6.4.1.6",
+                                "dokumen": "Bukti pembelajaran E-learning"
+                            },
+                            {
+                                "kode": "6.4.1.7",
+                                "dokumen": "Pedoman proses pembelajaran "
+                            },
+                            {
+                                "kode": "6.4.1.8",
+                                "dokumen": "Monev metode pembelajaran berbasis CP"
+                            },
+                            {
+                                "kode": "6.4.1.9",
+                                "dokumen": "Bukti-bukti Praktikum"
+                            },
+                            {
+                                "kode": "6.4.1.10",
+                                "dokumen": "Pedoman Monev Pembelajaran"
+                            },
+                            {
+                                "kode": "6.4.1.11",
+                                "dokumen": "Instrumen Monev"
+                            },
+                            {
+                                "kode": "6.4.1.12",
+                                "dokumen": "Laporan Monev penilaian pembelajaran"
+                            },
+                            {
+                                "kode": "6.4.1.13",
+                                "dokumen": "Pedoman integrasi tridharma"
+                            },
+                            {
+                                "kode": "6.4.1.14",
+                                "dokumen": "Laporan integrasi keilmuan"
+                            },
+                            {
+                                "kode": "6.4.1.15",
+                                "dokumen": "Hasil penelitian terintegrasi dalam pembelajaran"
+                            },
+                            {
+                                "kode": "6.4.1.16",
+                                "dokumen": "Monev integrasi kelimuan Suasana akademik"
+                            },
+                            {
+                                "kode": "6.4.1.17",
+                                "dokumen": "Pedoman"
+                            },
+                            {
+                                "kode": "6.4.1.18",
+                                "dokumen": "Laporan/Bukti"
+                            },
+                            {
+                                "kode": "6.4.1.19",
+                                "dokumen": "Monev"
                             }
                         ],
                         "dokumen_pendukung": [
                             {
                                 "kode": "6.4.2.1",
-                                "dokumen": "Notulen"
+                                "dokumen": "Laporan Penyusunan Kurikulum"
                             },
                             {
                                 "kode": "6.4.2.2",
-                                "dokumen": "Daftar Hadir"
-                            },
-                            {
-                                "kode": "6.4.2.3",
-                                "dokumen": "SK Pemutakhiran Kurikulum"
+                                "dokumen": "Uji validitas instrumen"
                             }
                         ]
                     },
@@ -2074,23 +3210,22 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "6.5.1.1",
-                                "dokumen": "Standar Mutu Pendidikan"
+                                "dokumen": "Standar Mutu"
                             },
                             {
                                 "kode": "6.5.1.2",
-                                "dokumen": "Dokumen Monev terhadap proses pendidikan yang sahih yang terukur dikaji dan dianalisis untuk perbaikan berkelanjutan."
-                            }
-                        ],
-                        "dokumen_pendukung": [
-                            {
-                                "kode": "6.5.2.1",
-                                "dokumen": "Notulen"
+                                "dokumen": "Sasaran Mutu"
                             },
                             {
-                                "kode": "6.5.2.2",
-                                "dokumen": "Daftar Hadir"
+                                "kode": "6.5.1.3",
+                                "dokumen": "Rencana Mutu"
+                            },
+                            {
+                                "kode": "6.5.1.4",
+                                "dokumen": "Renstra"
                             }
-                        ]
+                        ],
+                        "dokumen_pendukung": null
                     },
                     {
                         "nomor": "6.6",
@@ -2101,23 +3236,30 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "6.6.1.1",
-                                "dokumen": "Pedoman Monev Pendidikan yang mencakup identifikasi akar masalah, faktor pendukung keberhasilan dan faktor penghambat ketercapaian standar, serta tindak lanjut yang akan dilakukan."
+                                "dokumen": "Standar Mutu"
                             },
                             {
                                 "kode": "6.6.1.2",
-                                "dokumen": "Hasil Monev Bidang Pendidikan"
-                            }
-                        ],
-                        "dokumen_pendukung": [
-                            {
-                                "kode": "6.6.2.1",
-                                "dokumen": "Notulen"
+                                "dokumen": "Sasaran Mutu"
                             },
                             {
-                                "kode": "6.6.2.2",
-                                "dokumen": "Daftar Hadir"
+                                "kode": "6.6.1.3",
+                                "dokumen": "Rencana Mutu"
+                            },
+                            {
+                                "kode": "6.6.1.4",
+                                "dokumen": "Renstra"
+                            },
+                            {
+                                "kode": "6.6.1.5",
+                                "dokumen": "Laporan Kegiatan"
+                            },
+                            {
+                                "kode": "6.6.1.6",
+                                "dokumen": "Monev"
                             }
-                        ]
+                        ],
+                        "dokumen_pendukung": null
                     },
                     {
                         "nomor": "6.7",
@@ -2128,31 +3270,50 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "6.7.1.1",
-                                "dokumen": "Laporan monev Bidang Pendidikan"
+                                "dokumen": "Kebijakan Mutu"
                             },
                             {
                                 "kode": "6.7.1.2",
-                                "dokumen": "Laporan audit Bidang Pendidikan"
+                                "dokumen": "Standar Mutu"
                             },
                             {
                                 "kode": "6.7.1.3",
-                                "dokumen": "Laporan audit tindak lanjut Bidang Pendidikan"
+                                "dokumen": "Sasaran Mutu"
+                            },
+                            {
+                                "kode": "6.7.1.4",
+                                "dokumen": "Rencana Mutu"
+                            },
+                            {
+                                "kode": "6.7.1.5",
+                                "dokumen": "Manual Mutu"
+                            },
+                            {
+                                "kode": "6.7.1.6",
+                                "dokumen": "SOP"
+                            },
+                            {
+                                "kode": "6.7.1.7",
+                                "dokumen": "Formulir Mutu"
+                            },
+                            {
+                                "kode": "6.7.1.8",
+                                "dokumen": "Laporan Kerja"
+                            },
+                            {
+                                "kode": "6.7.1.9",
+                                "dokumen": "Monev"
+                            },
+                            {
+                                "kode": "6.7.1.10",
+                                "dokumen": "Hasil Audit"
+                            },
+                            {
+                                "kode": "6.7.1.11",
+                                "dokumen": "Standar Level Internasional"
                             }
                         ],
-                        "dokumen_pendukung": [
-                            {
-                                "kode": "6.7.2.1",
-                                "dokumen": "Notulen"
-                            },
-                            {
-                                "kode": "6.7.2.2",
-                                "dokumen": "Daftar Hadir"
-                            },
-                            {
-                                "kode": "6.7.2.3",
-                                "dokumen": "Foto kegiatan"
-                            }
-                        ]
+                        "dokumen_pendukung": null
                     },
                     {
                         "nomor": "6.8",
@@ -2163,31 +3324,26 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "6.8.1.1",
-                                "dokumen": "Pedoman Penyusunan Instrumen pengukuran kepuasan mahasiswa terhadap proses pendidikan"
+                                "dokumen": "Panduan Survei"
                             },
                             {
                                 "kode": "6.8.1.2",
-                                "dokumen": "Pedoman pelaksanaan survey (waktu, pelaksana, tempat, Dokumentasi) yang menunjukkan bahwa survey dilaksanakan secara konsisten, dan ditindaklanjuti secara berkala dan tersistem."
+                                "dokumen": "Instrumen Survei"
                             },
                             {
                                 "kode": "6.8.1.3",
-                                "dokumen": "Pedoman analisis hasil survey"
+                                "dokumen": "Uji Validitas dan Realibilitas"
                             },
                             {
                                 "kode": "6.8.1.4",
-                                "dokumen": "Hasil analisis dan review pelaksanaan kepuasan mahasiswa terhadap proses pendidikan"
-                            }
-                        ],
-                        "dokumen_pendukung": [
-                            {
-                                "kode": "6.8.2.1",
-                                "dokumen": "Notulen"
+                                "dokumen": "Rekapitulasi Hasil Survei"
                             },
                             {
-                                "kode": "6.8.2.2",
-                                "dokumen": "Daftar Hadir"
+                                "kode": "6.8.1.5",
+                                "dokumen": "Digitalisasi Hasil Survei"
                             }
-                        ]
+                        ],
+                        "dokumen_pendukung": null
                     },
                     {
                         "nomor": "6.9",
@@ -2198,19 +3354,14 @@
                         "dokumen_sumber": [
                             {
                                 "kode": "6.9.1.1",
-                                "dokumen": "Laporan Evaluasi dan tindak lanjut terkait Proses Pendidikan Program Studi yang diakreditasi"
-                            }
-                        ],
-                        "dokumen_pendukung": [
-                            {
-                                "kode": "6.9.2.1",
-                                "dokumen": "Notulen"
+                                "dokumen": "Laporan Analisis SWOT"
                             },
                             {
-                                "kode": "6.9.2.2",
-                                "dokumen": "Daftar Hadir"
+                                "kode": "6.9.1.2",
+                                "dokumen": "Renstra"
                             }
-                        ]
+                        ],
+                        "dokumen_pendukung": null
                     }
                 ],
                 "dokumen_sumber": null,
