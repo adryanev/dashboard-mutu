@@ -80,7 +80,7 @@ $controller = $this->context->id;
                         'target' => '_blank'
                     ]) ?>
                 <?php endif; ?>
-                <?php if ($type !== FileTypeHelper::TYPE_LINK || !$type !== FileTypeHelper::TYPE_STATIC_TEXT): ?>
+                <?php if ($type !== FileTypeHelper::TYPE_LINK && $type !== FileTypeHelper::TYPE_STATIC_TEXT): ?>
                     <?= Html::a('<i class="la la-download"></i>&nbsp;Unduh', [
                         $controller . '/download-detail',
                         'kriteria' => $kriteria,

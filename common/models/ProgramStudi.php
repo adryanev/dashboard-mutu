@@ -12,7 +12,6 @@ use yii\behaviors\TimestampBehavior;
  * @property string $kode
  * @property string $nama
  * @property string $jurusan_departemen
- * @property int $id_fakultas_akademi
  * @property string $nomor_sk_pendirian
  * @property int $tanggal_sk_pendirian
  * @property string $pejabat_ttd_sk_pendirian
@@ -35,7 +34,6 @@ use yii\behaviors\TimestampBehavior;
  *
  * @property K9AkreditasiProdi[] $k9AkreditasiProdis
  * @property ProfilUser[] $profilUsers
- * @property FakultasAkademi $fakultasAkademi
  * @property Profil $profil
  * @property Berkas[] $berkas
  */
@@ -86,7 +84,6 @@ class ProgramStudi extends \yii\db\ActiveRecord
         return [
             [
                 [
-                    'id_fakultas_akademi',
                     'tanggal_sk_pendirian',
                     'bulan_berdiri',
                     'tanggal_sk_operasional',
@@ -118,13 +115,6 @@ class ProgramStudi extends \yii\db\ActiveRecord
                 'max' => 255
             ],
             [['tahun_berdiri'], 'string', 'max' => 4],
-            [
-                ['id_fakultas_akademi'],
-                'exist',
-                'skipOnError' => true,
-                'targetClass' => FakultasAkademi::className(),
-                'targetAttribute' => ['id_fakultas_akademi' => 'id']
-            ],
         ];
     }
 
@@ -175,14 +165,6 @@ class ProgramStudi extends \yii\db\ActiveRecord
     public function getProfilUsers()
     {
         return $this->hasMany(ProfilUser::className(), ['id_prodi' => 'id']);
-    }
-
-    /**
-     * @return \yii\db\ActiveQuery
-     */
-    public function getFakultasAkademi()
-    {
-        return $this->hasOne(FakultasAkademi::className(), ['id' => 'id_fakultas_akademi']);
     }
 
     /**

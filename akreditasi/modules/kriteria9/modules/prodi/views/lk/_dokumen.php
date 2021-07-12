@@ -35,7 +35,12 @@ $controller = $this->context->id;
     </thead>
     <tbody>
 
-    <?php foreach ($item->$attr as $keyDoksum => $doksum) :
+
+    <?php
+    if ($item->$attr === null) :
+        echo '<tr><td>Tidak ada Dokumen</td></tr>';
+    else:
+    foreach ($item->$attr as $keyDoksum => $doksum) :
 
     $clear = trim($doksum->kode);
     $kodeSumber = '_' . str_replace('.', '_', $clear);
@@ -228,5 +233,6 @@ $controller = $this->context->id;
     ?>
 
     </tbody>
-    <?php endforeach; ?>
+    <?php endforeach;
+    endif; ?>
 </table>

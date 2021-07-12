@@ -21,7 +21,7 @@ $this->params['breadcrumbs'][] = $this->title;
                         <i class="flaticon2-list-3"></i>
                     </span>
                     <h3 class="kt-portlet__head-title">
-                        <?= Html::encode($this->title) ?> <small>(<?=Html::encode($model->fakultasAkademi->nama)?>)</small>
+                        <?= Html::encode($this->title) ?>
                     </h3>
                 </div>
                 <div class="kt-portlet__head-toolbar">
@@ -52,7 +52,6 @@ $this->params['breadcrumbs'][] = $this->title;
             'kode',
             'nama',
             'jurusan_departemen',
-            'fakultasAkademi.nama',
             'nomor_sk_pendirian',
             'tanggal_sk_pendirian',
             'pejabat_ttd_sk_pendirian',

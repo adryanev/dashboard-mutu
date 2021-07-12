@@ -4,7 +4,6 @@
 namespace akreditasi\modules\kriteria9\modules\prodi\controllers;
 
 use akreditasi\modules\kriteria9\controllers\BaseController;
-use common\helpers\FakultasDirectoryHelper;
 use common\helpers\kriteria9\K9InstitusiDirectoryHelper;
 use common\helpers\kriteria9\K9ProdiDirectoryHelper;
 use common\helpers\UnitDirectoryHelper;
@@ -43,9 +42,6 @@ class ResourceController extends BaseController
         $profilInstitusi = $this->findProfilInstitusi();
         $berkasInstitusi = new ActiveDataProvider(['query' => $this->findBerkasInstitusi()]);
         $model = $this->findProdi($prodi);
-        $fakultas = $model->fakultasAkademi;
-        $profilFakultas = $fakultas->profil;
-        $berkasFakultas = new ActiveDataProvider(['query' => $fakultas->getBerkas()]);
         $kegiatanUnit = $this->findKegiatanUnit();
         $profilUnit = $this->findUnit()->all();
 
@@ -53,10 +49,8 @@ class ResourceController extends BaseController
             'index',
             compact(
                 'model',
-                'berkasFakultas',
                 'kegiatanUnit',
                 'profilInstitusi',
-                'profilFakultas',
                 'profilUnit',
                 'berkasInstitusi',
                 'kode',
@@ -151,10 +145,6 @@ class ResourceController extends BaseController
         switch ($detail->berkas->type) {
             case Berkas::TYPE_UNIT:
                 $url = UnitDirectoryHelper::getUrl($detail->berkas->owner->id);
-
-                break;
-            case Berkas::TYPE_FAKULTAS:
-                $url = FakultasDirectoryHelper::getUrl($detail->berkas->owner->id);
 
                 break;
             case Berkas::TYPE_INSTITUSI:
@@ -268,10 +258,6 @@ class ResourceController extends BaseController
         switch ($detail->berkas->type) {
             case Berkas::TYPE_UNIT:
                 $path = UnitDirectoryHelper::getPath($detail->berkas->owner->id);
-
-                break;
-            case Berkas::TYPE_FAKULTAS:
-                $path = FakultasDirectoryHelper::getPath($detail->berkas->owner->id);
 
                 break;
             case Berkas::TYPE_INSTITUSI:

@@ -5,7 +5,6 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model common\models\ProgramStudi */
 /**
- * @var $dataFakultas array;
  * @var $jenjang array;
  */
 
@@ -33,7 +32,6 @@ $this->params['breadcrumbs'][] = $this->title;
 
                     <?= $this->render('_form', [
                     'model' => $model,
-                        'dataFakultas'=>$dataFakultas,
                         'jenjang'=>$jenjang
                     ]) ?>
 

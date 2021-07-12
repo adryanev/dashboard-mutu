@@ -153,10 +153,6 @@ $this->title = $modelProdi->nama;
                                 <td><?= Html::encode($modelProdi->jenjang) ?></td>
                             </tr>
                             <tr>
-                                <th scope="row">Fakultas</th>
-                                <td><?= Html::encode($modelProdi->fakultasAkademi->nama) ?></td>
-                            </tr>
-                            <tr>
                                 <th scope="row">Nomor SK Pendirian</th>
                                 <td><?= Html::encode($modelProdi->nomor_sk_pendirian) ?></td>
                             </tr>

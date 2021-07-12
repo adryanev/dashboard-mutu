@@ -4,9 +4,9 @@
 namespace akreditasi\modules\asesor\controllers;
 
 use akreditasi\models\kriteria9\forms\led\K9DetailLedInstitusiNonKriteriaLinkForm;
-use akreditasi\models\kriteria9\forms\led\K9DetailLedProdiLinkForm;
+use akreditasi\models\kriteria9\forms\led\DokumentasiProdiLinkForm;
 use akreditasi\models\kriteria9\forms\led\K9DetailLedProdiNonKriteriaUploadForm;
-use akreditasi\models\kriteria9\forms\led\K9DetailLedProdiTeksForm;
+use akreditasi\models\kriteria9\forms\led\DokumentasiProdiTeksForm;
 use akreditasi\models\kriteria9\forms\led\K9DetailLedProdiUploadForm;
 use akreditasi\models\kriteria9\forms\lk\prodi\K9LinkLkProdiKriteriaDetailForm;
 use akreditasi\models\kriteria9\forms\lk\prodi\K9LkProdiKriteriaDetailForm;
@@ -183,8 +183,8 @@ class ProdiController extends BaseController
             $detailCollection = Collection::make($detail);
 
             $detailModel = new K9DetailLedProdiUploadForm();
-            $textModel = new K9DetailLedProdiTeksForm();
-            $linkModel = new K9DetailLedProdiLinkForm();
+            $textModel = new DokumentasiProdiTeksForm();
+            $linkModel = new DokumentasiProdiLinkForm();
 
             $realPath = K9ProdiDirectoryHelper::getDetailLedUrl($led->akreditasiProdi);
 

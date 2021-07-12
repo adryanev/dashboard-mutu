@@ -81,7 +81,6 @@ class ProgramStudiController extends Controller
     {
         $model = new ProgramStudi();
         $jenjang = ProgramStudi::JENJANG;
-        $dataFakultas = ArrayHelper::map(FakultasAkademi::find()->all(),'id','nama');
 
         if ($model->load(Yii::$app->request->post())) {
 
@@ -104,12 +103,11 @@ class ProgramStudiController extends Controller
         }
 
         elseif (Yii::$app->request->isAjax){
-            return $this->renderAjax('_form',['model'=>$model,'dataFakultas'=>$dataFakultas,'jenjang'=>$jenjang]);
+            return $this->renderAjax('_form',['model'=>$model,'jenjang'=>$jenjang]);
         }
 
         return $this->render('create', [
             'model' => $model,
-            'dataFakultas'=>$dataFakultas,
             'jenjang'=>$jenjang
         ]);
     }

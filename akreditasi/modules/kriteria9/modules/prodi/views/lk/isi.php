@@ -53,10 +53,6 @@ $controller = $this->context->id;
                     <td><?= Html::encode($institusi) ?></td>
                 </tr>
                 <tr>
-                    <th scope="row">Nama Fakultas</th>
-                    <td><?= Html::encode($lkProdi->akreditasiProdi->prodi->fakultasAkademi->nama) ?></td>
-                </tr>
-                <tr>
                     <th scope="row">Nama Program Studi</th>
                     <td><?= Html::encode($lkProdi->akreditasiProdi->prodi->nama) ?></td>
                 </tr>

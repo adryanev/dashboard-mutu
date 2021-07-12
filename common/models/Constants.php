@@ -14,7 +14,6 @@ class Constants
 
     const JENIS_AKREDITASI =[
         'prodi'=>'Program Studi',
-        'institusi'=> 'Perguruan Tinggi'
     ];
 
     const LED = 'led';

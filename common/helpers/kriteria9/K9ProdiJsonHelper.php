@@ -13,6 +13,7 @@ use common\models\kriteria9\led\Led;
 use common\models\kriteria9\lk\Lk;
 use common\models\kriteria9\penilaian\Penilaian;
 use JsonMapper;
+use JsonMapper_Exception;
 use Yii;
 use yii\helpers\Json;
 
@@ -67,7 +68,7 @@ class K9ProdiJsonHelper implements IK9JsonHelper
     /**
      * @param int $kriteria
      * @return mixed|Led
-     * @throws \JsonMapper_Exception
+     * @throws JsonMapper_Exception
      */
     public static function getJsonKriteriaLed(int $kriteria)
     {

@@ -17,6 +17,34 @@ use Yii;
 
 class K9ProdiDirectoryHelper extends K9DirectoryHelper
 {
+    public static function getDetailLedPath($akreditasi)
+    {
+        $path = Yii::getAlias('@uploadAkreditasi');
+        $documentPath = self::getK9ProdiPath($akreditasi);
+        return "$path/$documentPath/led";
+    }
+
+    public static function getDetailLedUrl($akreditasi)
+    {
+        $path = Yii::getAlias('@.uploadAkreditasi');
+        $documentPath = self::getK9ProdiPath($akreditasi);
+        return "$path/$documentPath/led";
+    }
+
+    public static function getDetailLkPath($akreditasi)
+    {
+        $path = Yii::getAlias('@uploadAkreditasi');
+        $documentPath = self::getK9ProdiPath($akreditasi);
+        return "$path/$documentPath/lk";
+    }
+
+    public static function getDetailLkUrl($akreditasi)
+    {
+        $path = Yii::getAlias('@.uploadAkreditasi');
+        $documentPath = self::getK9ProdiPath($akreditasi);
+        return "$path/$documentPath/lk";
+    }
+
     public static function getDokumenLedPath($akreditasi)
     {
 
@@ -45,20 +73,6 @@ class K9ProdiDirectoryHelper extends K9DirectoryHelper
         return "$path/$documentPath/led";
     }
 
-    public static function getDetailLedPath($akreditasi)
-    {
-        $path = Yii::getAlias('@uploadAkreditasi');
-        $documentPath = self::getK9ProdiPath($akreditasi);
-        return "$path/$documentPath/led";
-    }
-
-    public static function getDetailLedUrl($akreditasi)
-    {
-        $path = Yii::getAlias('@.uploadAkreditasi');
-        $documentPath = self::getK9ProdiPath($akreditasi);
-        return "$path/$documentPath/led";
-    }
-
     public static function getDokumenLkPath($akreditasi)
     {
         $path = Yii::getAlias('@uploadAkreditasi');
@@ -73,18 +87,16 @@ class K9ProdiDirectoryHelper extends K9DirectoryHelper
         return "$path/$documentPath/lk";
     }
 
-    public static function getDetailLkPath($akreditasi)
+    public static function getDokumentasiPath($prodi)
     {
         $path = Yii::getAlias('@uploadAkreditasi');
-        $documentPath = self::getK9ProdiPath($akreditasi);
-        return "$path/$documentPath/lk";
+        return "$path/dokumentasi/$prodi";
     }
 
-    public static function getDetailLkUrl($akreditasi)
+    public static function getDokumentasiUrl($prodi)
     {
         $path = Yii::getAlias('@.uploadAkreditasi');
-        $documentPath = self::getK9ProdiPath($akreditasi);
-        return "$path/$documentPath/lk";
+        return "$path/dokumentasi/$prodi";
     }
 
     public static function getKuantitatifPath($akreditasi)

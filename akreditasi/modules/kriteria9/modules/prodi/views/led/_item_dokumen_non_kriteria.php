@@ -4,8 +4,8 @@
  * @var $jenis string
  * @var $json_dokumen common\models\kriteria9\Dokumen[]
  * @var $poin
- * @var $linkModel akreditasi\models\kriteria9\forms\led\K9DetailLedProdiLinkForm
- * @var $textModel akreditasi\models\kriteria9\forms\led\K9DetailLedProdiTeksForm
+ * @var $linkModel akreditasi\models\kriteria9\forms\led\DokumentasiProdiLinkForm
+ * @var $textModel akreditasi\models\kriteria9\forms\led\DokumentasiProdiTeksForm
  * @var $uploadModel \akreditasi\models\kriteria9\forms\led\K9DetailLedProdiUploadForm
  * @var $path string
  * @var $model

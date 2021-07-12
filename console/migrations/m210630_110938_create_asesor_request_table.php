@@ -20,6 +20,11 @@ class m210630_110938_create_asesor_request_table extends Migration
      */
     public function safeUp()
     {
+        $tableOptions = null;
+        if ($this->db->driverName === 'mysql') {
+            // http://stackoverflow.com/questions/766809/whats-the-difference-between-utf8-general-ci-and-utf8-unicode-ci
+            $tableOptions = 'CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci ENGINE=InnoDB';
+        }
         $this->createTable('{{%asesor_request}}', [
             'id' => $this->primaryKey(),
             'id_asesor' => $this->integer()->notNull(),
@@ -27,7 +32,7 @@ class m210630_110938_create_asesor_request_table extends Migration
             'id_prodi' => $this->integer(),
             'created_at' => $this->integer(),
             'updated_at' => $this->integer()
-        ]);
+        ],$tableOptions);
 
         $this->addForeignKey('fk-asesor-user', '{{%asesor_request}}', 'id_asesor', '{{%user}}', 'id', 'cascade',
             'cascade');

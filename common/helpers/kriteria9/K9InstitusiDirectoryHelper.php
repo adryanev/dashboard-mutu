@@ -168,4 +168,14 @@ class K9InstitusiDirectoryHelper extends K9DirectoryHelper
     {
         return Yii::getAlias('@.uploadStruktur/institusi');
     }
+
+    public static function getDokumentasiPath()
+    {
+        // TODO: Implement getDokumentasiPath() method.
+    }
+
+    public static function getDokumentasiUrl()
+    {
+        // TODO: Implement getDokumentasiUrl() method.
+    }
 }

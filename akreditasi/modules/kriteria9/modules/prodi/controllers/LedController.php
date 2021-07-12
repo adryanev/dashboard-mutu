@@ -9,10 +9,12 @@
 
 namespace akreditasi\modules\kriteria9\modules\prodi\controllers;
 
+use akreditasi\models\kriteria9\forms\led\DokumentasiProdiLinkForm;
 use akreditasi\models\kriteria9\forms\led\K9DetailLedProdiLinkForm;
 use akreditasi\models\kriteria9\forms\led\K9DetailLedProdiNonKriteriaLinkForm;
 use akreditasi\models\kriteria9\forms\led\K9DetailLedProdiNonKriteriaTeksForm;
 use akreditasi\models\kriteria9\forms\led\K9DetailLedProdiNonKriteriaUploadForm;
+use akreditasi\models\kriteria9\forms\led\DokumentasiProdiTeksForm;
 use akreditasi\models\kriteria9\forms\led\K9DetailLedProdiTeksForm;
 use akreditasi\models\kriteria9\forms\led\K9DetailLedProdiUploadForm;
 use akreditasi\models\kriteria9\forms\led\K9DokumenLedProdiUploadForm;
@@ -391,8 +393,8 @@ class LedController extends BaseController
 
 
         $detailModel = new K9DetailLedProdiUploadForm();
-        $textModel = new K9DetailLedProdiTeksForm();
-        $linkModel = new K9DetailLedProdiLinkForm();
+        $textModel = new DokumentasiProdiTeksForm();
+        $linkModel = new DokumentasiProdiLinkForm();
 
 
         $realPath = K9ProdiDirectoryHelper::getDetailLedUrl($modelLed->ledProdi->akreditasiProdi);
@@ -585,7 +587,7 @@ class LedController extends BaseController
             $classPath = "$namespace\\K9LedProdiKriteria$kriteria" . 'Detail';
             $model = call_user_func("$classPath::findOne", $idDokumen);
             $led = K9LedProdi::findOne($idLed);
-            if (!$model->bentuk_dokumen === Constants::TEXT && !$model->bentuk_dokumen === Constants::LINK) {
+            if ($model->bentuk_dokumen !== Constants::TEXT && $model->bentuk_dokumen !== Constants::LINK) {
                 $dokumenPath = K9ProdiDirectoryHelper::getDokumenLedPath($led->akreditasiProdi);
                 FileHelper::unlink("$dokumenPath/$jenis/$model->isi_dokumen");
             }
@@ -610,7 +612,7 @@ class LedController extends BaseController
 
             $model = K9LedProdiNonKriteriaDokumen::findOne($idDokumen);
             $led = K9LedProdi::findOne($idLed);
-            if (!$model->bentuk_dokumen === Constants::TEXT && !$model->bentuk_dokumen === Constants::LINK) {
+            if ($model->bentuk_dokumen !== Constants::TEXT && $model->bentuk_dokumen !== Constants::LINK) {
                 $dokumenPath = K9ProdiDirectoryHelper::getDokumenLedPath($led->akreditasiProdi);
                 FileHelper::unlink("$dokumenPath/$jenis/$model->isi_dokumen");
             }

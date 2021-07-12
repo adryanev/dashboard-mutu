@@ -18,7 +18,7 @@ class ProgramStudiSearch extends ProgramStudi
     {
         return [
             [['id', 'tanggal_sk_pendirian', 'bulan_berdiri', 'tanggal_sk_operasional', 'nilai_banpt_terakhir', 'created_at', 'updated_at'], 'integer'],
-            [['id_fakultas_akademi','kode', 'nama', 'jurusan_departemen', 'nomor_sk_pendirian', 'pejabat_ttd_sk_pendirian', 'tahun_berdiri', 'nomor_sk_operasional', 'peringkat_banpt_terakhir', 'nomor_sk_banpt', 'alamat', 'kodepos', 'nomor_telp', 'homepage', 'email', 'kaprodi', 'jenjang'], 'safe'],
+            [['kode', 'nama', 'jurusan_departemen', 'nomor_sk_pendirian', 'pejabat_ttd_sk_pendirian', 'tahun_berdiri', 'nomor_sk_operasional', 'peringkat_banpt_terakhir', 'nomor_sk_banpt', 'alamat', 'kodepos', 'nomor_telp', 'homepage', 'email', 'kaprodi', 'jenjang'], 'safe'],
         ];
     }
 
@@ -41,7 +41,6 @@ class ProgramStudiSearch extends ProgramStudi
     public function search($params)
     {
         $query = ProgramStudi::find();
-        $query->joinWith(['fakultasAkademi']);
 
 
         // add conditions that should always apply here
@@ -58,11 +57,6 @@ class ProgramStudiSearch extends ProgramStudi
             return $dataProvider;
         }
 
-
-        $dataProvider->sort->attributes['id_fakultas_akademi']=[
-            'asc'=>['fakultas_akademi.nama'=>SORT_ASC],
-            'desc'=>['fakultas_akademi.nama'=>SORT_DESC]
-        ];
         // grid filtering conditions
         $query->andFilterWhere([
             'id' => $this->id,
@@ -76,7 +70,6 @@ class ProgramStudiSearch extends ProgramStudi
 
         $query->andFilterWhere(['like', 'kode', $this->kode])
             ->andFilterWhere(['like', 'nama', $this->nama])
-            ->andFilterWhere(['like', 'fakultas_akademi.nama', $this->id_fakultas_akademi])
             ->andFilterWhere(['like', 'jurusan_departemen', $this->jurusan_departemen])
             ->andFilterWhere(['like', 'nomor_sk_pendirian', $this->nomor_sk_pendirian])
             ->andFilterWhere(['like', 'pejabat_ttd_sk_pendirian', $this->pejabat_ttd_sk_pendirian])

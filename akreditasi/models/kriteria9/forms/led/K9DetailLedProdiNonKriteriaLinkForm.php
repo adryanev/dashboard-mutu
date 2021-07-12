@@ -4,7 +4,7 @@
  * @author Adryan Eka Vandra <adryanekavandra@gmail.com>
  */
 /**
- * Class K9DetailLedProdiLinkForm
+ * Class K9DetailLedProdiNonKriteriaLinkForm
  * @package akreditasi\models\kriteria9\forms\led
  */
 

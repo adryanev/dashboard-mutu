@@ -10,7 +10,7 @@
 namespace common\helpers\kriteria9;
 
 
-interface IK9JsonHelper
+interface  IK9JsonHelper
 {
 
     public static function getAllJsonLk(string $jenis);
