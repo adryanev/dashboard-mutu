@@ -515,4 +515,53 @@ class LkController extends BaseController
 
         return new MethodNotAllowedHttpException('Harus melalui prosedur penghapusan data.');
     }
+
+    public function actionLihatDokumen($id,$kriteria){
+
+        $modelClass = 'common\\models\\kriteria9\\lk\\prodi\\K9LkProdiKriteria'.$kriteria.'Detail';
+        $relationAttr = 'lkProdiKriteria'.$kriteria;
+        $model = call_user_func($modelClass.'::findOne',$id);
+
+        $path=K9ProdiDirectoryHelper::getDetailLedUrl($model->$relationAttr->lkProdi->akreditasiProdi).'/'
+            .$model->jenis_dokumen;
+
+        if(Yii::$app->request->isAjax){
+
+            return $this->renderAjax('@akreditasi/modules/kriteria9/modules/prodi/views/dokumentasi/_modal_content',
+                compact
+                ('path','model'));
+        }
+
+        throw new MethodNotAllowedHttpException();
+    }
+
+    public function actionKomentar($id, $kriteria)
+    {
+        $modelClass = 'common\\models\\kriteria9\\lk\\prodi\\K9LkProdiKriteria' . $kriteria . 'Detail';
+        $model = call_user_func($modelClass . '::findOne', $id);
+
+        if (Yii::$app->request->isAjax) {
+            return $this->renderAjax('@admin/views/verifikasi-dokumentasi/_comments', ['model' => $model]);
+        }
+        if ($model->load(Yii::$app->request->post())) {
+
+            $model->save(false);
+            Yii::$app->session->setFlash('success', 'Berhasil menambahkan komentar');
+        }
+
+        return $this->redirect(Yii::$app->request->referrer);
+
+    }
+
+    public function actionApprove($id, $kriteria)
+    {
+        $modelClass = 'common\\models\\kriteria9\\lk\\prodi\\K9LkProdiKriteria' . $kriteria . 'Detail';
+        $model = call_user_func($modelClass . '::findOne', $id);
+
+        $model->is_verified = true;
+        $model->save(false);
+        Yii::$app->session->setFlash('success', 'Berhasil menyetujui dokumen');
+
+        return $this->redirect(Yii::$app->request->referrer);
+    }
 }

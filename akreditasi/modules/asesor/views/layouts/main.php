@@ -38,11 +38,6 @@ $menuItems = [
                 'icon' => '<i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i>',
                 'url' => ['/asesor/prodi/arsip']
             ],
-            [
-                'label' => 'Penilaian Akreditasi Perguruan Tinggi',
-                'icon' => '<i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i>',
-                'url' => ['/asesor/institusi/arsip']
-            ],
 
         ],
     ],

@@ -22,7 +22,14 @@ $controller = $this->context->id;
         </div>
         <div class="row">
             <div class="col-lg-12 text-center">
-                <?= $v->nama_dokumen . ' (' . $v->isi_dokumen . ')' ?>
+                <p><?= $v->nama_dokumen . ' (' . $v->isi_dokumen . ')' ?>
+                    <?= $v->is_verified ? "<span class='kt-badge kt-badge--success
+        kt-badge--inline kt-badge--pill kt-badge--rounded'>verified</span>" : "<span class='kt-badge kt-badge--danger
+        kt-badge--inline kt-badge--pill kt-badge--rounded'>not verified</span>" ?>
+
+                    <?php if($v->komentar): ?><span><?=Html::button('<i class="flaticon2-chat-1"></i>',['class'=>'btn btn-outline-hover-info btn-elevate btn-circle btn-icon','data-toggle'=>'kt-popover','title'=>'Komentar LPM','data-content'=>$v->komentar])?></span><?php endif ?>
+                </p>
+
 
             </div>
         </div>
@@ -32,33 +39,15 @@ $controller = $this->context->id;
             <div class="col-lg-12">
                 <?php $type = FileTypeHelper::getType($v->bentuk_dokumen);
                 if ($type !== FileTypeHelper::TYPE_LINK):?>
-                    <?php Modal::begin([
-                        'id' => 'lihat-' . $v->id,
-                        'title' => $v->nama_dokumen,
-                        'toggleButton' => [
-                            'label' => '<i class="la la-eye"></i> &nbsp;Lihat',
-                            'class' => 'btn btn-info btn-sm btn-pill btn-elevate btn-elevate-air'
-                        ],
-                        'size' => 'modal-xl',
-                        'clientOptions' => ['backdrop' => 'blur', 'keyboard' => true],
-                        'closeButton' => false,
-                    ]); ?>
-                    <?php switch ($type) {
-                        case FileTypeHelper::TYPE_IMAGE:
-                            echo Html::img("$path/sumber/{$v->isi_dokumen}", ['height' => '100%', 'width' => '100%']);
-                            break;
-                        case FileTypeHelper::TYPE_STATIC_TEXT:
-                            echo $v->isi_dokumen;
-                            break;
-                        default:
-                            echo '  <p><small>Jika dokumen tidak tampil, silahkan klik' . Html::a('di sini.',
-                                    'https://docs.google.com/gview?url=' . $path . '/' . $jenis . '/' . rawurlencode($v->isi_dokumen),
-                                    ['target' => '_blank']) . '</small>
-                </p>';
-                            echo '<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://docs.google.com/gview?url=' . $path . '/' . $jenis . '/' . rawurlencode($v->isi_dokumen) . '&embedded=true"></iframe></div>';
-                            break;
-                    } ?>
-                    <?php Modal::end(); ?>
+                    <?= Html::button('<i class="la la-eye"></i> &nbsp;Lihat', [
+                        'value' => \yii\helpers\Url::to([
+                            'lk/lihat-dokumen',
+                            'id' => $v->id,
+                            'kriteria' => $kriteria
+                        ]),
+                        'title'=>$v->nama_dokumen,
+                        'class'=>'btn btn-info btn-sm btn-pill btn-elevate btn-elevate-air showModalButton'
+                    ]) ?>
                 <?php else: ?>
                     <?= Html::a('<i class="la la-external-link"></i> Lihat', $v->isi_dokumen, [
                         'class' => 'btn btn-info btn-sm btn-pill btn-elevate btn-elevate-air',
@@ -91,8 +80,34 @@ $controller = $this->context->id;
                         ]
                     ]) ?>
                 <?php endif ?>
+                <?php
+                if(Yii::$app->user->identity->role !== 'prodi'):
+                    ?>
+                    <?=Html::button('<i class="flaticon2-chat"></i> Komentar',['value'=>\yii\helpers\Url::to(['lk/komentar','kriteria'=>$kriteria,'id'=>$v->id]),
+                    'title'=>"Beri Komentar",
+                    'class'=>'btn btn-brand btn-sm btn-pill btn-elevate btn-elevate-air showModalButton'
+                ])?>
+                    <?php if(!$v->is_verified): ?>
+                    <?=Html::a('<i class="flaticon2-checkmark"></i> Setujui',['lk/approve','kriteria'=>$kriteria,
+                        'id'=>$v->id],[
+                        'class'=>'btn btn-success btn-sm btn-pill btn-elevate btn-elevate-air',
+                        'data'=>[
+                            'method'=>'POST',
+                            'confirm'=>'Apakah anda ingin menyetujui dokumen ini?'
+                        ]
+                    ])?>
+                <?php endif ?>
+                <?php endif?>
             </div>
 
         </div>
     </td>
 </tr>
+<?php
+$js = <<<JS
+$(document).ajaxSuccess(function () {
+    $("[data-toggle=kt-popover]").popover();
+    $("[data-toggle=kt-tooltip]").tooltip();
+});
+JS;
+$this->registerJs($js);

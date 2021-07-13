@@ -13,10 +13,11 @@ use yii\behaviors\TimestampBehavior;
  * @property string|null $nama_dokumen
  * @property string|null $isi_dokumen
  * @property string|null $bentuk_dokumen
+ * @property string|null $komentar
  * @property int|null $is_verified
  * @property int|null $created_at
  * @property int|null $updated_at
- * @property string|null $komentar
+
  *
  * @property ProgramStudi $prodi
  */

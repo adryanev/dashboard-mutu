@@ -22,6 +22,8 @@ use yii\db\ActiveQuery;
  * @property int|null $updated_at
  * @property int|null $created_by
  * @property int|null $updated_by
+ * @property string|null $komentar
+ * @property int|null $is_verified
  *
  * @property K9LedProdi $ledProdi
  * @property User $createdBy
@@ -46,7 +48,8 @@ class K9LedProdiNonKriteriaDokumen extends \yii\db\ActiveRecord
         return [
             [['id_led_prodi', 'created_at', 'updated_at', 'created_by', 'updated_by'], 'integer'],
             [['isi_dokumen'], 'string'],
-            [['kode_dokumen', 'nama_dokumen', 'bentuk_dokumen', 'jenis_dokumen'], 'string', 'max' => 255],
+            [['is_verified'],'default','value' => false],
+            [['kode_dokumen', 'nama_dokumen', 'bentuk_dokumen', 'jenis_dokumen','komentar'], 'string', 'max' => 255],
             [
                 ['id_led_prodi'],
                 'exist',

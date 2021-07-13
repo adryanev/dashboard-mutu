@@ -74,6 +74,8 @@ class VerifikasiDokumentasiController extends Controller
                 $modelDetail->isi_dokumen = $model->isi_dokumen;
                 $modelDetail->bentuk_dokumen = $model->bentuk_dokumen;
                 $modelDetail->jenis_dokumen = Constants::SUMBER;
+                $modelDetail->is_verified = $model->is_verified;
+                $modelDetail->komentar = $model->komentar;
                 $modelDetail->save(false);
 
             }
@@ -90,6 +92,8 @@ class VerifikasiDokumentasiController extends Controller
                 $modelDetail->isi_dokumen = $model->isi_dokumen;
                 $modelDetail->bentuk_dokumen = $model->bentuk_dokumen;
                 $modelDetail->jenis_dokumen = Constants::PENDUKUNG;
+                $modelDetail->is_verified = $model->is_verified;
+                $modelDetail->komentar = $model->komentar;
                 $modelDetail->save(false);
 
             }
@@ -108,6 +112,8 @@ class VerifikasiDokumentasiController extends Controller
                 $modelDetail->isi_dokumen = $model->isi_dokumen;
                 $modelDetail->bentuk_dokumen = $model->bentuk_dokumen;
                 $modelDetail->jenis_dokumen = Constants::SUMBER;
+                $modelDetail->is_verified = $model->is_verified;
+                $modelDetail->komentar = $model->komentar;
                 $modelDetail->save(false);
 
 
@@ -125,6 +131,8 @@ class VerifikasiDokumentasiController extends Controller
                 $modelDetail->isi_dokumen = $model->isi_dokumen;
                 $modelDetail->bentuk_dokumen = $model->bentuk_dokumen;
                 $modelDetail->jenis_dokumen = Constants::PENDUKUNG;
+                $modelDetail->is_verified = $model->is_verified;
+                $modelDetail->komentar = $model->komentar;
                 $modelDetail->save(false);
 
             }
