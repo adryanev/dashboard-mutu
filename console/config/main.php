@@ -20,6 +20,14 @@ return [
             'class' => 'yii\console\controllers\FixtureController',
             'namespace' => 'common\fixtures',
           ],
+        'migrate' => [
+            'class' => \yii\console\controllers\MigrateController::class,
+            'migrationNamespaces' => [
+                //...
+                'zhuravljov\yii\queue\monitor\migrations',
+
+            ],
+        ],
     ],
     'components' => [
         'log' => [
@@ -28,6 +36,19 @@ return [
                     'class' => 'yii\log\FileTarget',
                     'levels' => ['error', 'warning'],
                 ],
+            ],
+        ],
+        'autocomplete' => [
+            'class' => 'iiifx\Yii2\Autocomplete\Component',
+            'config' => [
+                '@common/config/main.php',
+                '@common/config/main-local.php',
+                '@akreditasi/config/main.php',
+                '@akreditasi/config/main-local.php',
+                '@admin/config/main.php',
+                '@admin/config/main-local.php',
+                '@console/config/main.php',
+                '@console/config/main-local.php',
             ],
         ],
     ],

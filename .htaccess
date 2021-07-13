@@ -1,0 +1,6 @@
+Options -Indexes
+IndexIgnore */*
+
+Options FollowSymlinks
+RewriteEngine on
+RewriteRule ^(.+)?$ akreditasi/$1

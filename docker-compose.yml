@@ -2,8 +2,8 @@ version: '3.2'
 
 services:
 
-  frontend:
-    build: frontend
+  akreditasi:
+    build: akreditasi
     ports:
       - 20080:80
     volumes:
@@ -12,8 +12,8 @@ services:
       # Mount source-code for development
       - ./:/app
 
-  backend:
-    build: backend
+  admin:
+    build: admin
     ports:
       - 21080:80
     volumes:
