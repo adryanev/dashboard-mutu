@@ -53,7 +53,7 @@ class K9DetailLedProdiTeksForm extends Model
         $this->_detailLedProdi->nama_dokumen = $this->nama_dokumen;
         $this->_detailLedProdi->isi_dokumen = $this->berkasDokumen;
         $this->_detailLedProdi->jenis_dokumen = $this->jenis_dokumen;
-        $this->_detailLedProdi->bentuk_dokumen = Constants::TEXT;
+        $this->_detailLedProdi->bentuk_dokumen = \common\helpers\FileTypeHelper::TYPE_STATIC_TEXT;
 
         $this->_detailLedProdi->save(false);
 

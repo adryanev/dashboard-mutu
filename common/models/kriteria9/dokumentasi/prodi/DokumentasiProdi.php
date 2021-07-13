@@ -16,6 +16,7 @@ use yii\behaviors\TimestampBehavior;
  * @property int|null $is_verified
  * @property int|null $created_at
  * @property int|null $updated_at
+ * @property string|null $komentar
  *
  * @property ProgramStudi $prodi
  */
@@ -35,6 +36,7 @@ class DokumentasiProdi extends \yii\db\ActiveRecord
             'is_verified' => 'Is Verified',
             'created_at' => 'Created At',
             'updated_at' => 'Updated At',
+            'komentar' => 'Komentar',
         ];
     }
 
@@ -52,7 +54,7 @@ class DokumentasiProdi extends \yii\db\ActiveRecord
     {
         return [
             [['id_prodi', 'is_verified', 'created_at', 'updated_at'], 'integer'],
-            [['nama_dokumen', 'isi_dokumen', 'bentuk_dokumen'], 'string', 'max' => 255],
+            [['nama_dokumen', 'isi_dokumen', 'bentuk_dokumen','komentar'], 'string', 'max' => 255],
             [
                 ['id_prodi'],
                 'exist',

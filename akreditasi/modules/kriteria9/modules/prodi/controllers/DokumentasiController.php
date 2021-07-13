@@ -9,6 +9,7 @@ use akreditasi\models\kriteria9\forms\dokumentasi\DokumentasiProdiTeksForm;
 use akreditasi\models\kriteria9\forms\dokumentasi\DokumentasiProdiUploadForm;
 use akreditasi\modules\kriteria9\controllers\BaseController;
 use common\helpers\FileHelper;
+use common\helpers\FileTypeHelper;
 use common\helpers\kriteria9\DokumenJsonHelper;
 use common\helpers\kriteria9\K9ProdiDirectoryHelper;
 use common\models\Constants;
@@ -80,7 +81,7 @@ class DokumentasiController extends BaseController
 
         if (Yii::$app->request->isAjax) {
 
-            return $this->renderAjax('_form', ['model' => $model, 'jenis' => Constants::TEXT]);
+            return $this->renderAjax('_form', ['model' => $model, 'jenis' => \common\helpers\FileTypeHelper::TYPE_STATIC_TEXT]);
         }
         if ($model->load(Yii::$app->request->post())) {
 
@@ -133,6 +134,7 @@ class DokumentasiController extends BaseController
         $path=K9ProdiDirectoryHelper::getDokumentasiUrl($model->id_prodi);
 
         if(Yii::$app->request->isAjax){
+            if($model->bentuk_dokumen === FileTypeHelper::TYPE_LINK) return $this->redirect($model->isi_dokumen);
              return $this->renderAjax('_modal_content',compact('path','model'));
         }
 
@@ -160,7 +162,7 @@ class DokumentasiController extends BaseController
                 }
 
                 //lk
-                $documentsLk = ArrayHelper::merge($dokumen->relasi->lk->sumber, $dokumen->relasi->lk->sumber);
+                $documentsLk = ArrayHelper::merge($dokumen->relasi->lk->sumber, $dokumen->relasi->lk->pendukung);
                 foreach ($documentsLk as $dok){
                     $kriteria = substr($dok,'0','1');
                     $modelClass = 'common\\models\\kriteria9\\lk\\prodi\\K9LkProdiKriteria'.$kriteria.'Detail';
@@ -170,7 +172,7 @@ class DokumentasiController extends BaseController
             }
 
 
-            if ($model->bentuk_dokumen !== Constants::TEXT && $model->bentuk_dokumen !== Constants::LINK) {
+            if ($model->bentuk_dokumen !== \common\helpers\FileTypeHelper::TYPE_STATIC_TEXT && $model->bentuk_dokumen !== Constants::LINK) {
                 $dokumenPath = K9ProdiDirectoryHelper::getDokumentasiPath($prodi);
                 \yii\helpers\FileHelper::unlink("$dokumenPath/{$model->isi_dokumen}");
             }

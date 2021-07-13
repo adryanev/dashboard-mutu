@@ -28,6 +28,8 @@ use yii\bootstrap4\Html;
                     <?= $model->is_verified ? "<span class='kt-badge kt-badge--success
         kt-badge--inline kt-badge--pill kt-badge--rounded'>verified</span>" : "<span class='kt-badge kt-badge--danger
         kt-badge--inline kt-badge--pill kt-badge--rounded'>not verified</span>" ?>
+
+                    <?php if($model->komentar): ?><span><?=Html::button('<i class="flaticon2-chat-1"></i>',['class'=>'btn btn-outline-hover-info btn-elevate btn-circle btn-icon','data-toggle'=>'kt-popover','title'=>'Komentar LPM','data-content'=>$model->komentar])?></span><?php endif ?>
                 </p>
             </div>
 

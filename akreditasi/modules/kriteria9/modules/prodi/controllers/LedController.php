@@ -393,8 +393,8 @@ class LedController extends BaseController
 
 
         $detailModel = new K9DetailLedProdiUploadForm();
-        $textModel = new DokumentasiProdiTeksForm();
-        $linkModel = new DokumentasiProdiLinkForm();
+        $textModel = new K9DetailLedProdiTeksForm();
+        $linkModel = new K9DetailLedProdiLinkForm();
 
 
         $realPath = K9ProdiDirectoryHelper::getDetailLedUrl($modelLed->ledProdi->akreditasiProdi);
@@ -587,7 +587,7 @@ class LedController extends BaseController
             $classPath = "$namespace\\K9LedProdiKriteria$kriteria" . 'Detail';
             $model = call_user_func("$classPath::findOne", $idDokumen);
             $led = K9LedProdi::findOne($idLed);
-            if ($model->bentuk_dokumen !== Constants::TEXT && $model->bentuk_dokumen !== Constants::LINK) {
+            if ($model->bentuk_dokumen !== \common\helpers\FileTypeHelper::TYPE_STATIC_TEXT && $model->bentuk_dokumen !== Constants::LINK) {
                 $dokumenPath = K9ProdiDirectoryHelper::getDokumenLedPath($led->akreditasiProdi);
                 FileHelper::unlink("$dokumenPath/$jenis/$model->isi_dokumen");
             }
@@ -612,7 +612,7 @@ class LedController extends BaseController
 
             $model = K9LedProdiNonKriteriaDokumen::findOne($idDokumen);
             $led = K9LedProdi::findOne($idLed);
-            if ($model->bentuk_dokumen !== Constants::TEXT && $model->bentuk_dokumen !== Constants::LINK) {
+            if ($model->bentuk_dokumen !== \common\helpers\FileTypeHelper::TYPE_STATIC_TEXT && $model->bentuk_dokumen !== Constants::LINK) {
                 $dokumenPath = K9ProdiDirectoryHelper::getDokumenLedPath($led->akreditasiProdi);
                 FileHelper::unlink("$dokumenPath/$jenis/$model->isi_dokumen");
             }

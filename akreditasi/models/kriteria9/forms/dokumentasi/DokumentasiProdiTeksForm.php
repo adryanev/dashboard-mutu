@@ -46,7 +46,7 @@ class DokumentasiProdiTeksForm extends Model
         $this->_dokumentasiProdi->id_prodi = $this->id_prodi;
         $this->_dokumentasiProdi->nama_dokumen = $this->nama_dokumen;
         $this->_dokumentasiProdi->isi_dokumen = $this->berkasDokumen;
-        $this->_dokumentasiProdi->bentuk_dokumen = Constants::TEXT;
+        $this->_dokumentasiProdi->bentuk_dokumen = \common\helpers\FileTypeHelper::TYPE_STATIC_TEXT;
         $this->_dokumentasiProdi->is_verified =false;
         $this->_dokumentasiProdi->save(false);
 

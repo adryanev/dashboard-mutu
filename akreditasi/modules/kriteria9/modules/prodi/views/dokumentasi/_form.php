@@ -25,7 +25,7 @@ use yii\bootstrap4\Html;
     ])->label('Tautan')->hint('https:// atau http:// harus dimasukkan.') ?>
 
     <?php
-    elseif ($jenis === Constants::TEXT):
+    elseif ($jenis === \common\helpers\FileTypeHelper::TYPE_STATIC_TEXT):
     ?>
         <?= $form->field($model, 'berkasDokumen')->widget(TinyMce::class)->label('Teks') ?>
     <?php

@@ -53,7 +53,7 @@ class K9DetailLedInstitusiTeksForm extends Model
         $this->_detailLedInstitusi->nama_dokumen = $this->nama_dokumen;
         $this->_detailLedInstitusi->isi_dokumen = $this->berkasDokumen;
         $this->_detailLedInstitusi->jenis_dokumen = $this->jenis_dokumen;
-        $this->_detailLedInstitusi->bentuk_dokumen = Constants::TEXT;
+        $this->_detailLedInstitusi->bentuk_dokumen = \common\helpers\FileTypeHelper::TYPE_STATIC_TEXT;
 
         $this->_detailLedInstitusi->save(false);
 
