@@ -4,6 +4,7 @@
 namespace akreditasi\modules\kriteria9\modules\prodi\controllers;
 
 use akreditasi\modules\kriteria9\controllers\BaseController;
+use common\helpers\FileHelper;
 use common\helpers\kriteria9\K9InstitusiDirectoryHelper;
 use common\helpers\kriteria9\K9ProdiDirectoryHelper;
 use common\helpers\UnitDirectoryHelper;
@@ -216,7 +217,8 @@ class ResourceController extends BaseController
                     throw new Exception('Gagal menyimpan detail');
                 }
                 $pathProdi = K9ProdiDirectoryHelper::getDetailLedPath($detailLedModel->$detailRelation->ledProdi->akreditasiProdi);
-                copy("$pathDetail/$detail->isi_berkas", "$pathProdi/{$jenis_dokumen}/{$detail->isi_berkas}");
+                FileHelper::createSymlink(["$pathProdi/{$jenis_dokumen}/{$detail->isi_berkas}"=>"$pathDetail/{$detail
+                    ->isi_berkas}"]);
 
                 $url = ['led/isi-kriteria', 'kriteria' => $kriteria, 'led' => $id_led_lk, 'prodi' => $prodi->id];
 
@@ -237,7 +239,7 @@ class ResourceController extends BaseController
                     throw new Exception('Gagal menyimpan detail');
                 }
                 $pathProdi = K9ProdiDirectoryHelper::getDetailLkPath($detailLkModel->$detailLkRelation->lkProdi->akreditasiProdi);
-                copy("$pathDetail/{$detail->isi_berkas}", "$pathProdi/$jenis_dokumen/{$detail->isi_berkas}");
+                FileHelper::createSymlink(["$pathProdi/$jenis_dokumen/{$detail->isi_berkas}"=>"$pathDetail/{$detail->isi_berkas}"]);
                 $url = ['lk/isi-kriteria', 'kriteria' => $kriteria, 'lk' => $id_led_lk, 'prodi' => $prodi->id];
                 $transaction->commit();
             }
@@ -301,7 +303,8 @@ class ResourceController extends BaseController
                 throw new Exception('Gagal menyimpan detail');
             }
             $pathProdi = K9ProdiDirectoryHelper::getDetailLedPath($detailLedModel->ledProdi->akreditasiProdi);
-            copy("$pathDetail/$detail->isi_berkas", "$pathProdi/{$jenis_dokumen}/{$detail->isi_berkas}");
+            FileHelper::createSymlink(["$pathProdi/{$jenis_dokumen}/{$detail->isi_berkas}"=>"$pathDetail/{$detail
+                ->isi_berkas}"]);
 
             $url = ['led/isi-non-kriteria', 'poin' => $poin, 'led' => $id_led_lk, 'prodi' => $prodi->id];
 
@@ -349,7 +352,7 @@ class ResourceController extends BaseController
                     throw new Exception('Gagal menyimpan detail');
                 }
                 $pathProdi = K9ProdiDirectoryHelper::getDetailLedPath($detailLedModel->$detailRelation->ledProdi->akreditasiProdi);
-                copy("$pathDetail/$detail->isi_file", "$pathProdi/{$jenis_dokumen}/{$detail->isi_file}");
+                FileHelper::createSymlink(["$pathProdi/{$jenis_dokumen}/{$detail->isi_file}"=>"$pathDetail/{$detail->isi_file}"]);
 
                 $url = ['led/isi-kriteria', 'kriteria' => $kriteria, 'led' => $id_led_lk, 'prodi' => $prodi->id];
 
@@ -370,7 +373,8 @@ class ResourceController extends BaseController
                     throw new Exception('Gagal menyimpan detail');
                 }
                 $pathProdi = K9ProdiDirectoryHelper::getDetailLkPath($detailLkModel->$detailLkRelation->lkProdi->akreditasiProdi);
-                copy("$pathDetail/{$detail->isi_file}", "$pathProdi/$jenis_dokumen/{$detail->isi_file}");
+                FileHelper::createSymlink(["$pathProdi/$jenis_dokumen/{$detail->isi_file}"=>"$pathDetail/{$detail
+                    ->isi_file}"]);
                 $url = ['lk/isi-kriteria', 'kriteria' => $kriteria, 'lk' => $id_led_lk, 'prodi' => $prodi->id];
                 $transaction->commit();
             }
@@ -413,7 +417,7 @@ class ResourceController extends BaseController
                 throw new Exception('Gagal menyimpan detail');
             }
             $pathProdi = K9ProdiDirectoryHelper::getDetailLedPath($detailLedModel->$detailRelation->ledProdi->akreditasiProdi);
-            copy("$pathDetail/$detail->isi_file", "$pathProdi/{$jenis_dokumen}/{$detail->isi_file}");
+            FileHelper::createSymlink(["$pathProdi/{$jenis_dokumen}/{$detail->isi_file}"=>"$pathDetail/{$detail->isi_file}"]);
 
             $url = ['led/isi-non-kriteria', 'poin' => $poin, 'led' => $id_led_lk, 'prodi' => $prodi->id];
 

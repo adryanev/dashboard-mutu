@@ -580,7 +580,7 @@ class LedController extends BaseController
             $idDokumen = $data['dokumen'];
             $kriteria = $data['kriteria'];
             $idLed = $data['led'];
-            $jenis = $data['bentuk'];
+            $jenis = $data['jenis'];
             $prodi = $data['prodi'];
 
             $namespace = 'common\\models\\kriteria9\\led\\prodi';
@@ -607,7 +607,7 @@ class LedController extends BaseController
             $idDokumen = $data['dokumen'];
             $poin = $data['poin'];
             $idLed = $data['led'];
-            $jenis = $data['bentuk'];
+            $jenis = $data['jenis'];
             $prodi = $data['prodi'];
 
             $model = K9LedProdiNonKriteriaDokumen::findOne($idDokumen);
