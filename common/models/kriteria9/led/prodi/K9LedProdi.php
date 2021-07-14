@@ -56,6 +56,26 @@ class K9LedProdi extends \yii\db\ActiveRecord
         ];
     }
 
+    public function extraFields()
+    {
+        return[
+            'akreditasiProdi',
+            'k9LedProdiKriteria1s',
+            'k9LedProdiKriteria2s',
+            'k9LedProdiKriteria3s',
+            'k9LedProdiKriteria4s',
+            'k9LedProdiKriteria5s',
+            'k9LedProdiKriteria6s',
+            'k9LedProdiKriteria7s',
+            'k9LedProdiKriteria8s',
+            'k9LedProdiKriteria9s',
+            'narasiEksternal',
+            'narasiProfil',
+            'narasiAnalisis',
+            'eksporDokumen'
+        ];
+    }
+
     /**
      * {@inheritdoc}
      */

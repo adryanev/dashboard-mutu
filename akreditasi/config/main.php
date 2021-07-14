@@ -15,6 +15,9 @@ return [
     'bootstrap' => ['log'],
     'controllerNamespace' => 'akreditasi\controllers',
     'modules'=>[
+        'api' => [
+            'class' => 'akreditasi\modules\api\Api',
+        ],
         'profile' => [
             'class' => 'common\modules\profile\Profile'
         ],
@@ -115,7 +118,8 @@ return [
             'site/error',
             'site/logout',
             'datecontrol/*',
-            'grid/*'
+            'grid/*',
+            'api/*'
 //            'admin/*',
 //            'debug/*',
 //            'sertifikat/*',
