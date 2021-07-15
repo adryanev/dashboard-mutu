@@ -6,12 +6,15 @@ namespace akreditasi\modules\api\controllers;
 
 use common\helpers\kriteria9\K9ProdiDirectoryHelper;
 use common\models\kriteria9\akreditasi\K9Akreditasi;
+use common\models\kriteria9\akreditasi\K9AkreditasiProdi;
 use common\models\kriteria9\forms\kuantitatif\K9PencarianKuantitatifForm;
 use common\models\kriteria9\kuantitatif\prodi\K9DataKuantitatifProdi;
 use common\models\ProgramStudi;
 use Yii;
 use yii\base\BaseObject;
+use yii\data\ActiveDataProvider;
 use yii\helpers\ArrayHelper;
+use yii\web\NotFoundHttpException;
 
 class KuantitatifController extends BaseActiveController
 {
@@ -48,17 +51,28 @@ class KuantitatifController extends BaseActiveController
 
     public function actionDownloadDokumen($dokumen)
     {
-        ini_set('max_execution_time', 5 * 60);
         $template = K9DataKuantitatifProdi::findOne($dokumen);
-        $path = K9ProdiDirectoryHelper::getKuantitatifPath($template->akreditasiProdi);
+        $path = K9ProdiDirectoryHelper::getKuantitatifUrl($template->akreditasiProdi);
         $file = $template->isi_dokumen;
-        return Yii::$app->response->sendFile("$path/$file");
+        return ['path'=>"$path/$file",'filename'=>$file];
     }
 
     public function actionShow($id)
     {
         $model = K9DataKuantitatifProdi::findOne($id);
         $path = K9ProdiDirectoryHelper::getKuantitatifUrl($model->akreditasiProdi);
-        return ['model' => $model, 'path' => $path];
+        return ['model' => $model, 'path' => $path,'akreditasiProdi'=>$model->akreditasiProdi];
+    }
+
+    public function actionProdi($id)
+    {
+        $akreditasiProdi = K9AkreditasiProdi::findOne($id);
+        if (!$akreditasiProdi) {
+            throw new NotFoundHttpException();
+        }
+        $dataProvider = new ActiveDataProvider(['query' => $akreditasiProdi->getKuantitatif()]);
+
+        return $dataProvider;
+
     }
 }
