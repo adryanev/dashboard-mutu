@@ -15,6 +15,7 @@ use common\models\kriteria9\akreditasi\K9Akreditasi;
 use common\models\kriteria9\forms\led\K9PencarianLedProdiForm;
 use common\models\kriteria9\led\prodi\K9LedProdi;
 use common\models\kriteria9\led\prodi\K9LedProdiNonKriteriaDokumen;
+use common\models\kriteria9\led\prodi\K9ProdiEksporDokumen;
 use common\models\ProgramStudi;
 use Yii;
 use yii\helpers\ArrayHelper;
@@ -176,7 +177,8 @@ class LedProdiController extends BaseActiveController
             'untuk' => 'lihat',
             'kriteria' => $kriteria,
             'prodi' => $programStudi,
-            'akreditasiProdi' => $akreditasiProdi
+            'akreditasiProdi' => $akreditasiProdi,
+            'akreditasi'=>$akreditasiProdi->akreditasi
         ];
     }
 
@@ -219,28 +221,28 @@ class LedProdiController extends BaseActiveController
                 'untuk' => $untuk,
                 'prodi' => $programStudi,
                 'akreditasiProdi' => $akreditasiProdi,
-                'currentPoint' => $currentPoint
+                'currentPoint' => $currentPoint,
+                'akreditasi'=>$akreditasiProdi->akreditasi
+
             ];
     }
 
     public function actionDownloadDetail($kriteria, $dokumen, $led, $jenis)
     {
-        ini_set('max_execution_time', 5 * 60);
         $led = K9LedProdi::findOne($led);
         $namespace = 'common\\models\\kriteria9\\led\\prodi';
         $className = "$namespace\\K9LedProdiKriteria$kriteria" . 'Detail';
         $model = call_user_func($className . '::findOne', $dokumen);
-        $file = K9ProdiDirectoryHelper::getDokumenLedPath($led->akreditasiProdi) . "/$jenis/{$model->isi_dokumen}";
-        return Yii::$app->response->sendFile($file);
+        $file = K9ProdiDirectoryHelper::getDokumenLedUrl($led->akreditasiProdi) . "/$jenis/{$model->isi_dokumen}";
+        return ['path'=>$file,'filename'=>$model->isi_dokumen];
     }
 
     public function actionDownloadDetailNonKriteria($poin, $dokumen, $led, $jenis)
     {
-        ini_set('max_execution_time', 5 * 60);
         $led = K9LedProdi::findOne($led);
         $model = K9LedProdiNonKriteriaDokumen::findOne($dokumen);
-        $file = K9ProdiDirectoryHelper::getDokumenLedPath($led->akreditasiProdi) . "/$jenis/{$model->isi_dokumen}";
-        return Yii::$app->response->sendFile($file);
+        $file = K9ProdiDirectoryHelper::getDokumenLedUrl($led->akreditasiProdi) . "/$jenis/{$model->isi_dokumen}";
+        return ['path'=>$file,'filename'=>$model->isi_dokumen];
     }
 
     public function actionLihatDokumen($id, $kriteria)
@@ -253,13 +255,10 @@ class LedProdiController extends BaseActiveController
         $path = K9ProdiDirectoryHelper::getDetailLedUrl($model->$relationAttr->ledProdi->akreditasiProdi) . '/'
             . $model->jenis_dokumen;
 
-        if (Yii::$app->request->isAjax) {
+
 
             return compact
             ('path', 'model');
-        }
-
-        throw new MethodNotAllowedHttpException();
     }
 
     public function actionLihatDokumenNonKriteria($id)
@@ -270,13 +269,20 @@ class LedProdiController extends BaseActiveController
         $path = K9ProdiDirectoryHelper::getDetailLedUrl($model->ledProdi->akreditasiProdi) . '/'
             . $model->jenis_dokumen;
 
-        if (Yii::$app->request->isAjax) {
+
             return
                 compact
                 ('path', 'model');
-        }
 
-        throw new MethodNotAllowedHttpException();
+
+    }
+
+
+    public function actionDownloadDokumen($dokumen)
+    {
+        $model = K9ProdiEksporDokumen::findOne($dokumen);
+        $file = K9ProdiDirectoryHelper::getDokumenLedUrl($model->ledProdi->akreditasiProdi) . "/{$model->nama_dokumen}";
+        return ["path"=>$file, 'filename'=>$model->nama_dokumen];
     }
 
     /**

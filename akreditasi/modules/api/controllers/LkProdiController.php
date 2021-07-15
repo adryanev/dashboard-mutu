@@ -4,23 +4,24 @@
 namespace akreditasi\modules\api\controllers;
 
 
+use common\helpers\DownloadDokumenTrait;
 use common\helpers\kriteria9\K9ProdiDirectoryHelper;
 use common\helpers\kriteria9\K9ProdiJsonHelper;
 use common\helpers\NomorKriteriaHelper;
 use common\models\kriteria9\akreditasi\K9Akreditasi;
 use common\models\kriteria9\forms\lk\K9PencarianLkProdiForm;
+use common\models\kriteria9\led\prodi\K9ProdiEksporDokumen;
 use common\models\kriteria9\lk\prodi\K9LkProdi;
 use common\models\ProgramStudi;
 use Yii;
-use yii\base\BaseObject;
 use yii\helpers\ArrayHelper;
-use yii\web\MethodNotAllowedHttpException;
 use yii\web\NotFoundHttpException;
+use yii\web\Response;
 use yii2mod\collection\Collection;
 
 class LkProdiController extends BaseActiveController
 {
-
+ use DownloadDokumenTrait;
     public $modelClass = K9LkProdi::class;
 
     public function actionArsip($target, $prodi)
@@ -58,6 +59,7 @@ class LkProdiController extends BaseActiveController
             'dataProdi' => $dataProdi
         ];
     }
+
     public function actionLihatKriteria($lk, $kriteria)
     {
 
@@ -81,7 +83,14 @@ class LkProdiController extends BaseActiveController
             'poinKriteria' => $poinKriteria,
             'path' => $path,
             'lkProdiKriteria' => $lkProdiKriteria,
-            'modelNarasi' => $modelNarasi
+            'modelNarasi' => $modelNarasi,
+            'lkProdi' => $lkProdi,
+            'prodi' => $programStudi,
+            'untuk' => 'lihat',
+            'kriteria' => $kriteria,
+            'akreditasiProdi' => $lkProdi->akreditasiProdi,
+            'akreditasi' => $lkProdi->akreditasiProdi->akreditasi
+
         ];
     }
 
@@ -141,20 +150,18 @@ class LkProdiController extends BaseActiveController
 
     public function actionDownloadDetail($dokumen, $kriteria, $lk, $prodi, $jenis)
     {
-        ini_set('max_execution_time', 5 * 60);
-
         $detailClass = 'common\\models\\kriteria9\\lk\\prodi\\K9LkProdiKriteria' . $kriteria . 'Detail';
 
         $model = call_user_func($detailClass . '::findOne', $dokumen);
         $attribute = 'lkProdiKriteria' . $kriteria;
 
-        $path = K9ProdiDirectoryHelper::getDokumenLkPath($model->$attribute->lkProdi->akreditasiProdi);
+        $path = K9ProdiDirectoryHelper::getDetailLkUrl($model->$attribute->lkProdi->akreditasiProdi);
         $file = $model->isi_dokumen;
 
         $path = $this->download($model, $path, $file);
 
 
-        return Yii::$app->response->sendFile($path);
+        return ['path'=>$path,'filename'=>$model->isi_dokumen];
     }
 
     public function actionLihatDokumen($id, $kriteria)
@@ -164,17 +171,21 @@ class LkProdiController extends BaseActiveController
         $relationAttr = 'lkProdiKriteria' . $kriteria;
         $model = call_user_func($modelClass . '::findOne', $id);
 
-        $path = K9ProdiDirectoryHelper::getDetailLedUrl($model->$relationAttr->lkProdi->akreditasiProdi) . '/'
+        $path = K9ProdiDirectoryHelper::getDetailLkUrl($model->$relationAttr->lkProdi->akreditasiProdi) . '/'
             . $model->jenis_dokumen;
 
-        if (Yii::$app->request->isAjax) {
+        return [
+            'path' => $path,
+            'model' => $model
+        ];
 
-            return [
-                'path' => $path,
-                'model' => $model
-            ];
-        }
-
-        throw new MethodNotAllowedHttpException();
     }
+
+    public function actionDownloadDokumen($dokumen)
+    {
+        $model = K9ProdiEksporDokumen::findOne($dokumen);
+        $file = K9ProdiDirectoryHelper::getDokumenLedUrl($model->ledProdi->akreditasiProdi) . "/{$model->nama_dokumen}";
+        return ["path"=>$file, 'filename'=>$model->nama_dokumen];
+    }
+
 }

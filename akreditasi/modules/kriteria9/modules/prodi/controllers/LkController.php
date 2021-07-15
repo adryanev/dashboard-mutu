@@ -522,7 +522,7 @@ class LkController extends BaseController
         $relationAttr = 'lkProdiKriteria'.$kriteria;
         $model = call_user_func($modelClass.'::findOne',$id);
 
-        $path=K9ProdiDirectoryHelper::getDetailLedUrl($model->$relationAttr->lkProdi->akreditasiProdi).'/'
+        $path=K9ProdiDirectoryHelper::getDetailLkUrl($model->$relationAttr->lkProdi->akreditasiProdi).'/'
             .$model->jenis_dokumen;
 
         if(Yii::$app->request->isAjax){

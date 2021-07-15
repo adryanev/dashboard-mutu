@@ -51,7 +51,7 @@ class K9AkreditasiProdi extends \yii\db\ActiveRecord
 
     public function extraFields()
     {
-        return ['k9LedProdi','k9LkProdi','prodi'];
+        return ['k9LedProdi','k9LkProdi','prodi','akreditasi','kuantitatif'];
     }
 
     /**

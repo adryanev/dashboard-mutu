@@ -108,12 +108,12 @@ $controller = $this->context->id;
                <?php
                 if(Yii::$app->user->identity->role !== 'prodi'):
                     ?>
-                <?=Html::button('<i class="flaticon2-chat"></i> Komentar',['value'=>\yii\helpers\Url::to(['led/komentar','kriteria'=>$kriteria,'id'=>$detail->id]),
+                <?=Html::button('<i class="flaticon2-chat"></i> Komentar',['value'=>\yii\helpers\Url::to(['led/komentar','id'=>$detail->id]),
                     'title'=>"Beri Komentar",
                     'class'=>'btn btn-brand btn-sm btn-pill btn-elevate btn-elevate-air showModalButton'
                 ])?>
                 <?php if(!$detail->is_verified): ?>
-                <?=Html::a('<i class="flaticon2-checkmark"></i> Setujui',['led/approve','kriteria'=>$kriteria,
+                <?=Html::a('<i class="flaticon2-checkmark"></i> Setujui',['led/approve',
                     'id'=>$detail->id],[
                     'class'=>'btn btn-success btn-sm btn-pill btn-elevate btn-elevate-air',
                     'data'=>[
