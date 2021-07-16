@@ -21,6 +21,8 @@ use yii\behaviors\TimestampBehavior;
  * @property int $updated_at
  * @property int $created_by
  * @property int $updated_by
+ * @property string|null $komentar
+ * @property int|null $is_verified
  *
  * @property K9LkProdiKriteria8 $lkProdiKriteria8
  * @property User $createdBy
@@ -51,7 +53,8 @@ class K9LkProdiKriteria8Detail extends \yii\db\ActiveRecord
     {
         return [
             [['id_lk_prodi_kriteria8', 'created_at', 'updated_at', 'created_by', 'updated_by'], 'integer'],
-            [['kode_dokumen', 'nama_dokumen', 'isi_dokumen', 'jenis_dokumen', 'bentuk_dokumen'], 'string', 'max' => 255],
+            [['is_verified'],'default','value' => false],
+            [['kode_dokumen', 'nama_dokumen', 'isi_dokumen', 'jenis_dokumen', 'bentuk_dokumen','komentar'], 'string', 'max' => 255],
             [['id_lk_prodi_kriteria8'], 'exist', 'skipOnError' => true, 'targetClass' => K9LkProdiKriteria8::className(), 'targetAttribute' => ['id_lk_prodi_kriteria8' => 'id']],
             [['created_by'], 'exist', 'skipOnError' => true, 'targetClass' => User::className(), 'targetAttribute' => ['created_by' => 'id']],
             [['updated_by'], 'exist', 'skipOnError' => true, 'targetClass' => User::className(), 'targetAttribute' => ['updated_by' => 'id']],

@@ -9,12 +9,10 @@
 
 namespace akreditasi\modules\kriteria9\modules\prodi\controllers;
 
-use akreditasi\models\kriteria9\forms\led\DokumentasiProdiLinkForm;
 use akreditasi\models\kriteria9\forms\led\K9DetailLedProdiLinkForm;
 use akreditasi\models\kriteria9\forms\led\K9DetailLedProdiNonKriteriaLinkForm;
 use akreditasi\models\kriteria9\forms\led\K9DetailLedProdiNonKriteriaTeksForm;
 use akreditasi\models\kriteria9\forms\led\K9DetailLedProdiNonKriteriaUploadForm;
-use akreditasi\models\kriteria9\forms\led\DokumentasiProdiTeksForm;
 use akreditasi\models\kriteria9\forms\led\K9DetailLedProdiTeksForm;
 use akreditasi\models\kriteria9\forms\led\K9DetailLedProdiUploadForm;
 use akreditasi\models\kriteria9\forms\led\K9DokumenLedProdiUploadForm;
@@ -714,6 +712,99 @@ class LedController extends BaseController
         }
         return $this->redirect($referer);
     }
+
+    public function actionLihatDokumen($id, $kriteria)
+    {
+
+        $modelClass = 'common\\models\\kriteria9\\led\\prodi\\K9LedProdiKriteria' . $kriteria . 'Detail';
+        $relationAttr = 'ledProdiKriteria' . $kriteria;
+        $model = call_user_func($modelClass . '::findOne', $id);
+
+        $path = K9ProdiDirectoryHelper::getDetailLedUrl($model->$relationAttr->ledProdi->akreditasiProdi) . '/'
+            . $model->jenis_dokumen;
+
+        if (Yii::$app->request->isAjax) {
+
+            return $this->renderAjax('@akreditasi/modules/kriteria9/modules/prodi/views/dokumentasi/_modal_content',
+                compact
+                ('path', 'model'));
+        }
+
+        throw new MethodNotAllowedHttpException();
+    }
+
+    public function actionLihatDokumenNonKriteria($id)
+    {
+
+        $model = K9LedProdiNonKriteriaDokumen::findOne($id);
+
+        $path = K9ProdiDirectoryHelper::getDetailLedUrl($model->ledProdi->akreditasiProdi) . '/'
+            . $model->jenis_dokumen;
+
+        if (Yii::$app->request->isAjax) {
+            return $this->renderAjax('@akreditasi/modules/kriteria9/modules/prodi/views/dokumentasi/_modal_content',
+                compact
+                ('path', 'model'));
+        }
+
+        throw new MethodNotAllowedHttpException();
+    }
+
+    public function actionKomentar($id, $kriteria)
+    {
+        $modelClass = 'common\\models\\kriteria9\\led\\prodi\\K9LedProdiKriteria' . $kriteria . 'Detail';
+        $model = call_user_func($modelClass . '::findOne', $id);
+
+        if (Yii::$app->request->isAjax) {
+            return $this->renderAjax('@admin/views/verifikasi-dokumentasi/_comments', ['model' => $model]);
+        }
+        if ($model->load(Yii::$app->request->post())) {
+            $model->save(false);
+            Yii::$app->session->setFlash('success', 'Berhasil menambahkan komentar');
+        }
+
+        return $this->redirect(Yii::$app->request->referrer);
+
+    }
+
+    public function actionKomentarNonKriteria($id)
+    {
+        $model = K9LedProdiNonKriteriaDokumen::findOne($id);
+
+        if (Yii::$app->request->isAjax) {
+            return $this->renderAjax('@admin/views/verifikasi-dokumentasi/_comments', ['model' => $model]);
+        }
+        if ($model->load(Yii::$app->request->post())) {
+            $model->save(false);
+            Yii::$app->session->setFlash('success', 'Berhasil menambahkan komentar');
+        }
+
+        return $this->redirect(Yii::$app->request->referrer);
+    }
+
+    public function actionApprove($id, $kriteria)
+    {
+        $modelClass = 'common\\models\\kriteria9\\led\\prodi\\K9LedProdiKriteria' . $kriteria . 'Detail';
+        $model = call_user_func($modelClass . '::findOne', $id);
+
+        $model->is_verified = true;
+        $model->save(false);
+        Yii::$app->session->setFlash('success', 'Berhasil menyetujui dokumen');
+
+        return $this->redirect(Yii::$app->request->referrer);
+    }
+
+    public function actionApproveNonKriteria($id){
+
+        $model = K9LedProdiNonKriteriaDokumen::findOne($id);
+        $model->is_verified = true;
+        $model->save(false);
+
+        Yii::$app->session->setFlash('success', 'Berhasil menyetujui dokumen');
+
+        return $this->redirect(Yii::$app->request->referrer);
+    }
+
 
     protected function getLedKriteriaNomor($kriteria, $search)
     {

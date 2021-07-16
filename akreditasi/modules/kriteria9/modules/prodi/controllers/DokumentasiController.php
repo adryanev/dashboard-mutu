@@ -134,7 +134,7 @@ class DokumentasiController extends BaseController
         $path=K9ProdiDirectoryHelper::getDokumentasiUrl($model->id_prodi);
 
         if(Yii::$app->request->isAjax){
-            if($model->bentuk_dokumen === FileTypeHelper::TYPE_LINK) return $this->redirect($model->isi_dokumen);
+
              return $this->renderAjax('_modal_content',compact('path','model'));
         }
 

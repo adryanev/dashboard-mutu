@@ -49,6 +49,21 @@ class K9LkProdi extends \yii\db\ActiveRecord
         ];
     }
 
+    public function extraFields()
+    {
+        return[
+            'akreditasiProdi',
+            'k9LkProdiKriteria1s',
+            'k9LkProdiKriteria2s',
+            'k9LkProdiKriteria3s',
+            'k9LkProdiKriteria4s',
+            'k9LkProdiKriteria5s',
+            'k9LkProdiKriteria6s',
+            'k9LkProdiKriteria7s',
+            'k9LkProdiKriteria8s',
+            'eksporDokumen'
+        ];
+    }
     /**
      * {@inheritdoc}
      */

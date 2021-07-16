@@ -10,7 +10,7 @@
         <?php $form = \yii\bootstrap4\ActiveForm::begin() ?>
 
         <div class="form-group">
-            <?= \yii\helpers\Html::dropDownList('tipe', null, ['pt' => 'Perguruan Tinggi', 'prodi' => 'Program Studi'],
+            <?= \yii\helpers\Html::dropDownList('tipe', null, ['prodi' => 'Program Studi'],
                 ['class' => 'form-control', 'label' => 'Tipe', 'prompt' => 'Pilih Tipe', 'id' => 'tipe']) ?>
         </div>
         <?= $form->field($model, 'id_prodi',
