@@ -1,0 +1,5 @@
+---
+deployment:
+    tasks:
+        - export DEPLOYPATH=/home/u7722220/public_html/dashboard-mutu
+        - /usr/bin/rsync -Paz . $DEPLOYPATH
