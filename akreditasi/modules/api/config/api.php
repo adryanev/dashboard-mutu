@@ -1,4 +1,8 @@
 <?php
+
+use common\models\Api;
+use yii\web\User;
+
 return [
     'urlManager' => [
         'class' => 'yii\web\UrlManager',
@@ -59,8 +63,8 @@ return [
 
     ],
     'user' => [
-        'class' => 'yii\web\User',
-        'identityClass' => 'common\models\User',
+        'class' => User::class,
+        'identityClass' => Api::class,
         'enableSession' => false,
         'loginUrl' => null,
     ],
