@@ -41,6 +41,10 @@ phpunit.phar
 /admin/web/index.php
 /admin/web/index-test.php
 /admin/web/robots.txt
+/akreditasi/web/media
+/akreditasi/web/upload
+/admin/web/media
+/admin/web/upload
 
 system-configuration.ini
 workspace.code-workspace
