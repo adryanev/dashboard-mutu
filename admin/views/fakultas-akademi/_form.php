@@ -4,7 +4,6 @@ use yii\helpers\Html;
 use yii\bootstrap4\ActiveForm;
 
 /* @var $this yii\web\View */
-/* @var $model common\models\FakultasAkademi */
 /* @var $form yii\widgets\ActiveForm */
 /* @var $jenis array */
 ?>
@@ -12,7 +11,7 @@ use yii\bootstrap4\ActiveForm;
 
 <div class="fakultas-akademi-form">
 
-    <?php $form = ActiveForm::begin(['options' => ['id'=>'fakultas-form']]); ?>
+    <?php $form = ActiveForm::begin(['options' => ['id'=>'user-form']]); ?>
 
     <?= $form->field($model, 'kode')->textInput(['maxlength' => true]) ?>
 
@@ -51,7 +50,7 @@ $jsForm = <<<JS
         });
         submit.html('<i class="flaticon2-refresh"></i> Sedang Memproses');
         submit.prop('disabled', true);
-        
+
 
     });
 

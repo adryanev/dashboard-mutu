@@ -43,12 +43,6 @@ class AccessOwnProdi extends Rule
                 $prodi =$identity->profilUser->prodi;
                 return $prodi->id === $prodiParam->id;
             }
-
-            if($role->item_name === 'fakultas'|| $role->item_name==='dekanat') {
-                $fakultas = $identity->profilUser->fakultas;
-                $prodis = $fakultas->getProgramStudis()->andWhere(['id'=>$params['prodi']])->one();
-                return $prodis? true: false;
-            }
         }
         return false;
     }

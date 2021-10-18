@@ -4,7 +4,6 @@
 namespace common\models\forms\user;
 
 
-use common\models\FakultasAkademi;
 use common\models\ProfilUser;
 use common\models\ProfilUserRole;
 use common\models\ProgramStudi;
@@ -27,7 +26,6 @@ class CreateUserForm extends Model
 
     public $nama_lengkap;
     public $tipe;
-    public $id_fakultas;
     public $id_prodi;
     public $id_unit;
     /**
@@ -44,7 +42,6 @@ class CreateUserForm extends Model
     {
         return [
             'username' => 'Username',
-            'id_fakultas' => 'Fakultas',
             'id_prodi' => 'Prodi',
         ];
     }
@@ -57,7 +54,7 @@ class CreateUserForm extends Model
             [['username'],'unique','targetClass' => User::class, 'message' => '{attribute} "{value}" telah digunakan.'],
             [['email'],'unique','targetClass' => User::class,'message' => '{attribute} "{value}" telah digunakan.'],
             [['username', 'password', 'email', 'hak_akses', 'nama_lengkap'], 'string'],
-            [['id_fakultas', 'id_prodi','tipe','id_unit'], 'safe']
+            [['id_prodi','tipe','id_unit'], 'safe']
         ];
     }
 
@@ -94,10 +91,7 @@ class CreateUserForm extends Model
             $profilRole->external_id = $this->id_prodi;
             $profilRole->type = ProgramStudi::PROGRAM_STUDI;
         }
-        else if($this->tipe === FakultasAkademi::FAKULTAS_AKADEMI){
-            $profilRole->external_id = $this->id_fakultas;
-            $profilRole->type = FakultasAkademi::FAKULTAS_AKADEMI;
-        }
+
         else if($this->tipe === Unit::UNIT){
             $profilRole->external_id = $this->id_unit;
             $profilRole->type = Unit::UNIT;

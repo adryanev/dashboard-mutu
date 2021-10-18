@@ -31,8 +31,6 @@ use yii\bootstrap4\ActiveForm;
 
     <?= $form->field($model, 'is_institusi')->textInput() ?>
 
-    <?= $form->field($model, 'is_fakultas')->textInput() ?>
-
     <?= $form->field($model, 'is_prodi')->textInput() ?>
 
     <?= $form->field($model, 'created_at')->textInput() ?>

@@ -4,7 +4,6 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
-/* @var $model akreditasi\models\fakultas\BerkasSearch */
 /* @var $form yii\widgets\ActiveForm */
 ?>
 

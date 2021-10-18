@@ -42,7 +42,7 @@ class ProfilUser extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['id_user', 'id_prodi', 'id_fakultas', 'created_at', 'updated_at'], 'integer'],
+            [['id_user', 'id_prodi', 'created_at', 'updated_at'], 'integer'],
             [['nama_lengkap'], 'string', 'max' => 255],
             [['id_prodi'], 'exist', 'skipOnError' => true, 'targetClass' => ProgramStudi::className(), 'targetAttribute' => ['id_prodi' => 'id']],
             [['id_user'], 'exist', 'skipOnError' => true, 'targetClass' => User::className(), 'targetAttribute' => ['id_user' => 'id']],

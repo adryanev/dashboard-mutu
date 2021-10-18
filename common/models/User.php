@@ -99,7 +99,6 @@ class User extends \yii\db\ActiveRecord implements IdentityInterface
             'status' => 'Status',
             'is_admin' => 'Akses Admin',
             'is_institusi' => 'Akses Institusi',
-            'is_fakultas' => 'Akses Fakultas',
             'is_prodi' => 'Akses Prodi',
             'created_at' => 'Created At',
             'updated_at' => 'Updated At',

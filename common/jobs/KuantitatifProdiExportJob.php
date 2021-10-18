@@ -143,7 +143,6 @@ class KuantitatifProdiExportJob extends BaseObject implements JobInterface
         //tanggal kadaluarsa
         $this->spreadsheet->getSheet($currentWorksheet)->setCellValue('H29', $sertifikat ?? '-');
         //nama unit pengelola
-        $this->spreadsheet->getSheet($currentWorksheet)->setCellValue('H31', $prodi->fakultasAkademi->nama);
         //nama pt
         $this->spreadsheet->getSheet($currentWorksheet)->setCellValue('H33', \Yii::$app->params['institusi']);
         //alamat

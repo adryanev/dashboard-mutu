@@ -2,7 +2,6 @@
 
 namespace admin\controllers;
 
-use common\models\FakultasAkademi;
 use common\models\forms\user\CreateUserForm;
 use common\models\forms\user\UpdateUserForm;
 use common\models\forms\user\UpdatePasswordForm;
@@ -93,11 +92,6 @@ class UserController extends Controller
 
         $dataRoles = array_combine($roles, $roles);
 
-        $fakultas = FakultasAkademi::find()->all();
-        $dataFakultas = ArrayHelper::map($fakultas, 'id', function ($item) {
-            return $item->nama . " ({$item->jenisString})";
-        });
-
         $prodi = ProgramStudi::find()->all();
         $dataProdi = ArrayHelper::map($prodi, 'id', function ($item) {
             return $item->nama . " ({$item->jenjang})";
@@ -126,12 +120,11 @@ class UserController extends Controller
 
         if (Yii::$app->request->isAjax) {
             return $this->renderAjax('_create_user_form', [ 'model' => $model,
-                'dataFakultas'=>$dataFakultas, 'dataRoles'=>$dataRoles,'dataProdi'=>$dataProdi,'dataUnit'=>$dataUnit,'tipe'=>$tipe]);
+                'dataRoles'=>$dataRoles,'dataProdi'=>$dataProdi,'dataUnit'=>$dataUnit,'tipe'=>$tipe]);
         }
 
         return $this->render('create_user_form', [
             'model' => $model,
-            'dataFakultas'=>$dataFakultas,
             'dataRoles'=>$dataRoles,
             'dataProdi'=>$dataProdi,
             'dataUnit'=>$dataUnit,
@@ -150,10 +143,7 @@ class UserController extends Controller
     {
         $model = new UpdateUserForm($id);
         $modelPassword = new UpdatePasswordForm($id);
-        $fakultas = FakultasAkademi::find()->all();
-        $dataFakultas = ArrayHelper::map($fakultas, 'id', function ($item) {
-            return $item->nama . " ({$item->jenisString})";
-        });
+
 
         $tipe = ProfilUserRole::TIPE;
         $prodi = ProgramStudi::find()->all();
@@ -204,7 +194,6 @@ class UserController extends Controller
         return $this->render('update_user_form', [
             'model' => $model,
             'modelPassword'=>$modelPassword,
-            'dataFakultas'=>$dataFakultas,
             'dataRoles'=>$dataRoles,
             'dataProdi'=>$dataProdi,
             'dataUnit'=>$dataUnit,

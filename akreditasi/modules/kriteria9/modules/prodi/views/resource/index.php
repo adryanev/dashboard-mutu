@@ -2,11 +2,9 @@
 
 /**
  * @var $this yii\web\View
- * @var $profilFakultas common\models\Profil
  * @var $profilInstitusi common\models\Profil
  * @var $profilUnit common\models\Profil[]
  * @var $kegiatanUnit common\models\unit\KegiatanUnit[]
- * @var $berkasFakultas common\models\Berkas[]
  * @var $berkasInstitusi common\models\Berkas[]
  * @var $kode string
  * @var $jenis string
