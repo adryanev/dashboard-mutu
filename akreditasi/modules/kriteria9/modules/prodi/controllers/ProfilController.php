@@ -11,7 +11,6 @@ namespace akreditasi\modules\kriteria9\modules\prodi\controllers;
 
 use akreditasi\models\kriteria9\forms\StrukturOrganisasiUploadForm;
 use akreditasi\modules\kriteria9\controllers\BaseController;
-use common\models\FakultasAkademi;
 use common\models\Profil;
 use common\models\ProgramStudi;
 use Yii;
@@ -44,7 +43,7 @@ class ProfilController extends BaseController
     public function actionUpdate($prodi)
     {
         $model = ProgramStudi::findOne($prodi);
-        $dataFakultas = ArrayHelper::map(FakultasAkademi::find()->all(), 'id', 'nama');
+
         $jenjang = ProgramStudi::JENJANG;
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             Yii::$app->session->setFlash('success', 'Berhasil mengubah ProgramStudi.');
@@ -54,7 +53,6 @@ class ProfilController extends BaseController
 
         return $this->render('update', [
             'model' => $model,
-            'dataFakultas' => $dataFakultas,
             'jenjang'=>$jenjang
         ]);
     }

@@ -26,8 +26,6 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'jurusan_departemen') ?>
 
-    <?= $form->field($model, 'id_fakultas_akademi') ?>
-
     <?php // echo $form->field($model, 'nomor_sk_pendirian') ?>
 
     <?php // echo $form->field($model, 'tanggal_sk_pendirian') ?>

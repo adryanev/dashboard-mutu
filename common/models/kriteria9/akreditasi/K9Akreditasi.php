@@ -2,8 +2,6 @@
 
 namespace common\models\kriteria9\akreditasi;
 
-use common\models\kriteria9\led\fakultas\K9LedFakultas;
-use common\models\kriteria9\lk\fakultas\K9LkFakultas;
 use yii\behaviors\TimestampBehavior;
 
 /**
@@ -16,11 +14,9 @@ use yii\behaviors\TimestampBehavior;
  * @property string $lembaga
  * @property int $created_at
  * @property int $updated_at
- *
- * @property K9AkreditasiInstitusi[] $k9AkreditasiInstitusis
+
  * @property K9AkreditasiProdi[] $k9AkreditasiProdis
- * @property K9LedFakultas[] $k9LedFakultas
- * @property K9LkFakultas[] $k9LkFakultas
+
  */
 class K9Akreditasi extends \yii\db\ActiveRecord
 {
@@ -78,32 +74,10 @@ class K9Akreditasi extends \yii\db\ActiveRecord
     /**
      * @return \yii\db\ActiveQuery
      */
-    public function getK9AkreditasiInstitusis()
-    {
-        return $this->hasMany(K9AkreditasiInstitusi::className(), ['id_akreditasi' => 'id']);
-    }
-
-    /**
-     * @return \yii\db\ActiveQuery
-     */
     public function getK9AkreditasiProdis()
     {
         return $this->hasMany(K9AkreditasiProdi::className(), ['id_akreditasi' => 'id']);
     }
 
-    /**
-     * @return \yii\db\ActiveQuery
-     */
-    public function getK9LedFakultas()
-    {
-        return $this->hasMany(K9LedFakultas::className(), ['id_fakultas' => 'id']);
-    }
 
-    /**
-     * @return \yii\db\ActiveQuery
-     */
-    public function getK9LkFakultas()
-    {
-        return $this->hasMany(K9LkFakultas::className(), ['id_akreditasi' => 'id']);
-    }
 }

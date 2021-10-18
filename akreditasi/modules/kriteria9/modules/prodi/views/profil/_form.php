@@ -8,7 +8,6 @@ use yii\bootstrap4\ActiveForm;
 /* @var $this yii\web\View */
 /* @var $model common\models\ProgramStudi */
 /* @var $form yii\bootstrap4\ActiveForm */
-/* @var $dataFakultas \common\models\FakultasAkademi[] */
 ?>
 
 
@@ -26,10 +25,7 @@ use yii\bootstrap4\ActiveForm;
         'options' => ['class'=>'kt-select2','placeholder'=>'Pilih Jenjang'],
     ])->label('Jenjang') ?>
 
-    <?= $form->field($model, 'id_fakultas_akademi')->widget(Select2::class,[
-        'data'=>$dataFakultas,
-        'options' => ['class'=>'kt-select2','placeholder'=>'Pilih Fakultas'],
-    ])->label('Fakultas/Akademi') ?>
+
 
     <?= $form->field($model, 'nomor_sk_pendirian')->textInput(['maxlength' => true]) ?>
     <?= $form->field($model, 'tanggal_sk_pendirian')->textInput(['maxlength' => true]) ?>
@@ -72,7 +68,7 @@ $jsForm = <<<JS
         });
         submit.html('<i class="flaticon2-refresh"></i> Sedang Memproses');
         submit.prop('disabled', true);
-        
+
     });
 
 JS;

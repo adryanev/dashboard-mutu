@@ -18,7 +18,6 @@ use yii\db\ActiveRecord;
  * @property int|null $updated_at
  *
  * @property DetailBerkas[] $detailBerkas
- * @property FakultasAkademi | ProgramStudi | Unit $owner
  */
 class Berkas extends ActiveRecord
 {

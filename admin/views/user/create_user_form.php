@@ -1,6 +1,5 @@
 <?php
 
-use common\models\FakultasAkademi;
 use common\models\User;
 use kartik\depdrop\DepDrop;
 use kartik\select2\Select2;
@@ -11,7 +10,6 @@ use yii\widgets\ActiveForm;
 /* @var $this yii\web\View */
 /* @var $model common\models\forms\user\CreateUserForm */
 /* @var $form ActiveForm */
-/* @var $dataFakultas [] */
 /* @var $dataProdi [] */
 /* @var $dataUnit [] */
 /*  @var $dataRoles []*/
@@ -40,7 +38,7 @@ $this->params['breadcrumbs'][] = $this->title;
             <div class="kt-portlet__body">
                 <div class="user-create">
 
-                    <?=$this->render('_create_user_form',['model'=>$model,'dataFakultas'=>$dataFakultas,'dataRoles'=>$dataRoles,'dataProdi'=>$dataProdi,'dataUnit'=>$dataUnit,'tipe'=>$tipe])?>
+                    <?=$this->render('_create_user_form',['model'=>$model,'dataRoles'=>$dataRoles,'dataProdi'=>$dataProdi,'dataUnit'=>$dataUnit,'tipe'=>$tipe])?>
 
 
                 </div>

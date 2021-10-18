@@ -55,7 +55,6 @@ $this->params['breadcrumbs'][] = $this->title;
 //                            'password_reset_token',
 //                            'verification_token',
                             'email:email',
-                            'profilUser.prodi.fakultasAkademi.nama',
                             'profilUser.prodi.nama',
                             ['attribute' => 'status',
                                 'value' => function ($model) {

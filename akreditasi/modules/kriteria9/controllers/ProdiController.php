@@ -34,7 +34,6 @@ class ProdiController extends BaseController
         //cek akses sesuai data
         $role = AuthAssignment::findOne(['user_id'=>Yii::$app->user->identity->getId()]);
         if($role->item_name === 'prodi' || $role->item_name === 'kaprodi') $idProdi = Yii::$app->user->identity->profilUser->getProdi()->all();
-        elseif ($role->item_name === 'fakultas' || $role->item_name === 'dekanat') $idProdi = Yii::$app->user->identity->profilUser->fakultas->programStudis;
         else $idProdi = ProgramStudi::find()->all();
 
 

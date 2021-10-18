@@ -7,7 +7,6 @@ use yii\helpers\Html;
 use yii\bootstrap4\ActiveForm;
 
 /**
- *  @var $dataFakultas []
  *  @var $dataProdi []
  *  @var $dataUnit []
  *  @var $dataRoles []

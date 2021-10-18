@@ -128,7 +128,6 @@ class ProgramStudi extends \yii\db\ActiveRecord
             'kode' => 'Kode',
             'nama' => 'Nama Program Studi',
             'jurusan_departemen' => 'Jurusan Departemen',
-            'id_fakultas_akademi' => 'Id Fakultas Akademi',
             'nomor_sk_pendirian' => 'Nomor Sk Pendirian',
             'tanggal_sk_pendirian' => 'Tanggal Sk Pendirian',
             'pejabat_ttd_sk_pendirian' => 'Pejabat Ttd Sk Pendirian',

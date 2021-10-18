@@ -2,9 +2,7 @@
 
 namespace admin\controllers;
 
-use common\models\FakultasAkademi;
 use common\models\Profil;
-use common\models\StrukturOrganisasi;
 use Yii;
 use yii\db\Exception;
 use yii\filters\AccessControl;
@@ -124,7 +122,6 @@ class ProgramStudiController extends Controller
         $model = $this->findModel($id);
         $jenjang = ProgramStudi::JENJANG;
 
-        $dataFakultas = ArrayHelper::map(FakultasAkademi::find()->all(),'id','nama');
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             Yii::$app->session->setFlash('success','Berhasil mengubah ProgramStudi.');
@@ -134,7 +131,6 @@ class ProgramStudiController extends Controller
 
         return $this->render('update', [
             'model' => $model,
-            'dataFakultas'=>$dataFakultas,
             'jenjang'=>$jenjang
         ]);
     }

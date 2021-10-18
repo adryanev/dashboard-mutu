@@ -18,11 +18,9 @@ class ProfilUserRole extends \yii\db\ActiveRecord
 {
     const TIPE_PRODI = ProgramStudi::PROGRAM_STUDI;
     const TIPE_UNIT = Unit::UNIT;
-    const TIPE_FAKULTAS = FakultasAkademi::FAKULTAS_AKADEMI;
 
     const TIPE = [
         self::TIPE_PRODI=>'Program Studi',
-        self::TIPE_FAKULTAS=>'Fakultas / Akademi / Pascasarjana',
         self::TIPE_UNIT=>'Unit / Lembaga / Satuan Kerja'
     ];
     /**

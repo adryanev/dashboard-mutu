@@ -52,11 +52,7 @@ $this->params['breadcrumbs'][] = $this->title;
                             'kode',
                             'nama',
 //            'jurusan_departemen',
-                            [
-                                'attribute' => 'id_fakultas_akademi',
-                                'value' => 'fakultasAkademi.nama',
-                                'label' => 'Fakultas'
-                            ],
+
                             //'nomor_sk_pendirian',
                             //'tanggal_sk_pendirian',
                             //'pejabat_ttd_sk_pendirian',

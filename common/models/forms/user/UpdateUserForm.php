@@ -4,7 +4,6 @@
 namespace common\models\forms\user;
 
 
-use common\models\FakultasAkademi;
 use common\models\ProfilUser;
 use common\models\ProfilUserRole;
 use common\models\ProgramStudi;
@@ -26,7 +25,6 @@ class UpdateUserForm extends Model
 
     public $nama_lengkap;
     public $tipe;
-    public $id_fakultas;
     public $id_prodi;
     public $id_unit;
 
@@ -50,7 +48,6 @@ class UpdateUserForm extends Model
     {
         return [
             'username' => 'Username',
-            'id_fakultas' => 'Fakultas',
             'id_prodi' => 'Prodi',
         ];
     }
@@ -79,10 +76,6 @@ class UpdateUserForm extends Model
             $this->tipe = ProgramStudi::PROGRAM_STUDI;
             $this->id_prodi = $this->_profileRole->external_id;
         }
-        elseif ($this->_profileRole->type === FakultasAkademi::FAKULTAS_AKADEMI){
-            $this->tipe = FakultasAkademi::FAKULTAS_AKADEMI;
-            $this->id_fakultas = $this->_profileRole->external_id;
-        }
         elseif ($this->_profileRole->type === Unit::UNIT){
             $this->tipe = Unit::UNIT;
             $this->id_unit = $this->_profileRole->external_id;
@@ -104,7 +97,7 @@ class UpdateUserForm extends Model
             [['username'],'unique','targetClass' => User::class, 'message' => '{attribute} "{value}" telah digunakan.'],
             [['email'],'unique','targetClass' => User::class,'message' => '{attribute} "{value}" telah digunakan.'],
             [['username', 'email', 'hak_akses', 'nama_lengkap'], 'string'],
-            [['id_fakultas', 'id_prodi','tipe','id_unit'], 'safe']
+            [['id_prodi','tipe','id_unit'], 'safe']
         ];
     }
 
@@ -137,13 +130,11 @@ class UpdateUserForm extends Model
         $tipe = null;
         switch ($this->tipe){
             case ProgramStudi::PROGRAM_STUDI: $tipe =  ProgramStudi::PROGRAM_STUDI; break;
-            case FakultasAkademi::FAKULTAS_AKADEMI: $tipe =  FakultasAkademi::FAKULTAS_AKADEMI; break;
             case Unit::UNIT : $tipe = Unit::UNIT; break;
         }
         $id = null;
         switch ($this->tipe){
             case ProgramStudi::PROGRAM_STUDI: $id = $this->id_prodi; break;
-            case FakultasAkademi::FAKULTAS_AKADEMI: $id = $this->id_fakultas; break;
             case Unit::UNIT : $id = $this->id_unit;break;
         }
         $profilRole->setAttributes(['type'=>$tipe,
