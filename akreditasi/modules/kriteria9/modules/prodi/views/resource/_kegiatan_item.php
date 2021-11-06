@@ -38,7 +38,11 @@ use yii\helpers\Url;
                                     'class' => 'btn btn-warning btn-sm btn-pill btn-elevate btn-elevate-air showModalKegiatanButton'
                                 ]);
                             },
-                            'gunakan' => function ($url, $model, $key) use (
+                            'gunakan' => function (
+                                $url,
+                                $model,
+                                $key
+                            ) use (
                                 $prodi,
                                 $kode,
                                 $jenis,
@@ -46,8 +50,10 @@ use yii\helpers\Url;
                                 $kriteria,
                                 $jenis_dokumen
                             ) {
-                                return Html::a('<i class="flaticon2-laptop"></i> Gunakan',
-                                    ['resource/gunakan-kegiatan'], [
+                                return Html::a(
+                                    '<i class="flaticon2-laptop"></i> Gunakan',
+                                    ['resource/gunakan-kegiatan'],
+                                    [
                                         'class' => 'btn btn-primary btn-pill btn-elevate btn-elevate-air',
                                         'data' => [
                                             'confirm' => "Apakah anda ingin menggunakan data: {$model->isi_file} untuk pengisisan $jenis kode $kode?",
@@ -62,7 +68,8 @@ use yii\helpers\Url;
                                                 'jenis_dokumen' => $jenis_dokumen
                                             ]
                                         ]
-                                    ]);
+                                    ]
+                                );
                             }
                         ]
                     ]

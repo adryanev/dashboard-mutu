@@ -3,7 +3,6 @@
 
 namespace admin\controllers;
 
-
 use common\helpers\FileHelper;
 use common\helpers\FileTypeHelper;
 use common\helpers\kriteria9\DokumenJsonHelper;
@@ -35,15 +34,17 @@ class VerifikasiDokumentasiController extends Controller
         ];
     }
 
-    public function actionIndex(){
+    public function actionIndex()
+    {
 
         $notVerified = new ActiveDataProvider(['query'=>DokumentasiProdi::find()->where(['is_verified'=>false])]);
         $verified = new ActiveDataProvider(['query'=>DokumentasiProdi::find()->where(['is_verified'=>true])]);
 
-        return $this->render('index',['notVerified'=>$notVerified,'verified'=>$verified]);
+        return $this->render('index', ['notVerified'=>$notVerified,'verified'=>$verified]);
     }
 
-    public function actionApprove(){
+    public function actionApprove()
+    {
         $id = Yii::$app->request->post('id');
         $model = $this->findModel($id);
 
@@ -58,14 +59,14 @@ class VerifikasiDokumentasiController extends Controller
         //unlink file in led and lk
         //led sumber
         $db = Yii::$app->db->beginTransaction();
-        try{
+        try {
             $model->is_verified = true;
             $model->save(false);
-            foreach ($dokumen->relasi->led->sumber as $dok){
-                $kriteria = substr($dok,'0','1');
-                $modelClass = 'common\\models\\kriteria9\\led\\prodi\\K9LedProdiKriteria'.$kriteria.'Detail';
-                $ledRelation = 'k9LedProdiKriteria'.$kriteria."s";
-                $ledAttribute= "id_led_prodi_kriteria".$kriteria;
+            foreach ($dokumen->relasi->led->sumber as $dok) {
+                $kriteria = substr($dok, '0', '1');
+                $modelClass = 'common\\models\\kriteria9\\led\\prodi\\K9LedProdiKriteria' . $kriteria . 'Detail';
+                $ledRelation = 'k9LedProdiKriteria' . $kriteria . 's';
+                $ledAttribute= 'id_led_prodi_kriteria' . $kriteria;
                 $kriteriaModel = $led->$ledRelation;
                 $modelDetail = new $modelClass;
                 $modelDetail->$ledAttribute = $kriteriaModel->id;
@@ -77,13 +78,12 @@ class VerifikasiDokumentasiController extends Controller
                 $modelDetail->is_verified = $model->is_verified;
                 $modelDetail->komentar = $model->komentar;
                 $modelDetail->save(false);
-
             }
-            foreach ($dokumen->relasi->led->pendukung as $dok){
-                $kriteria = substr($dok,'0','1');
-                $modelClass = 'common\\models\\kriteria9\\led\\prodi\\K9LedProdiKriteria'.$kriteria.'Detail';
-                $ledRelation = 'k9LedProdiKriteria'.$kriteria."s";
-                $ledAttribute= "id_led_prodi_kriteria".$kriteria;
+            foreach ($dokumen->relasi->led->pendukung as $dok) {
+                $kriteria = substr($dok, '0', '1');
+                $modelClass = 'common\\models\\kriteria9\\led\\prodi\\K9LedProdiKriteria' . $kriteria . 'Detail';
+                $ledRelation = 'k9LedProdiKriteria' . $kriteria . 's';
+                $ledAttribute= 'id_led_prodi_kriteria' . $kriteria;
                 $kriteriaModel = $led->$ledRelation;
                 $modelDetail = new $modelClass;
                 $modelDetail->$ledAttribute = $kriteriaModel->id;
@@ -95,15 +95,14 @@ class VerifikasiDokumentasiController extends Controller
                 $modelDetail->is_verified = $model->is_verified;
                 $modelDetail->komentar = $model->komentar;
                 $modelDetail->save(false);
-
             }
 
             //lk
-            foreach ($dokumen->relasi->lk->sumber as $dok){
-                $kriteria = substr($dok,'0','1');
-                $modelClass = 'common\\models\\kriteria9\\lk\\prodi\\K9LkProdiKriteria'.$kriteria.'Detail';
-                $lkRelation = 'k9LkProdiKriteria'.$kriteria."s";
-                $lkAttribute= "id_lk_prodi_kriteria".$kriteria;
+            foreach ($dokumen->relasi->lk->sumber as $dok) {
+                $kriteria = substr($dok, '0', '1');
+                $modelClass = 'common\\models\\kriteria9\\lk\\prodi\\K9LkProdiKriteria' . $kriteria . 'Detail';
+                $lkRelation = 'k9LkProdiKriteria' . $kriteria . 's';
+                $lkAttribute= 'id_lk_prodi_kriteria' . $kriteria;
                 $kriteriaModel = $lk->$lkRelation;
                 $modelDetail = new $modelClass;
                 $modelDetail->$lkAttribute = $kriteriaModel->id;
@@ -115,14 +114,12 @@ class VerifikasiDokumentasiController extends Controller
                 $modelDetail->is_verified = $model->is_verified;
                 $modelDetail->komentar = $model->komentar;
                 $modelDetail->save(false);
-
-
             }
-            foreach ($dokumen->relasi->lk->pendukung as $dok){
-                $kriteria = substr($dok,'0','1');
-                $modelClass = 'common\\models\\kriteria9\\lk\\prodi\\K9LkProdiKriteria'.$kriteria.'Detail';
-                $lkRelation = 'k9LkProdiKriteria'.$kriteria."s";
-                $lkAttribute= "id_lk_prodi_kriteria".$kriteria;
+            foreach ($dokumen->relasi->lk->pendukung as $dok) {
+                $kriteria = substr($dok, '0', '1');
+                $modelClass = 'common\\models\\kriteria9\\lk\\prodi\\K9LkProdiKriteria' . $kriteria . 'Detail';
+                $lkRelation = 'k9LkProdiKriteria' . $kriteria . 's';
+                $lkAttribute= 'id_lk_prodi_kriteria' . $kriteria;
                 $kriteriaModel = $lk->$lkRelation;
                 $modelDetail = new $modelClass;
                 $modelDetail->$lkAttribute = $kriteriaModel->id;
@@ -134,50 +131,48 @@ class VerifikasiDokumentasiController extends Controller
                 $modelDetail->is_verified = $model->is_verified;
                 $modelDetail->komentar = $model->komentar;
                 $modelDetail->save(false);
-
             }
 
-            if($model->bentuk_dokumen !== FileTypeHelper::TYPE_LINK && $model->bentuk_dokumen !==
-                FileTypeHelper::TYPE_STATIC_TEXT){
+            if ($model->bentuk_dokumen !== FileTypeHelper::TYPE_LINK && $model->bentuk_dokumen !==
+                FileTypeHelper::TYPE_STATIC_TEXT) {
                 FileHelper::createSymlink(["$ledPath/sumber/{$model->isi_dokumen}"=>"$dokumentasiPath/{$model->isi_dokumen}"]);
                 FileHelper::createSymlink(["$ledPath/pendukung/{$model->isi_dokumen}"=>"$dokumentasiPath/{$model->isi_dokumen}"]);
                 FileHelper::createSymlink(["$lkPath/sumber/{$model->isi_dokumen}"=>"$dokumentasiPath/{$model->isi_dokumen}"]);
                 FileHelper::createSymlink(["$lkPath/pendukung/{$model->isi_dokumen}"=>"$dokumentasiPath/{$model->isi_dokumen}"]);
-
             }
 
             $db->commit();
-            Yii::$app->session->setFlash('success','Berhasil menyetujui dokumentasi');
-        }catch (Exception $exception){
+            Yii::$app->session->setFlash('success', 'Berhasil menyetujui dokumentasi');
+        } catch (Exception $exception) {
             $db->rollBack();
             throw $exception;
         }
 
         return $this->redirect('index');
-
-
     }
 
-    public function actionComments($id){
+    public function actionComments($id)
+    {
         $model =$this->findModel($id);
-        if(Yii::$app->request->isAjax){
-            return $this->renderAjax('_comments',['model'=>$model]);
+        if (Yii::$app->request->isAjax) {
+            return $this->renderAjax('_comments', ['model'=>$model]);
         }
 
-        if($model->load(Yii::$app->request->post())){
+        if ($model->load(Yii::$app->request->post())) {
             $model->save(false);
-            Yii::$app->session->setFlash('success','Berhasil menambahkan komentar');
+            Yii::$app->session->setFlash('success', 'Berhasil menambahkan komentar');
         }
 
         return $this->redirect('index');
     }
 
-    public function actionView($id){
+    public function actionView($id)
+    {
         $model = $this->findModel($id);
         $path = K9ProdiDirectoryHelper::getDokumentasiUrl($model->id_prodi);
 
-        if(Yii::$app->request->isAjax){
-            return $this->renderAjax('_document',['model'=>$model,'path'=>$path]);
+        if (Yii::$app->request->isAjax) {
+            return $this->renderAjax('_document', ['model'=>$model,'path'=>$path]);
         }
 
         throw new MethodNotAllowedHttpException();
@@ -185,7 +180,7 @@ class VerifikasiDokumentasiController extends Controller
 
     private function findModel($id)
     {
-        if($model = DokumentasiProdi::findOne($id)){
+        if ($model = DokumentasiProdi::findOne($id)) {
             return $model;
         }
         throw new NotFoundHttpException();

@@ -74,7 +74,7 @@ class LedController extends BaseController
         $progdi = ProgramStudi::findAll(['id' => $prodi]);
         $dataProdi = ArrayHelper::map($progdi, 'id', 'nama');
         $dataAkreditasi = ArrayHelper::map($akreditasi, 'id', function ($data) {
-            return $data->lembaga . ' - ' . $data->nama . " (" . $data->tahun . ")";
+            return $data->lembaga . ' - ' . $data->nama . ' (' . $data->tahun . ')';
         });
 
         if ($model->load(Yii::$app->request->post())) {
@@ -245,8 +245,10 @@ class LedController extends BaseController
         $poinKriteria = $json->butir;
 
         $modelNarasiClass = 'akreditasi\\models\\kriteria9\\led\\prodi\\K9LedProdiNarasiKriteria' . $kriteria . 'Form';
-        $modelNarasi = call_user_func($modelNarasiClass . '::findOne',
-            ['id_led_prodi_kriteria' . $kriteria => $modelLed->id]);
+        $modelNarasi = call_user_func(
+            $modelNarasiClass . '::findOne',
+            ['id_led_prodi_kriteria' . $kriteria => $modelLed->id]
+        );
 
 
         $detailModel = new K9DetailLedProdiUploadForm();
@@ -358,7 +360,8 @@ class LedController extends BaseController
             Yii::$app->session->setFlash('warning', 'Gagal Menambahkan Dokumen');
             return $this->redirect(Url::current());
         }
-        return $this->render($this->lihatNonKriteriaView,
+        return $this->render(
+            $this->lihatNonKriteriaView,
             [
                 'ledProdi' => $ledProdi,
                 'json' => $json,
@@ -367,7 +370,8 @@ class LedController extends BaseController
                 'untuk' => $untuk,
                 'prodi' => $programStudi,
                 'currentPoint' => $currentPoint
-            ]);
+            ]
+        );
     }
 
     public function actionButirItem($led, $kriteria, $poin, $prodi, $untuk)
@@ -386,8 +390,10 @@ class LedController extends BaseController
         $currentPoint = $kriteriaCollection->where('nomor', $poin)->first();
 
         $modelNarasiClass = 'akreditasi\\models\\kriteria9\\led\\prodi\\K9LedProdiNarasiKriteria' . $kriteria . 'Form';
-        $modelNarasi = call_user_func($modelNarasiClass . '::findOne',
-            ['id_led_prodi_kriteria' . $kriteria => $modelLed->id]);
+        $modelNarasi = call_user_func(
+            $modelNarasiClass . '::findOne',
+            ['id_led_prodi_kriteria' . $kriteria => $modelLed->id]
+        );
 
 
         $detailModel = new K9DetailLedProdiUploadForm();
@@ -428,7 +434,8 @@ class LedController extends BaseController
                 break;
             case 'B':
                 $json = K9ProdiJsonHelper::getJsonLedProfil();
-                $modelNarasi = K9LedProdiNarasiProfilUppsForm::findOne(['id_led_prodi' => $ledProdi->id]);;
+                $modelNarasi = K9LedProdiNarasiProfilUppsForm::findOne(['id_led_prodi' => $ledProdi->id]);
+                ;
 
                 break;
             case 'D':
@@ -556,7 +563,8 @@ class LedController extends BaseController
 
         $untuk = 'lihat';
 
-        return $this->render($this->lihatNonKriteriaView,
+        return $this->render(
+            $this->lihatNonKriteriaView,
             [
                 'ledProdi' => $ledProdi,
                 'json' => $json,
@@ -661,7 +669,7 @@ class LedController extends BaseController
         ]));
 
         if ($id) {
-            Yii::$app->session->setFlash('success', 'Berhasil memasukkan ekspor ke dalam antrian.');
+            Yii::$app->session->setFlash('success', 'Berhasil memasukkan ekspor ke dalam antrian, silahkan refresh halaman ini.');
             return $this->redirect(['isi', 'led' => $ledProdi->id, 'prodi' => $ledProdi->akreditasiProdi->id_prodi]);
         }
         Yii::$app->session->setFlash('danger', 'Terjadi kesalahan saat memasukkan ke dalam antrian.');
@@ -685,7 +693,7 @@ class LedController extends BaseController
         ]));
 
         if ($id) {
-            Yii::$app->session->setFlash('success', 'Berhasil memasukkan ekspor ke dalam antrian.');
+            Yii::$app->session->setFlash('success', 'Berhasil memasukkan ekspor ke dalam antrian, Silahkan refresh halaman ini.');
             return $this->redirect(['isi', 'led' => $ledProdi->id, 'prodi' => $ledProdi->akreditasiProdi->id_prodi]);
         }
         Yii::$app->session->setFlash('danger', 'Terjadi kesalahan saat memasukkan ke dalam antrian.');
@@ -705,10 +713,9 @@ class LedController extends BaseController
         ]));
 
         if ($id) {
-            Yii::$app->session->setFlash('success', 'Berhasil memasukkan ekspor ke dalam antrian.');
+            Yii::$app->session->setFlash('success', 'Berhasil memasukkan ekspor ke dalam antrian, silahkan refresh halaman ini.');
         } else {
             Yii::$app->session->setFlash('danger', 'Terjadi kesalahan saat memasukkan ke dalam antrian.');
-
         }
         return $this->redirect($referer);
     }
@@ -724,10 +731,13 @@ class LedController extends BaseController
             . $model->jenis_dokumen;
 
         if (Yii::$app->request->isAjax) {
-
-            return $this->renderAjax('@akreditasi/modules/kriteria9/modules/prodi/views/dokumentasi/_modal_content',
-                compact
-                ('path', 'model'));
+            return $this->renderAjax(
+                '@akreditasi/modules/kriteria9/modules/prodi/views/dokumentasi/_modal_content',
+                compact(
+                    'path',
+                    'model'
+                )
+            );
         }
 
         throw new MethodNotAllowedHttpException();
@@ -742,9 +752,13 @@ class LedController extends BaseController
             . $model->jenis_dokumen;
 
         if (Yii::$app->request->isAjax) {
-            return $this->renderAjax('@akreditasi/modules/kriteria9/modules/prodi/views/dokumentasi/_modal_content',
-                compact
-                ('path', 'model'));
+            return $this->renderAjax(
+                '@akreditasi/modules/kriteria9/modules/prodi/views/dokumentasi/_modal_content',
+                compact(
+                    'path',
+                    'model'
+                )
+            );
         }
 
         throw new MethodNotAllowedHttpException();
@@ -764,7 +778,6 @@ class LedController extends BaseController
         }
 
         return $this->redirect(Yii::$app->request->referrer);
-
     }
 
     public function actionKomentarNonKriteria($id)
@@ -794,7 +807,8 @@ class LedController extends BaseController
         return $this->redirect(Yii::$app->request->referrer);
     }
 
-    public function actionApproveNonKriteria($id){
+    public function actionApproveNonKriteria($id)
+    {
 
         $model = K9LedProdiNonKriteriaDokumen::findOne($id);
         $model->is_verified = true;

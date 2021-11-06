@@ -326,7 +326,7 @@ class ResourceController extends BaseController
         $detail = $this->findDetailKegiatan($params['id']);
         $prodi = $this->findProdi($params['prodi']);
         $kode = $params['kode'];
-        $jenis = $params['bentuk'];
+        $jenis = $params['jenis'];
         $id_led_lk = $params['id_led_lk'];
         $kriteria = $params['kriteria'];
         $jenis_dokumen = $params['jenis_dokumen'];
@@ -395,7 +395,7 @@ class ResourceController extends BaseController
         $detail = $this->findDetailKegiatan($params['id']);
         $prodi = $this->findProdi($params['prodi']);
         $kode = $params['kode'];
-        $jenis = $params['bentuk'];
+        $jenis = $params['jenis'];
         $id_led_lk = $params['id_led_lk'];
         $poin = $params['poin'];
         $nomor = $params['nomor'];
@@ -416,7 +416,7 @@ class ResourceController extends BaseController
             if (!$detailLedModel->save(false)) {
                 throw new Exception('Gagal menyimpan detail');
             }
-            $pathProdi = K9ProdiDirectoryHelper::getDetailLedPath($detailLedModel->$detailRelation->ledProdi->akreditasiProdi);
+            $pathProdi = K9ProdiDirectoryHelper::getDetailLedPath($detailLedModel->ledProdi->akreditasiProdi);
             FileHelper::createSymlink(["$pathProdi/{$jenis_dokumen}/{$detail->isi_file}"=>"$pathDetail/{$detail->isi_file}"]);
 
             $url = ['led/isi-non-kriteria', 'poin' => $poin, 'led' => $id_led_lk, 'prodi' => $prodi->id];

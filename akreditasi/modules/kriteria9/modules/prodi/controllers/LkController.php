@@ -59,7 +59,6 @@ class LkController extends BaseController
                 ]
             ]
         ];
-
     }
 
     public function actionArsip($target, $prodi)
@@ -222,8 +221,10 @@ class LkController extends BaseController
         $lkProdiKriteria = $lkProdi->$attrKriteria;
 
         $modelNarasiClass = 'akreditasi\\models\\kriteria9\\lk\\prodi\\K9LkProdiNarasiKriteria' . $kriteria . 'Form';
-        $modelNarasi = call_user_func($modelNarasiClass . '::findOne',
-            ['id_lk_prodi_kriteria' . $kriteria => $lkProdiKriteria->id]);
+        $modelNarasi = call_user_func(
+            $modelNarasiClass . '::findOne',
+            ['id_lk_prodi_kriteria' . $kriteria => $lkProdiKriteria->id]
+        );
 
         $dokModel = new K9LkProdiKriteriaDetailForm();
         $dokTextModel = new K9TextLkProdiKriteriaDetailForm();
@@ -298,8 +299,10 @@ class LkController extends BaseController
         $detail = $lkProdiKriteria->$detailAttr;
         $lkCollection = Collection::make($detail);
         $modelNarasiClass = 'akreditasi\\models\\kriteria9\\lk\\prodi\\K9LkProdiNarasiKriteria' . $kriteria . 'Form';
-        $modelNarasi = call_user_func($modelNarasiClass . '::findOne',
-            ['id_lk_prodi_kriteria' . $kriteria => $lkProdiKriteria->id]);
+        $modelNarasi = call_user_func(
+            $modelNarasiClass . '::findOne',
+            ['id_lk_prodi_kriteria' . $kriteria => $lkProdiKriteria->id]
+        );
 
         $dokUploadModel = new K9LkProdiKriteriaDetailForm();
         $dokTextModel = new K9TextLkProdiKriteriaDetailForm();
@@ -321,7 +324,6 @@ class LkController extends BaseController
             'lkCollection' => $lkCollection,
             'untuk' => $untuk
         ]);
-
     }
 
     protected function getKriteriaNomor($kriteria, $item, $jenis)
@@ -345,8 +347,10 @@ class LkController extends BaseController
 
 
         $modelNarasiClass = 'akreditasi\\models\\kriteria9\\lk\\prodi\\K9LkProdiNarasiKriteria' . $kriteria . 'Form';
-        $modelNarasi = call_user_func($modelNarasiClass . '::findOne',
-            ['id_lk_prodi_kriteria' . $kriteria => $lkProdiKriteria->id]);
+        $modelNarasi = call_user_func(
+            $modelNarasiClass . '::findOne',
+            ['id_lk_prodi_kriteria' . $kriteria => $lkProdiKriteria->id]
+        );
 
         return $this->render($this->lihatLkKriteria, [
             'modelNarasi' => $modelNarasi,
@@ -456,12 +460,11 @@ class LkController extends BaseController
         ]));
 
         if ($id) {
-            Yii::$app->session->setFlash('success', 'Berhasil memasukkan ekspor ke dalam antrian.');
+            Yii::$app->session->setFlash('success', 'Berhasil memasukkan ekspor ke dalam antrian, silahkan refresh halaman ini.');
             return $this->redirect(['isi', 'lk' => $lkProdi->id, 'prodi' => $lkProdi->akreditasiProdi->id_prodi]);
         }
         Yii::$app->session->setFlash('danger', 'Terjadi kesalahan saat memasukkan ke dalam antrian.');
         return $this->redirect($referer);
-
     }
 
     public function actionExportComplete()
@@ -477,13 +480,11 @@ class LkController extends BaseController
         ]));
 
         if ($id) {
-            Yii::$app->session->setFlash('success', 'Berhasil memasukkan ekspor ke dalam antrian.');
+            Yii::$app->session->setFlash('success', 'Berhasil memasukkan ekspor ke dalam antrian, silahkan refresh halaman ini.');
         } else {
             Yii::$app->session->setFlash('danger', 'Terjadi kesalahan saat memasukkan ke dalam antrian.');
-
         }
         return $this->redirect($referer);
-
     }
 
     public function actionDownloadDokumen($dokumen)
@@ -516,20 +517,24 @@ class LkController extends BaseController
         return new MethodNotAllowedHttpException('Harus melalui prosedur penghapusan data.');
     }
 
-    public function actionLihatDokumen($id,$kriteria){
+    public function actionLihatDokumen($id, $kriteria)
+    {
 
-        $modelClass = 'common\\models\\kriteria9\\lk\\prodi\\K9LkProdiKriteria'.$kriteria.'Detail';
-        $relationAttr = 'lkProdiKriteria'.$kriteria;
-        $model = call_user_func($modelClass.'::findOne',$id);
+        $modelClass = 'common\\models\\kriteria9\\lk\\prodi\\K9LkProdiKriteria' . $kriteria . 'Detail';
+        $relationAttr = 'lkProdiKriteria' . $kriteria;
+        $model = call_user_func($modelClass . '::findOne', $id);
 
-        $path=K9ProdiDirectoryHelper::getDetailLkUrl($model->$relationAttr->lkProdi->akreditasiProdi).'/'
-            .$model->jenis_dokumen;
+        $path=K9ProdiDirectoryHelper::getDetailLkUrl($model->$relationAttr->lkProdi->akreditasiProdi) . '/'
+            . $model->jenis_dokumen;
 
-        if(Yii::$app->request->isAjax){
-
-            return $this->renderAjax('@akreditasi/modules/kriteria9/modules/prodi/views/dokumentasi/_modal_content',
-                compact
-                ('path','model'));
+        if (Yii::$app->request->isAjax) {
+            return $this->renderAjax(
+                '@akreditasi/modules/kriteria9/modules/prodi/views/dokumentasi/_modal_content',
+                compact(
+                    'path',
+                    'model'
+                )
+            );
         }
 
         throw new MethodNotAllowedHttpException();
@@ -544,13 +549,11 @@ class LkController extends BaseController
             return $this->renderAjax('@admin/views/verifikasi-dokumentasi/_comments', ['model' => $model]);
         }
         if ($model->load(Yii::$app->request->post())) {
-
             $model->save(false);
             Yii::$app->session->setFlash('success', 'Berhasil menambahkan komentar');
         }
 
         return $this->redirect(Yii::$app->request->referrer);
-
     }
 
     public function actionApprove($id, $kriteria)
