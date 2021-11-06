@@ -121,20 +121,22 @@ $this->title = $unit->nama;
                                 <div class="card">
                                     <div class="card-body">
                                         <h5 class="card-title">Struktur Organisasi</h5>
-                                        <?php if($profil->struktur_organisasi):?>
-                                            <?=Html::img(Yii::getAlias("@.uploadStruktur/{$profil->type}/{$unit->id}/{$profil->struktur_organisasi}"),['width'=>'80%'])?>
+                                        <?php if (!empty($profil->struktur_organisasi)):?>
+                                            <?=Html::img(Yii::getAlias("@.uploadStruktur/{$profil->type}/{$unit->id}/{$profil->struktur_organisasi}"), [  'height'=>'50%',
+                                                'width'=>'50%',
+                                                'class'=>'rounded mx-auto d-block'])?>
                                         <?php endif;?>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                                            </div>
+                                            </div>
+                                            </div>
+                                            </div>
 
-                    </div>
-                </div>
-            </div>
+                                            </div>
+                                            </div>
+                                            </div>
 
 
 
-        </div>
-    </div>
-</div>
+                                            </div>
+                                            </div>
+                                            </div>

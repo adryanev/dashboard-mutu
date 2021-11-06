@@ -50,7 +50,6 @@ class AuthController extends Controller
             printf("Assigning Permission to Roles \n");
             $auth->addChild($su, $permission);
             $auth->addChild($lpm, $permission);
-
         }
         $commonPermission = [
             '@dashboard-akreditasi/site/*',
@@ -62,9 +61,11 @@ class AuthController extends Controller
             '@dashboard-akreditasi/unit/arsip/*',
             '@dashboard-akreditasi/unit/kegiatan/*',
             '@dashboard-akreditasi/unit/default/*',
-            '@dashboard-akreditasi/unit/profil/*'
+            '@dashboard-akreditasi/unit/profil/*',
+            '@dashboard-akreditasi/unit/berkas/*'
         ];
-        $isiLedProdiPermission = ['@dashboard-akreditasi/kriteria9/prodi/*', '@dashboard-akreditasi/kriteria9/k9-prodi/*'];
+        $isiLedProdiPermission = ['@dashboard-akreditasi/kriteria9/prodi/*',
+         '@dashboard-akreditasi/kriteria9/k9-prodi/*'];
         $asesorPermission = ['@dashboard-akreditasi/asesor/*'];
 
 

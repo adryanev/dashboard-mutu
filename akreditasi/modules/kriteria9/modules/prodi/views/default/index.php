@@ -121,9 +121,19 @@ $this->title = $modelProdi->nama;
                                 <div class="card">
                                     <div class="card-body">
                                         <h5 class="card-title">Struktur Organisasi</h5>
-                                        <?php if($profil->struktur_organisasi):?>
-                                        <?=Html::img(Yii::getAlias("@.uploadStruktur/{$profil->type}/{$modelProdi->id}/{$profil->struktur_organisasi}"),['width'=>'80%'])?>
-                                        <?php endif;?>
+ <?php if (!empty($profil->struktur_organisasi)):
+        ?>
+                                            <?=Html::img(
+                                                Yii::getAlias(
+                                                    "@.uploadStruktur/{$profil->type}/{$modelProdi->id}/{$profil->struktur_organisasi}"
+                                                ),
+                                                [
+                                                'height'=>'50%',
+                                                'width'=>'50%',
+                                                'class'=>'rounded mx-auto d-block']
+                                            )?>
+ <?php endif;?>
+
                                     </div>
                                 </div>
                             </div>
@@ -158,11 +168,11 @@ $this->title = $modelProdi->nama;
                             </tr>
                             <tr>
                                 <th scope="row">Tanggal SK Pendirian</th>
-                                <td><?= Html::encode($modelProdi->tanggal_sk_pendirian) ?></td>
+                                <td><?= Yii::$app->formatter->asDate(Html::encode($modelProdi->tanggal_sk_pendirian))  ?></td>
                             </tr>
                             <tr>
                                 <th scope="row">Bulan berdiri</th>
-                                <td><?= Html::encode($modelProdi->bulan_berdiri) ?></td>
+                                <td><?= Yii::$app->formatter->asDate(Html::encode($modelProdi->bulan_berdiri))?></td>
                             </tr>
                             <tr>
                                 <th scope="row">Tahun berdiri</th>
@@ -174,7 +184,7 @@ $this->title = $modelProdi->nama;
                             </tr>
                             <tr>
                                 <th scope="row">Tanggal SK Operasional</th>
-                                <td><?= Html::encode($modelProdi->tanggal_sk_operasional) ?></td>
+                                <td><?= Yii::$app->formatter->asDate(Html::encode($modelProdi->tanggal_sk_operasional)) ?></td>
                             </tr>
                             <tr>
                                 <th scope="row">Peringkat BAN-PT Terakhir</th>

@@ -1,9 +1,10 @@
 <?php
 
+use kartik\datecontrol\Module;
+use kartik\datecontrol\DateControl;
 use kartik\select2\Select2;
 use yii\helpers\Html;
 use yii\bootstrap4\ActiveForm;
-
 
 /* @var $this yii\web\View */
 /* @var $model common\models\ProgramStudi */
@@ -21,18 +22,34 @@ use yii\bootstrap4\ActiveForm;
     <?= $form->field($model, 'kaprodi')->textInput(['maxlength' => true]) ?>
     <?= $form->field($model, 'jurusan_departemen')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'jenjang')->widget(Select2::class,[
+    <?= $form->field($model, 'jenjang')->widget(Select2::class, [
         'data'=>$jenjang,
         'options' => ['class'=>'kt-select2','placeholder'=>'Pilih Jenjang'],
     ])->label('Jenjang') ?>
 
     <?= $form->field($model, 'nomor_sk_pendirian')->textInput(['maxlength' => true]) ?>
-    <?= $form->field($model, 'tanggal_sk_pendirian')->textInput(['maxlength' => true]) ?>
-    <?= $form->field($model, 'pejabat_ttd_sk_pendirian')->textInput(['maxlength' => true]) ?>
-    <?= $form->field($model, 'bulan_berdiri')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'tanggal_sk_pendirian')->widget(DateControl::class, [
+            'type' => Module::FORMAT_DATE,
+            'widgetOptions' => [
+                'pluginOptions'=>['autoclose'=>true]
+            ]
+        ]) ?>
+    <?= $form->field($model, 'pejabat_ttd_sk_pendirian')->textInput(['maxlength' => true])
+    ->label('Nama Pejabat TTD SK Pendirian') ?>
+    <?= $form->field($model, 'bulan_berdiri')->widget([DateControl::class,[
+            'type' => Module::FORMAT_DATE,
+            'widgetOptions' => [
+                'pluginOptions'=>['autoclose'=>true]
+            ]
+        ]])->label('Berdiri') ?>
     <?= $form->field($model, 'tahun_berdiri')->textInput(['maxlength' => true]) ?>
     <?= $form->field($model, 'nomor_sk_operasional')->textInput(['maxlength' => true]) ?>
-    <?= $form->field($model, 'tanggal_sk_operasional')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'tanggal_sk_operasional')->widget(DateControl::class, [
+            'type' => Module::FORMAT_DATE,
+            'widgetOptions' => [
+                'pluginOptions'=>['autoclose'=>true]
+            ]
+        ]) ?>
     <?= $form->field($model, 'peringkat_banpt_terakhir')->textInput(['maxlength' => true]) ?>
     <?= $form->field($model, 'nilai_banpt_terakhir')->textInput(['maxlength' => true]) ?>
     <?= $form->field($model, 'nomor_sk_banpt')->textInput(['maxlength' => true]) ?>
@@ -43,7 +60,10 @@ use yii\bootstrap4\ActiveForm;
     <?= $form->field($model, 'email')->textInput(['maxlength' => true]) ?>
 
     <div class="form-group">
-        <?= Html::submitButton('<i class=\'la la-save\'></i> Simpan', ['class' => 'btn btn-pill btn-elevate btn-elevate-air btn-brand block-ui']) ?>
+        <?= Html::submitButton(
+            '<i class=\'la la-save\'></i> Simpan',
+            ['class' => 'btn btn-pill btn-elevate btn-elevate-air btn-brand block-ui']
+        ) ?>
     </div>
 
     <?php ActiveForm::end(); ?>

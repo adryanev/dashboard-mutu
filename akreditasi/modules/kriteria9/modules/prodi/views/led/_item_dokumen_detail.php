@@ -30,15 +30,19 @@ $controller = $this->context->id;
             <div class="col-lg-12 text-center">
                 <?php $type = FileTypeHelper::getType($detail->bentuk_dokumen);
 
-                if ($type === FileTypeHelper::TYPE_STATIC_TEXT || $type === FileTypeHelper::TYPE_LINK) : ?>
+                if ($type === FileTypeHelper::TYPE_STATIC_TEXT || $type === FileTypeHelper::TYPE_LINK): ?>
                     <p>
                         <?= Html::encode($detail->nama_dokumen) ?>
                         <?= $detail->is_verified ? "<span class='kt-badge kt-badge--success
         kt-badge--inline kt-badge--pill kt-badge--rounded'>verified</span>" : "<span class='kt-badge kt-badge--danger
         kt-badge--inline kt-badge--pill kt-badge--rounded'>not verified</span>" ?>
 
-                        <?php if($detail->komentar): ?><span><?=Html::button('<i class="flaticon2-chat-1"></i>',
-                            ['class'=>'btn btn-outline-hover-info btn-elevate btn-circle btn-icon','data-toggle'=>'kt-popover','title'=>'Komentar LPM','data-content'=>$detail->komentar])?></span><?php endif ?>
+                        <?php if ($detail->komentar):
+                            ?><span><?=Html::button(
+                                '<i class="flaticon2-chat-1"></i>',
+                                ['class'=>'btn btn-outline-hover-info btn-elevate btn-circle btn-icon','data-toggle'=>'kt-popover','title'=>'Komentar LPM','data-content'=>$detail->komentar]
+                            )?></span><?php
+                        endif ?>
                     </p>
 
                 <?php else: ?>
@@ -48,8 +52,12 @@ $controller = $this->context->id;
         kt-badge--inline kt-badge--pill kt-badge--rounded'>verified</span>" : "<span class='kt-badge kt-badge--danger
         kt-badge--inline kt-badge--pill kt-badge--rounded'>not verified</span>" ?>
 
-                        <?php if($detail->komentar): ?><span><?=Html::button('<i class="flaticon2-chat-1"></i>',
-                            ['class'=>'btn btn-outline-hover-info btn-elevate btn-circle btn-icon','data-toggle'=>'kt-popover','title'=>'Komentar LPM','data-content'=>$detail->komentar])?></span><?php endif ?>
+                        <?php if ($detail->komentar):
+                            ?><span><?=Html::button(
+                                '<i class="flaticon2-chat-1"></i>',
+                                ['class'=>'btn btn-outline-hover-info btn-elevate btn-circle btn-icon','data-toggle'=>'kt-popover','title'=>'Komentar LPM','data-content'=>$detail->komentar]
+                            )?></span><?php
+                        endif ?>
                     </p>
                 <?php endif; ?>
 
@@ -61,7 +69,6 @@ $controller = $this->context->id;
             <div class="col-lg-12 pull-right">
                 <?php $type = FileTypeHelper::getType($detail->bentuk_dokumen);
                 if ($type !== FileTypeHelper::TYPE_LINK):?>
-
                     <?= Html::button('<i class="la la-eye"></i> &nbsp;Lihat', [
                         'value' => \yii\helpers\Url::to([
                             'led/lihat-dokumen',
@@ -103,22 +110,22 @@ $controller = $this->context->id;
                     ]) ?>
                 <?php endif; ?>
                 <?php
-                if(Yii::$app->user->identity->role !== 'prodi'):
+                if (Yii::$app->user->identity->role->item_name !== 'prodi'):
                     ?>
-                    <?=Html::button('<i class="flaticon2-chat"></i> Komentar',['value'=>\yii\helpers\Url::to(['led/komentar','kriteria'=>$kriteria,'id'=>$detail->id]),
-                    'title'=>"Beri Komentar",
+                    <?=Html::button('<i class="flaticon2-chat"></i> Komentar', ['value'=>\yii\helpers\Url::to(['led/komentar','kriteria'=>$kriteria,'id'=>$detail->id]),
+                    'title'=>'Beri Komentar',
                     'class'=>'btn btn-brand btn-sm btn-pill btn-elevate btn-elevate-air showModalButton'
                 ])?>
-                <?php if(!$detail->is_verified): ?>
-                    <?=Html::a('<i class="flaticon2-checkmark"></i> Setujui',['led/approve','kriteria'=>$kriteria,
-                    'id'=>$detail->id],[
+                    <?php if (!$detail->is_verified): ?>
+                        <?=Html::a('<i class="flaticon2-checkmark"></i> Setujui', ['led/approve','kriteria'=>$kriteria,
+                        'id'=>$detail->id], [
                     'class'=>'btn btn-success btn-sm btn-pill btn-elevate btn-elevate-air',
                     'data'=>[
                         'method'=>'POST',
                         'confirm'=>'Apakah anda ingin menyetujui dokumen ini?'
                     ]
                 ])?>
-                <?php endif ?>
+                    <?php endif ?>
                 <?php endif?>
             </div>
 

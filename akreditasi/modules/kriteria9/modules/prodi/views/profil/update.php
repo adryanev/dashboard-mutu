@@ -30,7 +30,7 @@ $this->params['breadcrumbs'][] = 'Ubah';
             <div class="kt-portlet__body">
                 <div class="program-studi-update">
 
-                    <?= $this->render('@admin/views/program-studi/_form', [
+                    <?= $this->render('_form', [
                     'model' => $model,
                         'jenjang'=>$jenjang
 
