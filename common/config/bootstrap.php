@@ -1,5 +1,5 @@
 <?php
-Yii::setAlias('@root',dirname(__DIR__,2));
+Yii::setAlias('@root', dirname(__DIR__, 2));
 Yii::setAlias('@common', dirname(__DIR__));
 Yii::setAlias('@akreditasi', dirname(dirname(__DIR__)) . '/akreditasi');
 Yii::setAlias('@admin', dirname(dirname(__DIR__)) . '/admin');
