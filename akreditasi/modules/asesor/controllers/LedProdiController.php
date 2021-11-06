@@ -3,9 +3,7 @@
 
 namespace akreditasi\modules\asesor\controllers;
 
-
-use monitoring\modules\eksekutif\modules\prodi\controllers\LedController;
-
+use akreditasi\modules\kriteria9\modules\prodi\controllers\LedController;
 class LedProdiController extends LedController
 {
 

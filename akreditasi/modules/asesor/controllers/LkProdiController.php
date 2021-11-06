@@ -3,7 +3,7 @@
 
 namespace akreditasi\modules\asesor\controllers;
 
-use monitoring\modules\eksekutif\modules\prodi\controllers\LkController;
+use akreditasi\modules\kriteria9\modules\prodi\controllers\LkController;
 
 class LkProdiController extends LkController
 {
