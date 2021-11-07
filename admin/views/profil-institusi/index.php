@@ -25,18 +25,20 @@ $this->params['breadcrumbs'][] = $this->title;
                         <?= Html::encode($this->title) ?> <small><?=Yii::$app->params['institusi']?></small>
                     </h3>
                 </div>
-                <div class="kt-portlet__head-toolbar">
+                <!-- <div class="kt-portlet__head-toolbar">
                     <div class="kt-portlet__head-wrapper">
                         <div class="kt-portlet__head-actions">
 
-                            <?= Html::button('<i class=flaticon2-add></i> Tambah Profil Institusi', [
-                                'value' => Url::to(['create']),
-                                'title' => 'Tambah Profil Institusi',
-                                'class' => 'showModalButton btn btn-success btn-elevate btn-elevate-air'
-                            ]); ?>
+                            <?php //Html::button('<i class=flaticon2-add></i> Tambah Profil Institusi', [
+                                //'value' => Url::to(['create']),
+                                //'title' => 'Tambah Profil Institusi',
+                                //'class' => 'showModalButton btn btn-success btn-elevate btn-elevate-air'
+                            //]);
+
+                            ?>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="kt-portlet__body">
                 <div class="profil-institusi-index">
