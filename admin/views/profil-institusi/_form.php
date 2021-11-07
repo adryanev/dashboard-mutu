@@ -3,7 +3,6 @@
 use yii\bootstrap4\ActiveForm;
 use yii\helpers\Html;
 
-
 /* @var $this yii\web\View */
 /* @var $model common\models\ProfilInstitusi */
 /* @var $form yii\bootstrap4\ActiveForm;
@@ -15,13 +14,15 @@ use yii\helpers\Html;
 
         <?php $form = ActiveForm::begin(['id' => 'profil-institusi-form']); ?>
 
-        <?= $form->field($model, 'nama')->textInput(['maxlength' => true]) ?>
+        <?= $form->field($model, 'nama')->textInput(['maxlength' => true,'readonly'=>true]) ?>
 
         <?= $form->field($model, 'isi')->textarea(['rows' => 6]) ?>
 
         <div class="form-group">
-            <?= Html::submitButton('<i class=\'la la-save\'></i> Simpan',
-                ['class' => 'btn btn-pill btn-elevate btn-elevate-air btn-brand']) ?>
+            <?= Html::submitButton(
+                '<i class=\'la la-save\'></i> Simpan',
+                ['class' => 'btn btn-pill btn-elevate btn-elevate-air btn-brand']
+            ) ?>
         </div>
 
         <?php ActiveForm::end(); ?>

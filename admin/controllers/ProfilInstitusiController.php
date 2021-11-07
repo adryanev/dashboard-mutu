@@ -69,32 +69,32 @@ class ProfilInstitusiController extends Controller
         ]);
     }
 
-    /**
-     * Creates a new ProfilInstitusi model.
-     * If creation is successful, the browser will be redirected to the 'view' page.
-     * @return mixed
-     */
-    public function actionCreate()
-    {
-        $model = new ProfilInstitusi();
+    // /**
+    //  * Creates a new ProfilInstitusi model.
+    //  * If creation is successful, the browser will be redirected to the 'view' page.
+    //  * @return mixed
+    //  */
+    // public function actionCreate()
+    // {
+    //     $model = new ProfilInstitusi();
 
-        if (Yii::$app->request->isAjax && $model->load(Yii::$app->request->post())) {
-            Yii::$app->response->format = Response::FORMAT_JSON;
-            return ActiveForm::validate($model);
-        }
-        if ($model->load(Yii::$app->request->post())) {
-            $model->save();
-            Yii::$app->session->setFlash('success', 'Berhasil menambahkan Profil Institusi.');
+    //     if (Yii::$app->request->isAjax && $model->load(Yii::$app->request->post())) {
+    //         Yii::$app->response->format = Response::FORMAT_JSON;
+    //         return ActiveForm::validate($model);
+    //     }
+    //     if ($model->load(Yii::$app->request->post())) {
+    //         $model->save();
+    //         Yii::$app->session->setFlash('success', 'Berhasil menambahkan Profil Institusi.');
 
-            return $this->redirect(['view', 'id' => $model->id]);
-        } elseif (Yii::$app->request->isAjax) {
-            return $this->renderAjax('_form', ['model'=>$model]);
-        }
+    //         return $this->redirect(['view', 'id' => $model->id]);
+    //     } elseif (Yii::$app->request->isAjax) {
+    //         return $this->renderAjax('_form', ['model'=>$model]);
+    //     }
 
-        return $this->render('create', [
-            'model' => $model,
-        ]);
-    }
+    //     return $this->render('create', [
+    //         'model' => $model,
+    //     ]);
+    // }
 
     /**
      * Updates an existing ProfilInstitusi model.
