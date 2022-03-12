@@ -3,7 +3,6 @@
 
 namespace akreditasi\modules\kriteria9\modules\prodi\controllers;
 
-
 use akreditasi\models\kriteria9\forms\K9KuantitatifUploadForm;
 use akreditasi\modules\kriteria9\controllers\BaseController;
 use common\helpers\kriteria9\K9ProdiDirectoryHelper;
@@ -53,11 +52,9 @@ class KuantitatifController extends BaseController
         });
 
         if ($model->load(Yii::$app->request->post())) {
-
             $url = $model->cari($target);
 
             return $this->redirect($url);
-
         }
         return $this->render('arsip', [
             'model' => $model,
@@ -89,21 +86,18 @@ class KuantitatifController extends BaseController
         }
 
         if ($model->load(Yii::$app->request->post())) {
-
-
             $file = UploadedFile::getInstance($modelUpload, 'berkas');
             $modelUpload->berkas = $file;
             if (!($fileName = $modelUpload->upload($path))) {
-                throw new Exception("Gagal Mengupload File");
+                throw new Exception('Gagal Mengupload File');
             }
             $model->isi_dokumen = $fileName;
 
             if (!$model->save()) {
-                throw new Exception("Gagal Menyimpan Data Kuantitatif");
+                throw new Exception('Gagal Menyimpan Data Kuantitatif');
             }
             Yii::$app->session->setFlash('success', 'Berhasil Mengupload Dokumen Kuantitatif.');
             $this->redirect(Url::current());
-
         }
 
         return $this->render('isi', [
@@ -124,7 +118,7 @@ class KuantitatifController extends BaseController
         $id = Yii::$app->queue->push(new KuantitatifProdiExportJob(['template' => $path, 'lk' => $laporanKinerja]));
 
         if ($id) {
-            Yii::$app->session->setFlash('success', 'Berhasil membuat data kuantitatif, silahkan ditunggu.');
+            Yii::$app->session->setFlash('success', 'Berhasil membuat data kuantitatif, silahkan refresh halaman ini.');
         }
         return $this->redirect(['isi', 'akreditasiprodi' => $akreditasiProdi->id, 'prodi' => $prodi->id]);
     }
@@ -141,7 +135,6 @@ class KuantitatifController extends BaseController
     public function actionHapusDokumen()
     {
         if (Yii::$app->request->isPost) {
-
             $id = Yii::$app->request->post('id');
             $prodi = Yii::$app->request->post('prodi');
 
@@ -155,7 +148,6 @@ class KuantitatifController extends BaseController
 
             Yii::$app->session->setFlash('success', 'Berhasil Menghapus Data');
             return $this->redirect(['kuantitatif/isi', 'prodi' => $prodi]);
-
         }
 
         throw new BadRequestHttpException('Request Harus Post');
