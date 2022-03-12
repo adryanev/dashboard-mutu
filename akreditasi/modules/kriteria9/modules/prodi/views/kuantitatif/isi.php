@@ -8,7 +8,7 @@ use yii\bootstrap4\Html;
 /* @var $prodi ProgramStudi */
 /* @var $akreditasiProdi ProgramStudi */
 
-$this->title = "Data Kuantitatif";
+$this->title = 'Data Kuantitatif';
 $this->params['breadcrumbs'][] = ['label' => 'Beranda', 'url' => ['/site/index']];
 $this->params['breadcrumbs'][] = ['label' => '9 Kriteria', 'url' => ['/site/index']];
 $this->params['breadcrumbs'][] = [
@@ -39,13 +39,16 @@ $this->params['breadcrumbs'][] = $this->title;
                         'prodi' => $prodi->id
                     ])
                 ]) ?>
-                <?= Html::a('<i class="fas fa-file-excel"></i> Export Kuantitatif', ['kuantitatif/export'],
+                <?= Html::a(
+                    '<i class="fas fa-file-excel"></i> Export Kuantitatif',
+                    ['kuantitatif/export'],
                     [
                         'class' => 'btn btn-success btn-pill btn-elevate btn-elevate-air',
                         'data-confirm' => 'Export Kuantitatif masih versi beta dan belum sempurna, tetap lanjutkan?',
                         'data-method' => 'POST',
                         'data-params' => ['akreditasiprodi' => $akreditasiProdi->id]
-                    ]) ?>
+                    ]
+                ) ?>
             </div>
         </div>
     </div>
@@ -54,7 +57,7 @@ $this->params['breadcrumbs'][] = $this->title;
         <div class="kt-section kt-section--first" style="margin-bottom: 0;">
 
             <div class="alert alert-warning">
-                Hasil Ekspor Kuantitatif masih beta dan belum sempurna, mohon diperiksa hasilnya.
+                Hasil Ekspor Kuantitatif merupakan data mentah, mohon diperiksa hasilnya dan disesuaikan.
             </div>
             <?= \kartik\grid\GridView::widget([
                 'dataProvider' => $dataKuantitatifProdi,
@@ -71,17 +74,21 @@ $this->params['breadcrumbs'][] = $this->title;
                         'template' => '{lihat}{download}{hapus}',
                         'buttons' => [
                             'lihat' => function ($url, $model, $key) {
-                                return Html::button('<i class="la la-eye"></i>',
+                                return Html::button(
+                                    '<i class="la la-eye"></i>',
                                     [
                                         'class' => 'showModalButton btn btn-pill btn-sm btn-elevate btn-elevate-air btn-primary',
                                         'value' => \yii\helpers\Url::to(['show', 'id' => $model->id]),
                                         'title' => $model->nama_dokumen
-                                    ]);
+                                    ]
+                                );
                             },
                             'download' => function ($url, $model, $key) use ($prodi) {
-                                return Html::a('<i class ="la la-download"></i>',
+                                return Html::a(
+                                    '<i class ="la la-download"></i>',
                                     ['kuantitatif/download-dokumen', 'dokumen' => $model->id, 'prodi' => $prodi->id],
-                                    ['class' => 'btn btn-pill btn-sm btn-elevate btn-elevate-air btn-warning']);
+                                    ['class' => 'btn btn-pill btn-sm btn-elevate btn-elevate-air btn-warning']
+                                );
                             },
                             'hapus' => function ($url, $model, $key) use ($prodi) {
                                 return Html::a('<i class ="la la-trash"></i>', ['kuantitatif/hapus-dokumen'], [
@@ -101,4 +108,3 @@ $this->params['breadcrumbs'][] = $this->title;
         </div>
     </div>
 </div>
-
