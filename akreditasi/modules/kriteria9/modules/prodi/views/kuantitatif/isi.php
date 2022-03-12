@@ -57,7 +57,7 @@ $this->params['breadcrumbs'][] = $this->title;
         <div class="kt-section kt-section--first" style="margin-bottom: 0;">
 
             <div class="alert alert-warning">
-                Hasil Ekspor Kuantitatif merupakan data mentah, mohon diperiksa hasilnya dan disesuaikan.
+                Hasil Ekspor Kuantitatif merupakan data mentah, mohon diperiksa hasilnya.
             </div>
             <?= \kartik\grid\GridView::widget([
                 'dataProvider' => $dataKuantitatifProdi,
