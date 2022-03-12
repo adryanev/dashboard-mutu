@@ -36,12 +36,12 @@ use yii\bootstrap4\ActiveForm;
         ]) ?>
     <?= $form->field($model, 'pejabat_ttd_sk_pendirian')->textInput(['maxlength' => true])
     ->label('Nama Pejabat TTD SK Pendirian') ?>
-    <?= $form->field($model, 'bulan_berdiri')->widget([DateControl::class,[
+    <?= $form->field($model, 'bulan_berdiri')->widget(DateControl::class, [
             'type' => Module::FORMAT_DATE,
             'widgetOptions' => [
                 'pluginOptions'=>['autoclose'=>true]
             ]
-        ]])->label('Berdiri') ?>
+        ])->label('Berdiri') ?>
     <?= $form->field($model, 'tahun_berdiri')->textInput(['maxlength' => true]) ?>
     <?= $form->field($model, 'nomor_sk_operasional')->textInput(['maxlength' => true]) ?>
     <?= $form->field($model, 'tanggal_sk_operasional')->widget(DateControl::class, [
