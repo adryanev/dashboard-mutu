@@ -3,6 +3,7 @@
 namespace admin\controllers;
 
 use Carbon\Carbon;
+use common\helpers\FileHelper;
 use common\models\ProgramStudi;
 use common\models\sertifikat\SertifikatProdi;
 use common\models\sertifikat\SertifikatProdiSearch;
@@ -16,7 +17,6 @@ use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\web\Response;
 use yii\web\UploadedFile;
-
 
 /**
  * SertifikatProdiController implements the CRUD actions for SertifikatProdi model.
@@ -117,9 +117,9 @@ class SertifikatProdiController extends Controller
             return ActiveForm::validate($model);
         }
         if ($model->load(Yii::$app->request->post())) {
-
 //          ganti direktori ke folder upload Admin
             $path = Yii::getAlias('@uploadAdmin/sertifikat');
+            FileHelper::createDirectory($path);
             $carbon = Carbon::now();
             $tgl = $carbon->timestamp;
 
@@ -173,7 +173,6 @@ class SertifikatProdiController extends Controller
             return ActiveForm::validate($model);
         }
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-
 //            handler file upload
             $path = Yii::getAlias('@uploadAdmin/sertifikat');
             $carbon = Carbon::now();
