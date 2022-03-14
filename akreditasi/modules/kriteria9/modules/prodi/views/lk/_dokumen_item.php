@@ -8,7 +8,11 @@ use common\helpers\FileTypeHelper;
 use yii\bootstrap4\Html;
 use yii\bootstrap4\Modal;
 
-$controller = $this->context->id;
+if ($this->context->id === 'prodi') {
+    $controller = 'lk-prodi';
+} else {
+    $controller = $this->context->id;
+}
 ?>
 <tr>
     <td></td>
@@ -27,7 +31,9 @@ $controller = $this->context->id;
         kt-badge--inline kt-badge--pill kt-badge--rounded'>verified</span>" : "<span class='kt-badge kt-badge--danger
         kt-badge--inline kt-badge--pill kt-badge--rounded'>not verified</span>" ?>
 
-                    <?php if($v->komentar): ?><span><?=Html::button('<i class="flaticon2-chat-1"></i>',['class'=>'btn btn-outline-hover-info btn-elevate btn-circle btn-icon','data-toggle'=>'kt-popover','title'=>'Komentar LPM','data-content'=>$v->komentar])?></span><?php endif ?>
+                    <?php if ($v->komentar):
+                        ?><span><?=Html::button('<i class="flaticon2-chat-1"></i>', ['class'=>'btn btn-outline-hover-info btn-elevate btn-circle btn-icon','data-toggle'=>'kt-popover','title'=>'Komentar LPM','data-content'=>$v->komentar])?></span><?php
+                    endif ?>
                 </p>
 
 
@@ -41,7 +47,7 @@ $controller = $this->context->id;
                 if ($type !== FileTypeHelper::TYPE_LINK):?>
                     <?= Html::button('<i class="la la-eye"></i> &nbsp;Lihat', [
                         'value' => \yii\helpers\Url::to([
-                            'lk/lihat-dokumen',
+                            $controller . '/lihat-dokumen',
                             'id' => $v->id,
                             'kriteria' => $kriteria
                         ]),
@@ -81,22 +87,22 @@ $controller = $this->context->id;
                     ]) ?>
                 <?php endif ?>
                 <?php
-                if(Yii::$app->user->identity->role !== 'prodi'):
+                if (Yii::$app->user->identity->role->item_name !== 'prodi'):
                     ?>
-                    <?=Html::button('<i class="flaticon2-chat"></i> Komentar',['value'=>\yii\helpers\Url::to(['lk/komentar','kriteria'=>$kriteria,'id'=>$v->id]),
-                    'title'=>"Beri Komentar",
+                    <?=Html::button('<i class="flaticon2-chat"></i> Komentar', ['value'=>\yii\helpers\Url::to([$controller . '/komentar','kriteria'=>$kriteria,'id'=>$v->id]),
+                    'title'=>'Beri Komentar',
                     'class'=>'btn btn-brand btn-sm btn-pill btn-elevate btn-elevate-air showModalButton'
                 ])?>
-                    <?php if(!$v->is_verified): ?>
-                    <?=Html::a('<i class="flaticon2-checkmark"></i> Setujui',['lk/approve','kriteria'=>$kriteria,
-                        'id'=>$v->id],[
+                    <?php if (!$v->is_verified): ?>
+                        <?=Html::a('<i class="flaticon2-checkmark"></i> Setujui', [$controller . '/approve','kriteria'=>$kriteria,
+                        'id'=>$v->id], [
                         'class'=>'btn btn-success btn-sm btn-pill btn-elevate btn-elevate-air',
                         'data'=>[
                             'method'=>'POST',
                             'confirm'=>'Apakah anda ingin menyetujui dokumen ini?'
                         ]
                     ])?>
-                <?php endif ?>
+                    <?php endif ?>
                 <?php endif?>
             </div>
 
