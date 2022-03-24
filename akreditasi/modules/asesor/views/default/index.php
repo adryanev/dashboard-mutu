@@ -76,7 +76,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                     'Kuantitatif',
                                     [
                                         'class' => 'btn btn-dark btn-sm showModalButton',
-                                        'value' => \yii\helpers\Url::to(['/kuantitatif/prodi', 'id' => $model->id]),
+                                        'value' => \yii\helpers\Url::to(['kuantitatif/prodi', 'id' => $model->id]),
                                         'title' => 'Kuantitatif Prodi'
                                     ]
                                 ) : Html::a(

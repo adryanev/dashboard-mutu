@@ -14,7 +14,11 @@ use common\helpers\FileTypeHelper;
 use yii\bootstrap4\Html;
 use yii\bootstrap4\Modal;
 
-$controller = $this->context->id;
+if ($this->context->id === 'prodi') {
+    $controller = 'led-prodi';
+} else {
+    $controller = $this->context->id;
+}
 ?>
 <tr>
     <td></td>
@@ -71,7 +75,7 @@ $controller = $this->context->id;
                 if ($type !== FileTypeHelper::TYPE_LINK):?>
                     <?= Html::button('<i class="la la-eye"></i> &nbsp;Lihat', [
                         'value' => \yii\helpers\Url::to([
-                            'led/lihat-dokumen',
+                            $controller . '/lihat-dokumen',
                             'id' => $detail->id,
                             'kriteria' => $kriteria
                         ]),
@@ -112,12 +116,12 @@ $controller = $this->context->id;
                 <?php
                 if (Yii::$app->user->identity->role->item_name !== 'prodi'):
                     ?>
-                    <?=Html::button('<i class="flaticon2-chat"></i> Komentar', ['value'=>\yii\helpers\Url::to(['led/komentar','kriteria'=>$kriteria,'id'=>$detail->id]),
+                    <?=Html::button('<i class="flaticon2-chat"></i> Komentar', ['value'=>\yii\helpers\Url::to([$controller . '/komentar','kriteria'=>$kriteria,'id'=>$detail->id]),
                     'title'=>'Beri Komentar',
                     'class'=>'btn btn-brand btn-sm btn-pill btn-elevate btn-elevate-air showModalButton'
                 ])?>
                     <?php if (!$detail->is_verified): ?>
-                        <?=Html::a('<i class="flaticon2-checkmark"></i> Setujui', ['led/approve','kriteria'=>$kriteria,
+                        <?=Html::a('<i class="flaticon2-checkmark"></i> Setujui', [$controller . '/approve','kriteria'=>$kriteria,
                         'id'=>$detail->id], [
                     'class'=>'btn btn-success btn-sm btn-pill btn-elevate btn-elevate-air',
                     'data'=>[
