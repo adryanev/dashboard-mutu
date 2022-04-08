@@ -120,7 +120,7 @@ if ($this->context->id === 'prodi') {
                     ) ?>
                 <?php endif ?>
                <?php
-                if (Yii::$app->user->identity->role !== 'prodi'):
+                if (Yii::$app->user->identity->role->item_name !== 'prodi'):
                     ?>
                     <?=Html::button('<i class="flaticon2-chat"></i> Komentar', ['value'=>\yii\helpers\Url::to([$controller . '/komentar','id'=>$detail->id]),
                     'title'=>'Beri Komentar',
