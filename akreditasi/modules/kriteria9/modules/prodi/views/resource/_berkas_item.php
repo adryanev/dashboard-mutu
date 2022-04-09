@@ -36,7 +36,11 @@ use yii\helpers\Url;
                                     'class' => 'btn btn-warning btn-sm btn-pill btn-elevate btn-elevate-air showModalBerkasButton'
                                 ]);
                             },
-                            'gunakan' => function ($url, $model, $key) use (
+                            'gunakan' => function (
+                                $url,
+                                $model,
+                                $key
+                            ) use (
                                 $prodi,
                                 $kode,
                                 $jenis,

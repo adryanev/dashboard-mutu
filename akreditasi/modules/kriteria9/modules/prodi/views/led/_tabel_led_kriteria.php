@@ -24,9 +24,8 @@ $controller = $this->context->id;
 
     <?php foreach ($json->butir as /** @var Led */
                    $kriteriaJson): ?>
-
         <tr>
-            <th scope="row"><?= "C. " . Html::encode($kriteriaJson->nomor) ?></th>
+            <th scope="row"><?= 'C. ' . Html::encode($kriteriaJson->nomor) ?></th>
             <td>
                 <strong>Kriteria <?= Html::encode($kriteriaJson->nomor) ?>
                     : <?= $kriteria[$kriteriaJson->nomor - 1]->progress ?>%</strong><br>

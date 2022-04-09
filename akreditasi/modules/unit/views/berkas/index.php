@@ -60,23 +60,32 @@ $this->params['breadcrumbs'][] = $this->title;
                                 'header' => 'Aksi',
                                 'buttons' => [
                                     'view' => function ($url, $model, $key) {
-                                        return Html::a('<i class="flaticon2-information"></i> Lihat',
+                                        return Html::a(
+                                            '<i class="flaticon2-information"></i> Lihat',
                                             ['berkas/view', 'id' => $model->id, 'unit' => $_GET['unit']],
-                                            ['class' => ' btn btn-sm btn-pill btn-elevate btn-elevate-air btn-info']);
+                                            ['class' => ' btn btn-sm btn-pill btn-elevate btn-elevate-air btn-info']
+                                        );
                                     },
                                     'update' => function ($url, $model, $key) {
-                                        return Html::a('<i class="flaticon2-edit"></i> Ubah',
+                                        return Html::a(
+                                            '<i class="flaticon2-edit"></i> Ubah',
                                             ['berkas/update', 'id' => $model->id, 'unit' => $_GET['unit']],
-                                            ['class' => ' btn btn-sm btn-pill btn-elevate btn-elevate-air btn-warning']);
+                                            ['class' => ' btn btn-sm btn-pill btn-elevate btn-elevate-air btn-warning']
+                                        );
                                     },
                                     'delete' => function ($url, $model, $key) {
-                                        return Html::a('<i class="flaticon2-delete"></i> Hapus',
-                                            ['berkas/delete', 'id' => $model->id, 'unit' => $_GET['unit']], [
+                                        return Html::a(
+                                            '<i class="flaticon2-delete"></i> Hapus',
+                                            ['berkas/delete', 'id' => $model->id, 'unit' => $_GET['unit']],
+                                            [
                                                 'class' => ' btn btn-sm btn-pill btn-elevate btn-elevate-air btn-danger',
-                                                'data-confirm' => Yii::t('yii',
-                                                    'Apakah anda yakin untuk menghapus item ini?'),
+                                                'data-confirm' => Yii::t(
+                                                    'yii',
+                                                    'Apakah anda yakin untuk menghapus item ini?'
+                                                ),
                                                 'data-method' => 'post',
-                                            ]);
+                                            ]
+                                        );
                                     }
 
 

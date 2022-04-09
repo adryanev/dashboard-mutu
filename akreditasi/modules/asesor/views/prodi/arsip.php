@@ -8,7 +8,7 @@ use yii\bootstrap4\Html;
 /* @var $dataProdi ProgramStudi */
 
 
-$this->title = "Pencarian Akreditas Program Studi";
+$this->title = 'Pencarian Akreditas Program Studi';
 
 $this->params['breadcrumbs'][] = ['label' => 'Beranda', 'url' => ['default/index']];
 $this->params['breadcrumbs'][] = $this->title;
@@ -46,8 +46,10 @@ $this->params['breadcrumbs'][] = $this->title;
         ])->label('Program Studi') ?>
 
         <div class="kt-form__actions">
-            <?= Html::submitButton('<i class="la la-search"></i> Cari',
-                ['class' => 'btn btn-success btn-pill btn-elevate btn-elevate-air']) ?>
+            <?= Html::submitButton(
+                '<i class="la la-search"></i> Cari',
+                ['class' => 'btn btn-success btn-pill btn-elevate btn-elevate-air']
+            ) ?>
         </div>
 
         <?php ActiveForm::end() ?>

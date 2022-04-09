@@ -73,8 +73,10 @@ $action = Yii::$app->controller->action->id;
 
 
     <div class="form-group">
-        <?= Html::submitButton('<i class=\'la la-save\'></i> Simpan',
-            ['class' => 'btn btn-pill btn-elevate btn-elevate-air btn-brand']) ?>
+        <?= Html::submitButton(
+            '<i class=\'la la-save\'></i> Simpan',
+            ['class' => 'btn btn-pill btn-elevate btn-elevate-air btn-brand']
+        ) ?>
     </div>
 
     <?php ActiveForm::end(); ?>
@@ -94,7 +96,7 @@ $action = Yii::$app->controller->action->id;
                     </tr>
                     </thead>
                     <tbody>
-                    <?php foreach ($detailData as $datum) : ?>
+                    <?php foreach ($detailData as $datum): ?>
                         <tr>
                             <td>
                                 <div class="row">
@@ -127,16 +129,23 @@ $action = Yii::$app->controller->action->id;
                                         ]); ?>
                                         <?php switch ($type) {
                                             case FileTypeHelper::TYPE_IMAGE:
-                                                echo \yii\bootstrap4\Html::img("$path/{$datum->isi_file}",
-                                                    ['height' => '100%', 'width' => '100%']);
+                                                echo \yii\bootstrap4\Html::img(
+                                                    "$path/{$datum->isi_file}",
+                                                    ['height' => '100%', 'width' => '100%']
+                                                );
                                                 break;
                                             case FileTypeHelper::TYPE_STATIC_TEXT:
                                                 echo $datum->isi_file;
                                                 break;
                                             default:
-                                                echo '<small>Jika dokumen berkas tidak bisa dimuat, klik ' . Html::a('di sini',
-                                                        Url::to("$path/$datum->isi_file",
-                                                            true), ['target' => '_blank']) . '.</small>';
+                                                echo '<small>Jika dokumen berkas tidak bisa dimuat, klik ' . Html::a(
+                                                    'di sini',
+                                                    Url::to(
+                                                        "$path/$datum->isi_file",
+                                                        true
+                                                    ),
+                                                    ['target' => '_blank']
+                                                ) . '.</small>';
                                                 echo '<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://docs.google.com/gview?url=' . $path . '/' . rawurldecode($datum->isi_file) . '&embedded=true"></iframe></div>';
                                                 break;
                                         } ?>
@@ -149,8 +158,10 @@ $action = Yii::$app->controller->action->id;
                                             'id' => $_GET['id']
                                         ], ['class' => 'btn btn-warning btn-pill btn-elevate btn-elevate-air']) ?>
 
-                                        <?= Html::a('<i class ="la la-trash"></i>&nbsp; Hapus',
-                                            ['kegiatan/hapus-detail'], [
+                                        <?= Html::a(
+                                            '<i class ="la la-trash"></i>&nbsp; Hapus',
+                                            ['kegiatan/hapus-detail'],
+                                            [
                                                 'class' => 'btn btn-danger btn-pill btn-elevate btn-elevate-air',
                                                 'data' => [
                                                     'method' => 'POST',
@@ -161,7 +172,8 @@ $action = Yii::$app->controller->action->id;
                                                         'id' => $_GET['id']
                                                     ]
                                                 ]
-                                            ]) ?>
+                                            ]
+                                        ) ?>
                                     </div>
 
                                 </div>

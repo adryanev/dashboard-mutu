@@ -136,8 +136,10 @@ class BerkasController extends BaseController
                 throw $exception;
             }
         } elseif (Yii::$app->request->isAjax) {
-            return $this->renderAjax('_form',
-                ['model' => $model, 'detailModel' => $detailModel, 'urlPath' => $urlPath]);
+            return $this->renderAjax(
+                '_form',
+                ['model' => $model, 'detailModel' => $detailModel, 'urlPath' => $urlPath]
+            );
         }
 
         return $this->render('create', [

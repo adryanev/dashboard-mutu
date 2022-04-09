@@ -29,7 +29,7 @@ use common\models\kriteria9\led\prodi\K9LedProdi;
 use yii\helpers\StringHelper;
 use yii\web\View;
 
-$this->title = StringHelper::mb_ucfirst($untuk) . " LED";
+$this->title = StringHelper::mb_ucfirst($untuk) . ' LED';
 $this->params['breadcrumbs'][] = ['label' => 'Beranda', 'url' => ['/site/index']];
 $this->params['breadcrumbs'][] = ['label' => 'Asesor', 'url' => ['/asesor/default/index']];
 $this->params['breadcrumbs'][] = $this->title;
@@ -40,8 +40,10 @@ $this->params['breadcrumbs'][] = $this->title;
 <?= $this->render('@akreditasi/modules/kriteria9/modules/prodi/views/led/_info_akreditasi', compact('led')) ?>
 
 
-<?= $this->render('@akreditasi/modules/kriteria9/modules/prodi/views/led/_dokumen_led',
-    compact('modelDokumen', 'dataDokumen', 'path', 'prodi', 'untuk')) ?>
+<?= $this->render(
+    '@akreditasi/modules/kriteria9/modules/prodi/views/led/_dokumen_led',
+    compact('modelDokumen', 'dataDokumen', 'path', 'prodi', 'untuk')
+) ?>
 
 <?= $this->render('@akreditasi/modules/kriteria9/modules/prodi/views/led/_tabel_led', [
     'kriteria' => $kriteria,
@@ -55,5 +57,5 @@ $this->params['breadcrumbs'][] = $this->title;
     'modelEksternal' => $modelEksternal,
     'modelAnalisis' => $modelAnalisis,
     'modelProfil' => $modelProfil,
-]) ?>
+]);
 

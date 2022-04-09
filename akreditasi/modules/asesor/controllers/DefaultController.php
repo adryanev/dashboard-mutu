@@ -42,8 +42,5 @@ class DefaultController extends BaseController
 
         $path = K9ProdiDirectoryHelper::getKuantitatifPath($kuantitatif->akreditasiProdi);
         return Yii::$app->response->sendFile("$path/{$kuantitatif->isi_dokumen}");
-
-
     }
-
 }

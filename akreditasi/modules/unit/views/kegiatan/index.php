@@ -66,13 +66,19 @@ $this->params['breadcrumbs'][] = $this->title;
                                 'buttons' => [
                                     'view' => function ($url, $model) use ($unit) {
                                         $link = Url::to(['kegiatan/view', 'id' => $model->id, 'unit' => $unit]);
-                                        return Html::a('<i class="flaticon2-information"> </i>Lihat', $link,
-                                            ['class' => 'btn btn-sm btn-pill btn-elevate btn-elevate-air btn-info']);
+                                        return Html::a(
+                                            '<i class="flaticon2-information"> </i>Lihat',
+                                            $link,
+                                            ['class' => 'btn btn-sm btn-pill btn-elevate btn-elevate-air btn-info']
+                                        );
                                     },
                                     'update' => function ($url, $model) use ($unit) {
                                         $link = Url::to(['kegiatan/update', 'id' => $model->id, 'unit' => $unit]);
-                                        return Html::a('<i class="flaticon2-edit"> </i>Ubah', $link,
-                                            ['class' => 'btn btn-sm btn-pill btn-elevate btn-elevate-air btn-warning']);
+                                        return Html::a(
+                                            '<i class="flaticon2-edit"> </i>Ubah',
+                                            $link,
+                                            ['class' => 'btn btn-sm btn-pill btn-elevate btn-elevate-air btn-warning']
+                                        );
                                     },
                                     'delete' => function ($url, $model) use ($unit) {
                                         $link = Url::to(['kegiatan/delete', 'id' => $model->id, 'unit' => $unit]);

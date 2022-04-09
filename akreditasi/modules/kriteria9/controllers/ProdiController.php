@@ -12,7 +12,6 @@
 
 namespace akreditasi\modules\kriteria9\controllers;
 
-
 use akreditasi\models\PencarianProdiForm;
 use common\models\AuthAssignment;
 use common\models\ProgramStudi;
@@ -33,8 +32,11 @@ class ProdiController extends BaseController
         $model = new PencarianProdiForm();
         //cek akses sesuai data
         $role = AuthAssignment::findOne(['user_id'=>Yii::$app->user->identity->getId()]);
-        if($role->item_name === 'prodi' || $role->item_name === 'kaprodi') $idProdi = Yii::$app->user->identity->profilUser->getProdi()->all();
-        else $idProdi = ProgramStudi::find()->all();
+        if ($role->item_name === 'prodi' || $role->item_name === 'kaprodi') {
+            $idProdi = Yii::$app->user->identity->profilUser->getProdi()->all();
+        } else {
+            $idProdi = ProgramStudi::find()->all();
+        }
 
 
         $dataProdi = ArrayHelper::map($idProdi, 'id', function ($data) {
@@ -43,14 +45,12 @@ class ProdiController extends BaseController
 
 
         if ($model->load(Yii::$app->request->post())) {
-
             $url = $model->cariK9();
             if (!$url) {
                 throw new NotFoundHttpException('Data yang anda cari tidak ditemukan');
             }
 
             $this->redirect($url);
-
         }
 
         return $this->render('arsip', [
@@ -58,5 +58,4 @@ class ProdiController extends BaseController
             'dataProdi' => $dataProdi
         ]);
     }
-
 }

@@ -11,7 +11,7 @@ $this->params['breadcrumbs'][] = [
     'url' => ['/asesor/default/index']
 ];
 $this->params['breadcrumbs'][] = [
-    'label' => "Led",
+    'label' => 'Led',
     'url' => ['led-prodi/lihat', 'led' => $model->id, 'prodi' => $prodi->id]
 ];
 $this->params['breadcrumbs'][] = $this->title;

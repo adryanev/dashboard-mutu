@@ -3,7 +3,6 @@
 
 namespace akreditasi\modules\api\controllers;
 
-
 use akreditasi\models\kriteria9\led\prodi\K9LedProdiNarasiAnalisisForm;
 use akreditasi\models\kriteria9\led\prodi\K9LedProdiNarasiKondisiEksternalForm;
 use akreditasi\models\kriteria9\led\prodi\K9LedProdiNarasiProfilUppsForm;
@@ -36,7 +35,7 @@ class LedProdiController extends BaseActiveController
         $progdi = ProgramStudi::findAll(['id' => $prodi]);
         $dataProdi = ArrayHelper::map($progdi, 'id', 'nama');
         $dataAkreditasi = ArrayHelper::map($akreditasi, 'id', function ($data) {
-            return $data->lembaga . ' - ' . $data->nama . " (" . $data->tahun . ")";
+            return $data->lembaga . ' - ' . $data->nama . ' (' . $data->tahun . ')';
         });
 
         if ($model->load(Yii::$app->request->post())) {
@@ -77,8 +76,10 @@ class LedProdiController extends BaseActiveController
         $currentPoint = $kriteriaCollection->where('nomor', $poin)->first();
 
         $modelNarasiClass = 'akreditasi\\models\\kriteria9\\led\\prodi\\K9LedProdiNarasiKriteria' . $kriteria . 'Form';
-        $modelNarasi = call_user_func($modelNarasiClass . '::findOne',
-            ['id_led_prodi_kriteria' . $kriteria => $modelLed->id]);
+        $modelNarasi = call_user_func(
+            $modelNarasiClass . '::findOne',
+            ['id_led_prodi_kriteria' . $kriteria => $modelLed->id]
+        );
 
 
         $detailModel = null;
@@ -118,7 +119,8 @@ class LedProdiController extends BaseActiveController
                 break;
             case 'B':
                 $json = K9ProdiJsonHelper::getJsonLedProfil();
-                $modelNarasi = K9LedProdiNarasiProfilUppsForm::findOne(['id_led_prodi' => $ledProdi->id]);;
+                $modelNarasi = K9LedProdiNarasiProfilUppsForm::findOne(['id_led_prodi' => $ledProdi->id]);
+                ;
 
                 break;
             case 'D':
@@ -257,8 +259,10 @@ class LedProdiController extends BaseActiveController
 
 
 
-            return compact
-            ('path', 'model');
+            return compact(
+                'path',
+                'model'
+            );
     }
 
     public function actionLihatDokumenNonKriteria($id)
@@ -271,10 +275,10 @@ class LedProdiController extends BaseActiveController
 
 
             return
-                compact
-                ('path', 'model');
-
-
+                compact(
+                    'path',
+                    'model'
+                );
     }
 
 
@@ -282,7 +286,7 @@ class LedProdiController extends BaseActiveController
     {
         $model = K9ProdiEksporDokumen::findOne($dokumen);
         $file = K9ProdiDirectoryHelper::getDokumenLedUrl($model->ledProdi->akreditasiProdi) . "/{$model->nama_dokumen}";
-        return ["path"=>$file, 'filename'=>$model->nama_dokumen];
+        return ['path'=>$file, 'filename'=>$model->nama_dokumen];
     }
 
     /**

@@ -28,7 +28,9 @@ use yii\bootstrap4\Progress;
         <div class="kt-portlet__head-toolbar">
             <div class="kt-portlet__head-actions">
                 <div class="pull-left ml-2 mr-2">
-                    <?= Html::a('<i class="fas fa-file-word"></i> Ekspor', ['export-complete'],
+                    <?= Html::a(
+                        '<i class="fas fa-file-word"></i> Ekspor',
+                        ['export-complete'],
                         [
                             'class' => 'btn btn-primary btn-elevate btn-elevate-air',
                             'data' => [
@@ -39,7 +41,8 @@ use yii\bootstrap4\Progress;
                                     'led' => $led->id,
                                 ]
                             ]
-                        ]) ?>
+                        ]
+                    ) ?>
                 </div>
                 <div class="pull-right ml-2 mr-2">
                     <strong>Pengisian:&nbsp;<?= Html::encode($led->progress) ?> %</strong>
@@ -61,15 +64,19 @@ use yii\bootstrap4\Progress;
 
             <div class="row">
                 <div class="col-lg-12">
-                    <?= $this->render('_tabel_led_eksternal',
-                        compact('json_eksternal', 'modelEksternal', 'untuk', 'prodi', 'led')) ?>
+                    <?= $this->render(
+                        '_tabel_led_eksternal',
+                        compact('json_eksternal', 'modelEksternal', 'untuk', 'prodi', 'led')
+                    ) ?>
 
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <?= $this->render('_tabel_led_profil',
-                        compact('json_profil', 'modelProfil', 'untuk', 'prodi', 'led')) ?>
+                    <?= $this->render(
+                        '_tabel_led_profil',
+                        compact('json_profil', 'modelProfil', 'untuk', 'prodi', 'led')
+                    ) ?>
 
                 </div>
             </div>
@@ -81,8 +88,10 @@ use yii\bootstrap4\Progress;
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <?= $this->render('_tabel_led_analisis',
-                        compact('json_analisis', 'modelAnalisis', 'untuk', 'prodi', 'led')) ?>
+                    <?= $this->render(
+                        '_tabel_led_analisis',
+                        compact('json_analisis', 'modelAnalisis', 'untuk', 'prodi', 'led')
+                    ) ?>
 
                 </div>
             </div>

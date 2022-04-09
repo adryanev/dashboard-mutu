@@ -3,7 +3,6 @@
 
 namespace akreditasi\modules\api\controllers;
 
-
 use common\helpers\kriteria9\K9ProdiDirectoryHelper;
 use common\models\kriteria9\akreditasi\K9Akreditasi;
 use common\models\kriteria9\akreditasi\K9AkreditasiProdi;
@@ -36,11 +35,9 @@ class KuantitatifController extends BaseActiveController
         });
 
         if ($model->load(Yii::$app->request->post())) {
-
             $url = $model->cari($target);
 
             return $this->redirect($url);
-
         }
         return [
             'model' => $model,
@@ -73,6 +70,5 @@ class KuantitatifController extends BaseActiveController
         $dataProvider = new ActiveDataProvider(['query' => $akreditasiProdi->getKuantitatif()]);
 
         return $dataProvider;
-
     }
 }

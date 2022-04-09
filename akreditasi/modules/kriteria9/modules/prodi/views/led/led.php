@@ -30,7 +30,7 @@ use yii\helpers\StringHelper;
 use yii\web\View;
 
 $controller = $this->context->id;
-$this->title = StringHelper::mb_ucfirst($untuk) . " LED";
+$this->title = StringHelper::mb_ucfirst($untuk) . ' LED';
 $this->params['breadcrumbs'][] = ['label' => 'Beranda', 'url' => ['/site/index']];
 $this->params['breadcrumbs'][] = ['label' => '9 Kriteria', 'url' => ['/kriteria9/default/index']];
 $this->params['breadcrumbs'][] = ['label' => 'Prodi', 'url' => ['/kriteria9/k9-prodi/default/index']];
@@ -46,8 +46,10 @@ $this->params['breadcrumbs'][] = $this->title;
 <?= $this->render('_info_akreditasi', compact('led')) ?>
 
 
-<?= $this->render('_dokumen_led',
-    compact('modelDokumen', 'dataDokumen', 'path', 'prodi', 'untuk')) ?>
+<?= $this->render(
+    '_dokumen_led',
+    compact('modelDokumen', 'dataDokumen', 'path', 'prodi', 'untuk')
+) ?>
 
 <?= $this->render('_tabel_led', [
     'kriteria' => $kriteria,
@@ -61,5 +63,5 @@ $this->params['breadcrumbs'][] = $this->title;
     'modelEksternal' => $modelEksternal,
     'modelAnalisis' => $modelAnalisis,
     'modelProfil' => $modelProfil,
-]) ?>
+]);
 

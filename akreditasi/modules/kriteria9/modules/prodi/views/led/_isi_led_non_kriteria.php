@@ -48,8 +48,10 @@ $controller = $this->context->id;
             ])->label('') ?>
 
                 <div class="form-group pull-right">
-                    <?= Html::submitButton('<i class="la la-save"></i> Simpan',
-                        ['class' => 'btn btn-primary btn-pill btn-elevate btn-elevate-air ']) ?>
+                    <?= Html::submitButton(
+                        '<i class="la la-save"></i> Simpan',
+                        ['class' => 'btn btn-primary btn-pill btn-elevate btn-elevate-air ']
+                    ) ?>
                 </div>
                 <?php ActiveForm::end();
             else:?>
@@ -146,8 +148,10 @@ $controller = $this->context->id;
                             ])->label('Teks') ?>
 
                             <div class="form-group pull-right">
-                                <?= Html::submitButton('<i class="la la-save"></i> Simpan',
-                                    ['class' => 'btn btn-primary btn-pill btn-elevate btn-elevate-air']) ?>
+                                <?= Html::submitButton(
+                                    '<i class="la la-save"></i> Simpan',
+                                    ['class' => 'btn btn-primary btn-pill btn-elevate btn-elevate-air']
+                                ) ?>
                             </div>
                             <?php ActiveForm::end() ?>
 
@@ -188,8 +192,10 @@ $controller = $this->context->id;
                                                     placeholder' => 'https://www.contoh.com'
                             ])->label('Tautan')->hint('https:// atau http:// harus dimasukkan.') ?>
                             <div class="form-group pull-right">
-                                <?= Html::submitButton('<i class="la la-save"></i> Simpan',
-                                    ['class' => 'btn btn-primary btn-pill btn-elevate btn-elevate-air']) ?>
+                                <?= Html::submitButton(
+                                    '<i class="la la-save"></i> Simpan',
+                                    ['class' => 'btn btn-primary btn-pill btn-elevate btn-elevate-air']
+                                ) ?>
                             </div>
                             <?php ActiveForm::end() ?>
 
@@ -235,8 +241,10 @@ $controller = $this->context->id;
                                 ]
                             ]) ?>
                             <div class="form-group pull-right">
-                                <?= Html::submitButton('<i class="la la-save"></i> Simpan',
-                                    ['class' => 'btn btn-primary btn-pill btn-elevate btn-elevate-air']) ?>
+                                <?= Html::submitButton(
+                                    '<i class="la la-save"></i> Simpan',
+                                    ['class' => 'btn btn-primary btn-pill btn-elevate btn-elevate-air']
+                                ) ?>
                             </div>
                             <?php ActiveForm::end() ?>
 
@@ -263,12 +271,15 @@ $controller = $this->context->id;
 
         <tbody>
         <?php
-        $detail = $detailCollection->where('jenis_dokumen', Constants::LAINNYA)->where('kode_dokumen',
-            $poin . '.' . $item->nomor)->values()->all();
+        $detail = $detailCollection->where('jenis_dokumen', Constants::LAINNYA)->where(
+            'kode_dokumen',
+            $poin . '.' . $item->nomor
+        )->values()->all();
         foreach ($detail as $k => $v):
             ?>
-            <?= $this->render('@akreditasi/modules/kriteria9/modules/prodi/views/led/_item_dokumen_detail_non_kriteria',
-            [
+            <?= $this->render(
+                '@akreditasi/modules/kriteria9/modules/prodi/views/led/_item_dokumen_detail_non_kriteria',
+                [
                 'path' => $path,
                 'poin' => $poin,
                 'jenis' => 'lainnya',
@@ -277,7 +288,8 @@ $controller = $this->context->id;
                 'prodi' => $prodi,
                 'led' => $model,
                 'untuk' => $untuk
-            ]) ?>
+                ]
+            ) ?>
 
         <?php endforeach; ?>
         </tbody>

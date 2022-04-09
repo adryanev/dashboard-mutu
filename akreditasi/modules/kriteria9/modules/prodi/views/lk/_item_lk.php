@@ -40,8 +40,10 @@ $controller = $this->context->id;
                     'options' => ['id' => $modelAttribute . '-tinymce-kriteria'],
                 ])->label('') ?>
                 <div class="form-group pull-right">
-                    <?= Html::submitButton('<i class="la la-save"></i> Simpan',
-                        ['class' => 'btn btn-primary btn-pill btn-elevate btn-elevate-air ']) ?>
+                    <?= Html::submitButton(
+                        '<i class="la la-save"></i> Simpan',
+                        ['class' => 'btn btn-primary btn-pill btn-elevate btn-elevate-air ']
+                    ) ?>
                 </div>
             <?php else: ?>
                 <?= $modelNarasi->$modelAttribute ?>
@@ -132,8 +134,10 @@ $controller = $this->context->id;
 
 
                     <div class="form-group text-right">
-                        <?= Html::submitButton("<i class='la la-save'></i> Simpan",
-                            ['class' => 'btn btn-pill btn-elevate btn-elevate-air btn-primary ']) ?>
+                        <?= Html::submitButton(
+                            "<i class='la la-save'></i> Simpan",
+                            ['class' => 'btn btn-pill btn-elevate btn-elevate-air btn-primary ']
+                        ) ?>
                     </div>
                     <?php ActiveForm::end() ?>
 
@@ -177,8 +181,10 @@ $controller = $this->context->id;
                 ])->label('Isi Dokumen') ?>
 
                     <div class="form-group text-right">
-                        <?= Html::submitButton("<i class='la la-save'></i> Simpan",
-                            ['class' => 'btn btn-pill btn-elevate btn-elevate-air btn-primary ']) ?>
+                        <?= Html::submitButton(
+                            "<i class='la la-save'></i> Simpan",
+                            ['class' => 'btn btn-pill btn-elevate btn-elevate-air btn-primary ']
+                        ) ?>
                     </div>
                     <?php ActiveForm::end() ?>
 
@@ -221,8 +227,10 @@ $controller = $this->context->id;
                                                     placeholder' => 'https://www.contoh.com'
                 ])->label('Tautan')->hint('https:// atau http:// harus dimasukkan.') ?>
                     <div class="form-group text-right">
-                        <?= Html::submitButton("<i class='la la-save'></i> Simpan",
-                            ['class' => 'btn btn-pill btn-elevate btn-elevate-air btn-primary ']) ?>
+                        <?= Html::submitButton(
+                            "<i class='la la-save'></i> Simpan",
+                            ['class' => 'btn btn-pill btn-elevate btn-elevate-air btn-primary ']
+                        ) ?>
                     </div>
 
                     <?php ActiveForm::end() ?>
@@ -256,11 +264,13 @@ $controller = $this->context->id;
         </thead>
         <tbody>
         <?php
-        $details = $lkCollection->where('jenis_dokumen', Constants::LAINNYA)->where('kode_dokumen',
-            $item->tabel)->values()->all();
+        $details = $lkCollection->where('jenis_dokumen', Constants::LAINNYA)->where(
+            'kode_dokumen',
+            $item->tabel
+        )->values()->all();
 
-        if (!empty($details)) :
-            foreach ($details as $k => $v) :?>
+        if (!empty($details)):
+            foreach ($details as $k => $v):?>
                 <?= $this->render('_dokumen_item', [
                     'path' => $path,
                     'kriteria' => $kriteria,
@@ -270,7 +280,7 @@ $controller = $this->context->id;
                     'jenis' => Constants::LAINNYA,
                     'untuk' => $untuk
                 ]) ?>
-            <?php
+                <?php
             endforeach;
         else:
             echo '<tr><td>Tidak ada dokumen</td></tr>';

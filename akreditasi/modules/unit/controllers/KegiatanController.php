@@ -20,7 +20,6 @@ use yii\web\Response;
 use yii\bootstrap4\ActiveForm;
 use yii\web\UploadedFile;
 
-
 /**
  * KegiatanController implements the CRUD actions for KegiatanUnit model.
  */
@@ -64,7 +63,7 @@ class KegiatanController extends BaseController
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
      */
-    public function actionView($unit,$id)
+    public function actionView($unit, $id)
     {
         $model = $this->findModel($id);
         $detailData = $model->kegiatanUnitDetails;
@@ -96,24 +95,20 @@ class KegiatanController extends BaseController
 //        }
         if ($model->load(Yii::$app->request->post())) {
             $model->id_unit = $unit;
-            $model->sk_kegiatan = UploadedFile::getInstance($model,'sk_kegiatan');
-            $model->absensi = UploadedFile::getInstance($model,'absensi');
-            $model->laporan_kegiatan = UploadedFile::getInstance($model,'absensi');
-            $model->foto_kegiatan = UploadedFile::getInstances($model,'foto_kegiatan');
-            $model->sertifikat = UploadedFile::getInstances($model,'sertifikat');
-            $model->dokumen_lainnya = UploadedFile::getInstances($model,'dokumen_lainnya');
+            $model->sk_kegiatan = UploadedFile::getInstance($model, 'sk_kegiatan');
+            $model->absensi = UploadedFile::getInstance($model, 'absensi');
+            $model->laporan_kegiatan = UploadedFile::getInstance($model, 'absensi');
+            $model->foto_kegiatan = UploadedFile::getInstances($model, 'foto_kegiatan');
+            $model->sertifikat = UploadedFile::getInstances($model, 'sertifikat');
+            $model->dokumen_lainnya = UploadedFile::getInstances($model, 'dokumen_lainnya');
 
-            if($kegiatan = $model->save($path)){
-                Yii::$app->session->setFlash('success','Berhasil menambahkan KegiatanUnit.');
+            if ($kegiatan = $model->save($path)) {
+                Yii::$app->session->setFlash('success', 'Berhasil menambahkan KegiatanUnit.');
 
                 return $this->redirect(['view', 'id' => $kegiatan->id,'unit'=>$unit]);
             }
-
-
-        }
-
-        elseif (Yii::$app->request->isAjax){
-            return $this->renderAjax('_form',['model'=>$model,
+        } elseif (Yii::$app->request->isAjax) {
+            return $this->renderAjax('_form', ['model'=>$model,
             'path'=>$urlPath]);
         }
 
@@ -136,22 +131,19 @@ class KegiatanController extends BaseController
         $detailData = $model->getKegiatan()->kegiatanUnitDetails;
         $urlPath = UnitDirectoryHelper::getUrl($unit);
         $path = UnitDirectoryHelper::getPath($unit);
-        if ($model->load(Yii::$app->request->post()) ) {
+        if ($model->load(Yii::$app->request->post())) {
+            $model->sk_kegiatan = UploadedFile::getInstance($model, 'sk_kegiatan');
+            $model->absensi = UploadedFile::getInstance($model, 'absensi');
+            $model->laporan_kegiatan = UploadedFile::getInstance($model, 'laporan_kegiatan');
+            $model->foto_kegiatan = UploadedFile::getInstances($model, 'foto_kegiatan');
+            $model->sertifikat = UploadedFile::getInstances($model, 'sertifikat');
+            $model->dokumen_lainnya = UploadedFile::getInstances($model, 'dokumen_lainnya');
 
-            $model->sk_kegiatan = UploadedFile::getInstance($model,'sk_kegiatan');
-            $model->absensi = UploadedFile::getInstance($model,'absensi');
-            $model->laporan_kegiatan = UploadedFile::getInstance($model,'laporan_kegiatan');
-            $model->foto_kegiatan = UploadedFile::getInstances($model,'foto_kegiatan');
-            $model->sertifikat = UploadedFile::getInstances($model,'sertifikat');
-            $model->dokumen_lainnya = UploadedFile::getInstances($model,'dokumen_lainnya');
-
-            if( $update = $model->update($path)){
-                Yii::$app->session->setFlash('success','Berhasil mengubah KegiatanUnit.');
+            if ($update = $model->update($path)) {
+                Yii::$app->session->setFlash('success', 'Berhasil mengubah KegiatanUnit.');
 
                 return $this->redirect(['view', 'id' => $update->id,'unit'=>$unit]);
             }
-
-
         }
 
         return $this->render('update', [
@@ -168,25 +160,27 @@ class KegiatanController extends BaseController
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
      */
-    public function actionDelete($id,$unit)
+    public function actionDelete($id, $unit)
     {
         $model= $this->findModel($id);
         $model->delete();
-        Yii::$app->session->setFlash('success','Berhasil menghapus KegiatanUnit.');
+        Yii::$app->session->setFlash('success', 'Berhasil menghapus KegiatanUnit.');
 
         return $this->redirect(['index','unit'=>$unit]);
     }
 
-    public function actionDownloadDetail($dokumen, $unit, $id){
+    public function actionDownloadDetail($dokumen, $unit, $id)
+    {
         ini_set('max_execution_time', 5 * 60);
         $model = KegiatanUnitDetail::findOne($dokumen);
-        $fileDokumen = UnitDirectoryHelper::getPath($unit). '/'.$model->isi_file;
+        $fileDokumen = UnitDirectoryHelper::getPath($unit) . '/' . $model->isi_file;
 
         return Yii::$app->response->sendFile($fileDokumen);
     }
 
-    public function actionHapusDetail(){
-        if(Yii::$app->request->isPost){
+    public function actionHapusDetail()
+    {
+        if (Yii::$app->request->isPost) {
             $data = Yii::$app->request->post();
             $dokumenId = $data['dokumen'];
             $unitId = $data['unit'];
@@ -194,12 +188,12 @@ class KegiatanController extends BaseController
 
             $model = KegiatanUnitDetail::findOne($dokumenId);
             $nama_file = $model->isi_file;
-            if($model->delete()){
-                FileHelper::unlink(UnitDirectoryHelper::getPath($unitId).'/'.$nama_file);
+            if ($model->delete()) {
+                FileHelper::unlink(UnitDirectoryHelper::getPath($unitId) . '/' . $nama_file);
             }
 
 
-            Yii::$app->session->setFlash('success','Berhasil Menghapus dokumen kegiatan');
+            Yii::$app->session->setFlash('success', 'Berhasil Menghapus dokumen kegiatan');
             return $this->redirect(['kegiatan/update','unit'=>$unitId,'id'=>$kegiatanId]);
         }
 

@@ -31,7 +31,7 @@ $substring = substr($name, $posTag + 1, '3');
             <?= !Yii::$app->user->isGuest ? Html::a('Logout', ['site/logout'], [
                 'class' => 'btn btn-default btn-pill btn-elevate btn-elevate-air',
                 'data' => ['method' => 'post', 'confirm' => 'Apakah anda ingin keluar?']
-            ]) : "" ?>
+            ]) : '' ?>
         </div>
     </div>
 </div>

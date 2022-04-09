@@ -5,7 +5,7 @@
  * @var $poinKriteria [];
  * @var $untuk string
  */
-$this->title = "Kriteria " . $kriteria;
+$this->title = 'Kriteria ' . $kriteria;
 $this->params['breadcrumbs'][] = ['label' => 'Beranda', 'url' => ['/site/index']];
 $this->params['breadcrumbs'][] = ['label' => '9 Kriteria', 'url' => ['/kriteria9/default/index']];
 $this->params['breadcrumbs'][] = ['label' => 'Program Studi', 'url' => ['/kriteria9/k9-prodi/index']];
@@ -39,7 +39,9 @@ use yii\bootstrap4\Progress;
                 <div class="kt-portlet__head-actions">
 
                     <div class="pull-left ml-2 mr-2">
-                        <?= Html::a('<i class="fas fa-file-word"></i> Ekspor', ['export-partial-kriteria'],
+                        <?= Html::a(
+                            '<i class="fas fa-file-word"></i> Ekspor',
+                            ['export-partial-kriteria'],
                             [
                                 'class' => 'btn btn-sm btn-primary btn-elevate btn-elevate-air',
                                 'data-method' => 'POST',
@@ -49,7 +51,8 @@ use yii\bootstrap4\Progress;
                                     'referer' => \yii\helpers\Url::current()
                                 ],
                                 'data-confirm' => 'Apakah anda ingin mengekspor ini?'
-                            ]) ?>
+                            ]
+                        ) ?>
                     </div>
 
                     <div class="pull-right ml-2 mr-2">

@@ -49,8 +49,10 @@ $controller = $this->context->id;
                     ]) ?>
 
                     <div class="form-group pull-right">
-                        <?= Html::submitButton('<i class="la la-save"></i> Simpan',
-                            ['class' => 'btn btn-primary btn-pill btn-elevate btn-elevate-air']) ?>
+                        <?= Html::submitButton(
+                            '<i class="la la-save"></i> Simpan',
+                            ['class' => 'btn btn-primary btn-pill btn-elevate btn-elevate-air']
+                        ) ?>
                     </div>
                     <?php ActiveForm::end() ?>
 
@@ -77,7 +79,7 @@ $controller = $this->context->id;
                 </tr>
                 </thead>
                 <tbody>
-                <?php foreach ($dataDokumen as $key => $item) : ?>
+                <?php foreach ($dataDokumen as $key => $item): ?>
                     <tr>
                         <td class="text-center"><?= $key + 1 ?></td>
                         <td>
@@ -109,28 +111,37 @@ $controller = $this->context->id;
                                         'clientOptions' => ['backdrop' => 'blur', 'keyboard' => true]
                                     ]); ?>
                                     <?php if (\common\helpers\FileTypeHelper::getType($item->bentuk_dokumen) === \common\helpers\FileTypeHelper::TYPE_IMAGE):
-                                        echo Html::img("$path/{$item->nama_dokumen}",
-                                            ['height' => '100%', 'width' => '100%']);
-                                    else :?>
-                                        <p><small>Jika dokumen tidak tampil, silahkan klik <?= Html::a('di sini.',
-                                                    'https://docs.google.com/gview?url=' . $path . '/' . rawurlencode($item->nama_dokumen),
-                                                    ['target' => '_blank']) ?></small>
+                                        echo Html::img(
+                                            "$path/{$item->nama_dokumen}",
+                                            ['height' => '100%', 'width' => '100%']
+                                        );
+                                    else:?>
+                                        <p><small>Jika dokumen tidak tampil, silahkan klik <?= Html::a(
+                                            'di sini.',
+                                            'https://docs.google.com/gview?url=' . $path . '/' . rawurlencode($item->nama_dokumen),
+                                            ['target' => '_blank']
+                                        ) ?></small>
                                         </p> <?php echo ' <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://docs.google.com/gview?url=' . $path . '/' . rawurlencode($item->nama_dokumen) . '&embedded=true"></iframe></div>'; ?>
                                     <?php endif; ?>
                                     <?php Modal::end(); ?>
-                                    <?= Html::a('<i class ="la la-download"></i> Unduh',
+                                    <?= Html::a(
+                                        '<i class ="la la-download"></i> Unduh',
                                         [$controller . '/download-dokumen', 'dokumen' => $item->id],
-                                        ['class' => 'btn btn-warning btn-pill btn-elevate btn-elevate-air']) ?>
+                                        ['class' => 'btn btn-warning btn-pill btn-elevate btn-elevate-air']
+                                    ) ?>
 
-                                    <?= ($untuk === 'isi') ? Html::a('<i class ="la la-trash"></i> Hapus',
-                                        [$controller . '/hapus-dokumen-led'], [
+                                    <?= ($untuk === 'isi') ? Html::a(
+                                        '<i class ="la la-trash"></i> Hapus',
+                                        [$controller . '/hapus-dokumen-led'],
+                                        [
                                             'class' => 'btn btn-danger btn-pill btn-elevate btn-elevate-air',
                                             'data' => [
                                                 'method' => 'POST',
                                                 'confirm' => 'Apakah anda yakin menghapus item ini?',
                                                 'params' => ['id' => $item->id, 'prodi' => $prodi->id]
                                             ]
-                                        ]) : '' ?>
+                                        ]
+                                    ) : '' ?>
                                 </div>
 
                             </div>

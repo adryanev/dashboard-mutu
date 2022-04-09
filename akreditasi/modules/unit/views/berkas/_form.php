@@ -47,16 +47,23 @@ use yii\web\JsExpression;
                             $type = FileTypeHelper::getType($detail->bentuk_berkas);
                             switch ($type) {
                                 case FileTypeHelper::TYPE_IMAGE:
-                                    echo Html::img("$urlPath/{$detail->isi_berkas}",
-                                        ['height' => '100%', 'width' => '100%']);
+                                    echo Html::img(
+                                        "$urlPath/{$detail->isi_berkas}",
+                                        ['height' => '100%', 'width' => '100%']
+                                    );
                                     break;
                                 case FileTypeHelper::TYPE_STATIC_TEXT:
                                     echo $detail->isi_berkas;
                                     break;
                                 default:
-                                    echo '<small>Jika dokumen berkas tidak bisa dimuat, klik ' . Html::a('di sini',
-                                            \yii\helpers\Url::to("$urlPath/$detail->isi_berkas",
-                                                true), ['target' => '_blank']) . '.</small>';
+                                    echo '<small>Jika dokumen berkas tidak bisa dimuat, klik ' . Html::a(
+                                        'di sini',
+                                        \yii\helpers\Url::to(
+                                            "$urlPath/$detail->isi_berkas",
+                                            true
+                                        ),
+                                        ['target' => '_blank']
+                                    ) . '.</small>';
                                     echo '<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://docs.google.com/gview?url=' . $urlPath . '/' . rawurldecode($detail->isi_berkas) . '&embedded=true"></iframe></div>';
                                     break;
                             }
@@ -91,8 +98,10 @@ use yii\web\JsExpression;
     ]) ?>
 
     <div class="form-group">
-        <?= Html::submitButton('<i class=\'la la-save\'></i> Simpan',
-            ['class' => 'btn btn-pill btn-elevate btn-elevate-air btn-brand']) ?>
+        <?= Html::submitButton(
+            '<i class=\'la la-save\'></i> Simpan',
+            ['class' => 'btn btn-pill btn-elevate btn-elevate-air btn-brand']
+        ) ?>
     </div>
 
     <?php ActiveForm::end(); ?>
