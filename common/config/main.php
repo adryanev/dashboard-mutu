@@ -55,12 +55,12 @@ return [
                 'language' => 'id',
                 'clientOptions' => [
                     'plugins' => [
-                        "advlist autolink lists link image charmap print preview hr anchor pagebreak ",
-                        "searchreplace wordcount visualblocks visualchars code fullscreen",
-                        "insertdatetime media nonbreaking save table directionality",
-                        "emoticons template paste textpattern imagetools codesample toc noneditable",
+                        'advlist autolink lists link image charmap print preview hr anchor pagebreak ',
+                        'searchreplace wordcount visualblocks visualchars code fullscreen',
+                        'insertdatetime media nonbreaking save table directionality',
+                        'emoticons template paste textpattern imagetools codesample toc noneditable',
                     ],
-                    'toolbar' => "undo redo| styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | ltr rtl | link | image"
+                    'toolbar' => 'undo redo| styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | ltr rtl | link | image'
 
                 ]
             ],

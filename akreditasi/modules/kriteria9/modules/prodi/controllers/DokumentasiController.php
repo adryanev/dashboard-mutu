@@ -3,7 +3,6 @@
 
 namespace akreditasi\modules\kriteria9\modules\prodi\controllers;
 
-
 use akreditasi\models\kriteria9\forms\dokumentasi\DokumentasiProdiLinkForm;
 use akreditasi\models\kriteria9\forms\dokumentasi\DokumentasiProdiTeksForm;
 use akreditasi\models\kriteria9\forms\dokumentasi\DokumentasiProdiUploadForm;
@@ -42,8 +41,7 @@ class DokumentasiController extends BaseController
     {
         $dokumen = DokumenJsonHelper::getAllDokumen();
         $id_prodi = Yii::$app->request->get('prodi');
-        $dokumenCollection = Collection::make(DokumentasiProdi::find()->where
-        (['id_prodi' => $id_prodi])->all());
+        $dokumenCollection = Collection::make(DokumentasiProdi::find()->where(['id_prodi' => $id_prodi])->all());
         return $this->render('index', compact('dokumen', 'dokumenCollection'));
     }
 
@@ -54,7 +52,6 @@ class DokumentasiController extends BaseController
         $model->nama_dokumen = $dokumen;
 
         if (Yii::$app->request->isAjax) {
-
             return $this->renderAjax('_form', ['model' => $model, 'jenis' => 'upload']);
         }
         if ($model->load(Yii::$app->request->post())) {
@@ -66,8 +63,6 @@ class DokumentasiController extends BaseController
             }
 
             return $this->redirect(['dokumentasi/index', 'prodi' => $prodi]);
-
-
         }
 
         throw new MethodNotAllowedHttpException();
@@ -80,22 +75,18 @@ class DokumentasiController extends BaseController
         $model->nama_dokumen = $dokumen;
 
         if (Yii::$app->request->isAjax) {
-
             return $this->renderAjax('_form', ['model' => $model, 'jenis' => \common\helpers\FileTypeHelper::TYPE_STATIC_TEXT]);
         }
         if ($model->load(Yii::$app->request->post())) {
-
             if ($model->save()) {
                 Yii::$app->session->setFlash('success', 'Berhasil menambahkan teks dokumen');
             } else {
                 Yii::$app->session->setFlash('danger', 'Terjadi kesalahan saat menambahkan teks dokumen');
             }
             return $this->redirect(['dokumentasi/index', 'prodi' => $prodi]);
-
         }
 
         throw new MethodNotAllowedHttpException();
-
     }
 
     public function actionLink($prodi, $dokumen)
@@ -105,11 +96,9 @@ class DokumentasiController extends BaseController
         $model->nama_dokumen = $dokumen;
 
         if (Yii::$app->request->isAjax) {
-
             return $this->renderAjax('_form', ['model' => $model, 'jenis' => Constants::LINK]);
         }
         if ($model->load(Yii::$app->request->post())) {
-
             if ($model->save()) {
                 Yii::$app->session->setFlash('success', 'Berhasil menambahkan tautan dokumen');
             } else {
@@ -119,23 +108,23 @@ class DokumentasiController extends BaseController
         }
 
         throw new MethodNotAllowedHttpException();
-
     }
 
-    public function actionDownload($dokumen){
+    public function actionDownload($dokumen)
+    {
         $model =$this->findModel($dokumen);
         $path = K9ProdiDirectoryHelper::getDokumentasiPath($model->id_prodi);
 
         return Yii::$app->response->sendFile("$path/$model->isi_dokumen");
     }
 
-    public function actionLihat($id){
+    public function actionLihat($id)
+    {
         $model=$this->findModel($id);
         $path=K9ProdiDirectoryHelper::getDokumentasiUrl($model->id_prodi);
 
-        if(Yii::$app->request->isAjax){
-
-             return $this->renderAjax('_modal_content',compact('path','model'));
+        if (Yii::$app->request->isAjax) {
+             return $this->renderAjax('_modal_content', compact('path', 'model'));
         }
 
         throw new MethodNotAllowedHttpException();
@@ -149,25 +138,35 @@ class DokumentasiController extends BaseController
         $file = $model->isi_dokumen;
         $dokumen = DokumenJsonHelper::getByName($model->nama_dokumen);
         $db = Yii::$app->db->beginTransaction();
-        try{
-            if($model->is_verified){
+        try {
+            if ($model->is_verified) {
                 //unlink file in led and lk
                 //led
                 $documents = ArrayHelper::merge($dokumen->relasi->led->sumber, $dokumen->relasi->led->pendukung);
-                foreach ($documents as $dok){
-                    $kriteria = substr($dok,'0','1');
-                    $modelClass = 'common\\models\\kriteria9\\led\\prodi\\K9LedProdiKriteria'.$kriteria.'Detail';
-                    call_user_func($modelClass.'::deleteAll',['kode_dokumen'=>$dok,
+                foreach ($documents as $dok) {
+                    $kriteria = substr($dok, '0', '1');
+                    $modelClass = 'common\\models\\kriteria9\\led\\prodi\\K9LedProdiKriteria' . $kriteria . 'Detail';
+                    $docs = call_user_func($modelClass . '::findAll', ['kode_dokumen'=>$dok,
                         'isi_dokumen'=>$file]);
+
+                    foreach ($docs as $doc) {
+                        $doc->delete();
+                    }
+                    // call_user_func($modelClass . '::deleteAll', ['kode_dokumen'=>$dok,
+                    //     'isi_dokumen'=>$file]);
                 }
 
                 //lk
                 $documentsLk = ArrayHelper::merge($dokumen->relasi->lk->sumber, $dokumen->relasi->lk->pendukung);
-                foreach ($documentsLk as $dok){
-                    $kriteria = substr($dok,'0','1');
-                    $modelClass = 'common\\models\\kriteria9\\lk\\prodi\\K9LkProdiKriteria'.$kriteria.'Detail';
-                    call_user_func($modelClass.'::deleteAll',['kode_dokumen'=>$dok, 'isi_dokumen'=>$file]);
+                foreach ($documentsLk as $dok) {
+                    $kriteria = substr($dok, '0', '1');
+                    $modelClass = 'common\\models\\kriteria9\\lk\\prodi\\K9LkProdiKriteria' . $kriteria . 'Detail';
+                    $docs = call_user_func($modelClass . '::findAll', ['kode_dokumen'=>$dok, 'isi_dokumen'=>$file]);
+                    foreach ($docs as $doc) {
+                        $doc->delete();
+                    }
 
+                    // call_user_func($modelClass . '::deleteAll', ['kode_dokumen'=>$dok, 'isi_dokumen'=>$file]);
                 }
             }
 
@@ -178,22 +177,20 @@ class DokumentasiController extends BaseController
             }
             $model->delete();
             $db->commit();
-            Yii::$app->session->setFlash('success','Berhasil menghapus dokumen');
-        }catch (Exception $exception){
+            Yii::$app->session->setFlash('success', 'Berhasil menghapus dokumen');
+        } catch (Exception $exception) {
             $db->rollBack();
             throw $exception;
         }
 
         return $this->redirect(['index','prodi'=>$prodi]);
-
     }
 
     private function findModel($id)
     {
-        if($model = DokumentasiProdi::findOne($id)){
+        if ($model = DokumentasiProdi::findOne($id)) {
             return $model;
         }
         throw new NotFoundHttpException();
     }
-
 }

@@ -1,58 +1,22 @@
-version: "3.2"
-
+version: '3.2'
 services:
-    akreditasi:
-        build: akreditasi
-        ports:
-            - 20080:80
-        volumes:
-            # Re-use local composer cache via host-volume
-            - ~/.composer-docker/cache:/root/.composer/cache:delegated
-            # Mount source-code for development
-            - ./:/app
-        networks:
-            - app-network
-        depends_on:
-            - mysql
-
-    admin:
-        build: admin
-        ports:
-            - 21080:80
-        volumes:
-            # Re-use local composer cache via host-volume
-            - ~/.composer-docker/cache:/root/.composer/cache:delegated
-            # Mount source-code for development
-            - ./:/app
-        networks:
-            - app-network
-        depends_on:
-            - mysql
-
-    mysql:
-        image: mysql:5.7
-        environment:
-            - MYSQL_ROOT_PASSWORD=verysecret
-            - MYSQL_DATABASE=mutu_dev
-            - MYSQL_USER=dashboard-mutu
-            - MYSQL_PASSWORD=secret
-        networks:
-            - app-network
-        volumes:
-            - app-volume:/var/lib/mysql
-        ports:
-            - 3306:3306
-        expose:
-            - "3306"
-
+  mysql:
+    image: 'mysql:5.7'
+    environment:
+      - MYSQL_ROOT_PASSWORD=verysecret
+      - MYSQL_DATABASE=mutu_dev
+      - MYSQL_USER=dashboard-mutu
+      - MYSQL_PASSWORD=secret
+    networks:
+      - app-network
+    volumes:
+      - 'app-volume:/var/lib/mysql'
+    ports:
+      - '3306:3306'
+    expose:
+      - '3306'
 networks:
-    app-network:
-        driver: bridge
+  app-network:
+    driver: bridge
 volumes:
-    app-volume:
-    #pgsql:
-    #  image: postgres:9.5
-    #  environment:
-    #    - POSTGRES_DB=yii2advanced
-    #    - POSTGRES_USER=yii2advanced
-    #    - POSTGRES_PASSWORD=secret
+  app-volume: null
