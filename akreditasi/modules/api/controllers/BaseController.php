@@ -3,7 +3,6 @@
 
 namespace akreditasi\modules\api\controllers;
 
-
 use yii\filters\auth\CompositeAuth;
 use yii\filters\auth\HttpBasicAuth;
 use yii\filters\auth\HttpBearerAuth;

@@ -32,7 +32,7 @@
             <div class="tab-pane" id="institusi_berkas" role="tabpanel">
                 <h3>Berkas Institusi</h3>
                 <div class="kt-separator"></div>
-                    <?=$this->render('_berkas',['berkas'=>$berkasInstitusi,'prodi'=>$prodi,'kode'=>$kode
+                    <?=$this->render('_berkas', ['berkas'=>$berkasInstitusi,'prodi'=>$prodi,'kode'=>$kode
                     ,'jenis'=>$jenis,'id_led_lk'=>$id_led_lk, 'kriteria'=>$kriteria,'jenis_dokumen'=>$jenis_dokumen])?>
             </div>
         </div>

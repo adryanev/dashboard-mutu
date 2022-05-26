@@ -9,7 +9,7 @@ use yii\web\JsExpression;
 /* @var $dataProdi */
 /* @var $dataAkreditasiProdi */
 
-$this->title = "Pencarian Data Program Studi Dokumentasi";
+$this->title = 'Pencarian Data Program Studi Dokumentasi';
 
 $this->params['breadcrumbs'][] = ['label' => 'Beranda', 'url' => ['/site/index']];
 $this->params['breadcrumbs'][] = ['label' => '9 Kriteria', 'url' => ['/site/index']];
@@ -69,7 +69,7 @@ $this->params['breadcrumbs'][] = [
 
             AjaxSubmitButton::end();
 
-            ?>
+?>
 
         </div>
 

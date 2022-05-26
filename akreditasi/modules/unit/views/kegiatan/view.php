@@ -34,17 +34,22 @@ $this->params['breadcrumbs'][] = $this->title;
                         <div class="kt-portlet__head-actions">
 
 
-                            <?= Html::a('<i class=flaticon2-edit></i> Edit',
+                            <?= Html::a(
+                                '<i class=flaticon2-edit></i> Edit',
                                 ['update', 'id' => $model->id, 'unit' => $unit],
-                                ['class' => 'btn btn-warning btn-elevate btn-elevate-air']) ?>
-                            <?= Html::a('<i class=flaticon2-delete></i> Hapus',
-                                ['delete', 'id' => $model->id, 'unit' => $unit], [
+                                ['class' => 'btn btn-warning btn-elevate btn-elevate-air']
+                            ) ?>
+                            <?= Html::a(
+                                '<i class=flaticon2-delete></i> Hapus',
+                                ['delete', 'id' => $model->id, 'unit' => $unit],
+                                [
                                     'class' => 'btn btn-danger btn-elevate btn-elevate-air',
                                     'data' => [
                                         'confirm' => 'Apakah anda ingin menghapus item ini?',
                                         'method' => 'post',
                                     ],
-                                ]) ?>
+                                ]
+                            ) ?>
                         </div>
                     </div>
                 </div>
@@ -79,7 +84,7 @@ $this->params['breadcrumbs'][] = $this->title;
                             </tr>
                             </thead>
                             <tbody>
-                            <?php foreach ($detailData as $datum) : ?>
+                            <?php foreach ($detailData as $datum): ?>
                                 <tr>
                                     <td>
                                         <div class="row">
@@ -114,27 +119,37 @@ $this->params['breadcrumbs'][] = $this->title;
                                                 ]); ?>
                                                 <?php switch ($type) {
                                                     case FileTypeHelper::TYPE_IMAGE:
-                                                        echo Html::img("$path/{$datum->isi_file}",
-                                                            ['height' => '100%', 'width' => '100%']);
+                                                        echo Html::img(
+                                                            "$path/{$datum->isi_file}",
+                                                            ['height' => '100%', 'width' => '100%']
+                                                        );
                                                         break;
                                                     case FileTypeHelper::TYPE_STATIC_TEXT:
                                                         echo $datum->isi_file;
                                                         break;
                                                     default:
-                                                        echo '<small>Jika dokumen berkas tidak bisa dimuat, klik ' . Html::a('di sini',
-                                                                \yii\helpers\Url::to("$path/$datum->isi_file",
-                                                                    true), ['target' => '_blank']) . '.</small>';
+                                                        echo '<small>Jika dokumen berkas tidak bisa dimuat, klik ' . Html::a(
+                                                            'di sini',
+                                                            \yii\helpers\Url::to(
+                                                                "$path/$datum->isi_file",
+                                                                true
+                                                            ),
+                                                            ['target' => '_blank']
+                                                        ) . '.</small>';
                                                         echo '<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://docs.google.com/gview?url=' . $path . '/' . rawurldecode($datum->isi_file) . '&embedded=true"></iframe></div>';
                                                         break;
                                                 } ?>
                                                 <?php Modal::end(); ?>
-                                                <?= Html::a('<i class="la la-download"></i>&nbsp;Unduh', [
+                                                <?= Html::a(
+                                                    '<i class="la la-download"></i>&nbsp;Unduh',
+                                                    [
                                                     'kegiatan/download-detail',
                                                     'dokumen' => $datum->id,
                                                     'unit' => $unit,
                                                     'id' => $_GET['id']
-                                                ],
-                                                    ['class' => 'btn btn-warning btn-pill btn-elevate btn-elevate-air']) ?>
+                                                    ],
+                                                    ['class' => 'btn btn-warning btn-pill btn-elevate btn-elevate-air']
+                                                ) ?>
 
                                             </div>
 

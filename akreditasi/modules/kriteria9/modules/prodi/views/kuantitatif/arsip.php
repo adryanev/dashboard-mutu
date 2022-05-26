@@ -8,7 +8,7 @@ use yii\bootstrap4\Html;
 /* @var $dataProdi */
 /* @var $dataAkreditasiProdi */
 
-$this->title = "Pencarian Data Kuantitatif Program Studi";
+$this->title = 'Pencarian Data Kuantitatif Program Studi';
 
 $this->params['breadcrumbs'][] = ['label' => 'Beranda', 'url' => ['/site/index']];
 $this->params['breadcrumbs'][] = ['label' => '9 Kriteria', 'url' => ['/site/index']];
@@ -66,8 +66,10 @@ $this->params['breadcrumbs'][] = [
             //
             //            AjaxSubmitButton::end();
 
-            echo Html::submitButton('<i class="la la-search"></i> Cari',
-                ['class' => 'btn btn-success btn-pill btn-elevate btn-elevate-air']);
+            echo Html::submitButton(
+                '<i class="la la-search"></i> Cari',
+                ['class' => 'btn btn-success btn-pill btn-elevate btn-elevate-air']
+            );
 
             ?>
 

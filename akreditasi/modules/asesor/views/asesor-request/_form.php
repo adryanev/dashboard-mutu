@@ -10,16 +10,23 @@
         <?php $form = \yii\bootstrap4\ActiveForm::begin() ?>
 
         <div class="form-group">
-            <?= \yii\helpers\Html::dropDownList('tipe', null, ['prodi' => 'Program Studi'],
-                ['class' => 'form-control', 'label' => 'Tipe', 'prompt' => 'Pilih Tipe', 'id' => 'tipe']) ?>
+            <?= \yii\helpers\Html::dropDownList(
+                'tipe',
+                null,
+                ['prodi' => 'Program Studi'],
+                ['class' => 'form-control', 'label' => 'Tipe', 'prompt' => 'Pilih Tipe', 'id' => 'tipe']
+            ) ?>
         </div>
-        <?= $form->field($model, 'id_prodi',
+        <?= $form->field(
+            $model,
+            'id_prodi',
             [
                 'options' => [
                     'id' => 'dropdown-prodi',
                     'class' => 'form-group d-none'
                 ]
-            ])->widget(\kartik\select2\Select2::className(), [
+            ]
+        )->widget(\kartik\select2\Select2::className(), [
             'data' => $dataProdi,
             'options' => [
                 'prompt' => 'Pilih Program Studi'
@@ -27,8 +34,10 @@
         ])->label('Program Studi') ?>
 
         <div class="form-group">
-            <?= \yii\bootstrap4\Html::submitButton('Simpan',
-                ['class' => 'btn btn-primary btn-pill btn-elevate btn-elevate-air']) ?>
+            <?= \yii\bootstrap4\Html::submitButton(
+                'Simpan',
+                ['class' => 'btn btn-primary btn-pill btn-elevate btn-elevate-air']
+            ) ?>
         </div>
         <?php \yii\bootstrap4\ActiveForm::end() ?>
     </div>

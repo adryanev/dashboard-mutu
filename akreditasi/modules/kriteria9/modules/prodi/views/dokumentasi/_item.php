@@ -19,7 +19,7 @@ use yii\bootstrap4\Html;
                 <p><span><?= FileIconHelper::getIconByExtension($model->bentuk_dokumen) ?></span>
                     <?php $type = FileTypeHelper::getType($model->bentuk_dokumen);
 
-                    if ($type === FileTypeHelper::TYPE_STATIC_TEXT || $type === FileTypeHelper::TYPE_LINK) : ?>
+                    if ($type === FileTypeHelper::TYPE_STATIC_TEXT || $type === FileTypeHelper::TYPE_LINK): ?>
                         <?= Html::encode($model->nama_dokumen) ?>
 
                     <?php else: ?>
@@ -29,7 +29,9 @@ use yii\bootstrap4\Html;
         kt-badge--inline kt-badge--pill kt-badge--rounded'>verified</span>" : "<span class='kt-badge kt-badge--danger
         kt-badge--inline kt-badge--pill kt-badge--rounded'>not verified</span>" ?>
 
-                    <?php if($model->komentar): ?><span><?=Html::button('<i class="flaticon2-chat-1"></i>',['class'=>'btn btn-outline-hover-info btn-elevate btn-circle btn-icon','data-toggle'=>'kt-popover','title'=>'Komentar LPM','data-content'=>$model->komentar])?></span><?php endif ?>
+                    <?php if ($model->komentar):
+                        ?><span><?=Html::button('<i class="flaticon2-chat-1"></i>', ['class'=>'btn btn-outline-hover-info btn-elevate btn-circle btn-icon','data-toggle'=>'kt-popover','title'=>'Komentar LPM','data-content'=>$model->komentar])?></span><?php
+                    endif ?>
                 </p>
             </div>
 

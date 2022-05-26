@@ -5,7 +5,7 @@
  * @var $dataAkreditasi array
  * @var $dataProdi array
  */
-$this->title = "Pencarian LED";
+$this->title = 'Pencarian LED';
 
 $this->params['breadcrumbs'][] = ['label' => 'Beranda', 'url' => ['/site/index']];
 
@@ -71,7 +71,7 @@ use yii\web\JsExpression;
 
             AjaxSubmitButton::end();
 
-            ?>
+?>
 
 
         </div>

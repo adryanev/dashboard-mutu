@@ -50,8 +50,10 @@ $controller = $this->context->id;
                         ])->label('') ?>
 
                         <div class="form-group pull-right">
-                            <?= Html::submitButton('<i class="la la-save"></i> Simpan',
-                                ['class' => 'btn btn-primary btn-pill btn-elevate btn-elevate-air ']) ?>
+                            <?= Html::submitButton(
+                                '<i class="la la-save"></i> Simpan',
+                                ['class' => 'btn btn-primary btn-pill btn-elevate btn-elevate-air ']
+                            ) ?>
                         </div>
                         <?php ActiveForm::end() ?>
 
@@ -64,10 +66,9 @@ $controller = $this->context->id;
                     <?php endif ?>
                 </div>
             </div>
-        <?php
+            <?php
         endforeach;
     else: ?>
-
         <div class="row">
             <div class="col-lg-12">
                 <?= nl2br($item->deskripsi) ?>
@@ -97,8 +98,10 @@ $controller = $this->context->id;
                     ])->label('') ?>
 
                     <div class="form-group pull-right">
-                        <?= Html::submitButton('<i class="la la-save"></i> Simpan',
-                            ['class' => 'btn btn-primary btn-pill btn-elevate btn-elevate-air ']) ?>
+                        <?= Html::submitButton(
+                            '<i class="la la-save"></i> Simpan',
+                            ['class' => 'btn btn-primary btn-pill btn-elevate btn-elevate-air ']
+                        ) ?>
                     </div>
                     <?php ActiveForm::end() ?>
 
@@ -196,8 +199,10 @@ $controller = $this->context->id;
                             ])->label('Teks') ?>
 
                             <div class="form-group pull-right">
-                                <?= Html::submitButton('<i class="la la-save"></i> Simpan',
-                                    ['class' => 'btn btn-primary btn-pill btn-elevate btn-elevate-air']) ?>
+                                <?= Html::submitButton(
+                                    '<i class="la la-save"></i> Simpan',
+                                    ['class' => 'btn btn-primary btn-pill btn-elevate btn-elevate-air']
+                                ) ?>
                             </div>
                             <?php ActiveForm::end() ?>
 
@@ -238,8 +243,10 @@ $controller = $this->context->id;
                                                     placeholder' => 'https://www.contoh.com'
                         ])->label('Tautan')->hint('https:// atau http:// harus dimasukkan.') ?>
                             <div class="form-group pull-right">
-                                <?= Html::submitButton('<i class="la la-save"></i> Simpan',
-                                    ['class' => 'btn btn-primary btn-pill btn-elevate btn-elevate-air']) ?>
+                                <?= Html::submitButton(
+                                    '<i class="la la-save"></i> Simpan',
+                                    ['class' => 'btn btn-primary btn-pill btn-elevate btn-elevate-air']
+                                ) ?>
                             </div>
                             <?php ActiveForm::end() ?>
 
@@ -285,8 +292,10 @@ $controller = $this->context->id;
                             ]
                         ]) ?>
                             <div class="form-group pull-right">
-                                <?= Html::submitButton('<i class="la la-save"></i> Simpan',
-                                    ['class' => 'btn btn-primary btn-pill btn-elevate btn-elevate-air']) ?>
+                                <?= Html::submitButton(
+                                    '<i class="la la-save"></i> Simpan',
+                                    ['class' => 'btn btn-primary btn-pill btn-elevate btn-elevate-air']
+                                ) ?>
                             </div>
                             <?php ActiveForm::end() ?>
 
@@ -315,8 +324,10 @@ $controller = $this->context->id;
 
         <tbody>
         <?php
-        $detail = $detailCollection->where('jenis_dokumen', Constants::LAINNYA)->where('kode_dokumen',
-            $poin)->values()->all();
+        $detail = $detailCollection->where('jenis_dokumen', Constants::LAINNYA)->where(
+            'kode_dokumen',
+            $poin
+        )->values()->all();
 
         foreach ($detail as $k => $v):
             ?>

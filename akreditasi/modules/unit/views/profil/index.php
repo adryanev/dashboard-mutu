@@ -47,8 +47,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                 'created_at:datetime',
                                 'updated_at:datetime',
                             ],
-                        ]
-                    )?>
+                        ])?>
 
 
                 </div>
@@ -96,12 +95,11 @@ $this->params['breadcrumbs'][] = $this->title;
                                 'sambutan:html',
                                 ['attribute'=>'struktur_organisasi',
                                     'format'=>['image',['width'=>'50%']],
-                                    'value'=>function($model){
-                        return Yii::getAlias("@.uploadStruktur/{$model->type}/{$model->external_id}/$model->struktur_organisasi");
+                                    'value'=>function ($model) {
+                                        return Yii::getAlias("@.uploadStruktur/{$model->type}/{$model->external_id}/$model->struktur_organisasi");
                                     }]
                             ],
-                        ]
-                    )?>
+                        ])?>
 
 
                 </div>

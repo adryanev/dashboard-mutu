@@ -56,8 +56,10 @@ class ProdiController extends BaseController
             return $this->redirect(['prodi/index', 'id' => $akreditasiProdi->id]);
         }
 
-        return $this->render('arsip',
-            ['model' => $model, 'dataProdi' => $dataProdi, 'dataAkreditasi' => $dataAkreditasi]);
+        return $this->render(
+            'arsip',
+            ['model' => $model, 'dataProdi' => $dataProdi, 'dataAkreditasi' => $dataAkreditasi]
+        );
     }
 
     public function actionIndex($id)
@@ -263,5 +265,4 @@ class ProdiController extends BaseController
 
         throw new MethodNotAllowedHttpException();
     }
-
 }

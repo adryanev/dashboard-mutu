@@ -10,9 +10,9 @@ $this->title = 'Akreditasi 9 Kriteria';
 <div class="kt-portlet">
     <div class="kt-portlet__head">
         <div class="kt-portlet__head-label">
-												<span class="kt-portlet__head-icon">
-													<i class="flaticon2-graph"></i>
-												</span>
+                                                <span class="kt-portlet__head-icon">
+                                                    <i class="flaticon2-graph"></i>
+                                                </span>
             <h3 class="kt-portlet__head-title">
                 Institusi
             </h3>
@@ -27,8 +27,11 @@ $this->title = 'Akreditasi 9 Kriteria';
 
             </div>
             <div class="col-lg-6 kt-align-right">
-                <?= Html::a("<i class='la la-file-o'></i>Institusi", ['/kriteria9/k9-institusi/default/index'],
-                    ['class' => 'btn btn-primary btn-wide']) ?>
+                <?= Html::a(
+                    "<i class='la la-file-o'></i>Institusi",
+                    ['/kriteria9/k9-institusi/default/index'],
+                    ['class' => 'btn btn-primary btn-wide']
+                ) ?>
             </div>
         </div>
     </div>
@@ -40,9 +43,9 @@ $this->title = 'Akreditasi 9 Kriteria';
 <div class="kt-portlet">
     <div class="kt-portlet__head">
         <div class="kt-portlet__head-label">
-												<span class="kt-portlet__head-icon">
-													<i class="flaticon2-graph"></i>
-												</span>
+                                                <span class="kt-portlet__head-icon">
+                                                    <i class="flaticon2-graph"></i>
+                                                </span>
             <h3 class="kt-portlet__head-title">
                 Program Studi
             </h3>
@@ -57,8 +60,11 @@ $this->title = 'Akreditasi 9 Kriteria';
 
             </div>
             <div class="col-lg-6 kt-align-right">
-                <?= Html::a("<i class='la la-file-o'></i>Prodi", ['/kriteria9/prodi/arsip'],
-                    ['class' => 'btn btn-primary btn-wide']) ?>
+                <?= Html::a(
+                    "<i class='la la-file-o'></i>Prodi",
+                    ['/kriteria9/prodi/arsip'],
+                    ['class' => 'btn btn-primary btn-wide']
+                ) ?>
             </div>
         </div>
     </div>

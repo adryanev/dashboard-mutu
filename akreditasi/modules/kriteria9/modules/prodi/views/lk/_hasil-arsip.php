@@ -33,7 +33,9 @@ use yii\bootstrap4\Html;
     <div class="kt-portlet__body">
         <div class="kt-section kt-section--first" style="margin-bottom: 0;">
 
-            <?php if (!$lk) : echo "Tidak ada Data"; else: ?>
+            <?php if (!$lk):
+                echo 'Tidak ada Data';
+            else: ?>
                 <table class="table">
                     <thead class="thead-dark">
                     <tr>

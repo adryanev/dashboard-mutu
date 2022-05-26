@@ -16,6 +16,9 @@
 
         <!-- CASE keyword must be indented 4 spaces from SWITCH keyword. -->
         <exclude name="PSR2.ControlStructures.SwitchDeclaration"/>
+
+        <exclude name="Generic.Files.LineLength"/>
+
     </rule>
 
     <!-- Property declaration rules. -->
@@ -81,6 +84,7 @@
     <exclude-pattern>*/i18n/data/*</exclude-pattern>
     <exclude-pattern>*/views/errorHandler/*</exclude-pattern>
     <exclude-pattern>*/requirements/*</exclude-pattern>
+    <exclude-pattern>*/vendor/*</exclude-pattern>
 
     <exclude-pattern>ProfileTarget.php</exclude-pattern>
 </ruleset>

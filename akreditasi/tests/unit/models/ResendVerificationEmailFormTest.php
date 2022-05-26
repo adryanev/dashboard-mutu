@@ -2,7 +2,6 @@
 
 namespace akreditasi\tests\unit\models;
 
-
 use Codeception\Test\Unit;
 use common\fixtures\UserFixture;
 use akreditasi\models\ResendVerificationEmailForm;

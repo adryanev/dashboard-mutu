@@ -3,7 +3,6 @@
 
 namespace akreditasi\modules\api\controllers;
 
-
 use common\helpers\DownloadDokumenTrait;
 use common\helpers\kriteria9\K9ProdiDirectoryHelper;
 use common\helpers\kriteria9\K9ProdiJsonHelper;
@@ -21,7 +20,7 @@ use yii2mod\collection\Collection;
 
 class LkProdiController extends BaseActiveController
 {
- use DownloadDokumenTrait;
+    use DownloadDokumenTrait;
     public $modelClass = K9LkProdi::class;
 
     public function actionArsip($target, $prodi)
@@ -76,8 +75,10 @@ class LkProdiController extends BaseActiveController
 
 
         $modelNarasiClass = 'akreditasi\\models\\kriteria9\\lk\\prodi\\K9LkProdiNarasiKriteria' . $kriteria . 'Form';
-        $modelNarasi = call_user_func($modelNarasiClass . '::findOne',
-            ['id_lk_prodi_kriteria' . $kriteria => $lkProdiKriteria->id]);
+        $modelNarasi = call_user_func(
+            $modelNarasiClass . '::findOne',
+            ['id_lk_prodi_kriteria' . $kriteria => $lkProdiKriteria->id]
+        );
 
         return [
             'poinKriteria' => $poinKriteria,
@@ -117,8 +118,10 @@ class LkProdiController extends BaseActiveController
         $detail = $lkProdiKriteria->$detailAttr;
         $lkCollection = Collection::make($detail);
         $modelNarasiClass = 'akreditasi\\models\\kriteria9\\lk\\prodi\\K9LkProdiNarasiKriteria' . $kriteria . 'Form';
-        $modelNarasi = call_user_func($modelNarasiClass . '::findOne',
-            ['id_lk_prodi_kriteria' . $kriteria => $lkProdiKriteria->id]);
+        $modelNarasi = call_user_func(
+            $modelNarasiClass . '::findOne',
+            ['id_lk_prodi_kriteria' . $kriteria => $lkProdiKriteria->id]
+        );
 
         $dokUploadModel = null;
         $dokTextModel = null;
@@ -178,14 +181,12 @@ class LkProdiController extends BaseActiveController
             'path' => $path,
             'model' => $model
         ];
-
     }
 
     public function actionDownloadDokumen($dokumen)
     {
         $model = K9ProdiEksporDokumen::findOne($dokumen);
         $file = K9ProdiDirectoryHelper::getDokumenLedUrl($model->ledProdi->akreditasiProdi) . "/{$model->nama_dokumen}";
-        return ["path"=>$file, 'filename'=>$model->nama_dokumen];
+        return ['path'=>$file, 'filename'=>$model->nama_dokumen];
     }
-
 }

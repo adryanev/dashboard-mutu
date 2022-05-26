@@ -25,7 +25,7 @@ use yii\bootstrap4\ActiveForm;
         'data'=>\common\models\ProgramStudi::JENJANG,
         'options' => ['class'=>'kt-select2 disabled-input','placeholder'=>'Pilih Jenjang'],
         'pluginEvents' => [
-        "select2:opening" => "function() { $('.disabled-input').attr('disabled', true); }",
+        'select2:opening' => "function() { $('.disabled-input').attr('disabled', true); }",
         ],
     ])->label('Jenjang') ?>
 
@@ -45,7 +45,7 @@ use yii\bootstrap4\ActiveForm;
             'widgetOptions' => [
                 'pluginOptions'=>['autoclose'=>true]
             ]
-        ])->label("Berdiri") ?>
+        ])->label('Berdiri') ?>
     <?= $form->field($model, 'tahun_berdiri')->textInput(['maxlength' => true]) ?>
     <?= $form->field($model, 'nomor_sk_operasional')->textInput(['maxlength' => true]) ?>
     <?= $form->field($model, 'tanggal_sk_operasional')->widget(DateControl::class, [

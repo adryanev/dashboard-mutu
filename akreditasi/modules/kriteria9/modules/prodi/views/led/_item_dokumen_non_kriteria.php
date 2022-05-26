@@ -91,8 +91,10 @@ $attr = 'dokumen_' . $jenis
                                 ])->label('Teks') ?>
 
                                 <div class="form-group pull-right">
-                                    <?= Html::submitButton('<i class="la la-save"></i> Simpan',
-                                        ['class' => 'btn btn-primary btn-pill btn-elevate btn-elevate-air']) ?>
+                                    <?= Html::submitButton(
+                                        '<i class="la la-save"></i> Simpan',
+                                        ['class' => 'btn btn-primary btn-pill btn-elevate btn-elevate-air']
+                                    ) ?>
                                 </div>
                                 <?php ActiveForm::end() ?>
 
@@ -133,8 +135,10 @@ $attr = 'dokumen_' . $jenis
                             ])->label('Tautan')->hint('https:// atau http:// harus dimasukkan.') ?>
 
                                 <div class="form-group pull-right">
-                                    <?= Html::submitButton('<i class="la la-save"></i> Simpan',
-                                        ['class' => 'btn btn-primary btn-pill btn-elevate btn-elevate-air']) ?>
+                                    <?= Html::submitButton(
+                                        '<i class="la la-save"></i> Simpan',
+                                        ['class' => 'btn btn-primary btn-pill btn-elevate btn-elevate-air']
+                                    ) ?>
                                 </div>
                                 <?php ActiveForm::end() ?>
 
@@ -180,8 +184,10 @@ $attr = 'dokumen_' . $jenis
                             ]) ?>
 
                                 <div class="form-group pull-right">
-                                    <?= Html::submitButton('<i class="la la-save"></i> Simpan',
-                                        ['class' => 'btn btn-primary btn-pill btn-elevate btn-elevate-air']) ?>
+                                    <?= Html::submitButton(
+                                        '<i class="la la-save"></i> Simpan',
+                                        ['class' => 'btn btn-primary btn-pill btn-elevate btn-elevate-air']
+                                    ) ?>
                                 </div>
                                 <?php ActiveForm::end() ?>
 
@@ -208,13 +214,16 @@ $attr = 'dokumen_' . $jenis
             </tr>
             <?php
 
-            $detail = $detailCollection->where('jenis_dokumen', $jenis)->where('kode_dokumen',
-                $dok->kode)->values()->all();
+            $detail = $detailCollection->where('jenis_dokumen', $jenis)->where(
+                'kode_dokumen',
+                $dok->kode
+            )->values()->all();
 
             foreach ($detail as $k => $v):
                 ?>
-                <?= $this->render('@akreditasi/modules/kriteria9/modules/prodi/views/led/_item_dokumen_detail_non_kriteria',
-                [
+                <?= $this->render(
+                    '@akreditasi/modules/kriteria9/modules/prodi/views/led/_item_dokumen_detail_non_kriteria',
+                    [
                     'path' => $path,
                     'poin' => $poin,
                     'jenis' => $jenis,
@@ -223,7 +232,8 @@ $attr = 'dokumen_' . $jenis
                     'prodi' => $prodi,
                     'untuk' => $untuk,
                     'led' => $model
-                ]) ?>
+                    ]
+                ) ?>
 
             <?php endforeach; ?>
         <?php endforeach;
@@ -232,7 +242,7 @@ $attr = 'dokumen_' . $jenis
         <tr>
             <td colspan="3">Tidak ada dokumen</td>
         </tr>
-    <?php
+        <?php
     endif; ?>
 
 

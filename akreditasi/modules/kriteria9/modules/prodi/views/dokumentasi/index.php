@@ -26,7 +26,7 @@ $this->params['breadcrumbs'][] = $this->title;
         <div class="accordion accordion-light accordion-toggle-arrow" id="accordion-data">
             <?php
             foreach ($dokumen as $key => $doc):
-            ?>
+                ?>
                 <div class="card">
                     <div class="card-header" id="heading-<?=$key?>">
                         <div class="card-title collapsed" data-toggle="collapse" data-target="#collapse-<?=$key?>"
@@ -38,26 +38,32 @@ $this->params['breadcrumbs'][] = $this->title;
                         >
                         <div class="card-body">
                             <div class="pull-right">
-                                <?= Html::button('<i class="la la-upload"></i> Unggah',
+                                <?= Html::button(
+                                    '<i class="la la-upload"></i> Unggah',
                                     ['value'=> Url::to(['dokumentasi/upload','prodi'=>$_GET['prodi'],
                                         'dokumen'=>$doc->dokumen]),'title'=>'Unggah '
-                                        .$doc->dokumen,'class'=>'showModalButton btn btn-dark btn-pill btn-elevate
-                                        btn-elevate-air'])?>
-                                <?= Html::button('<i class="la la-font"></i> Teks',
+                                                       . $doc->dokumen,'class'=>'showModalButton btn btn-dark btn-pill btn-elevate
+                                        btn-elevate-air']
+                                )?>
+                                <?= Html::button(
+                                    '<i class="la la-font"></i> Teks',
                                     ['value'=> Url::to(['dokumentasi/teks','prodi'=>$_GET['prodi'],'dokumen'=>$doc->dokumen]),'title'=>'Teks '
-                                        .$doc->dokumen,'class'=>'btn btn-success btn-pill btn-elevate
-                                        btn-elevate-air showModalButton'])?>
-                                <?= Html::button('<i class="la la-link"></i> Tautan',
+                                        . $doc->dokumen,'class'=>'btn btn-success btn-pill btn-elevate
+                                        btn-elevate-air showModalButton']
+                                )?>
+                                <?= Html::button(
+                                    '<i class="la la-link"></i> Tautan',
                                     ['value'=> Url::to(['dokumentasi/link','prodi'=>$_GET['prodi'],'dokumen'=>$doc->dokumen]),'title'=>'Tautan '
-                                        .$doc->dokumen,'class'=>'btn btn-info btn-pill btn-elevate btn-elevate-air showModalButton'])?>
+                                    . $doc->dokumen,
+                                    'class'=>'btn btn-info btn-pill btn-elevate btn-elevate-air showModalButton']
+                                )?>
 
                             </div>
                             <div class="clearfix"></div>
                             <div class="kt-separator"></div>
 
                             <?=\yii\widgets\ListView::widget([
-                                'dataProvider' => new \yii\data\ArrayDataProvider
-                                (['allModels'=>$dokumenCollection->where('nama_dokumen',$doc->dokumen)->all()]),
+                                'dataProvider' => new \yii\data\ArrayDataProvider(['allModels'=>$dokumenCollection->where('nama_dokumen', $doc->dokumen)->all()]),
                                 'itemView' => '_item',
                                 'summary' => false
                             ])?>

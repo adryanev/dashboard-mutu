@@ -18,8 +18,10 @@ use yii\bootstrap4\Html;
         ]
     ]) ?>
     <div class="pull-right">
-        <?= Html::submitButton('<i class="la la-save"></i> Simpan',
-            ['class' => 'btn btn-primary btn-pill btn-elevate btn-elevate-air']) ?>
+        <?= Html::submitButton(
+            '<i class="la la-save"></i> Simpan',
+            ['class' => 'btn btn-primary btn-pill btn-elevate btn-elevate-air']
+        ) ?>
     </div>
     <?php ActiveForm::end() ?>
 </div>

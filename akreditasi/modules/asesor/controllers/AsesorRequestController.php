@@ -3,7 +3,6 @@
 
 namespace akreditasi\modules\asesor\controllers;
 
-
 use common\models\AsesorRequest;
 use common\models\ProgramStudi;
 use Yii;
@@ -36,16 +35,13 @@ class AsesorRequestController extends BaseController
 
         $dataProdi = ArrayHelper::map(ProgramStudi::find()->all(), 'id', 'nama');
         if ($model->load(Yii::$app->request->post())) {
-
             $model->save(false);
             Yii::$app->session->setFlash('success', 'Berhasil meminta akses');
-
         } elseif (Yii::$app->request->isAjax) {
             return $this->renderAjax('_form', ['model' => $model, 'dataProdi' => $dataProdi]);
         }
 
         return $this->redirect('index');
-
     }
 
     public function actionIndex()
@@ -53,7 +49,6 @@ class AsesorRequestController extends BaseController
         $dataProvider = new ActiveDataProvider(['query' => AsesorRequest::find()->where(['id_asesor' => \Yii::$app->user->identity->id])]);
 
         return $this->render('index', compact('dataProvider'));
-
     }
 
     public function actionReject()

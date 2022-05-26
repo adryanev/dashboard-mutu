@@ -29,6 +29,6 @@ class DefaultController extends BaseController
     {
         $unit = Unit::findOne($unit);
         $profil = $unit->profil;
-        return $this->render('index',['unit'=>$unit,'profil'=>$profil]);
+        return $this->render('index', ['unit'=>$unit,'profil'=>$profil]);
     }
 }

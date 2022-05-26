@@ -3,9 +3,14 @@
 
 namespace admin\models;
 
+use common\helpers\FileTypeHelper;
+use common\helpers\kriteria9\DokumenJsonHelper;
+use common\helpers\kriteria9\K9ProdiDirectoryHelper;
 use common\helpers\kriteria9\K9ProdiJsonHelper;
 use common\helpers\NomorKriteriaHelper;
+use common\models\Constants;
 use common\models\kriteria9\akreditasi\K9AkreditasiProdi;
+use common\models\kriteria9\dokumentasi\prodi\DokumentasiProdi;
 use common\models\kriteria9\led\prodi\K9LedProdi;
 use common\models\kriteria9\led\prodi\K9LedProdiNarasiAnalisis;
 use common\models\kriteria9\led\prodi\K9LedProdiNarasiKondisiEksternal;
@@ -20,7 +25,7 @@ use common\models\kriteria9\penilaian\prodi\K9PenilaianProdiProfil;
 use Yii;
 use yii\base\Exception;
 use yii\base\Model;
-use yii\helpers\FileHelper;
+use common\helpers\FileHelper;
 
 class K9AkreditasiProdiForm extends Model
 {
@@ -89,6 +94,7 @@ class K9AkreditasiProdiForm extends Model
             $this->createLk();
             $this->createLed();
             $this->createPenilaian();
+            $this->checkForDokumentasi();
 
             $transaction->commit();
         } catch (\ErrorException $e) {
@@ -253,5 +259,95 @@ class K9AkreditasiProdiForm extends Model
         $profil->save(false);
         $kriteria->save(false);
         $analisis->save(false);
+    }
+
+    private function checkForDokumentasi()
+    {
+        $documentations = DokumentasiProdi::find()->where(['id_prodi'=>$this->id_prodi])->all();
+        $documentPath = K9ProdiDirectoryHelper::getDokumentasiPath($this->id_prodi);
+        $ledPath = K9ProdiDirectoryHelper::getDetailLedPath($this->_akreditasiProdi);
+        $lkPath = K9ProdiDirectoryHelper::getDetailLkPath($this->_akreditasiProdi);
+
+        foreach ($documentations as /** @var DokumentasiProdi*/ $doc) {
+            $relations = DokumenJsonHelper::getByName($doc->nama_dokumen);
+            //LED
+            foreach ($relations->relasi->led->sumber as $dok) {
+                $kriteria = substr($dok, '0', '1');
+                $modelClass = 'common\\models\\kriteria9\\led\\prodi\\K9LedProdiKriteria' . $kriteria . 'Detail';
+                $ledRelation = 'k9LedProdiKriteria' . $kriteria . 's';
+                $ledAttribute= 'id_led_prodi_kriteria' . $kriteria;
+                $kriteriaModel = $this->_led_prodi->$ledRelation;
+                $modelDetail = new $modelClass;
+                $modelDetail->$ledAttribute = $kriteriaModel->id;
+                $modelDetail->kode_dokumen = $dok;
+                $modelDetail->nama_dokumen = $doc->nama_dokumen;
+                $modelDetail->isi_dokumen = $doc->isi_dokumen;
+                $modelDetail->bentuk_dokumen = $doc->bentuk_dokumen;
+                $modelDetail->jenis_dokumen = Constants::SUMBER;
+                $modelDetail->is_verified = $doc->is_verified;
+                $modelDetail->komentar = $doc->komentar;
+                $modelDetail->save(false);
+            }
+            foreach ($relations->relasi->led->pendukung as $dok) {
+                $kriteria = substr($dok, '0', '1');
+                $modelClass = 'common\\models\\kriteria9\\led\\prodi\\K9LedProdiKriteria' . $kriteria . 'Detail';
+                $ledRelation = 'k9LedProdiKriteria' . $kriteria . 's';
+                $ledAttribute= 'id_led_prodi_kriteria' . $kriteria;
+                $kriteriaModel = $this->_led_prodi->$ledRelation;
+                $modelDetail = new $modelClass;
+                $modelDetail->$ledAttribute = $kriteriaModel->id;
+                $modelDetail->kode_dokumen = $dok;
+                $modelDetail->nama_dokumen = $doc->nama_dokumen;
+                $modelDetail->isi_dokumen = $doc->isi_dokumen;
+                $modelDetail->bentuk_dokumen = $doc->bentuk_dokumen;
+                $modelDetail->jenis_dokumen = Constants::PENDUKUNG;
+                $modelDetail->is_verified = $doc->is_verified;
+                $modelDetail->komentar = $doc->komentar;
+                $modelDetail->save(false);
+            }
+            //lk
+            foreach ($relations->relasi->lk->sumber as $dok) {
+                $kriteria = substr($dok, '0', '1');
+                $modelClass = 'common\\models\\kriteria9\\lk\\prodi\\K9LkProdiKriteria' . $kriteria . 'Detail';
+                $lkRelation = 'k9LkProdiKriteria' . $kriteria . 's';
+                $lkAttribute= 'id_lk_prodi_kriteria' . $kriteria;
+                $kriteriaModel = $this->_lk_prodi->$lkRelation;
+                $modelDetail = new $modelClass;
+                $modelDetail->$lkAttribute = $kriteriaModel->id;
+                $modelDetail->kode_dokumen = $dok;
+                $modelDetail->nama_dokumen = $doc->nama_dokumen;
+                $modelDetail->isi_dokumen = $doc->isi_dokumen;
+                $modelDetail->bentuk_dokumen = $doc->bentuk_dokumen;
+                $modelDetail->jenis_dokumen = Constants::SUMBER;
+                $modelDetail->is_verified = $doc->is_verified;
+                $modelDetail->komentar = $doc->komentar;
+                $modelDetail->save(false);
+            }
+            foreach ($relations->relasi->lk->pendukung as $dok) {
+                $kriteria = substr($dok, '0', '1');
+                $modelClass = 'common\\models\\kriteria9\\lk\\prodi\\K9LkProdiKriteria' . $kriteria . 'Detail';
+                $lkRelation = 'k9LkProdiKriteria' . $kriteria . 's';
+                $lkAttribute= 'id_lk_prodi_kriteria' . $kriteria;
+                $kriteriaModel = $this->_lk_prodi->$lkRelation;
+                $modelDetail = new $modelClass;
+                $modelDetail->$lkAttribute = $kriteriaModel->id;
+                $modelDetail->kode_dokumen = $dok;
+                $modelDetail->nama_dokumen = $doc->nama_dokumen;
+                $modelDetail->isi_dokumen = $doc->isi_dokumen;
+                $modelDetail->bentuk_dokumen = $doc->bentuk_dokumen;
+                $modelDetail->jenis_dokumen = Constants::PENDUKUNG;
+                $modelDetail->is_verified = $doc->is_verified;
+                $modelDetail->komentar = $doc->komentar;
+                $modelDetail->save(false);
+            }
+
+            if ($doc->bentuk_dokumen !== FileTypeHelper::TYPE_LINK && $doc->bentuk_dokumen !==
+                FileTypeHelper::TYPE_STATIC_TEXT) {
+                FileHelper::createSymlink(["$ledPath/sumber/{$doc->isi_dokumen}"=>"$documentPath/{$doc->isi_dokumen}"]);
+                FileHelper::createSymlink(["$ledPath/pendukung/{$doc->isi_dokumen}"=>"$documentPath/{$doc->isi_dokumen}"]);
+                FileHelper::createSymlink(["$lkPath/sumber/{$doc->isi_dokumen}"=>"$documentPath/{$doc->isi_dokumen}"]);
+                FileHelper::createSymlink(["$lkPath/pendukung/{$doc->isi_dokumen}"=>"$documentPath/{$doc->isi_dokumen}"]);
+            }
+        }
     }
 }

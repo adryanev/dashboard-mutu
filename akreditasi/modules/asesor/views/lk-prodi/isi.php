@@ -12,7 +12,7 @@ use yii\bootstrap4\Progress;
 /* @var $prodi common\models\ProgramStudi */
 
 $untukUC = \yii\helpers\StringHelper::mb_ucfirst($untuk);
-$this->title = $untukUC . " Laporan Kinerja";
+$this->title = $untukUC . ' Laporan Kinerja';
 $this->params['breadcrumbs'][] = ['label' => 'Beranda', 'url' => ['/site/index']];
 $this->params['breadcrumbs'][] = ['label' => 'Asesor', 'url' => ['/asesor/default/index']];
 $this->params['breadcrumbs'][] = $this->title;

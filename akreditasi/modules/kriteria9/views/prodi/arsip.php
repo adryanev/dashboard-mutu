@@ -13,7 +13,7 @@ use yii\helpers\Url;
 /* @var $dataProdi ProgramStudi*/
 
 
-$this->title = "Pencarian Data Program Studi";
+$this->title = 'Pencarian Data Program Studi';
 
 $this->params['breadcrumbs'][] = ['label'=>'Beranda','url'=>['/site/index']];
 $this->params['breadcrumbs'][] = ['label'=>'9 Kriteria','url'=>['/kriteria9/default/index']];

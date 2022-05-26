@@ -8,7 +8,7 @@ use yii\bootstrap4\Html;
 /* @var $dataUnit Unit*/
 
 
-$this->title = "Pencarian Data Unit";
+$this->title = 'Pencarian Data Unit';
 
 $this->params['breadcrumbs'][] = ['label'=>'Beranda','url'=>['/site/index']];
 $this->params['breadcrumbs'][] = $this->title;

@@ -3,7 +3,6 @@
 
 namespace akreditasi\modules\api\controllers;
 
-
 use yii\filters\auth\CompositeAuth;
 use yii\filters\auth\HttpBasicAuth;
 use yii\filters\auth\HttpBearerAuth;
@@ -36,9 +35,9 @@ class BaseActiveController extends ActiveController
 
     public function actions()
     {
-       $actions = parent::actions();
-       unset($actions['delete'],$actions['create'],$actions['update']);
+        $actions = parent::actions();
+        unset($actions['delete'], $actions['create'], $actions['update']);
 
-       return $actions;
+        return $actions;
     }
 }

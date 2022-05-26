@@ -32,17 +32,22 @@ $this->params['breadcrumbs'][] = $this->title;
                         <div class="kt-portlet__head-actions">
 
 
-                            <?= Html::a('<i class=flaticon2-edit></i> Edit',
+                            <?= Html::a(
+                                '<i class=flaticon2-edit></i> Edit',
                                 ['update', 'id' => $model->id, 'unit' => $_GET['unit']],
-                                ['class' => 'btn btn-warning btn-elevate btn-elevate-air']) ?>
-                            <?= Html::a('<i class=flaticon2-delete></i> Hapus',
-                                ['delete', 'id' => $model->id, 'unit' => $_GET['unit']], [
+                                ['class' => 'btn btn-warning btn-elevate btn-elevate-air']
+                            ) ?>
+                            <?= Html::a(
+                                '<i class=flaticon2-delete></i> Hapus',
+                                ['delete', 'id' => $model->id, 'unit' => $_GET['unit']],
+                                [
                                     'class' => 'btn btn-danger btn-elevate btn-elevate-air',
                                     'data' => [
                                         'confirm' => 'Apakah anda ingin menghapus item ini?',
                                         'method' => 'post',
                                     ],
-                                ]) ?>
+                                ]
+                            ) ?>
                         </div>
                     </div>
                 </div>
@@ -92,7 +97,6 @@ $this->params['breadcrumbs'][] = $this->title;
                                             <?php
 
                                             echo $v['isi_berkas'];
-
                                         } ?>
                                     </div>
                                 </td>
@@ -112,30 +116,42 @@ $this->params['breadcrumbs'][] = $this->title;
                                             ]); ?>
                                             <?php switch ($type) {
                                                 case FileTypeHelper::TYPE_IMAGE:
-                                                    echo Html::img("$url/{$v->isi_berkas}",
-                                                        ['height' => '100%', 'width' => '100%']);
+                                                    echo Html::img(
+                                                        "$url/{$v->isi_berkas}",
+                                                        ['height' => '100%', 'width' => '100%']
+                                                    );
                                                     break;
                                                 case FileTypeHelper::TYPE_STATIC_TEXT:
                                                     echo $v->isi_berkas;
                                                     break;
                                                 default:
-                                                    echo '<small>Jika dokumen berkas tidak bisa dimuat, klik ' . Html::a('di sini',
-                                                            \yii\helpers\Url::to("$url/$v->isi_berkas",
-                                                                true), ['target' => '_blank']) . '.</small>';
+                                                    echo '<small>Jika dokumen berkas tidak bisa dimuat, klik ' . Html::a(
+                                                        'di sini',
+                                                        \yii\helpers\Url::to(
+                                                            "$url/$v->isi_berkas",
+                                                            true
+                                                        ),
+                                                        ['target' => '_blank']
+                                                    ) . '.</small>';
                                                     echo '<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://docs.google.com/gview?url=' . $url . '/' . rawurldecode($v->isi_berkas) . '&embedded=true"></iframe></div>';
                                                     break;
                                             } ?>
                                             <?php Modal::end(); ?>
                                             <?php if ($type === FileTypeHelper::TYPE_LINK): ?>
-                                                <?= Html::a('<i class="la la-external-link"></i> Lihat', $v->isi_berkas,
+                                                <?= Html::a(
+                                                    '<i class="la la-external-link"></i> Lihat',
+                                                    $v->isi_berkas,
                                                     [
                                                         'class' => 'btn btn-info btn-sm btn-pill btn-elevate btn-elevate-air',
                                                         'target' => '_blank'
-                                                    ]) ?>
+                                                    ]
+                                                ) ?>
                                             <?php endif; ?>
-                                            <?= Html::a('<i class="la la-download"></i>&nbsp;Unduh',
+                                            <?= Html::a(
+                                                '<i class="la la-download"></i>&nbsp;Unduh',
                                                 ['berkas/download-berkas', 'id' => $v->id],
-                                                ['class' => 'btn btn-warning btn-sm btn-pill btn-elevate btn-elevate-air']) ?>
+                                                ['class' => 'btn btn-warning btn-sm btn-pill btn-elevate btn-elevate-air']
+                                            ) ?>
 
                                         </div>
 
