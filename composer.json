@@ -1,77 +1,81 @@
 {
-    "name": "ta-inkubator/dashboard-mutu",
-    "description": "Project Dashboard Mutu 9 Kriteria untuk PTK Katolik",
-    "keywords": ["yii2", "framework", "advanced", "project template"],
-    "homepage": "http://www.yiiframework.com/",
-    "type": "project",
-    "license": "BSD-3-Clause",
-    "support": {
-        "issues": "https://github.com/yiisoft/yii2/issues?state=open",
-        "forum": "http://www.yiiframework.com/forum/",
-        "wiki": "http://www.yiiframework.com/wiki/",
-        "irc": "irc://irc.freenode.net/yii",
-        "source": "https://github.com/yiisoft/yii2"
+  "name": "ta-inkubator/dashboard-mutu",
+  "description": "Project Dashboard Mutu 9 Kriteria untuk PTK Katolik",
+  "keywords": [
+    "yii2",
+    "framework",
+    "advanced",
+    "project template"
+  ],
+  "homepage": "http://www.yiiframework.com/",
+  "type": "project",
+  "license": "BSD-3-Clause",
+  "support": {
+    "issues": "https://github.com/yiisoft/yii2/issues?state=open",
+    "forum": "http://www.yiiframework.com/forum/",
+    "wiki": "http://www.yiiframework.com/wiki/",
+    "irc": "irc://irc.freenode.net/yii",
+    "source": "https://github.com/yiisoft/yii2"
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.4.0",
+    "yiisoft/yii2": "~2.0.14",
+    "yiisoft/yii2-bootstrap": "~2.0.0",
+    "yiisoft/yii2-bootstrap4": "~2.0.0",
+    "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0",
+    "nesbot/carbon": "^2.17",
+    "kartik-v/yii2-widget-select2": "dev-master",
+    "kartik-v/yii2-widget-depdrop": "dev-master",
+    "mdmsoft/yii2-admin": "~2.0",
+    "kartik-v/yii2-widget-fileinput": "@dev",
+    "insolita/yii2-migration-generator": "~3.1",
+    "kartik-v/yii2-widget-datepicker": "dev-master",
+    "dominus77/yii2-sweetalert2-widget": "~1.3",
+    "kartik-v/yii2-bootstrap4-dropdown": "@dev",
+    "demogorgorn/yii2-ajax-submit-button": "*",
+    "kartik-v/yii2-mpdf": "dev-master",
+    "phpoffice/phpspreadsheet": "^1.23",
+    "phpoffice/phpword": "^0.18.0",
+    "2amigos/yii2-tinymce-widget": "~1.1",
+    "mootensai/yii2-enhanced-gii": "dev-master",
+    "kartik-v/yii2-datecontrol": "dev-master",
+    "oxyaction/yii2-polymorphic-relation-behavior": "^1.0",
+    "mpdf/mpdf": "^8.0",
+    "dmstr/yii2-ajax-button": "^1.0",
+    "supplyhog/yii2-clipboardjs": "dev-master",
+    "yii2mod/collection": "*",
+    "netresearch/jsonmapper": "^3.1",
+    "zhuravljov/yii2-queue-monitor": "^0.3.4",
+    "kartik-v/yii2-grid": "^3.3"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest",
+    "yiisoft/yii2-debug": "~2.1.0",
+    "yiisoft/yii2-gii": "~2.1.0",
+    "yiisoft/yii2-faker": "~2.0.0",
+    "codeception/codeception": "^4.0",
+    "codeception/module-asserts": "^1.0",
+    "codeception/module-yii2": "^1.0",
+    "codeception/module-filesystem": "^1.0",
+    "codeception/verify": "~0.5.0 || ~1.1.0",
+    "symfony/browser-kit": ">=2.7 <=4.2.4",
+    "yiisoft/yii2-coding-standards": "^2.0",
+    "iiifx-production/yii2-autocomplete-helper": "^3.0"
+  },
+  "config": {
+    "process-timeout": 1800,
+    "fxp-asset": {
+      "enabled": false
     },
-    "minimum-stability": "stable",
-    "require": {
-        "php": ">=7.4.0",
-        "yiisoft/yii2": "~2.0.14",
-        "yiisoft/yii2-bootstrap": "~2.0.0",
-        "yiisoft/yii2-bootstrap4": "~2.0.0",
-        "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0",
-        "nesbot/carbon": "^2.17",
-        "kartik-v/yii2-widget-select2": "dev-master",
-        "kartik-v/yii2-widget-depdrop": "dev-master",
-        "mdmsoft/yii2-admin": "~2.0",
-        "kartik-v/yii2-widget-fileinput": "@dev",
-        "insolita/yii2-migration-generator": "~3.1",
-        "kartik-v/yii2-widget-datepicker": "dev-master",
-        "dominus77/yii2-sweetalert2-widget": "~1.3",
-        "kartik-v/yii2-bootstrap4-dropdown": "@dev",
-        "demogorgorn/yii2-ajax-submit-button": "*",
-        "kartik-v/yii2-mpdf": "dev-master",
-        "phpoffice/phpspreadsheet": "^1.9",
-        "phpoffice/phpword": "^0.16.0",
-        "2amigos/yii2-tinymce-widget": "~1.1",
-        "mootensai/yii2-enhanced-gii": "dev-master",
-        "kartik-v/yii2-datecontrol": "dev-master",
-        "oxyaction/yii2-polymorphic-relation-behavior": "^1.0",
-        "mpdf/mpdf": "^8.0",
-        "dmstr/yii2-ajax-button": "^1.0",
-        "supplyhog/yii2-clipboardjs": "dev-master",
-        "yii2mod/collection": "*",
-        "netresearch/jsonmapper": "^3.1",
-        "iiifx-production/yii2-autocomplete-helper": "^2.0",
-        "zhuravljov/yii2-queue-monitor": "^0.3.4",
-        "kartik-v/yii2-grid": "^3.3"
-    },
-    "require-dev": {
-        "roave/security-advisories": "dev-latest",
-        "yiisoft/yii2-debug": "~2.1.0",
-        "yiisoft/yii2-gii": "~2.1.0",
-        "yiisoft/yii2-faker": "~2.0.0",
-        "codeception/codeception": "^4.0",
-        "codeception/module-asserts": "^1.0",
-        "codeception/module-yii2": "^1.0",
-        "codeception/module-filesystem": "^1.0",
-        "codeception/verify": "~0.5.0 || ~1.1.0",
-        "symfony/browser-kit": ">=2.7 <=4.2.4",
-        "yiisoft/yii2-coding-standards": "^2.0"
-
-    },
-    "config": {
-        "process-timeout": 1800,
-        "fxp-asset": {
-            "enabled": false
-        },
-        "allow-plugins": {
-            "yiisoft/yii2-composer": true
-        }
-    },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://asset-packagist.org"
-        }
-    ]
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
 }
