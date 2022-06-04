@@ -6,7 +6,7 @@ use yii\bootstrap4\Html;
 <!-- begin:: Header Mobile -->
 <div id="kt_header_mobile" class="kt-header-mobile  kt-header-mobile--fixed ">
     <div class="kt-header-mobile__logo">
-        <?= \yii\bootstrap4\Html::a(Html::img(Yii::getAlias('@web/media/logos/logo-instansi.png'), ['alt' => 'logo', 'width' => 200, 'height' => 30]), ['site/index']) ?>
+        <?= \yii\bootstrap4\Html::a(Html::img(Yii::getAlias('@web/media/logos/logo-instansi.png'), ['alt' => 'logo', 'width' => 200, 'height' => 30]), ['/site/index']) ?>
     </div>
     <div class="kt-header-mobile__toolbar">
         <button class="kt-header-mobile__toggler kt-header-mobile__toggler--left" id="kt_aside_mobile_toggler">

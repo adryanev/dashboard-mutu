@@ -45,7 +45,7 @@
     "dmstr/yii2-ajax-button": "^1.0",
     "supplyhog/yii2-clipboardjs": "dev-master",
     "yii2mod/collection": "*",
-    "netresearch/jsonmapper": "^3.1",
+    "netresearch/jsonmapper": "^4.0",
     "zhuravljov/yii2-queue-monitor": "^0.3.4",
     "kartik-v/yii2-grid": "^3.3"
   },
@@ -61,7 +61,7 @@
     "codeception/verify": "~0.5.0 || ~1.1.0",
     "symfony/browser-kit": ">=2.7 <=4.2.4",
     "yiisoft/yii2-coding-standards": "^2.0",
-    "iiifx-production/yii2-autocomplete-helper": "^3.0"
+    "iiifx-production/yii2-autocomplete-helper": "^2.0"
   },
   "config": {
     "process-timeout": 1800,
