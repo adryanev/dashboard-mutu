@@ -45,7 +45,7 @@ phpunit.phar
 /akreditasi/web/upload
 /admin/web/media
 /admin/web/upload
-
+.vscode
 system-configuration.ini
 workspace.code-workspace
 _ide_components.php

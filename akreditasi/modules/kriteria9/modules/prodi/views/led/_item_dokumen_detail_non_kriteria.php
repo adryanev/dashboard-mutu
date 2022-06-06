@@ -122,12 +122,12 @@ if ($this->context->id === 'prodi') {
                <?php
                 if (Yii::$app->user->identity->role->item_name !== 'prodi'):
                     ?>
-                    <?=Html::button('<i class="flaticon2-chat"></i> Komentar', ['value'=>\yii\helpers\Url::to([$controller . '/komentar','id'=>$detail->id]),
+                    <?=Html::button('<i class="flaticon2-chat"></i> Komentar', ['value'=>\yii\helpers\Url::to([$controller . '/komentar-non-kriteria','id'=>$detail->id]),
                     'title'=>'Beri Komentar',
                     'class'=>'btn btn-brand btn-sm btn-pill btn-elevate btn-elevate-air showModalButton'
                 ])?>
                     <?php if (!$detail->is_verified): ?>
-                        <?=Html::a('<i class="flaticon2-checkmark"></i> Setujui', [$controller . '/approve',
+                        <?=Html::a('<i class="flaticon2-checkmark"></i> Setujui', [$controller . '/approve-non-kriteria',
                         'id'=>$detail->id], [
                     'class'=>'btn btn-success btn-sm btn-pill btn-elevate btn-elevate-air',
                     'data'=>[

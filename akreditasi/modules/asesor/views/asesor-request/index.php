@@ -78,7 +78,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                             'data' => [
                                                 'method' => 'POST',
                                                 'confirm' => 'Apakah anda ingin menolak / mencabut izin?',
-                                                'params' => ['asesor' => $model->id_asesor, 'prodi' => $model->prodi]
+                                                'params' => ['asesor' => $model->id_asesor, 'prodi' => $model->prodi->id]
                                             ]
                                         ]);
                                     }

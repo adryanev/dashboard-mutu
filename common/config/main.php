@@ -4,12 +4,13 @@ use common\models\Constants;
 use dosamigos\tinymce\TinyMce;
 use kartik\file\FileInput;
 
+$ini = parse_ini_file(__DIR__ . '/../../system-configuration.ini');
 return [
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
         '@npm' => '@vendor/npm-asset',
     ],
-    'name'=>'Dashboard Mutu',
+    'name'=>$ini['nama_sistem'],
     'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
     'language' => 'id-ID',
     'sourceLanguage' => 'id-ID',
